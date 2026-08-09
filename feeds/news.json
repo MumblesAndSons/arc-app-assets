@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T18:59:59.576Z",
+  "generatedAt": "2026-08-09T19:47:39.876Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
     {
@@ -233,7 +233,7 @@
       "date": "April 18, 2026",
       "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/80e91f03-a811-scout-report-card-300x200-300x200.png",
       "tags": [],
-      "summary": ""
+      "summary": "I want to be honest about how all this started."
     },
     {
       "id": "a-triumphant-exit",
@@ -241,7 +241,7 @@
       "date": "April 17, 2026",
       "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/47231351-4534-expedition-blog-card-300x200-300x200.png",
       "tags": [],
-      "summary": ""
+      "summary": "**We heard you. Respecting your time was always a core idea behind the Expedition Project system, so we've made further adjustments to how this round works.**"
     },
     {
       "id": "patch-notes-1-24-0",
@@ -251,7 +251,7 @@
       "tags": [
         "Patch Notes"
       ],
-      "summary": ""
+      "summary": "Patch 1.24.0 is being deployed now across all platforms. The Nascosto Set and the Scrappy Speckled Set are now available in the shop, alongside a set of fixes listed below. A game restart is required to download the update."
     },
     {
       "id": "patch-notes-1-23-0",
@@ -261,7 +261,7 @@
       "tags": [
         "Patch Notes"
       ],
-      "summary": ""
+      "summary": "Patch 1.23.0 is deploying now. Restart your game to install it. The Vanguard Set is now available in the shop, and the fixes included in this update are listed below."
     },
     {
       "id": "user-experience-improvements",
@@ -269,7 +269,7 @@
       "date": "April 4, 2026",
       "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/temp/articles/generic-300x200.png",
       "tags": [],
-      "summary": ""
+      "summary": "As a development team, one of our biggest priorities is making sure every moment you spend in ARC Raiders feels purposeful. Your time matters, and we don't want you clicking through menus when you could be out raiding instead."
     },
     {
       "id": "hotfix-1-22-1",
@@ -280,7 +280,7 @@
         "Patch Notes",
         "Hotfix"
       ],
-      "summary": ""
+      "summary": "A hotfix has just gone live to fix a crash that was affecting some players. Xbox players can expect their own patch to arrive at a later time."
     },
     {
       "id": "patch-notes-1-22-0",
@@ -290,7 +290,7 @@
       "tags": [
         "Patch Notes"
       ],
-      "summary": ""
+      "summary": "The storm has passed, but new dangers have appeared in its wake. Speranza buzzes with talk of a fresh ARC operation, shifting enemy behaviour, and strange things happening in the sky. Tian Wen is hard at work on new combat technology, while"
     },
     {
       "id": "flashpoint-content-update",
@@ -298,7 +298,7 @@
       "date": "March 30, 2026",
       "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/temp/articles/generic-300x200.png",
       "tags": [],
-      "summary": ""
+      "summary": "Celeste's radar is filling up with unidentified signatures."
     },
     {
       "id": "patch-notes-1-21-0",
@@ -308,7 +308,7 @@
       "tags": [
         "Patch Notes"
       ],
-      "summary": ""
+      "summary": "Patch 1.21.0 is now rolling out across all platforms. Restart your game so it can download."
     },
     {
       "id": "patch-notes-1-20-0",
@@ -318,7 +318,7 @@
       "tags": [
         "Patch Notes"
       ],
-      "summary": ""
+      "summary": "Patch 1.20.0 is now deploying across all platforms. You will need to restart your game to grab the download."
     },
     {
       "id": "patch-notes-1-19-0",
@@ -328,7 +328,7 @@
       "tags": [
         "Patch Notes"
       ],
-      "summary": ""
+      "summary": "Update 1.19.0 is now live. Restart your game to get the download."
     },
     {
       "id": "win-exclusive-raider-kit-and-raider-tokens",
@@ -336,7 +336,7 @@
       "date": "March 6, 2026",
       "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/b2497c52-88a1-storm-stories-card-300x200-300x200.png",
       "tags": [],
-      "summary": ""
+      "summary": "# Community competition: Show your best ‘Storm Stories’"
     },
     {
       "id": "quick-guide-to-trials-season-3",

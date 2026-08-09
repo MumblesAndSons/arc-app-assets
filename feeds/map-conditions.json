@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T18:39:15.686Z",
+  "generatedAt": "2026-08-09T19:45:04.449Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-10T20:00:00.000Z",
@@ -87,38 +87,6 @@
   ],
   "entries": [
     {
-      "condition": "Hurricane",
-      "map": "Buried City",
-      "start": 1786298400000,
-      "end": 1786302000000,
-      "type": "major",
-      "icon": "hurricane.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "Dam Battlegrounds",
-      "start": 1786298400000,
-      "end": 1786302000000,
-      "type": "minor",
-      "icon": "harvester.png"
-    },
-    {
-      "condition": "Lush Blooms",
-      "map": "Riven Tides",
-      "start": 1786298400000,
-      "end": 1786302000000,
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1786298400000,
-      "end": 1786302000000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
       "condition": "Close Scrutiny",
       "map": "Buried City",
       "start": 1786302000000,
@@ -191,6 +159,14 @@
       "icon": "beachcombing.png"
     },
     {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1786309200000,
+      "end": 1786312800000,
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
       "condition": "Electromagnetic Storm",
       "map": "Spaceport",
       "start": 1786312800000,
@@ -223,6 +199,14 @@
       "icon": "matriarch.png"
     },
     {
+      "condition": "Lush Blooms",
+      "map": "Riven Tides",
+      "start": 1786320000000,
+      "end": 1786323600000,
+      "type": "minor",
+      "icon": "lush_blooms.png"
+    },
+    {
       "condition": "Locked Gate",
       "map": "The Blue Gate",
       "start": 1786320000000,
@@ -253,6 +237,14 @@
       "end": 1786334400000,
       "type": "minor",
       "icon": "lush_blooms.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Dam Battlegrounds",
+      "start": 1786334400000,
+      "end": 1786338000000,
+      "type": "minor",
+      "icon": "harvester.png"
     },
     {
       "condition": "Hidden Bunker",
@@ -309,6 +301,14 @@
       "end": 1786377600000,
       "type": "major",
       "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Hurricane",
+      "map": "Buried City",
+      "start": 1786381200000,
+      "end": 1786384800000,
+      "type": "major",
+      "icon": "hurricane.png"
     },
     {
       "condition": "Electromagnetic Storm",
