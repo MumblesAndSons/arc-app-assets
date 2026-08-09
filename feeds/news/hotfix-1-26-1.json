@@ -1,0 +1,6 @@
+{
+  "id": "hotfix-1-26-1",
+  "title": "Hotfix 1.26.1",
+  "rewriteVersion": 1,
+  "body": "# Hotfix 1.26.1\n\nHello Raiders!\n\nA hotfix has been released to fix a critical issue that had disabled Crossplay, along with a handful of crash fixes and a repair for a problem affecting color variants on certain backpacks. Additional fixes for more common crashes are still being worked on.\n\n* Fixed an issue where changing the crossplay setting caused Crossplay to be toggled off across all platforms.\n\n* Patched several of the more frequent causes of crashes.\n\n* Fixed an issue that made certain backpacks missing some of their color variations.\n\nThanks for the fast feedback! Keep scouring the coast!"
+}

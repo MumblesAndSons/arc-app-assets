@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T18:42:08.322Z",
+  "generatedAt": "2026-08-09T18:59:59.576Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
     {
@@ -126,7 +126,7 @@
       "tags": [
         "Store Update"
       ],
-      "summary": ""
+      "summary": "Today brings a small store update: two new colour variants for the Leviathan Set are now available, Midnight and Crimson Frost. Anyone who already owns the Leviathan Set will have these unlocked without any extra action. There is no need to"
     },
     {
       "id": "notes-on-the-matchmaking-system",
@@ -134,7 +134,7 @@
       "date": "May 20, 2026",
       "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/0332f64e-2bd2-notes-on-matchmaking-300x200-300x200.png",
       "tags": [],
-      "summary": ""
+      "summary": "There has been a lot of conversation about matchmaking in **ARC Raiders**. That conversation has been followed closely, and this piece aims to clarify what the system is designed to accomplish, how it behaves in reality, and what falls outs"
     },
     {
       "id": "meet-the-new-trader",
@@ -142,7 +142,7 @@
       "date": "May 19, 2026",
       "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/1e966ca0-7ae1-new-trader-blog_300x200-300x200.png",
       "tags": [],
-      "summary": ""
+      "summary": "A new Trader has arrived. Ermal, an envoy sent by a band of nomadic surface dwellers, has made his way into Speranza to trade on his tribe's behalf. He carries a set of unique rewards, but the price is steep - he wants both your gear and sp"
     },
     {
       "id": "patch-notes-1-29-0",
@@ -152,7 +152,7 @@
       "tags": [
         "Patch Notes"
       ],
-      "summary": ""
+      "summary": "The whispers turned out to be accurate. Having steered clear of underground travel for a long time, the Nomadic Envoys have now set foot in Speranza. These enigmatic figures from the nomadic tribe are searching for prized gear and firearms,"
     },
     {
       "id": "development-update",
@@ -160,7 +160,7 @@
       "date": "May 13, 2026",
       "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/31b157ff-d3ea-development-update_300x200-300x200.png",
       "tags": [],
-      "summary": ""
+      "summary": "# ARC Raiders is shifting to a new update schedule - here's what that means for you"
     },
     {
       "id": "patch-notes-1-28-0",
@@ -170,7 +170,7 @@
       "tags": [
         "Store Update"
       ],
-      "summary": ""
+      "summary": "A new store rotation is now live, bringing in The Castaway Set. To get the update, restart the game or click the update prompt."
     },
     {
       "id": "ensuring-fair-play",
@@ -178,7 +178,7 @@
       "date": "May 7, 2026",
       "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/8c90c0a1-27ce-our-take-on-ensuringg-fair-play-card-300x200-300x200.png",
       "tags": [],
-      "summary": ""
+      "summary": "Anti-cheat at Embark is a studio-wide effort that protects every player across our games. With ARC Raiders Riven Tides now live, we want to lay out where things currently stand, what we are building, and how we approach the tougher challeng"
     },
     {
       "id": "patch-notes-1-27-0",
@@ -188,7 +188,7 @@
       "tags": [
         "Patch Notes"
       ],
-      "summary": ""
+      "summary": "Raiders, Patch 1.27.0 is rolling out right now. Please restart your game to download it."
     },
     {
       "id": "hotfix-1-26-1",
@@ -199,7 +199,7 @@
         "Patch Notes",
         "Hotfix"
       ],
-      "summary": ""
+      "summary": "A hotfix has been released to fix a critical issue that had disabled Crossplay, along with a handful of crash fixes and a repair for a problem affecting color variants on certain backpacks. Additional fixes for more common crashes are still"
     },
     {
       "id": "riven-tides-patch-notes-1-26-0",
@@ -209,7 +209,7 @@
       "tags": [
         "Patch Notes"
       ],
-      "summary": ""
+      "summary": "Scout reports have started arriving from Riven Tides. Bits of observation logs, worn photographs, and coastal footage have finally reached Speranza."
     },
     {
       "id": "riven-tides",
@@ -217,7 +217,7 @@
       "date": "April 27, 2026",
       "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/0b3112ae-ce3c-riven-tides-launch-card-300x200-300x200.png",
       "tags": [],
-      "summary": ""
+      "summary": "Scout reports have been coming back from Riven Tides. Fragments of observation logs, faded photographs, and coastal footage have finally made their way back to Speranza."
     },
     {
       "id": "quick-guide-to-trials-season-4",
@@ -225,7 +225,7 @@
       "date": "April 25, 2026",
       "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/e021e243-491a-trials-s4-card-300x200-300x200.png",
       "tags": [],
-      "summary": ""
+      "summary": "# **ARE YOU READY TO FACE THE TRIALS, RAIDER?**"
     },
     {
       "id": "riven-tides-map-scout-report",
