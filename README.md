@@ -9,8 +9,8 @@ shipping an app release.
 | File | What it holds | Size |
 |---|---|---|
 | `feeds/map-conditions.json` | Every scheduled map condition with its map, start and end time | ~7 KB |
-| `feeds/news.json` | Index of the latest 40 news articles, no bodies | ~22 KB |
-| `feeds/news/<id>.json` | One article body, fetched only when a reader opens it | up to ~21 KB |
+| `feeds/news.json` | Index of the latest 40 news articles, no bodies | ~20 KB |
+| `feeds/news/<id>.json` | One article body, fetched only when a reader opens it | up to ~19 KB |
 
 Raw URLs the app uses:
 
@@ -46,14 +46,54 @@ none of it.
 ## Running it by hand
 
 ```
+npm ci
 node scripts/map-conditions.mjs
-node scripts/news.mjs
+ANTHROPIC_API_KEY=sk-ant-... node scripts/news.mjs
 ```
 
 Both write into `feeds/`. Neither takes arguments.
 
 ## Article bodies
 
-An article body never changes once published, so `news.mjs` fetches each one
+An article body never changes once published, so `news.mjs` handles each one
 once and skips it forever after. A normal hourly run makes exactly one request
 to the news list and nothing else.
+
+Every body is **rewritten in our own words before it is published**, so nothing
+in the app is copied prose. The rewrite lives in `scripts/lib/rewrite.mjs` and
+runs on Claude Sonnet 5, between the scrape and the file write.
+
+Four rules keep that honest:
+
+1. **Detail is the priority.** The instruction is explicit that every heading,
+   list item, number, date, item name and patch note must survive. Rewrite,
+   never summarise.
+2. **A short rewrite is thrown away.** Anything under 70% of the source length
+   is treated as a summary and rejected.
+3. **A failed rewrite publishes nothing.** No body file is written, so the card
+   appears without a body and the next hourly run tries the article again.
+4. **No key, no bodies.** Without `ANTHROPIC_API_KEY` the run refreshes the
+   index, writes no bodies at all, and then fails so the alert issue is raised.
+
+`MAX_NEW` caps rewrites at 12 per run. Steady state is one or two new articles a
+day, so it only matters during a backfill, which then spreads over a few hours.
+
+### Rolling out a prompt change
+
+Each body file carries a `rewriteVersion`. Bump `REWRITE_VERSION` in
+`scripts/news.mjs` after changing the instructions and the next few runs redo
+every article, twelve at a time, until they all match again.
+
+### What gets cut
+
+Page furniture is removed before the rewrite: the trailing "More articles:"
+heading and the ~1,560 character legal footer that ends every post.
+
+The source address is used to fetch the page and is then dropped. It is not in
+`news.json` and not in the body files, and the rewriter is told never to write
+a web address, so nothing in the app sends a reader off to another site.
+
+### Cost
+
+About 4p an article on Sonnet 5, and Embark publish a handful a month. Refilling
+all 40 articles from scratch costs roughly £2, once.
