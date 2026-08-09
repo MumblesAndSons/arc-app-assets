@@ -1,0 +1,378 @@
+{
+  "generatedAt": "2026-08-09T18:42:08.322Z",
+  "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
+  "articles": [
+    {
+      "id": "store-update-1-40-0",
+      "title": "Store Update 1.40.0",
+      "date": "August 4, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/1ce8fcfe-faff-store-update-1.40-card-300x200-300x200.png",
+      "tags": [
+        "Store Update"
+      ],
+      "summary": "Store Update 1.40.0 is now live, bringing two new colour variants — black and yellow — for the Volare outfit, along with a brand new event called Phantom Targets."
+    },
+    {
+      "id": "live-update-1-39-0",
+      "title": "Live Update 1.39.0",
+      "date": "July 28, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/674fd509-41fb-live-update-1.39-card-300x200 (1)-300x200.jpg",
+      "tags": [
+        "Patch Notes"
+      ],
+      "summary": "Hello Raiders! Live Update 1.39.0 is rolling out now, delivering a range of game fixes, changes and further updates to the Matchmaking System. The Seeker and Wolfpack no longer deal inconsistent damage, and trinkets that were added back in "
+    },
+    {
+      "id": "patch-notes-1-38-0",
+      "title": "Store Update 1.38.0",
+      "date": "July 21, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/e2ebbcea-dff2-store-update-1.37-card-300x200 (2)-300x200.jpg",
+      "tags": [
+        "Store Update"
+      ],
+      "summary": "Store Update 1.38.0 is rolling out now across every platform. It adds two new color options for the Torpedo set, Camo and Black, and these will be added automatically for anyone who already owns the outfit. As with earlier updates, there is"
+    },
+    {
+      "id": "store-update-1-37-0",
+      "title": "Store Update 1.37.0",
+      "date": "July 14, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/b877ac91-f750-store-update-1.37-card-300x200 (1)-300x200.jpg",
+      "tags": [
+        "Store Update"
+      ],
+      "summary": "Store Update 1.37.0 is rolling out now across all platforms, bringing two fresh colour options for the Driftcoat outfit: black/green and red. If you already own this skin, both variants will be added to your account automatically, and no re"
+    },
+    {
+      "id": "live-update-1-36-0",
+      "title": "Live Update 1.36.0",
+      "date": "July 7, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/c3d5e74a-2be7-store-update-1.36-card-300x200-300x200.png",
+      "tags": [
+        "Patch Notes"
+      ],
+      "summary": "Your tentative alliance with the Nomads keeps growing stronger. Nomads roam the streets of Speranza, offering stories, useful information, and loot to trade. With the ARC presence Topside continuing to expand, having dependable allies matte"
+    },
+    {
+      "id": "trials-season-5",
+      "title": "Trials Season 5: Prove Your Mettle",
+      "date": "July 1, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/c4904225-86cd-trials-s5-card-300x200-300x200.png",
+      "tags": [],
+      "summary": "Menacing machines continue to stalk the surface, and their activity keeps ramping up at a worrying pace. Across Season 4 of your weekly Trials, you've shot, burned, exploded, bludgeoned, and scavenged your way through the chaos, gathering e"
+    },
+    {
+      "id": "store-update-1-35-0",
+      "title": "Store Update 1.35.0",
+      "date": "June 30, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/8d5b641b-2eb0-store-update-1.35-card-300x200-300x200.png",
+      "tags": [
+        "Store Update"
+      ],
+      "summary": "Two fresh colour options, Blue Frost and Camo, have arrived in the shop for the Bogwalker Set. Anyone who already owns the set will receive both variants automatically, no extra purchase needed."
+    },
+    {
+      "id": "the-fourth-expedition",
+      "title": "The Fourth Expedition",
+      "date": "June 25, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/1460a908-aecf-expedition-4-blog-card-300x200-300x200.png",
+      "tags": [],
+      "summary": "The fourth Expedition is nearly upon us, and it arrives with some notable changes. With every Expedition we run, we take away lessons and search for ways to improve things. This time, that means overhauling the reward structure."
+    },
+    {
+      "id": "store-update-1-34-0",
+      "title": "Store Update 1.34.0",
+      "date": "June 23, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/b186b3df-3c8f-store-update-card-300x200-300x200.png",
+      "tags": [
+        "Store Update"
+      ],
+      "summary": "Store Update 1.34.0 is going live at this very moment!"
+    },
+    {
+      "id": "live-update-1-33-0",
+      "title": "Live Update 1.33.0",
+      "date": "June 16, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/0e0ca8b4-3a7a-saltwalker-1-33-card-300x200-300x200.png",
+      "tags": [
+        "Patch Notes"
+      ],
+      "summary": "A strange alliance is taking shape in the Rust Belt."
+    },
+    {
+      "id": "store-update-1-32-0",
+      "title": "Store Update 1.32.0",
+      "date": "June 9, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/06fbe7d9-1f16-store-update-1-32-card-300x200-300x200.png",
+      "tags": [
+        "Store Update"
+      ],
+      "summary": "This week brings two new colour variants, black and white, for the Macrame Set. If you already own the set, these variants will appear automatically. You will also find a new hair style, the Lob Bangs!"
+    },
+    {
+      "id": "store-update-1-31-0",
+      "title": "Store Update 1.31.0",
+      "date": "June 2, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/store-update-1-31-card-300x200-300x200.png",
+      "tags": [
+        "Store Update"
+      ],
+      "summary": "Today's update is a Store Update, bringing the new Sheath Set into the game. No restart is required, you can find it in the game right now."
+    },
+    {
+      "id": "store-update-1-30-0",
+      "title": "Store Update 1.30.0",
+      "date": "May 26, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/patch-notes-1-30-0-card-300x200-300x200.png",
+      "tags": [
+        "Store Update"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "notes-on-the-matchmaking-system",
+      "title": "Notes on The Matchmaking System",
+      "date": "May 20, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/0332f64e-2bd2-notes-on-matchmaking-300x200-300x200.png",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "meet-the-new-trader",
+      "title": "Meet the new Trader: Nomadic Envoys",
+      "date": "May 19, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/1e966ca0-7ae1-new-trader-blog_300x200-300x200.png",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "patch-notes-1-29-0",
+      "title": "Patch Notes 1.29.0",
+      "date": "May 19, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/a4454a64-7efc-patch-notes-1-29-0-card-300x200-2-300x200.png",
+      "tags": [
+        "Patch Notes"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "development-update",
+      "title": "We’re changing how we update ARC Raiders - here’s what it means for you",
+      "date": "May 13, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/31b157ff-d3ea-development-update_300x200-300x200.png",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "patch-notes-1-28-0",
+      "title": "Store Update 1.28.0",
+      "date": "May 12, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/73bbc060-acac-patch-notes-1-28-0-card-300x200-300x200.png",
+      "tags": [
+        "Store Update"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "ensuring-fair-play",
+      "title": "Ensuring Fair Play",
+      "date": "May 7, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/8c90c0a1-27ce-our-take-on-ensuringg-fair-play-card-300x200-300x200.png",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "patch-notes-1-27-0",
+      "title": "Patch Notes 1.27.0",
+      "date": "May 5, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/6172755c-5d8a-patch-notes-1-27-0-card-300x200-300x200.png",
+      "tags": [
+        "Patch Notes"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "hotfix-1-26-1",
+      "title": "Hotfix 1.26.1",
+      "date": "April 30, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/434ec7b9-574d-riven-tides-patch-notes-1-26-0-card-300x200-300x200.png",
+      "tags": [
+        "Patch Notes",
+        "Hotfix"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "riven-tides-patch-notes-1-26-0",
+      "title": "Riven Tides - Patch Notes 1.26.0",
+      "date": "April 28, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/434ec7b9-574d-riven-tides-patch-notes-1-26-0-card-300x200-300x200.png",
+      "tags": [
+        "Patch Notes"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "riven-tides",
+      "title": "Riven Tides update - Reclaim the coast",
+      "date": "April 27, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/0b3112ae-ce3c-riven-tides-launch-card-300x200-300x200.png",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "quick-guide-to-trials-season-4",
+      "title": "Trials season 4: What’s on the horizon",
+      "date": "April 25, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/e021e243-491a-trials-s4-card-300x200-300x200.png",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "riven-tides-map-scout-report",
+      "title": "Riven Tides: Scout Report",
+      "date": "April 18, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/80e91f03-a811-scout-report-card-300x200-300x200.png",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "a-triumphant-exit",
+      "title": "A Triumphant Exit",
+      "date": "April 17, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/47231351-4534-expedition-blog-card-300x200-300x200.png",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "patch-notes-1-24-0",
+      "title": "Patch Notes 1.24.0",
+      "date": "April 14, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/a1608deb-bbf9-patch-notes-1-24-0-card-300x200-300x200.png",
+      "tags": [
+        "Patch Notes"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "patch-notes-1-23-0",
+      "title": "Patch Notes 1.23.0",
+      "date": "April 8, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/e8daba88-a59c-patch-notes-1-23-0-card-300x200-300x200.png",
+      "tags": [
+        "Patch Notes"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "user-experience-improvements",
+      "title": "Reducing friction in ARC Raiders",
+      "date": "April 4, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/temp/articles/generic-300x200.png",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "hotfix-1-22-1",
+      "title": "Hotfix 1.22.1",
+      "date": "April 1, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/273ee48a-b794-generic-300x200-300x200.png",
+      "tags": [
+        "Patch Notes",
+        "Hotfix"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "patch-notes-1-22-0",
+      "title": "Flashpoint - Patch Notes 1.22.0",
+      "date": "March 31, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/465e6f7b-5ed4-patch-notes-1-22-0-card-300x200-300x200.png",
+      "tags": [
+        "Patch Notes"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "flashpoint-content-update",
+      "title": "Flashpoint update - Find the truth",
+      "date": "March 30, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/temp/articles/generic-300x200.png",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "patch-notes-1-21-0",
+      "title": "Patch Notes 1.21.0",
+      "date": "March 24, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/b210facd-bb47-patch-notes-1-21-0-card-300x200-300x200.png",
+      "tags": [
+        "Patch Notes"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "patch-notes-1-20-0",
+      "title": "Patch Notes 1.20.0",
+      "date": "March 17, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/cd665944-4c09-patch-notes-1-20-0-card-300x200-300x200.png",
+      "tags": [
+        "Patch Notes"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "patch-notes-1-19-0",
+      "title": "Patch Notes 1.19.0",
+      "date": "March 10, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/e6d007df-0a91-patch-notes-1-19-0-card-300x200-300x200.png",
+      "tags": [
+        "Patch Notes"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "win-exclusive-raider-kit-and-raider-tokens",
+      "title": "Community competition: Show your best ‘Storm Stories’",
+      "date": "March 6, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/b2497c52-88a1-storm-stories-card-300x200-300x200.png",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "quick-guide-to-trials-season-3",
+      "title": "Trials season 3: what you need to know",
+      "date": "March 3, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/71f5261a-e983-quick-guide-to-trials-season-3-card-300x200-300x200.png",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "patch-notes-1-18-0",
+      "title": "Patch Notes 1.18.0",
+      "date": "March 3, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/temp/articles/generic-300x200.png",
+      "tags": [
+        "Patch Notes"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "firefly-comet-tips-and-tricks",
+      "title": "Firefly and Comet: How to combat the new ARC enemies",
+      "date": "February 25, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/b3d025e7-34ff-firefly-comet-tips-and-tricks-card-300x200-300x200.png",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "shrouded-sky-patch-notes-1-17-0",
+      "title": "Shrouded Sky - Patch Notes 1.17.0",
+      "date": "February 24, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/d50f1bfb-107e-shrouded-sky-patch-notes-1-17-0-card-300x200-300x200.png",
+      "tags": [
+        "Patch Notes"
+      ],
+      "summary": ""
+    }
+  ]
+}
