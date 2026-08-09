@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T19:45:04.449Z",
+  "generatedAt": "2026-08-09T20:48:25.176Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-10T20:00:00.000Z",
@@ -86,38 +86,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Close Scrutiny",
-      "map": "Buried City",
-      "start": 1786302000000,
-      "end": 1786305600000,
-      "type": "major",
-      "icon": "close_scrutiny.png"
-    },
-    {
-      "condition": "Electromagnetic Storm",
-      "map": "Dam Battlegrounds",
-      "start": 1786302000000,
-      "end": 1786305600000,
-      "type": "major",
-      "icon": "electromagnetic_storm.png"
-    },
-    {
-      "condition": "Launch Tower Loot",
-      "map": "Spaceport",
-      "start": 1786302000000,
-      "end": 1786305600000,
-      "type": "minor",
-      "icon": "launch_tower_loot.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "The Blue Gate",
-      "start": 1786302000000,
-      "end": 1786305600000,
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
     {
       "condition": "Bird City",
       "map": "Buried City",
@@ -231,6 +199,22 @@
       "icon": "hurricane.png"
     },
     {
+      "condition": "Close Scrutiny",
+      "map": "Buried City",
+      "start": 1786327200000,
+      "end": 1786330800000,
+      "type": "major",
+      "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Electromagnetic Storm",
+      "map": "Dam Battlegrounds",
+      "start": 1786327200000,
+      "end": 1786330800000,
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
+    },
+    {
       "condition": "Lush Blooms",
       "map": "Buried City",
       "start": 1786330800000,
@@ -253,6 +237,22 @@
       "end": 1786338000000,
       "type": "major",
       "icon": "hidden_bunker.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "The Blue Gate",
+      "start": 1786334400000,
+      "end": 1786338000000,
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
+      "condition": "Launch Tower Loot",
+      "map": "Spaceport",
+      "start": 1786338000000,
+      "end": 1786341600000,
+      "type": "minor",
+      "icon": "launch_tower_loot.png"
     },
     {
       "condition": "Prospecting Probes",

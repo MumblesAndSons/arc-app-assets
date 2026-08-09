@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T19:47:39.876Z",
+  "generatedAt": "2026-08-09T20:49:59.986Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
     {
@@ -344,7 +344,7 @@
       "date": "March 3, 2026",
       "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/71f5261a-e983-quick-guide-to-trials-season-3-card-300x200-300x200.png",
       "tags": [],
-      "summary": ""
+      "summary": "**Get moving, Raiders, Season 3 of Trials has now begun!**"
     },
     {
       "id": "patch-notes-1-18-0",
@@ -354,7 +354,7 @@
       "tags": [
         "Patch Notes"
       ],
-      "summary": ""
+      "summary": "A new update is available to download now. Restart your client to get it."
     },
     {
       "id": "firefly-comet-tips-and-tricks",
@@ -362,7 +362,7 @@
       "date": "February 25, 2026",
       "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/b3d025e7-34ff-firefly-comet-tips-and-tricks-card-300x200-300x200.png",
       "tags": [],
-      "summary": ""
+      "summary": "# Firefly and Comet: How to combat the new ARC enemies"
     },
     {
       "id": "shrouded-sky-patch-notes-1-17-0",
@@ -372,7 +372,7 @@
       "tags": [
         "Patch Notes"
       ],
-      "summary": ""
+      "summary": "Fierce hurricanes are now tearing across the surface, bringing new demands for fighting through poor visibility, strong winds, and flying debris. Scouts have identified two new ARC types roaming the Rust Belt; stay alert while the storms pa"
     }
   ]
 }
