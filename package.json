@@ -1,0 +1,13 @@
+{
+  "name": "arc-app-assets",
+  "private": true,
+  "type": "module",
+  "description": "Feed builders for the Topside companion app.",
+  "scripts": {
+    "conditions": "node scripts/map-conditions.mjs",
+    "news": "node scripts/news.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.72.0"
+  }
+}
