@@ -12,11 +12,18 @@ name: Refresh feeds
 #  * a failure opens a GitHub issue, so it is visible without watching runs
 #  * the job commits most hours, which also keeps GitHub from auto-disabling
 #    the schedule for inactivity
+#  * scripts/watch.mjs raises an issue when Embark publish an article, or when
+#    a map condition turns up that the app has no artwork for
 
 on:
   schedule:
     - cron: '7 * * * *'
   workflow_dispatch:
+    inputs:
+      test_alert:
+        description: 'Raise a test issue, to prove the alert email arrives'
+        type: boolean
+        default: false
 
 concurrency:
   group: refresh-feeds
@@ -54,6 +61,56 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node scripts/news.mjs
+
+      # Runs before the commit, so "what is new" is just the difference
+      # between the working tree and the last commit.
+      - name: Watch for anything that needs a person
+        id: watch
+        continue-on-error: true
+        env:
+          TEST_ALERT: ${{ inputs.test_alert }}
+        run: node scripts/watch.mjs
+
+      - name: Raise an issue for anything the watcher found
+        if: steps.watch.outputs.alerts != '' && steps.watch.outputs.alerts != '[]'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const alerts = JSON.parse(process.env.ALERTS);
+            const { owner, repo } = context.repo;
+
+            for (const a of alerts) {
+              // One standing issue per kind of problem. A map condition sits
+              // in the schedule for hours, so a fresh issue every run would
+              // bury the inbox.
+              if (a.label === 'new-condition') {
+                const open = await github.rest.issues.listForRepo({
+                  owner, repo, state: 'open', labels: a.label,
+                });
+                if (open.data.length) {
+                  core.info(`already open: ${open.data[0].html_url}`);
+                  continue;
+                }
+              }
+
+              // An article is a one off. Skip it if it was ever raised before,
+              // open or closed, so a reopened feed cannot repeat itself.
+              if (a.label === 'new-article') {
+                const q = `repo:${owner}/${repo} is:issue in:title "${a.title.replace(/"/g, '')}"`;
+                const found = await github.rest.search.issuesAndPullRequests({ q });
+                if (found.data.total_count > 0) {
+                  core.info(`already raised: ${a.title}`);
+                  continue;
+                }
+              }
+
+              const made = await github.rest.issues.create({
+                owner, repo, title: a.title, body: a.body, labels: [a.label],
+              });
+              core.info(`raised ${made.data.html_url}`);
+            }
+        env:
+          ALERTS: ${{ steps.watch.outputs.alerts }}
 
       - name: Commit any changes
         run: |
