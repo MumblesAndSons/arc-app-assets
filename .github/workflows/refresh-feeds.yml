@@ -104,8 +104,12 @@ jobs:
                 }
               }
 
+              // Assigned on purpose. GitHub always emails an assignee, even
+              // if the account is not watching the repository, so the alert
+              // does not depend on a notification setting staying put.
               const made = await github.rest.issues.create({
-                owner, repo, title: a.title, body: a.body, labels: [a.label],
+                owner, repo, title: a.title, body: a.body,
+                labels: [a.label], assignees: [owner],
               });
               core.info(`raised ${made.data.html_url}`);
             }
@@ -168,5 +172,6 @@ jobs:
               await github.rest.issues.create({
                 owner: context.repo.owner, repo: context.repo.repo,
                 title, body, labels: ['feed-failure'],
+                assignees: [context.repo.owner],
               });
             }
