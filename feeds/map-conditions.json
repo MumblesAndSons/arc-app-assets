@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T06:00:44.515Z",
+  "generatedAt": "2026-08-11T07:24:07.269Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-12T03:00:00.000Z",
@@ -86,30 +86,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Harvester",
-      "map": "Dam Battlegrounds",
-      "start": 1786428000000,
-      "end": 1786431600000,
-      "type": "minor",
-      "icon": "harvester.png"
-    },
-    {
-      "condition": "Hidden Bunker",
-      "map": "Spaceport",
-      "start": 1786428000000,
-      "end": 1786431600000,
-      "type": "major",
-      "icon": "hidden_bunker.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "The Blue Gate",
-      "start": 1786428000000,
-      "end": 1786431600000,
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
     {
       "condition": "Launch Tower Loot",
       "map": "Spaceport",
@@ -215,6 +191,14 @@
       "icon": "close_scrutiny.png"
     },
     {
+      "condition": "Matriarch",
+      "map": "The Blue Gate",
+      "start": 1786449600000,
+      "end": 1786453200000,
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
       "condition": "Prospecting Probes",
       "map": "Dam Battlegrounds",
       "start": 1786453200000,
@@ -245,6 +229,14 @@
       "end": 1786467600000,
       "type": "minor",
       "icon": "matriarch.png"
+    },
+    {
+      "condition": "Hidden Bunker",
+      "map": "Spaceport",
+      "start": 1786464000000,
+      "end": 1786467600000,
+      "type": "major",
+      "icon": "hidden_bunker.png"
     },
     {
       "condition": "Lush Blooms",
