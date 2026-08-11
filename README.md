@@ -63,6 +63,21 @@ catches a file that stops updating.
 
 `npm test` covers both rules.
 
+## The check that actually watches the app
+
+Every other guard here asks whether a RUN went well. `scripts/verify-feed.mjs`
+asks whether the RESULT is right, which is the question that matters. It is the
+last step of every run: it re-reads arcraiders.com from scratch and fails if the
+published file is missing anything the site is showing, naming each one.
+
+It is deliberately quiet. It says nothing when the site cannot be reached, when
+the site is serving a cached page, or when the file is under 45 minutes old,
+because none of those mean the app is wrong. Past 45 minutes the file has missed
+at least two scheduled runs, so a gap is real and worth an email.
+
+Replayed against the file that was live on 2026-08-11 at 20:34, it fails and
+lists the 12 conditions the app was missing.
+
 ## How it stays up without anyone watching
 
 1. **A bad scrape writes nothing.** Each script checks it parsed a sane number
@@ -74,13 +89,15 @@ catches a file that stops updating.
 4. **Failures are loud.** A broken run opens a GitHub issue labelled
    `feed-failure`, and comments on it rather than opening duplicates.
 5. **Staleness is an error.** The run fails if `map-conditions.json` is more
-   than 6 hours old, so silence is treated as breakage.
+   than 3 hours old, so silence is treated as breakage.
 6. **The schedule cannot be auto-disabled.** GitHub turns off cron workflows in
    repositories that see no activity for 60 days. This one commits most hours.
 7. **The app degrades gracefully.** It caches the last good copy, so a failure
    here shows slightly old conditions rather than an empty screen.
 8. **A bad page cannot overwrite a good schedule.** Conditions merge in, so the
    worst a failed or skipped run can do is leave the file as it was.
+9. **The app itself is checked, every run.** See below. A failure names the
+   conditions the app is missing, so the email says what is actually wrong.
 
 ## Running it by hand
 
@@ -88,6 +105,7 @@ catches a file that stops updating.
 npm ci
 npm test
 node scripts/map-conditions.mjs
+node scripts/verify-feed.mjs
 ANTHROPIC_API_KEY=sk-ant-... node scripts/news.mjs
 ```
 

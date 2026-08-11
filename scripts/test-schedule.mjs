@@ -4,7 +4,7 @@
 // The numbers in the stale-page tests are taken from real snapshots this
 // repository committed on 2026-08-10, when the site replayed a cached page.
 import assert from 'node:assert/strict';
-import { mergeEntries, staleSnapshotReason } from './lib/schedule.mjs';
+import { mergeEntries, missingEntries, staleSnapshotReason } from './lib/schedule.mjs';
 
 const H = 3600000;
 const NOW = Date.parse('2026-08-11T20:30:00Z');
@@ -112,6 +112,42 @@ check('the page wins when it repeats an entry we already held', () => {
 check('ignores a row with no usable times', () => {
   const out = mergeEntries([], [{ condition: 'Broken', map: 'Spaceport', start: NaN, end: NaN }], NOW);
   assert.equal(out.length, 0);
+});
+
+console.log('missingEntries');
+
+check('says nothing is missing when the file has everything', () => {
+  const live = [entry('Bird City', 'Buried City', 1), entry('Matriarch', 'Spaceport', 2)];
+  assert.equal(missingEntries(live, live, NOW).length, 0);
+});
+
+check('names what the site shows and the app does not', () => {
+  const live = [entry('Bird City', 'Buried City', 1), entry('Matriarch', 'Spaceport', 2)];
+  const out = missingEntries([live[0]], live, NOW);
+  assert.deepEqual(
+    out.map((e) => e.condition),
+    ['Matriarch']
+  );
+});
+
+check('catches the real case: a file built before the site announced more', () => {
+  const held = [entry('Lush Blooms', 'Riven Tides', 0)];
+  const live = [
+    entry('Lush Blooms', 'Riven Tides', 0),
+    entry('Bird City', 'Buried City', 0),
+    entry('Night Raid', 'Stella Montis', 0),
+    entry('Electromagnetic Storm', 'Spaceport', 0),
+  ];
+  assert.equal(missingEntries(held, live, NOW).length, 3);
+});
+
+check('ignores an entry that is about to finish', () => {
+  const ending = { ...entry('Harvester', 'Spaceport', -1), end: NOW + 60000 };
+  assert.equal(missingEntries([], [ending], NOW).length, 0);
+});
+
+check('ignores an entry that has already finished', () => {
+  assert.equal(missingEntries([], [entry('Harvester', 'Spaceport', -4)], NOW).length, 0);
 });
 
 console.log(`\n${passed} checks passed`);

@@ -18,6 +18,8 @@ name: Refresh feeds
 #  * map conditions MERGE into the file rather than replace it, so a skipped or
 #    failed run costs nothing and the thin far end of the schedule fills in.
 #    scripts/lib/schedule.mjs explains why, scripts/test-schedule.mjs proves it
+#  * the last step checks the RESULT, not the run: it re-reads the site and
+#    fails if the published file is missing anything the site is showing
 
 on:
   schedule:
@@ -146,11 +148,17 @@ jobs:
           gen=$(node -e "console.log(Math.floor(Date.parse(require('./feeds/map-conditions.json').generatedAt)/1000))")
           age=$(( (now - gen) / 3600 ))
           echo "map-conditions is ${age}h old"
-          # the schedule reaches ~24h ahead, so 6h of failures is the alarm point
-          if [ "$age" -gt 6 ]; then
+          # four runs an hour, so 3h means about a dozen in a row did not land
+          if [ "$age" -gt 3 ]; then
             echo "map conditions have not refreshed for ${age} hours"
             exit 1
           fi
+
+      # The one check that asks whether the APP is right, rather than whether
+      # the run went well. Deliberately last, so it judges what was committed.
+      - name: Check the app has what the site is showing
+        id: verify
+        run: node scripts/verify-feed.mjs
 
       - name: Report a broken feed
         if: failure() || steps.conditions.outcome == 'failure' || steps.news.outcome == 'failure'
@@ -163,10 +171,18 @@ jobs:
               '',
               `Map conditions step: ${{ toJSON(steps.conditions.outcome) }}`,
               `News step: ${{ toJSON(steps.news.outcome) }}`,
+              `App matches the site: ${{ toJSON(steps.verify.outcome) }}`,
               '',
               `Run: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`,
               '',
-              'The app keeps showing the last good file until this is fixed.',
+              'What this means for the app:',
+              '',
+              '* "App matches the site" failure is the one that matters. The app is',
+              '  showing fewer map conditions than arcraiders.com is. Open the run and',
+              '  read the last step, it lists exactly what is missing.',
+              '* Any other failure on its own is usually a passing wobble at their end.',
+              '  The app keeps the last good file and the next run, 15 minutes later,',
+              '  normally fixes it. Worth looking at if it repeats for a few hours.',
             ].join('\n');
             const open = await github.rest.issues.listForRepo({
               owner: context.repo.owner, repo: context.repo.repo,

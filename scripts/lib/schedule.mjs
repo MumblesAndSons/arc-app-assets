@@ -64,3 +64,14 @@ export function mergeEntries(previous = [], fresh = [], now = Date.now()) {
 function hours(ms) {
   return (ms / 3600000).toFixed(1);
 }
+
+/**
+ * What the site is publishing that the file does not carry. An entry about to
+ * finish is ignored, because it can end between the build and the check.
+ */
+export function missingEntries(published = [], live = [], now = Date.now(), graceMs = 300000) {
+  const have = new Set(published.map((e) => `${e.condition}|${e.map}|${e.start}`));
+  return live.filter(
+    (e) => e.end > now + graceMs && !have.has(`${e.condition}|${e.map}|${e.start}`)
+  );
+}
