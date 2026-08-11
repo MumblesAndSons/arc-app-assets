@@ -1,7 +1,17 @@
 {
-  "generatedAt": "2026-08-09T20:49:59.986Z",
+  "generatedAt": "2026-08-11T09:11:25.916Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
+    {
+      "id": "store-update-1-41-0",
+      "title": "Store Update 1.41.0",
+      "date": "August 11, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/1990c3be-2a4d-store-update-1.41-card-300x200-300x200.png",
+      "tags": [
+        "Store Update"
+      ],
+      "summary": "Store Update 1.41.0 is rolling out now, adding two new colour variants for the Vulpine outfit: green/camo and black. Anyone who already owns the outfit gets these colour variants automatically, with no restart needed."
+    },
     {
       "id": "store-update-1-40-0",
       "title": "Store Update 1.40.0",
@@ -363,16 +373,6 @@
       "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/b3d025e7-34ff-firefly-comet-tips-and-tricks-card-300x200-300x200.png",
       "tags": [],
       "summary": "# Firefly and Comet: How to combat the new ARC enemies"
-    },
-    {
-      "id": "shrouded-sky-patch-notes-1-17-0",
-      "title": "Shrouded Sky - Patch Notes 1.17.0",
-      "date": "February 24, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/d50f1bfb-107e-shrouded-sky-patch-notes-1-17-0-card-300x200-300x200.png",
-      "tags": [
-        "Patch Notes"
-      ],
-      "summary": "Fierce hurricanes are now tearing across the surface, bringing new demands for fighting through poor visibility, strong winds, and flying debris. Scouts have identified two new ARC types roaming the Rust Belt; stay alert while the storms pa"
     }
   ]
 }
