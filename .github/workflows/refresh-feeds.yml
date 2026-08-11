@@ -1,7 +1,8 @@
 name: Refresh feeds
 
-# Runs every hour. Map conditions only publish about 24 hours ahead, so the
-# app needs a fresh file well inside that window.
+# Runs every 15 minutes. The schedule is announced late: 27 of 138 recorded
+# conditions appeared less than two hours before they started, and a few only
+# once they were already running. Hourly was leaving the app behind.
 #
 # Design notes, because this has to survive unattended:
 #  * each feed runs in its own step with continue-on-error, so one broken
@@ -14,10 +15,13 @@ name: Refresh feeds
 #    the schedule for inactivity
 #  * scripts/watch.mjs raises an issue when Embark publish an article, or when
 #    a map condition turns up that the app has no artwork for
+#  * map conditions MERGE into the file rather than replace it, so a skipped or
+#    failed run costs nothing and the thin far end of the schedule fills in.
+#    scripts/lib/schedule.mjs explains why, scripts/test-schedule.mjs proves it
 
 on:
   schedule:
-    - cron: '7 * * * *'
+    - cron: '*/15 * * * *'
   workflow_dispatch:
     inputs:
       test_alert:
@@ -46,6 +50,11 @@ jobs:
 
       - name: Install
         run: npm ci
+
+      # Cheap, and the merge rules are the only thing standing between the app
+      # and a schedule that is quietly wrong.
+      - name: Test
+        run: npm test
 
       - name: Map conditions
         id: conditions

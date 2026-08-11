@@ -1,8 +1,8 @@
 # arc-app-assets
 
-Live data feeds for the Topside companion app, refreshed hourly by a GitHub
-Action. The app reads these files directly, so this data updates without ever
-shipping an app release.
+Live data feeds for the Topside companion app, refreshed every 15 minutes by a
+GitHub Action. The app reads these files directly, so this data updates without
+ever shipping an app release.
 
 ## Feeds
 
@@ -20,11 +20,48 @@ https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news.
 https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news/<id>.json
 ```
 
-## Why hourly
+## Why every 15 minutes
 
 `arcraiders.com/map-conditions` only publishes about 24 hours of schedule at a
 time. Anything baked into the app would be wrong within a day, so the app holds
 none of it.
+
+It also announces late. Replaying every snapshot this repository has committed,
+27 of 138 conditions were first published less than two hours before they
+started, and one turned up only after it had already begun. Hourly runs left the
+app behind, so the job runs four times an hour.
+
+## The schedule is built up, not copied
+
+`feeds/map-conditions.json` is a running schedule. Each run MERGES the page into
+the file and drops only the entries that have finished.
+
+Two facts from the replay make that the right shape:
+
+1. **The page under-reports.** The far end of its window is nearly empty and
+   fills in as the hours approach, so any one snapshot is an under-count. A
+   snapshot taken at 17:09 listed one condition for the 20:00 hour; by 20:34
+   there were four.
+2. **The schedule is append only.** Across 24 consecutive healthy snapshots
+   spanning two days, not one future entry was ever withdrawn. So keeping an
+   entry we saw earlier can never contradict the site.
+
+A skipped or failed run therefore costs nothing. Nothing is lost, and the next
+run carries on.
+
+## Cached pages are thrown away
+
+Their CDN sometimes replays an old copy of the page. 6 of 31 recorded snapshots
+carried the schedule as it stood at 2026-08-09T23:00Z, by then up to 25 hours
+stale, and one was entirely in the past. Those were published to the app as if
+they were real.
+
+A live page always opens with the hour that is running now, so any page opening
+more than 3 hours in the past is dropped and the run ends quietly. That is not
+treated as a failure, because it heals itself and the staleness gate below still
+catches a file that stops updating.
+
+`npm test` covers both rules.
 
 ## How it stays up without anyone watching
 
@@ -42,11 +79,14 @@ none of it.
    repositories that see no activity for 60 days. This one commits most hours.
 7. **The app degrades gracefully.** It caches the last good copy, so a failure
    here shows slightly old conditions rather than an empty screen.
+8. **A bad page cannot overwrite a good schedule.** Conditions merge in, so the
+   worst a failed or skipped run can do is leave the file as it was.
 
 ## Running it by hand
 
 ```
 npm ci
+npm test
 node scripts/map-conditions.mjs
 ANTHROPIC_API_KEY=sk-ant-... node scripts/news.mjs
 ```

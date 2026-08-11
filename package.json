@@ -5,7 +5,8 @@
   "description": "Feed builders for the Topside companion app.",
   "scripts": {
     "conditions": "node scripts/map-conditions.mjs",
-    "news": "node scripts/news.mjs"
+    "news": "node scripts/news.mjs",
+    "test": "node scripts/test-schedule.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.72.0"
