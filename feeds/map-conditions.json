@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T04:36:17.144Z",
+  "generatedAt": "2026-08-11T06:00:44.515Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-12T03:00:00.000Z",
@@ -87,46 +87,6 @@
   ],
   "entries": [
     {
-      "condition": "Close Scrutiny",
-      "map": "Buried City",
-      "start": 1786420800000,
-      "end": 1786424400000,
-      "type": "major",
-      "icon": "close_scrutiny.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "Spaceport",
-      "start": 1786420800000,
-      "end": 1786424400000,
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
-    {
-      "condition": "Lush Blooms",
-      "map": "Buried City",
-      "start": 1786424400000,
-      "end": 1786428000000,
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
-    {
-      "condition": "Beachcombing",
-      "map": "Riven Tides",
-      "start": 1786424400000,
-      "end": 1786428000000,
-      "type": "minor",
-      "icon": "beachcombing.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1786424400000,
-      "end": 1786428000000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
       "condition": "Harvester",
       "map": "Dam Battlegrounds",
       "start": 1786428000000,
@@ -175,6 +135,22 @@
       "icon": "bird_city.png"
     },
     {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1786435200000,
+      "end": 1786438800000,
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1786435200000,
+      "end": 1786438800000,
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
       "condition": "Electromagnetic Storm",
       "map": "Dam Battlegrounds",
       "start": 1786438800000,
@@ -205,6 +181,14 @@
       "end": 1786446000000,
       "type": "minor",
       "icon": "lush_blooms.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Spaceport",
+      "start": 1786442400000,
+      "end": 1786446000000,
+      "type": "minor",
+      "icon": "matriarch.png"
     },
     {
       "condition": "Locked Gate",
@@ -263,6 +247,14 @@
       "icon": "matriarch.png"
     },
     {
+      "condition": "Lush Blooms",
+      "map": "Buried City",
+      "start": 1786467600000,
+      "end": 1786471200000,
+      "type": "minor",
+      "icon": "lush_blooms.png"
+    },
+    {
       "condition": "Close Scrutiny",
       "map": "The Blue Gate",
       "start": 1786467600000,
@@ -301,6 +293,14 @@
       "end": 1786485600000,
       "type": "major",
       "icon": "electromagnetic_storm.png"
+    },
+    {
+      "condition": "Close Scrutiny",
+      "map": "Buried City",
+      "start": 1786489200000,
+      "end": 1786492800000,
+      "type": "major",
+      "icon": "close_scrutiny.png"
     },
     {
       "condition": "Hurricane",
