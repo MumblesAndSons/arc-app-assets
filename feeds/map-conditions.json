@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T13:10:38.458Z",
+  "generatedAt": "2026-08-12T14:32:12.378Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-13T11:00:00.000Z",
@@ -87,30 +87,6 @@
   ],
   "entries": [
     {
-      "condition": "Prospecting Probes",
-      "map": "Buried City",
-      "start": 1786539600000,
-      "end": 1786543200000,
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
-    {
-      "condition": "Beachcombing",
-      "map": "Riven Tides",
-      "start": 1786539600000,
-      "end": 1786543200000,
-      "type": "minor",
-      "icon": "beachcombing.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1786539600000,
-      "end": 1786543200000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
       "condition": "Close Scrutiny",
       "map": "Dam Battlegrounds",
       "start": 1786543200000,
@@ -141,6 +117,14 @@
       "end": 1786550400000,
       "type": "minor",
       "icon": "harvester.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1786546800000,
+      "end": 1786550400000,
+      "type": "major",
+      "icon": "night_raid.png"
     },
     {
       "condition": "Bird City",
@@ -223,6 +207,14 @@
       "icon": "lush_blooms.png"
     },
     {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1786561200000,
+      "end": 1786564800000,
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
       "condition": "Electromagnetic Storm",
       "map": "Spaceport",
       "start": 1786561200000,
@@ -285,6 +277,14 @@
       "end": 1786593600000,
       "type": "minor",
       "icon": "lush_blooms.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Buried City",
+      "start": 1786593600000,
+      "end": 1786597200000,
+      "type": "minor",
+      "icon": "prospecting_probes.png"
     },
     {
       "condition": "Close Scrutiny",
