@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-12T22:10:38.432Z",
+  "generatedAt": "2026-08-12T23:01:11.297Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-13T22:00:00.000Z",
+  "horizonEnd": "2026-08-14T00:00:00.000Z",
   "conditions": [
     {
       "name": "Beachcombing",
@@ -87,30 +87,6 @@
   ],
   "entries": [
     {
-      "condition": "Bird City",
-      "map": "Buried City",
-      "start": 1786572000000,
-      "end": 1786575600000,
-      "type": "minor",
-      "icon": "bird_city.png"
-    },
-    {
-      "condition": "Lush Blooms",
-      "map": "Riven Tides",
-      "start": 1786572000000,
-      "end": 1786575600000,
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1786572000000,
-      "end": 1786575600000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
       "condition": "Matriarch",
       "map": "Dam Battlegrounds",
       "start": 1786575600000,
@@ -135,12 +111,36 @@
       "icon": "electromagnetic_storm.png"
     },
     {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1786579200000,
+      "end": 1786582800000,
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Lush Blooms",
+      "map": "Riven Tides",
+      "start": 1786579200000,
+      "end": 1786582800000,
+      "type": "minor",
+      "icon": "lush_blooms.png"
+    },
+    {
       "condition": "Electromagnetic Storm",
       "map": "Spaceport",
       "start": 1786579200000,
       "end": 1786582800000,
       "type": "major",
       "icon": "electromagnetic_storm.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1786579200000,
+      "end": 1786582800000,
+      "type": "major",
+      "icon": "night_raid.png"
     },
     {
       "condition": "Electromagnetic Storm",
@@ -317,6 +317,14 @@
       "end": 1786658400000,
       "type": "major",
       "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Hurricane",
+      "map": "Buried City",
+      "start": 1786662000000,
+      "end": 1786665600000,
+      "type": "major",
+      "icon": "hurricane.png"
     }
   ]
 }
