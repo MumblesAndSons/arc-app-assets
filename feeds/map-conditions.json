@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T04:28:05.087Z",
+  "generatedAt": "2026-08-12T05:57:27.658Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-13T05:00:00.000Z",
@@ -86,30 +86,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Bird City",
-      "map": "Buried City",
-      "start": 1786507200000,
-      "end": 1786510800000,
-      "type": "minor",
-      "icon": "bird_city.png"
-    },
-    {
-      "condition": "Lush Blooms",
-      "map": "Riven Tides",
-      "start": 1786507200000,
-      "end": 1786510800000,
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
-    {
-      "condition": "Locked Gate",
-      "map": "The Blue Gate",
-      "start": 1786507200000,
-      "end": 1786510800000,
-      "type": "major",
-      "icon": "locked_gate.png"
-    },
     {
       "condition": "Prospecting Probes",
       "map": "Dam Battlegrounds",
@@ -215,6 +191,14 @@
       "icon": "hurricane.png"
     },
     {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1786528800000,
+      "end": 1786532400000,
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
       "condition": "Electromagnetic Storm",
       "map": "Dam Battlegrounds",
       "start": 1786532400000,
@@ -239,6 +223,14 @@
       "icon": "lush_blooms.png"
     },
     {
+      "condition": "Locked Gate",
+      "map": "The Blue Gate",
+      "start": 1786536000000,
+      "end": 1786539600000,
+      "type": "major",
+      "icon": "locked_gate.png"
+    },
+    {
       "condition": "Prospecting Probes",
       "map": "Buried City",
       "start": 1786539600000,
@@ -261,6 +253,14 @@
       "end": 1786550400000,
       "type": "minor",
       "icon": "harvester.png"
+    },
+    {
+      "condition": "Lush Blooms",
+      "map": "Riven Tides",
+      "start": 1786550400000,
+      "end": 1786554000000,
+      "type": "minor",
+      "icon": "lush_blooms.png"
     },
     {
       "condition": "Hurricane",
