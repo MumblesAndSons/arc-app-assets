@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T09:57:42.013Z",
+  "generatedAt": "2026-08-12T11:01:09.520Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-13T11:00:00.000Z",
@@ -87,46 +87,6 @@
   ],
   "entries": [
     {
-      "condition": "Launch Tower Loot",
-      "map": "Spaceport",
-      "start": 1786525200000,
-      "end": 1786528800000,
-      "type": "minor",
-      "icon": "launch_tower_loot.png"
-    },
-    {
-      "condition": "Hurricane",
-      "map": "The Blue Gate",
-      "start": 1786525200000,
-      "end": 1786528800000,
-      "type": "major",
-      "icon": "hurricane.png"
-    },
-    {
-      "condition": "Bird City",
-      "map": "Buried City",
-      "start": 1786528800000,
-      "end": 1786532400000,
-      "type": "minor",
-      "icon": "bird_city.png"
-    },
-    {
-      "condition": "Beachcombing",
-      "map": "Riven Tides",
-      "start": 1786528800000,
-      "end": 1786532400000,
-      "type": "minor",
-      "icon": "beachcombing.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1786528800000,
-      "end": 1786532400000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
       "condition": "Electromagnetic Storm",
       "map": "Dam Battlegrounds",
       "start": 1786532400000,
@@ -183,6 +143,22 @@
       "icon": "prospecting_probes.png"
     },
     {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1786539600000,
+      "end": 1786543200000,
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1786539600000,
+      "end": 1786543200000,
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
       "condition": "Close Scrutiny",
       "map": "Dam Battlegrounds",
       "start": 1786543200000,
@@ -215,12 +191,28 @@
       "icon": "harvester.png"
     },
     {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1786550400000,
+      "end": 1786554000000,
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
       "condition": "Lush Blooms",
       "map": "Riven Tides",
       "start": 1786550400000,
       "end": 1786554000000,
       "type": "minor",
       "icon": "lush_blooms.png"
+    },
+    {
+      "condition": "Hurricane",
+      "map": "The Blue Gate",
+      "start": 1786550400000,
+      "end": 1786554000000,
+      "type": "major",
+      "icon": "hurricane.png"
     },
     {
       "condition": "Hurricane",
@@ -277,6 +269,14 @@
       "end": 1786568400000,
       "type": "major",
       "icon": "hurricane.png"
+    },
+    {
+      "condition": "Launch Tower Loot",
+      "map": "Spaceport",
+      "start": 1786575600000,
+      "end": 1786579200000,
+      "type": "minor",
+      "icon": "launch_tower_loot.png"
     },
     {
       "condition": "Electromagnetic Storm",
