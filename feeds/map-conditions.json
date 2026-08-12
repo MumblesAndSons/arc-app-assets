@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T15:37:37.064Z",
+  "generatedAt": "2026-08-12T16:35:15.752Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-13T17:00:00.000Z",
@@ -87,30 +87,6 @@
   ],
   "entries": [
     {
-      "condition": "Prospecting Probes",
-      "map": "Dam Battlegrounds",
-      "start": 1786546800000,
-      "end": 1786550400000,
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "Spaceport",
-      "start": 1786546800000,
-      "end": 1786550400000,
-      "type": "minor",
-      "icon": "harvester.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1786546800000,
-      "end": 1786550400000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
       "condition": "Bird City",
       "map": "Buried City",
       "start": 1786550400000,
@@ -183,6 +159,14 @@
       "icon": "hidden_bunker.png"
     },
     {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1786557600000,
+      "end": 1786561200000,
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
       "condition": "Lush Blooms",
       "map": "Buried City",
       "start": 1786561200000,
@@ -229,6 +213,22 @@
       "end": 1786568400000,
       "type": "minor",
       "icon": "matriarch.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Dam Battlegrounds",
+      "start": 1786568400000,
+      "end": 1786572000000,
+      "type": "minor",
+      "icon": "prospecting_probes.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Spaceport",
+      "start": 1786568400000,
+      "end": 1786572000000,
+      "type": "minor",
+      "icon": "harvester.png"
     },
     {
       "condition": "Launch Tower Loot",
