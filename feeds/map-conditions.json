@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-12T05:57:27.658Z",
+  "generatedAt": "2026-08-12T07:26:47.860Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-13T05:00:00.000Z",
+  "horizonEnd": "2026-08-13T06:00:00.000Z",
   "conditions": [
     {
       "name": "Beachcombing",
@@ -86,46 +86,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Prospecting Probes",
-      "map": "Dam Battlegrounds",
-      "start": 1786510800000,
-      "end": 1786514400000,
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Riven Tides",
-      "start": 1786510800000,
-      "end": 1786514400000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "The Blue Gate",
-      "start": 1786510800000,
-      "end": 1786514400000,
-      "type": "minor",
-      "icon": "harvester.png"
-    },
-    {
-      "condition": "Close Scrutiny",
-      "map": "Buried City",
-      "start": 1786514400000,
-      "end": 1786518000000,
-      "type": "major",
-      "icon": "close_scrutiny.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "Spaceport",
-      "start": 1786514400000,
-      "end": 1786518000000,
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
     {
       "condition": "Lush Blooms",
       "map": "Buried City",
@@ -215,12 +175,28 @@
       "icon": "prospecting_probes.png"
     },
     {
+      "condition": "Harvester",
+      "map": "The Blue Gate",
+      "start": 1786532400000,
+      "end": 1786536000000,
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
       "condition": "Lush Blooms",
       "map": "Dam Battlegrounds",
       "start": 1786536000000,
       "end": 1786539600000,
       "type": "minor",
       "icon": "lush_blooms.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Spaceport",
+      "start": 1786536000000,
+      "end": 1786539600000,
+      "type": "minor",
+      "icon": "matriarch.png"
     },
     {
       "condition": "Locked Gate",
@@ -245,6 +221,14 @@
       "end": 1786546800000,
       "type": "major",
       "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Dam Battlegrounds",
+      "start": 1786546800000,
+      "end": 1786550400000,
+      "type": "minor",
+      "icon": "prospecting_probes.png"
     },
     {
       "condition": "Harvester",
@@ -312,11 +296,27 @@
     },
     {
       "condition": "Close Scrutiny",
+      "map": "Buried City",
+      "start": 1786590000000,
+      "end": 1786593600000,
+      "type": "major",
+      "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Close Scrutiny",
       "map": "Spaceport",
       "start": 1786593600000,
       "end": 1786597200000,
       "type": "major",
       "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Riven Tides",
+      "start": 1786597200000,
+      "end": 1786600800000,
+      "type": "major",
+      "icon": "night_raid.png"
     }
   ]
 }
