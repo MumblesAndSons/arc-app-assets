@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T07:26:47.860Z",
+  "generatedAt": "2026-08-12T08:47:36.074Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-13T06:00:00.000Z",
@@ -87,30 +87,6 @@
   ],
   "entries": [
     {
-      "condition": "Lush Blooms",
-      "map": "Buried City",
-      "start": 1786518000000,
-      "end": 1786521600000,
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
-    {
-      "condition": "Beachcombing",
-      "map": "Riven Tides",
-      "start": 1786518000000,
-      "end": 1786521600000,
-      "type": "minor",
-      "icon": "beachcombing.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1786518000000,
-      "end": 1786521600000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
       "condition": "Harvester",
       "map": "Dam Battlegrounds",
       "start": 1786521600000,
@@ -157,6 +133,22 @@
       "end": 1786532400000,
       "type": "minor",
       "icon": "bird_city.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1786528800000,
+      "end": 1786532400000,
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1786528800000,
+      "end": 1786532400000,
+      "type": "major",
+      "icon": "night_raid.png"
     },
     {
       "condition": "Electromagnetic Storm",
@@ -261,6 +253,14 @@
       "end": 1786561200000,
       "type": "minor",
       "icon": "matriarch.png"
+    },
+    {
+      "condition": "Lush Blooms",
+      "map": "Buried City",
+      "start": 1786561200000,
+      "end": 1786564800000,
+      "type": "minor",
+      "icon": "lush_blooms.png"
     },
     {
       "condition": "Electromagnetic Storm",
