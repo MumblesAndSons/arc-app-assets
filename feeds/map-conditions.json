@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-12T02:42:56.284Z",
+  "generatedAt": "2026-08-12T04:28:05.087Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-13T00:00:00.000Z",
+  "horizonEnd": "2026-08-13T05:00:00.000Z",
   "conditions": [
     {
       "name": "Beachcombing",
@@ -87,54 +87,6 @@
   ],
   "entries": [
     {
-      "condition": "Prospecting Probes",
-      "map": "Buried City",
-      "start": 1786500000000,
-      "end": 1786503600000,
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
-    {
-      "condition": "Close Scrutiny",
-      "map": "Spaceport",
-      "start": 1786500000000,
-      "end": 1786503600000,
-      "type": "major",
-      "icon": "close_scrutiny.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1786500000000,
-      "end": 1786503600000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Riven Tides",
-      "start": 1786503600000,
-      "end": 1786507200000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "Spaceport",
-      "start": 1786503600000,
-      "end": 1786507200000,
-      "type": "minor",
-      "icon": "harvester.png"
-    },
-    {
-      "condition": "Hurricane",
-      "map": "The Blue Gate",
-      "start": 1786503600000,
-      "end": 1786507200000,
-      "type": "major",
-      "icon": "hurricane.png"
-    },
-    {
       "condition": "Bird City",
       "map": "Buried City",
       "start": 1786507200000,
@@ -165,6 +117,14 @@
       "end": 1786514400000,
       "type": "minor",
       "icon": "prospecting_probes.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Riven Tides",
+      "start": 1786510800000,
+      "end": 1786514400000,
+      "type": "major",
+      "icon": "night_raid.png"
     },
     {
       "condition": "Harvester",
@@ -207,6 +167,14 @@
       "icon": "beachcombing.png"
     },
     {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1786518000000,
+      "end": 1786521600000,
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
       "condition": "Harvester",
       "map": "Dam Battlegrounds",
       "start": 1786521600000,
@@ -239,6 +207,14 @@
       "icon": "launch_tower_loot.png"
     },
     {
+      "condition": "Hurricane",
+      "map": "The Blue Gate",
+      "start": 1786525200000,
+      "end": 1786528800000,
+      "type": "major",
+      "icon": "hurricane.png"
+    },
+    {
       "condition": "Electromagnetic Storm",
       "map": "Dam Battlegrounds",
       "start": 1786532400000,
@@ -263,12 +239,28 @@
       "icon": "lush_blooms.png"
     },
     {
+      "condition": "Prospecting Probes",
+      "map": "Buried City",
+      "start": 1786539600000,
+      "end": 1786543200000,
+      "type": "minor",
+      "icon": "prospecting_probes.png"
+    },
+    {
       "condition": "Close Scrutiny",
       "map": "Dam Battlegrounds",
       "start": 1786543200000,
       "end": 1786546800000,
       "type": "major",
       "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Spaceport",
+      "start": 1786546800000,
+      "end": 1786550400000,
+      "type": "minor",
+      "icon": "harvester.png"
     },
     {
       "condition": "Hurricane",
@@ -317,6 +309,14 @@
       "end": 1786579200000,
       "type": "major",
       "icon": "electromagnetic_storm.png"
+    },
+    {
+      "condition": "Close Scrutiny",
+      "map": "Spaceport",
+      "start": 1786593600000,
+      "end": 1786597200000,
+      "type": "major",
+      "icon": "close_scrutiny.png"
     }
   ]
 }
