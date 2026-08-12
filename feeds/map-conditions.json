@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T18:36:37.656Z",
+  "generatedAt": "2026-08-12T19:47:32.513Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-13T19:00:00.000Z",
@@ -87,38 +87,6 @@
   ],
   "entries": [
     {
-      "condition": "Hurricane",
-      "map": "Buried City",
-      "start": 1786557600000,
-      "end": 1786561200000,
-      "type": "major",
-      "icon": "hurricane.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "Dam Battlegrounds",
-      "start": 1786557600000,
-      "end": 1786561200000,
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
-    {
-      "condition": "Hidden Bunker",
-      "map": "Spaceport",
-      "start": 1786557600000,
-      "end": 1786561200000,
-      "type": "major",
-      "icon": "hidden_bunker.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1786557600000,
-      "end": 1786561200000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
       "condition": "Lush Blooms",
       "map": "Buried City",
       "start": 1786561200000,
@@ -167,12 +135,28 @@
       "icon": "hurricane.png"
     },
     {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1786564800000,
+      "end": 1786568400000,
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
       "condition": "Matriarch",
       "map": "The Blue Gate",
       "start": 1786564800000,
       "end": 1786568400000,
       "type": "minor",
       "icon": "matriarch.png"
+    },
+    {
+      "condition": "Hurricane",
+      "map": "Buried City",
+      "start": 1786568400000,
+      "end": 1786572000000,
+      "type": "major",
+      "icon": "hurricane.png"
     },
     {
       "condition": "Prospecting Probes",
@@ -197,6 +181,14 @@
       "end": 1786575600000,
       "type": "minor",
       "icon": "lush_blooms.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Dam Battlegrounds",
+      "start": 1786575600000,
+      "end": 1786579200000,
+      "type": "minor",
+      "icon": "matriarch.png"
     },
     {
       "condition": "Launch Tower Loot",
@@ -301,6 +293,14 @@
       "end": 1786618800000,
       "type": "minor",
       "icon": "harvester.png"
+    },
+    {
+      "condition": "Hidden Bunker",
+      "map": "Spaceport",
+      "start": 1786615200000,
+      "end": 1786618800000,
+      "type": "major",
+      "icon": "hidden_bunker.png"
     },
     {
       "condition": "Prospecting Probes",
