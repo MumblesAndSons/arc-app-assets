@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T20:38:46.066Z",
+  "generatedAt": "2026-08-12T21:27:13.625Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-13T22:00:00.000Z",
@@ -87,38 +87,6 @@
   ],
   "entries": [
     {
-      "condition": "Bird City",
-      "map": "Buried City",
-      "start": 1786564800000,
-      "end": 1786568400000,
-      "type": "minor",
-      "icon": "bird_city.png"
-    },
-    {
-      "condition": "Hurricane",
-      "map": "Spaceport",
-      "start": 1786564800000,
-      "end": 1786568400000,
-      "type": "major",
-      "icon": "hurricane.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1786564800000,
-      "end": 1786568400000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "The Blue Gate",
-      "start": 1786564800000,
-      "end": 1786568400000,
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
-    {
       "condition": "Hurricane",
       "map": "Buried City",
       "start": 1786568400000,
@@ -143,12 +111,28 @@
       "icon": "harvester.png"
     },
     {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1786572000000,
+      "end": 1786575600000,
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
       "condition": "Lush Blooms",
       "map": "Riven Tides",
       "start": 1786572000000,
       "end": 1786575600000,
       "type": "minor",
       "icon": "lush_blooms.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1786572000000,
+      "end": 1786575600000,
+      "type": "major",
+      "icon": "night_raid.png"
     },
     {
       "condition": "Matriarch",
@@ -295,6 +279,14 @@
       "icon": "hidden_bunker.png"
     },
     {
+      "condition": "Matriarch",
+      "map": "The Blue Gate",
+      "start": 1786615200000,
+      "end": 1786618800000,
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
       "condition": "Prospecting Probes",
       "map": "Riven Tides",
       "start": 1786626000000,
@@ -317,6 +309,14 @@
       "end": 1786647600000,
       "type": "major",
       "icon": "night_raid.png"
+    },
+    {
+      "condition": "Hurricane",
+      "map": "Spaceport",
+      "start": 1786647600000,
+      "end": 1786651200000,
+      "type": "major",
+      "icon": "hurricane.png"
     },
     {
       "condition": "Close Scrutiny",
