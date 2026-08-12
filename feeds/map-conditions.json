@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T17:41:18.526Z",
+  "generatedAt": "2026-08-12T18:36:37.656Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-13T19:00:00.000Z",
@@ -86,30 +86,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Electromagnetic Storm",
-      "map": "Dam Battlegrounds",
-      "start": 1786554000000,
-      "end": 1786557600000,
-      "type": "major",
-      "icon": "electromagnetic_storm.png"
-    },
-    {
-      "condition": "Prospecting Probes",
-      "map": "Riven Tides",
-      "start": 1786554000000,
-      "end": 1786557600000,
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "The Blue Gate",
-      "start": 1786554000000,
-      "end": 1786557600000,
-      "type": "minor",
-      "icon": "harvester.png"
-    },
     {
       "condition": "Hurricane",
       "map": "Buried City",
@@ -239,12 +215,28 @@
       "icon": "electromagnetic_storm.png"
     },
     {
+      "condition": "Electromagnetic Storm",
+      "map": "Dam Battlegrounds",
+      "start": 1786586400000,
+      "end": 1786590000000,
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
+    },
+    {
       "condition": "Matriarch",
       "map": "Spaceport",
       "start": 1786586400000,
       "end": 1786590000000,
       "type": "minor",
       "icon": "matriarch.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "The Blue Gate",
+      "start": 1786586400000,
+      "end": 1786590000000,
+      "type": "minor",
+      "icon": "harvester.png"
     },
     {
       "condition": "Close Scrutiny",
@@ -309,6 +301,14 @@
       "end": 1786618800000,
       "type": "minor",
       "icon": "harvester.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Riven Tides",
+      "start": 1786626000000,
+      "end": 1786629600000,
+      "type": "minor",
+      "icon": "prospecting_probes.png"
     },
     {
       "condition": "Close Scrutiny",
