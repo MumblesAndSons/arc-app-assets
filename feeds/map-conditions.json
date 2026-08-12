@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T11:01:09.520Z",
+  "generatedAt": "2026-08-12T13:10:38.458Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-13T11:00:00.000Z",
@@ -87,54 +87,6 @@
   ],
   "entries": [
     {
-      "condition": "Electromagnetic Storm",
-      "map": "Dam Battlegrounds",
-      "start": 1786532400000,
-      "end": 1786536000000,
-      "type": "major",
-      "icon": "electromagnetic_storm.png"
-    },
-    {
-      "condition": "Prospecting Probes",
-      "map": "Riven Tides",
-      "start": 1786532400000,
-      "end": 1786536000000,
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "The Blue Gate",
-      "start": 1786532400000,
-      "end": 1786536000000,
-      "type": "minor",
-      "icon": "harvester.png"
-    },
-    {
-      "condition": "Lush Blooms",
-      "map": "Dam Battlegrounds",
-      "start": 1786536000000,
-      "end": 1786539600000,
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "Spaceport",
-      "start": 1786536000000,
-      "end": 1786539600000,
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
-    {
-      "condition": "Locked Gate",
-      "map": "The Blue Gate",
-      "start": 1786536000000,
-      "end": 1786539600000,
-      "type": "major",
-      "icon": "locked_gate.png"
-    },
-    {
       "condition": "Prospecting Probes",
       "map": "Buried City",
       "start": 1786539600000,
@@ -215,6 +167,30 @@
       "icon": "hurricane.png"
     },
     {
+      "condition": "Electromagnetic Storm",
+      "map": "Dam Battlegrounds",
+      "start": 1786554000000,
+      "end": 1786557600000,
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Riven Tides",
+      "start": 1786554000000,
+      "end": 1786557600000,
+      "type": "minor",
+      "icon": "prospecting_probes.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "The Blue Gate",
+      "start": 1786554000000,
+      "end": 1786557600000,
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
       "condition": "Hurricane",
       "map": "Buried City",
       "start": 1786557600000,
@@ -287,12 +263,28 @@
       "icon": "electromagnetic_storm.png"
     },
     {
+      "condition": "Matriarch",
+      "map": "Spaceport",
+      "start": 1786586400000,
+      "end": 1786590000000,
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
       "condition": "Close Scrutiny",
       "map": "Buried City",
       "start": 1786590000000,
       "end": 1786593600000,
       "type": "major",
       "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Lush Blooms",
+      "map": "Dam Battlegrounds",
+      "start": 1786590000000,
+      "end": 1786593600000,
+      "type": "minor",
+      "icon": "lush_blooms.png"
     },
     {
       "condition": "Close Scrutiny",
@@ -309,6 +301,14 @@
       "end": 1786600800000,
       "type": "major",
       "icon": "night_raid.png"
+    },
+    {
+      "condition": "Locked Gate",
+      "map": "The Blue Gate",
+      "start": 1786600800000,
+      "end": 1786604400000,
+      "type": "major",
+      "icon": "locked_gate.png"
     },
     {
       "condition": "Harvester",
