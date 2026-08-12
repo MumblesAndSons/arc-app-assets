@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T00:06:42.413Z",
+  "generatedAt": "2026-08-12T02:42:56.284Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-13T00:00:00.000Z",
@@ -87,70 +87,6 @@
   ],
   "entries": [
     {
-      "condition": "Electromagnetic Storm",
-      "map": "Dam Battlegrounds",
-      "start": 1786492800000,
-      "end": 1786496400000,
-      "type": "major",
-      "icon": "electromagnetic_storm.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "Spaceport",
-      "start": 1786492800000,
-      "end": 1786496400000,
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1786492800000,
-      "end": 1786496400000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "The Blue Gate",
-      "start": 1786492800000,
-      "end": 1786496400000,
-      "type": "minor",
-      "icon": "harvester.png"
-    },
-    {
-      "condition": "Close Scrutiny",
-      "map": "Buried City",
-      "start": 1786496400000,
-      "end": 1786500000000,
-      "type": "major",
-      "icon": "close_scrutiny.png"
-    },
-    {
-      "condition": "Lush Blooms",
-      "map": "Dam Battlegrounds",
-      "start": 1786496400000,
-      "end": 1786500000000,
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
-    {
-      "condition": "Beachcombing",
-      "map": "Riven Tides",
-      "start": 1786496400000,
-      "end": 1786500000000,
-      "type": "minor",
-      "icon": "beachcombing.png"
-    },
-    {
-      "condition": "Hurricane",
-      "map": "Spaceport",
-      "start": 1786496400000,
-      "end": 1786500000000,
-      "type": "major",
-      "icon": "hurricane.png"
-    },
-    {
       "condition": "Prospecting Probes",
       "map": "Buried City",
       "start": 1786500000000,
@@ -165,6 +101,14 @@
       "end": 1786503600000,
       "type": "major",
       "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1786500000000,
+      "end": 1786503600000,
+      "type": "major",
+      "icon": "night_raid.png"
     },
     {
       "condition": "Night Raid",
@@ -223,12 +167,44 @@
       "icon": "prospecting_probes.png"
     },
     {
+      "condition": "Harvester",
+      "map": "The Blue Gate",
+      "start": 1786510800000,
+      "end": 1786514400000,
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
+      "condition": "Close Scrutiny",
+      "map": "Buried City",
+      "start": 1786514400000,
+      "end": 1786518000000,
+      "type": "major",
+      "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Spaceport",
+      "start": 1786514400000,
+      "end": 1786518000000,
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
       "condition": "Lush Blooms",
       "map": "Buried City",
       "start": 1786518000000,
       "end": 1786521600000,
       "type": "minor",
       "icon": "lush_blooms.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1786518000000,
+      "end": 1786521600000,
+      "type": "minor",
+      "icon": "beachcombing.png"
     },
     {
       "condition": "Harvester",
@@ -263,12 +239,28 @@
       "icon": "launch_tower_loot.png"
     },
     {
+      "condition": "Electromagnetic Storm",
+      "map": "Dam Battlegrounds",
+      "start": 1786532400000,
+      "end": 1786536000000,
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
+    },
+    {
       "condition": "Prospecting Probes",
       "map": "Riven Tides",
       "start": 1786532400000,
       "end": 1786536000000,
       "type": "minor",
       "icon": "prospecting_probes.png"
+    },
+    {
+      "condition": "Lush Blooms",
+      "map": "Dam Battlegrounds",
+      "start": 1786536000000,
+      "end": 1786539600000,
+      "type": "minor",
+      "icon": "lush_blooms.png"
     },
     {
       "condition": "Close Scrutiny",
@@ -309,6 +301,14 @@
       "end": 1786564800000,
       "type": "major",
       "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Hurricane",
+      "map": "Spaceport",
+      "start": 1786564800000,
+      "end": 1786568400000,
+      "type": "major",
+      "icon": "hurricane.png"
     },
     {
       "condition": "Electromagnetic Storm",
