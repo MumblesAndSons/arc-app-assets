@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-13T22:04:08.139Z",
+  "generatedAt": "2026-08-13T23:00:54.663Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-14T21:00:00.000Z",
+  "horizonEnd": "2026-08-15T00:00:00.000Z",
   "conditions": [
     {
       "name": "Beachcombing",
@@ -87,30 +87,6 @@
   ],
   "entries": [
     {
-      "condition": "Bird City",
-      "map": "Buried City",
-      "start": 1786658400000,
-      "end": 1786662000000,
-      "type": "minor",
-      "icon": "bird_city.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1786658400000,
-      "end": 1786662000000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "The Blue Gate",
-      "start": 1786658400000,
-      "end": 1786662000000,
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
-    {
       "condition": "Hurricane",
       "map": "Buried City",
       "start": 1786662000000,
@@ -135,12 +111,36 @@
       "icon": "harvester.png"
     },
     {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1786665600000,
+      "end": 1786669200000,
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
       "condition": "Hurricane",
       "map": "Spaceport",
       "start": 1786665600000,
       "end": 1786669200000,
       "type": "major",
       "icon": "hurricane.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1786665600000,
+      "end": 1786669200000,
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "The Blue Gate",
+      "start": 1786665600000,
+      "end": 1786669200000,
+      "type": "minor",
+      "icon": "matriarch.png"
     },
     {
       "condition": "Night Raid",
@@ -317,6 +317,14 @@
       "end": 1786741200000,
       "type": "major",
       "icon": "night_raid.png"
+    },
+    {
+      "condition": "Close Scrutiny",
+      "map": "The Blue Gate",
+      "start": 1786748400000,
+      "end": 1786752000000,
+      "type": "major",
+      "icon": "close_scrutiny.png"
     }
   ]
 }
