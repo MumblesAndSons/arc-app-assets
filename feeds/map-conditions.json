@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-13T18:37:17.271Z",
+  "generatedAt": "2026-08-13T19:43:30.537Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-14T19:00:00.000Z",
+  "horizonEnd": "2026-08-14T21:00:00.000Z",
   "conditions": [
     {
       "name": "Beachcombing",
@@ -86,38 +86,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Bird City",
-      "map": "Buried City",
-      "start": 1786644000000,
-      "end": 1786647600000,
-      "type": "minor",
-      "icon": "bird_city.png"
-    },
-    {
-      "condition": "Lush Blooms",
-      "map": "Riven Tides",
-      "start": 1786644000000,
-      "end": 1786647600000,
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Spaceport",
-      "start": 1786644000000,
-      "end": 1786647600000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Hurricane",
-      "map": "The Blue Gate",
-      "start": 1786644000000,
-      "end": 1786647600000,
-      "type": "major",
-      "icon": "hurricane.png"
-    },
     {
       "condition": "Electromagnetic Storm",
       "map": "Dam Battlegrounds",
@@ -207,6 +175,14 @@
       "icon": "close_scrutiny.png"
     },
     {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1786658400000,
+      "end": 1786662000000,
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
       "condition": "Matriarch",
       "map": "The Blue Gate",
       "start": 1786658400000,
@@ -245,6 +221,14 @@
       "end": 1786672800000,
       "type": "major",
       "icon": "night_raid.png"
+    },
+    {
+      "condition": "Lush Blooms",
+      "map": "Riven Tides",
+      "start": 1786672800000,
+      "end": 1786676400000,
+      "type": "minor",
+      "icon": "lush_blooms.png"
     },
     {
       "condition": "Electromagnetic Storm",
@@ -303,6 +287,14 @@
       "icon": "close_scrutiny.png"
     },
     {
+      "condition": "Hurricane",
+      "map": "The Blue Gate",
+      "start": 1786690800000,
+      "end": 1786694400000,
+      "type": "major",
+      "icon": "hurricane.png"
+    },
+    {
       "condition": "Locked Gate",
       "map": "The Blue Gate",
       "start": 1786694400000,
@@ -325,6 +317,14 @@
       "end": 1786734000000,
       "type": "major",
       "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Spaceport",
+      "start": 1786737600000,
+      "end": 1786741200000,
+      "type": "major",
+      "icon": "night_raid.png"
     }
   ]
 }
