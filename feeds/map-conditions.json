@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T19:43:30.537Z",
+  "generatedAt": "2026-08-13T20:22:02.764Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-14T21:00:00.000Z",
@@ -86,38 +86,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Electromagnetic Storm",
-      "map": "Dam Battlegrounds",
-      "start": 1786647600000,
-      "end": 1786651200000,
-      "type": "major",
-      "icon": "electromagnetic_storm.png"
-    },
-    {
-      "condition": "Prospecting Probes",
-      "map": "Riven Tides",
-      "start": 1786647600000,
-      "end": 1786651200000,
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
-    {
-      "condition": "Hurricane",
-      "map": "Spaceport",
-      "start": 1786647600000,
-      "end": 1786651200000,
-      "type": "major",
-      "icon": "hurricane.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "The Blue Gate",
-      "start": 1786647600000,
-      "end": 1786651200000,
-      "type": "minor",
-      "icon": "harvester.png"
-    },
     {
       "condition": "Matriarch",
       "map": "Dam Battlegrounds",
@@ -215,6 +183,14 @@
       "icon": "harvester.png"
     },
     {
+      "condition": "Hurricane",
+      "map": "Spaceport",
+      "start": 1786665600000,
+      "end": 1786669200000,
+      "type": "major",
+      "icon": "hurricane.png"
+    },
+    {
       "condition": "Night Raid",
       "map": "Riven Tides",
       "start": 1786669200000,
@@ -253,6 +229,14 @@
       "end": 1786683600000,
       "type": "minor",
       "icon": "matriarch.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "The Blue Gate",
+      "start": 1786680000000,
+      "end": 1786683600000,
+      "type": "minor",
+      "icon": "harvester.png"
     },
     {
       "condition": "Close Scrutiny",
@@ -309,6 +293,22 @@
       "end": 1786712400000,
       "type": "minor",
       "icon": "harvester.png"
+    },
+    {
+      "condition": "Electromagnetic Storm",
+      "map": "Dam Battlegrounds",
+      "start": 1786719600000,
+      "end": 1786723200000,
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Riven Tides",
+      "start": 1786719600000,
+      "end": 1786723200000,
+      "type": "minor",
+      "icon": "prospecting_probes.png"
     },
     {
       "condition": "Close Scrutiny",
