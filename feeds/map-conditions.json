@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T21:12:45.222Z",
+  "generatedAt": "2026-08-13T22:04:08.139Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-14T21:00:00.000Z",
@@ -86,30 +86,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Lush Blooms",
-      "map": "Buried City",
-      "start": 1786654800000,
-      "end": 1786658400000,
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
-    {
-      "condition": "Beachcombing",
-      "map": "Riven Tides",
-      "start": 1786654800000,
-      "end": 1786658400000,
-      "type": "minor",
-      "icon": "beachcombing.png"
-    },
-    {
-      "condition": "Close Scrutiny",
-      "map": "The Blue Gate",
-      "start": 1786654800000,
-      "end": 1786658400000,
-      "type": "major",
-      "icon": "close_scrutiny.png"
-    },
     {
       "condition": "Bird City",
       "map": "Buried City",
@@ -247,6 +223,14 @@
       "icon": "lush_blooms.png"
     },
     {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1786683600000,
+      "end": 1786687200000,
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
       "condition": "Prospecting Probes",
       "map": "Buried City",
       "start": 1786687200000,
@@ -277,6 +261,14 @@
       "end": 1786698000000,
       "type": "major",
       "icon": "locked_gate.png"
+    },
+    {
+      "condition": "Lush Blooms",
+      "map": "Buried City",
+      "start": 1786705200000,
+      "end": 1786708800000,
+      "type": "minor",
+      "icon": "lush_blooms.png"
     },
     {
       "condition": "Harvester",
