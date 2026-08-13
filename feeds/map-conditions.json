@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-13T04:16:08.871Z",
+  "generatedAt": "2026-08-13T05:54:26.119Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-14T03:00:00.000Z",
+  "horizonEnd": "2026-08-14T07:00:00.000Z",
   "conditions": [
     {
       "name": "Beachcombing",
@@ -86,30 +86,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Prospecting Probes",
-      "map": "Buried City",
-      "start": 1786593600000,
-      "end": 1786597200000,
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
-    {
-      "condition": "Close Scrutiny",
-      "map": "Spaceport",
-      "start": 1786593600000,
-      "end": 1786597200000,
-      "type": "major",
-      "icon": "close_scrutiny.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1786593600000,
-      "end": 1786597200000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
     {
       "condition": "Night Raid",
       "map": "Riven Tides",
@@ -207,6 +183,14 @@
       "icon": "beachcombing.png"
     },
     {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1786611600000,
+      "end": 1786615200000,
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
       "condition": "Harvester",
       "map": "Dam Battlegrounds",
       "start": 1786615200000,
@@ -261,6 +245,14 @@
       "end": 1786633200000,
       "type": "minor",
       "icon": "lush_blooms.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Buried City",
+      "start": 1786633200000,
+      "end": 1786636800000,
+      "type": "minor",
+      "icon": "prospecting_probes.png"
     },
     {
       "condition": "Close Scrutiny",
@@ -325,6 +317,14 @@
       "end": 1786676400000,
       "type": "major",
       "icon": "electromagnetic_storm.png"
+    },
+    {
+      "condition": "Close Scrutiny",
+      "map": "Spaceport",
+      "start": 1786687200000,
+      "end": 1786690800000,
+      "type": "major",
+      "icon": "close_scrutiny.png"
     }
   ]
 }
