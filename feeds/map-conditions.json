@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T09:44:22.914Z",
+  "generatedAt": "2026-08-14T10:41:42.825Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-15T09:00:00.000Z",
@@ -86,30 +86,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Prospecting Probes",
-      "map": "Dam Battlegrounds",
-      "start": 1786698000000,
-      "end": 1786701600000,
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Riven Tides",
-      "start": 1786698000000,
-      "end": 1786701600000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "The Blue Gate",
-      "start": 1786698000000,
-      "end": 1786701600000,
-      "type": "minor",
-      "icon": "harvester.png"
-    },
     {
       "condition": "Close Scrutiny",
       "map": "Buried City",
@@ -215,6 +191,14 @@
       "icon": "prospecting_probes.png"
     },
     {
+      "condition": "Harvester",
+      "map": "The Blue Gate",
+      "start": 1786719600000,
+      "end": 1786723200000,
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
       "condition": "Lush Blooms",
       "map": "Dam Battlegrounds",
       "start": 1786723200000,
@@ -245,6 +229,22 @@
       "end": 1786734000000,
       "type": "major",
       "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Riven Tides",
+      "start": 1786730400000,
+      "end": 1786734000000,
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Dam Battlegrounds",
+      "start": 1786734000000,
+      "end": 1786737600000,
+      "type": "minor",
+      "icon": "prospecting_probes.png"
     },
     {
       "condition": "Harvester",
