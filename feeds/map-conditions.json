@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-14T23:17:28.417Z",
+  "generatedAt": "2026-08-14T23:45:51.868Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-15T21:00:00.000Z",
+  "horizonEnd": "2026-08-16T01:00:00.000Z",
   "conditions": [
     {
       "name": "Beachcombing",
@@ -307,6 +307,14 @@
       "end": 1786827600000,
       "type": "major",
       "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Spaceport",
+      "start": 1786838400000,
+      "end": 1786842000000,
+      "type": "major",
+      "icon": "night_raid.png"
     }
   ]
 }
