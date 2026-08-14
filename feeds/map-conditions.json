@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T05:53:56.154Z",
+  "generatedAt": "2026-08-14T07:17:30.309Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-15T03:00:00.000Z",
@@ -87,54 +87,6 @@
   ],
   "entries": [
     {
-      "condition": "Close Scrutiny",
-      "map": "Buried City",
-      "start": 1786683600000,
-      "end": 1786687200000,
-      "type": "major",
-      "icon": "close_scrutiny.png"
-    },
-    {
-      "condition": "Lush Blooms",
-      "map": "Dam Battlegrounds",
-      "start": 1786683600000,
-      "end": 1786687200000,
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
-    {
-      "condition": "Beachcombing",
-      "map": "Riven Tides",
-      "start": 1786683600000,
-      "end": 1786687200000,
-      "type": "minor",
-      "icon": "beachcombing.png"
-    },
-    {
-      "condition": "Prospecting Probes",
-      "map": "Buried City",
-      "start": 1786687200000,
-      "end": 1786690800000,
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
-    {
-      "condition": "Close Scrutiny",
-      "map": "Spaceport",
-      "start": 1786687200000,
-      "end": 1786690800000,
-      "type": "major",
-      "icon": "close_scrutiny.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1786687200000,
-      "end": 1786690800000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
       "condition": "Night Raid",
       "map": "Riven Tides",
       "start": 1786690800000,
@@ -199,6 +151,14 @@
       "icon": "harvester.png"
     },
     {
+      "condition": "Close Scrutiny",
+      "map": "Buried City",
+      "start": 1786701600000,
+      "end": 1786705200000,
+      "type": "major",
+      "icon": "close_scrutiny.png"
+    },
+    {
       "condition": "Matriarch",
       "map": "Spaceport",
       "start": 1786701600000,
@@ -213,6 +173,22 @@
       "end": 1786708800000,
       "type": "minor",
       "icon": "lush_blooms.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1786705200000,
+      "end": 1786708800000,
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1786705200000,
+      "end": 1786708800000,
+      "type": "major",
+      "icon": "night_raid.png"
     },
     {
       "condition": "Harvester",
@@ -259,6 +235,22 @@
       "map": "Riven Tides",
       "start": 1786719600000,
       "end": 1786723200000,
+      "type": "minor",
+      "icon": "prospecting_probes.png"
+    },
+    {
+      "condition": "Lush Blooms",
+      "map": "Dam Battlegrounds",
+      "start": 1786723200000,
+      "end": 1786726800000,
+      "type": "minor",
+      "icon": "lush_blooms.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Buried City",
+      "start": 1786726800000,
+      "end": 1786730400000,
       "type": "minor",
       "icon": "prospecting_probes.png"
     },
