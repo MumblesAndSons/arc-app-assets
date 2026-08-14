@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-13T23:00:54.663Z",
+  "generatedAt": "2026-08-14T02:05:12.965Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-15T00:00:00.000Z",
+  "horizonEnd": "2026-08-15T03:00:00.000Z",
   "conditions": [
     {
       "name": "Beachcombing",
@@ -87,68 +87,12 @@
   ],
   "entries": [
     {
-      "condition": "Hurricane",
-      "map": "Buried City",
-      "start": 1786662000000,
-      "end": 1786665600000,
-      "type": "major",
-      "icon": "hurricane.png"
-    },
-    {
-      "condition": "Prospecting Probes",
-      "map": "Dam Battlegrounds",
-      "start": 1786662000000,
-      "end": 1786665600000,
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "Spaceport",
-      "start": 1786662000000,
-      "end": 1786665600000,
-      "type": "minor",
-      "icon": "harvester.png"
-    },
-    {
       "condition": "Bird City",
       "map": "Buried City",
-      "start": 1786665600000,
-      "end": 1786669200000,
+      "start": 1786672800000,
+      "end": 1786676400000,
       "type": "minor",
       "icon": "bird_city.png"
-    },
-    {
-      "condition": "Hurricane",
-      "map": "Spaceport",
-      "start": 1786665600000,
-      "end": 1786669200000,
-      "type": "major",
-      "icon": "hurricane.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1786665600000,
-      "end": 1786669200000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "The Blue Gate",
-      "start": 1786665600000,
-      "end": 1786669200000,
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Riven Tides",
-      "start": 1786669200000,
-      "end": 1786672800000,
-      "type": "major",
-      "icon": "night_raid.png"
     },
     {
       "condition": "Lush Blooms",
@@ -165,6 +109,14 @@
       "end": 1786676400000,
       "type": "major",
       "icon": "electromagnetic_storm.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1786672800000,
+      "end": 1786676400000,
+      "type": "major",
+      "icon": "night_raid.png"
     },
     {
       "condition": "Matriarch",
@@ -247,6 +199,22 @@
       "icon": "close_scrutiny.png"
     },
     {
+      "condition": "Night Raid",
+      "map": "Riven Tides",
+      "start": 1786690800000,
+      "end": 1786694400000,
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Spaceport",
+      "start": 1786690800000,
+      "end": 1786694400000,
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
       "condition": "Hurricane",
       "map": "The Blue Gate",
       "start": 1786690800000,
@@ -261,6 +229,14 @@
       "end": 1786698000000,
       "type": "major",
       "icon": "locked_gate.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Dam Battlegrounds",
+      "start": 1786698000000,
+      "end": 1786701600000,
+      "type": "minor",
+      "icon": "prospecting_probes.png"
     },
     {
       "condition": "Lush Blooms",
@@ -285,6 +261,14 @@
       "end": 1786712400000,
       "type": "major",
       "icon": "hidden_bunker.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "The Blue Gate",
+      "start": 1786708800000,
+      "end": 1786712400000,
+      "type": "minor",
+      "icon": "matriarch.png"
     },
     {
       "condition": "Electromagnetic Storm",
@@ -325,6 +309,22 @@
       "end": 1786752000000,
       "type": "major",
       "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Hurricane",
+      "map": "Buried City",
+      "start": 1786752000000,
+      "end": 1786755600000,
+      "type": "major",
+      "icon": "hurricane.png"
+    },
+    {
+      "condition": "Hurricane",
+      "map": "Spaceport",
+      "start": 1786759200000,
+      "end": 1786762800000,
+      "type": "major",
+      "icon": "hurricane.png"
     }
   ]
 }
