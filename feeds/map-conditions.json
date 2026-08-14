@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-14T18:32:36.176Z",
+  "generatedAt": "2026-08-14T19:36:17.050Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-15T15:00:00.000Z",
+  "horizonEnd": "2026-08-15T21:00:00.000Z",
   "conditions": [
     {
       "name": "Beachcombing",
@@ -76,30 +76,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Close Scrutiny",
-      "map": "Dam Battlegrounds",
-      "start": 1786730400000,
-      "end": 1786734000000,
-      "type": "major",
-      "icon": "close_scrutiny.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Riven Tides",
-      "start": 1786730400000,
-      "end": 1786734000000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "The Blue Gate",
-      "start": 1786730400000,
-      "end": 1786734000000,
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
     {
       "condition": "Prospecting Probes",
       "map": "Dam Battlegrounds",
@@ -253,6 +229,14 @@
       "icon": "hurricane.png"
     },
     {
+      "condition": "Matriarch",
+      "map": "The Blue Gate",
+      "start": 1786759200000,
+      "end": 1786762800000,
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
       "condition": "Launch Tower Loot",
       "map": "Spaceport",
       "start": 1786770000000,
@@ -301,6 +285,14 @@
       "icon": "close_scrutiny.png"
     },
     {
+      "condition": "Night Raid",
+      "map": "Riven Tides",
+      "start": 1786784400000,
+      "end": 1786788000000,
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
       "condition": "Locked Gate",
       "map": "The Blue Gate",
       "start": 1786788000000,
@@ -315,6 +307,14 @@
       "end": 1786806000000,
       "type": "minor",
       "icon": "harvester.png"
+    },
+    {
+      "condition": "Close Scrutiny",
+      "map": "Dam Battlegrounds",
+      "start": 1786824000000,
+      "end": 1786827600000,
+      "type": "major",
+      "icon": "close_scrutiny.png"
     }
   ]
 }
