@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T04:17:56.149Z",
+  "generatedAt": "2026-08-14T05:53:56.154Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-15T03:00:00.000Z",
@@ -87,30 +87,6 @@
   ],
   "entries": [
     {
-      "condition": "Matriarch",
-      "map": "Spaceport",
-      "start": 1786680000000,
-      "end": 1786683600000,
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1786680000000,
-      "end": 1786683600000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "The Blue Gate",
-      "start": 1786680000000,
-      "end": 1786683600000,
-      "type": "minor",
-      "icon": "harvester.png"
-    },
-    {
       "condition": "Close Scrutiny",
       "map": "Buried City",
       "start": 1786683600000,
@@ -149,6 +125,14 @@
       "end": 1786690800000,
       "type": "major",
       "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1786687200000,
+      "end": 1786690800000,
+      "type": "major",
+      "icon": "night_raid.png"
     },
     {
       "condition": "Night Raid",
@@ -205,6 +189,22 @@
       "end": 1786701600000,
       "type": "minor",
       "icon": "prospecting_probes.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "The Blue Gate",
+      "start": 1786698000000,
+      "end": 1786701600000,
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Spaceport",
+      "start": 1786701600000,
+      "end": 1786705200000,
+      "type": "minor",
+      "icon": "matriarch.png"
     },
     {
       "condition": "Lush Blooms",
