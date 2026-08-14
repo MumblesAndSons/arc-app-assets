@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T19:36:17.050Z",
+  "generatedAt": "2026-08-14T20:14:35.391Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-15T21:00:00.000Z",
@@ -77,38 +77,6 @@
   ],
   "entries": [
     {
-      "condition": "Prospecting Probes",
-      "map": "Dam Battlegrounds",
-      "start": 1786734000000,
-      "end": 1786737600000,
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "Spaceport",
-      "start": 1786734000000,
-      "end": 1786737600000,
-      "type": "minor",
-      "icon": "harvester.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1786734000000,
-      "end": 1786737600000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Electromagnetic Storm",
-      "map": "The Blue Gate",
-      "start": 1786734000000,
-      "end": 1786737600000,
-      "type": "major",
-      "icon": "electromagnetic_storm.png"
-    },
-    {
       "condition": "Bird City",
       "map": "Buried City",
       "start": 1786737600000,
@@ -181,6 +149,14 @@
       "icon": "hidden_bunker.png"
     },
     {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1786744800000,
+      "end": 1786748400000,
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
       "condition": "Lush Blooms",
       "map": "Buried City",
       "start": 1786748400000,
@@ -237,12 +213,36 @@
       "icon": "matriarch.png"
     },
     {
+      "condition": "Prospecting Probes",
+      "map": "Dam Battlegrounds",
+      "start": 1786762800000,
+      "end": 1786766400000,
+      "type": "minor",
+      "icon": "prospecting_probes.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Spaceport",
+      "start": 1786762800000,
+      "end": 1786766400000,
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
       "condition": "Launch Tower Loot",
       "map": "Spaceport",
       "start": 1786770000000,
       "end": 1786773600000,
       "type": "minor",
       "icon": "launch_tower_loot.png"
+    },
+    {
+      "condition": "Electromagnetic Storm",
+      "map": "The Blue Gate",
+      "start": 1786770000000,
+      "end": 1786773600000,
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
     },
     {
       "condition": "Matriarch",
