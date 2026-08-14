@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-14T07:17:30.309Z",
+  "generatedAt": "2026-08-14T08:43:21.898Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-15T03:00:00.000Z",
+  "horizonEnd": "2026-08-15T09:00:00.000Z",
   "conditions": [
     {
       "name": "Beachcombing",
@@ -87,30 +87,6 @@
   ],
   "entries": [
     {
-      "condition": "Night Raid",
-      "map": "Riven Tides",
-      "start": 1786690800000,
-      "end": 1786694400000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "Spaceport",
-      "start": 1786690800000,
-      "end": 1786694400000,
-      "type": "minor",
-      "icon": "harvester.png"
-    },
-    {
-      "condition": "Hurricane",
-      "map": "The Blue Gate",
-      "start": 1786690800000,
-      "end": 1786694400000,
-      "type": "major",
-      "icon": "hurricane.png"
-    },
-    {
       "condition": "Bird City",
       "map": "Buried City",
       "start": 1786694400000,
@@ -141,6 +117,14 @@
       "end": 1786701600000,
       "type": "minor",
       "icon": "prospecting_probes.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Riven Tides",
+      "start": 1786698000000,
+      "end": 1786701600000,
+      "type": "major",
+      "icon": "night_raid.png"
     },
     {
       "condition": "Harvester",
@@ -223,6 +207,14 @@
       "icon": "launch_tower_loot.png"
     },
     {
+      "condition": "Hurricane",
+      "map": "The Blue Gate",
+      "start": 1786712400000,
+      "end": 1786716000000,
+      "type": "major",
+      "icon": "hurricane.png"
+    },
+    {
       "condition": "Electromagnetic Storm",
       "map": "Dam Battlegrounds",
       "start": 1786719600000,
@@ -261,6 +253,14 @@
       "end": 1786734000000,
       "type": "major",
       "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Spaceport",
+      "start": 1786734000000,
+      "end": 1786737600000,
+      "type": "minor",
+      "icon": "harvester.png"
     },
     {
       "condition": "Electromagnetic Storm",
@@ -317,6 +317,14 @@
       "end": 1786762800000,
       "type": "major",
       "icon": "hurricane.png"
+    },
+    {
+      "condition": "Close Scrutiny",
+      "map": "Spaceport",
+      "start": 1786780800000,
+      "end": 1786784400000,
+      "type": "major",
+      "icon": "close_scrutiny.png"
     }
   ]
 }
