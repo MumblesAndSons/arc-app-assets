@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-14T12:10:10.843Z",
+  "generatedAt": "2026-08-14T13:41:22.110Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-15T09:00:00.000Z",
+  "horizonEnd": "2026-08-15T15:00:00.000Z",
   "conditions": [
     {
       "name": "Beachcombing",
@@ -18,11 +18,6 @@
       "name": "Close Scrutiny",
       "type": "major",
       "icon": "close_scrutiny.png"
-    },
-    {
-      "name": "Cold Snap",
-      "type": "major",
-      "icon": "cold_snap.png"
     },
     {
       "name": "Electromagnetic Storm",
@@ -43,11 +38,6 @@
       "name": "Hurricane",
       "type": "major",
       "icon": "hurricane.png"
-    },
-    {
-      "name": "Husk Graveyard",
-      "type": "minor",
-      "icon": "husk_graveyard.png"
     },
     {
       "name": "Launch Tower Loot",
@@ -86,30 +76,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Harvester",
-      "map": "Dam Battlegrounds",
-      "start": 1786708800000,
-      "end": 1786712400000,
-      "type": "minor",
-      "icon": "harvester.png"
-    },
-    {
-      "condition": "Hidden Bunker",
-      "map": "Spaceport",
-      "start": 1786708800000,
-      "end": 1786712400000,
-      "type": "major",
-      "icon": "hidden_bunker.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "The Blue Gate",
-      "start": 1786708800000,
-      "end": 1786712400000,
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
     {
       "condition": "Launch Tower Loot",
       "map": "Spaceport",
@@ -223,6 +189,14 @@
       "icon": "night_raid.png"
     },
     {
+      "condition": "Matriarch",
+      "map": "The Blue Gate",
+      "start": 1786730400000,
+      "end": 1786734000000,
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
       "condition": "Prospecting Probes",
       "map": "Dam Battlegrounds",
       "start": 1786734000000,
@@ -269,6 +243,14 @@
       "end": 1786748400000,
       "type": "minor",
       "icon": "matriarch.png"
+    },
+    {
+      "condition": "Hidden Bunker",
+      "map": "Spaceport",
+      "start": 1786744800000,
+      "end": 1786748400000,
+      "type": "major",
+      "icon": "hidden_bunker.png"
     },
     {
       "condition": "Lush Blooms",
@@ -325,6 +307,14 @@
       "end": 1786784400000,
       "type": "major",
       "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Dam Battlegrounds",
+      "start": 1786802400000,
+      "end": 1786806000000,
+      "type": "minor",
+      "icon": "harvester.png"
     }
   ]
 }
