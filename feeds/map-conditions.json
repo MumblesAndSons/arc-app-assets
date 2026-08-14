@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T02:05:12.965Z",
+  "generatedAt": "2026-08-14T04:17:56.149Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-15T03:00:00.000Z",
@@ -87,68 +87,20 @@
   ],
   "entries": [
     {
-      "condition": "Bird City",
-      "map": "Buried City",
-      "start": 1786672800000,
-      "end": 1786676400000,
-      "type": "minor",
-      "icon": "bird_city.png"
-    },
-    {
-      "condition": "Lush Blooms",
-      "map": "Riven Tides",
-      "start": 1786672800000,
-      "end": 1786676400000,
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
-    {
-      "condition": "Electromagnetic Storm",
-      "map": "Spaceport",
-      "start": 1786672800000,
-      "end": 1786676400000,
-      "type": "major",
-      "icon": "electromagnetic_storm.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1786672800000,
-      "end": 1786676400000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "Dam Battlegrounds",
-      "start": 1786676400000,
-      "end": 1786680000000,
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
-    {
-      "condition": "Launch Tower Loot",
-      "map": "Spaceport",
-      "start": 1786676400000,
-      "end": 1786680000000,
-      "type": "minor",
-      "icon": "launch_tower_loot.png"
-    },
-    {
-      "condition": "Electromagnetic Storm",
-      "map": "The Blue Gate",
-      "start": 1786676400000,
-      "end": 1786680000000,
-      "type": "major",
-      "icon": "electromagnetic_storm.png"
-    },
-    {
       "condition": "Matriarch",
       "map": "Spaceport",
       "start": 1786680000000,
       "end": 1786683600000,
       "type": "minor",
       "icon": "matriarch.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1786680000000,
+      "end": 1786683600000,
+      "type": "major",
+      "icon": "night_raid.png"
     },
     {
       "condition": "Harvester",
@@ -223,6 +175,22 @@
       "icon": "hurricane.png"
     },
     {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1786694400000,
+      "end": 1786698000000,
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Lush Blooms",
+      "map": "Riven Tides",
+      "start": 1786694400000,
+      "end": 1786698000000,
+      "type": "minor",
+      "icon": "lush_blooms.png"
+    },
+    {
       "condition": "Locked Gate",
       "map": "The Blue Gate",
       "start": 1786694400000,
@@ -271,6 +239,14 @@
       "icon": "matriarch.png"
     },
     {
+      "condition": "Launch Tower Loot",
+      "map": "Spaceport",
+      "start": 1786712400000,
+      "end": 1786716000000,
+      "type": "minor",
+      "icon": "launch_tower_loot.png"
+    },
+    {
       "condition": "Electromagnetic Storm",
       "map": "Dam Battlegrounds",
       "start": 1786719600000,
@@ -295,12 +271,28 @@
       "icon": "close_scrutiny.png"
     },
     {
+      "condition": "Electromagnetic Storm",
+      "map": "The Blue Gate",
+      "start": 1786734000000,
+      "end": 1786737600000,
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
+    },
+    {
       "condition": "Night Raid",
       "map": "Spaceport",
       "start": 1786737600000,
       "end": 1786741200000,
       "type": "major",
       "icon": "night_raid.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Dam Battlegrounds",
+      "start": 1786744800000,
+      "end": 1786748400000,
+      "type": "minor",
+      "icon": "matriarch.png"
     },
     {
       "condition": "Close Scrutiny",
@@ -317,6 +309,14 @@
       "end": 1786755600000,
       "type": "major",
       "icon": "hurricane.png"
+    },
+    {
+      "condition": "Electromagnetic Storm",
+      "map": "Spaceport",
+      "start": 1786755600000,
+      "end": 1786759200000,
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
     },
     {
       "condition": "Hurricane",
