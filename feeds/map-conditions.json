@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T12:39:51.077Z",
+  "generatedAt": "2026-08-15T13:16:48.386Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-16T12:00:00.000Z",
@@ -76,22 +76,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Close Scrutiny",
-      "map": "Buried City",
-      "start": 1786795200000,
-      "end": 1786798800000,
-      "type": "major",
-      "icon": "close_scrutiny.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "Spaceport",
-      "start": 1786795200000,
-      "end": 1786798800000,
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
     {
       "condition": "Lush Blooms",
       "map": "Buried City",
@@ -205,6 +189,14 @@
       "icon": "electromagnetic_storm.png"
     },
     {
+      "condition": "Matriarch",
+      "map": "Spaceport",
+      "start": 1786816800000,
+      "end": 1786820400000,
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
       "condition": "Locked Gate",
       "map": "The Blue Gate",
       "start": 1786816800000,
@@ -299,6 +291,14 @@
       "end": 1786860000000,
       "type": "major",
       "icon": "hurricane.png"
+    },
+    {
+      "condition": "Close Scrutiny",
+      "map": "Buried City",
+      "start": 1786870800000,
+      "end": 1786874400000,
+      "type": "major",
+      "icon": "close_scrutiny.png"
     },
     {
       "condition": "Close Scrutiny",
