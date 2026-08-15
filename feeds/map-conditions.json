@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T20:17:12.494Z",
+  "generatedAt": "2026-08-15T21:16:37.421Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-16T17:00:00.000Z",
@@ -76,30 +76,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Close Scrutiny",
-      "map": "Dam Battlegrounds",
-      "start": 1786824000000,
-      "end": 1786827600000,
-      "type": "major",
-      "icon": "close_scrutiny.png"
-    },
-    {
-      "condition": "Electromagnetic Storm",
-      "map": "Spaceport",
-      "start": 1786824000000,
-      "end": 1786827600000,
-      "type": "major",
-      "icon": "electromagnetic_storm.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "The Blue Gate",
-      "start": 1786824000000,
-      "end": 1786827600000,
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
     {
       "condition": "Prospecting Probes",
       "map": "Dam Battlegrounds",
@@ -235,6 +211,14 @@
       "end": 1786852800000,
       "type": "major",
       "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "The Blue Gate",
+      "start": 1786852800000,
+      "end": 1786856400000,
+      "type": "minor",
+      "icon": "matriarch.png"
     },
     {
       "condition": "Hurricane",
