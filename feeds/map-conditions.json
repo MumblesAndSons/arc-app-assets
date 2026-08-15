@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T07:08:23.012Z",
+  "generatedAt": "2026-08-15T08:01:01.658Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-16T06:00:00.000Z",
@@ -76,30 +76,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Close Scrutiny",
-      "map": "Buried City",
-      "start": 1786777200000,
-      "end": 1786780800000,
-      "type": "major",
-      "icon": "close_scrutiny.png"
-    },
-    {
-      "condition": "Lush Blooms",
-      "map": "Dam Battlegrounds",
-      "start": 1786777200000,
-      "end": 1786780800000,
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
-    {
-      "condition": "Beachcombing",
-      "map": "Riven Tides",
-      "start": 1786777200000,
-      "end": 1786780800000,
-      "type": "minor",
-      "icon": "beachcombing.png"
-    },
     {
       "condition": "Prospecting Probes",
       "map": "Buried City",
@@ -189,6 +165,14 @@
       "icon": "harvester.png"
     },
     {
+      "condition": "Close Scrutiny",
+      "map": "Buried City",
+      "start": 1786795200000,
+      "end": 1786798800000,
+      "type": "major",
+      "icon": "close_scrutiny.png"
+    },
+    {
       "condition": "Matriarch",
       "map": "Spaceport",
       "start": 1786795200000,
@@ -203,6 +187,14 @@
       "end": 1786802400000,
       "type": "minor",
       "icon": "lush_blooms.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1786798800000,
+      "end": 1786802400000,
+      "type": "minor",
+      "icon": "beachcombing.png"
     },
     {
       "condition": "Harvester",
@@ -251,6 +243,14 @@
       "end": 1786816800000,
       "type": "minor",
       "icon": "prospecting_probes.png"
+    },
+    {
+      "condition": "Lush Blooms",
+      "map": "Dam Battlegrounds",
+      "start": 1786816800000,
+      "end": 1786820400000,
+      "type": "minor",
+      "icon": "lush_blooms.png"
     },
     {
       "condition": "Electromagnetic Storm",
