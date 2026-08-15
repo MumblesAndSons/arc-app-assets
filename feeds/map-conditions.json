@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-15T21:16:37.421Z",
+  "generatedAt": "2026-08-15T21:43:55.793Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-16T17:00:00.000Z",
+  "horizonEnd": "2026-08-16T23:00:00.000Z",
   "conditions": [
     {
       "name": "Beachcombing",
@@ -299,6 +299,14 @@
       "end": 1786899600000,
       "type": "minor",
       "icon": "harvester.png"
+    },
+    {
+      "condition": "Close Scrutiny",
+      "map": "Dam Battlegrounds",
+      "start": 1786917600000,
+      "end": 1786921200000,
+      "type": "major",
+      "icon": "close_scrutiny.png"
     }
   ]
 }
