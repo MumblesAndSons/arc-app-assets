@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-15T03:11:12.025Z",
+  "generatedAt": "2026-08-15T04:56:01.826Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-16T04:00:00.000Z",
+  "horizonEnd": "2026-08-16T06:00:00.000Z",
   "conditions": [
     {
       "name": "Beachcombing",
@@ -76,30 +76,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Hurricane",
-      "map": "Buried City",
-      "start": 1786762800000,
-      "end": 1786766400000,
-      "type": "major",
-      "icon": "hurricane.png"
-    },
-    {
-      "condition": "Prospecting Probes",
-      "map": "Dam Battlegrounds",
-      "start": 1786762800000,
-      "end": 1786766400000,
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "Spaceport",
-      "start": 1786762800000,
-      "end": 1786766400000,
-      "type": "minor",
-      "icon": "harvester.png"
-    },
     {
       "condition": "Bird City",
       "map": "Buried City",
@@ -213,6 +189,14 @@
       "icon": "night_raid.png"
     },
     {
+      "condition": "Harvester",
+      "map": "Spaceport",
+      "start": 1786784400000,
+      "end": 1786788000000,
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
       "condition": "Hurricane",
       "map": "The Blue Gate",
       "start": 1786784400000,
@@ -227,6 +211,14 @@
       "end": 1786791600000,
       "type": "major",
       "icon": "locked_gate.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Dam Battlegrounds",
+      "start": 1786791600000,
+      "end": 1786795200000,
+      "type": "minor",
+      "icon": "prospecting_probes.png"
     },
     {
       "condition": "Lush Blooms",
@@ -315,6 +307,14 @@
       "end": 1786852800000,
       "type": "major",
       "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Hurricane",
+      "map": "Buried City",
+      "start": 1786856400000,
+      "end": 1786860000000,
+      "type": "major",
+      "icon": "hurricane.png"
     }
   ]
 }
