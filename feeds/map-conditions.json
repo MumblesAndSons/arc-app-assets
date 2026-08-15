@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-15T11:15:43.999Z",
+  "generatedAt": "2026-08-15T12:39:51.077Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-16T11:00:00.000Z",
+  "horizonEnd": "2026-08-16T12:00:00.000Z",
   "conditions": [
     {
       "name": "Beachcombing",
@@ -76,30 +76,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Prospecting Probes",
-      "map": "Dam Battlegrounds",
-      "start": 1786791600000,
-      "end": 1786795200000,
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Riven Tides",
-      "start": 1786791600000,
-      "end": 1786795200000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "The Blue Gate",
-      "start": 1786791600000,
-      "end": 1786795200000,
-      "type": "minor",
-      "icon": "harvester.png"
-    },
     {
       "condition": "Close Scrutiny",
       "map": "Buried City",
@@ -205,6 +181,14 @@
       "icon": "prospecting_probes.png"
     },
     {
+      "condition": "Harvester",
+      "map": "The Blue Gate",
+      "start": 1786813200000,
+      "end": 1786816800000,
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
       "condition": "Lush Blooms",
       "map": "Dam Battlegrounds",
       "start": 1786816800000,
@@ -251,6 +235,14 @@
       "end": 1786827600000,
       "type": "major",
       "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Dam Battlegrounds",
+      "start": 1786827600000,
+      "end": 1786831200000,
+      "type": "minor",
+      "icon": "prospecting_probes.png"
     },
     {
       "condition": "Harvester",
@@ -315,6 +307,14 @@
       "end": 1786878000000,
       "type": "major",
       "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Riven Tides",
+      "start": 1786878000000,
+      "end": 1786881600000,
+      "type": "major",
+      "icon": "night_raid.png"
     }
   ]
 }
