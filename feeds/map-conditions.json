@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T23:45:51.868Z",
+  "generatedAt": "2026-08-15T00:59:09.312Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-16T01:00:00.000Z",
@@ -77,30 +77,6 @@
   ],
   "entries": [
     {
-      "condition": "Lush Blooms",
-      "map": "Buried City",
-      "start": 1786748400000,
-      "end": 1786752000000,
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
-    {
-      "condition": "Beachcombing",
-      "map": "Riven Tides",
-      "start": 1786748400000,
-      "end": 1786752000000,
-      "type": "minor",
-      "icon": "beachcombing.png"
-    },
-    {
-      "condition": "Close Scrutiny",
-      "map": "The Blue Gate",
-      "start": 1786748400000,
-      "end": 1786752000000,
-      "type": "major",
-      "icon": "close_scrutiny.png"
-    },
-    {
       "condition": "Hurricane",
       "map": "Buried City",
       "start": 1786752000000,
@@ -133,12 +109,36 @@
       "icon": "night_raid.png"
     },
     {
+      "condition": "Lush Blooms",
+      "map": "Buried City",
+      "start": 1786755600000,
+      "end": 1786759200000,
+      "type": "minor",
+      "icon": "lush_blooms.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1786755600000,
+      "end": 1786759200000,
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
       "condition": "Electromagnetic Storm",
       "map": "Spaceport",
       "start": 1786755600000,
       "end": 1786759200000,
       "type": "major",
       "icon": "electromagnetic_storm.png"
+    },
+    {
+      "condition": "Close Scrutiny",
+      "map": "The Blue Gate",
+      "start": 1786755600000,
+      "end": 1786759200000,
+      "type": "major",
+      "icon": "close_scrutiny.png"
     },
     {
       "condition": "Bird City",
