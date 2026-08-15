@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T17:26:32.096Z",
+  "generatedAt": "2026-08-15T18:39:45.411Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-16T17:00:00.000Z",
@@ -76,30 +76,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Electromagnetic Storm",
-      "map": "Dam Battlegrounds",
-      "start": 1786813200000,
-      "end": 1786816800000,
-      "type": "major",
-      "icon": "electromagnetic_storm.png"
-    },
-    {
-      "condition": "Prospecting Probes",
-      "map": "Riven Tides",
-      "start": 1786813200000,
-      "end": 1786816800000,
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "The Blue Gate",
-      "start": 1786813200000,
-      "end": 1786816800000,
-      "type": "minor",
-      "icon": "harvester.png"
-    },
     {
       "condition": "Lush Blooms",
       "map": "Dam Battlegrounds",
@@ -219,6 +195,30 @@
       "end": 1786834800000,
       "type": "major",
       "icon": "hurricane.png"
+    },
+    {
+      "condition": "Electromagnetic Storm",
+      "map": "Dam Battlegrounds",
+      "start": 1786834800000,
+      "end": 1786838400000,
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Riven Tides",
+      "start": 1786834800000,
+      "end": 1786838400000,
+      "type": "minor",
+      "icon": "prospecting_probes.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "The Blue Gate",
+      "start": 1786834800000,
+      "end": 1786838400000,
+      "type": "minor",
+      "icon": "harvester.png"
     },
     {
       "condition": "Night Raid",
