@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-15T23:15:21.573Z",
+  "generatedAt": "2026-08-15T23:43:10.094Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-16T23:00:00.000Z",
+  "horizonEnd": "2026-08-17T01:00:00.000Z",
   "conditions": [
     {
       "name": "Beachcombing",
@@ -307,6 +307,14 @@
       "end": 1786921200000,
       "type": "major",
       "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Dam Battlegrounds",
+      "start": 1786924800000,
+      "end": 1786928400000,
+      "type": "major",
+      "icon": "night_raid.png"
     }
   ]
 }
