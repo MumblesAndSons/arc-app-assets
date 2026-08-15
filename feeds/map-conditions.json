@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T10:26:45.339Z",
+  "generatedAt": "2026-08-15T11:15:43.999Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-16T11:00:00.000Z",
@@ -76,30 +76,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Bird City",
-      "map": "Buried City",
-      "start": 1786788000000,
-      "end": 1786791600000,
-      "type": "minor",
-      "icon": "bird_city.png"
-    },
-    {
-      "condition": "Lush Blooms",
-      "map": "Riven Tides",
-      "start": 1786788000000,
-      "end": 1786791600000,
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
-    {
-      "condition": "Locked Gate",
-      "map": "The Blue Gate",
-      "start": 1786788000000,
-      "end": 1786791600000,
-      "type": "major",
-      "icon": "locked_gate.png"
-    },
     {
       "condition": "Prospecting Probes",
       "map": "Dam Battlegrounds",
@@ -205,6 +181,14 @@
       "icon": "hurricane.png"
     },
     {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1786809600000,
+      "end": 1786813200000,
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
       "condition": "Electromagnetic Storm",
       "map": "Dam Battlegrounds",
       "start": 1786813200000,
@@ -237,6 +221,14 @@
       "icon": "electromagnetic_storm.png"
     },
     {
+      "condition": "Locked Gate",
+      "map": "The Blue Gate",
+      "start": 1786816800000,
+      "end": 1786820400000,
+      "type": "major",
+      "icon": "locked_gate.png"
+    },
+    {
       "condition": "Prospecting Probes",
       "map": "Buried City",
       "start": 1786820400000,
@@ -267,6 +259,14 @@
       "end": 1786831200000,
       "type": "minor",
       "icon": "harvester.png"
+    },
+    {
+      "condition": "Lush Blooms",
+      "map": "Riven Tides",
+      "start": 1786831200000,
+      "end": 1786834800000,
+      "type": "minor",
+      "icon": "lush_blooms.png"
     },
     {
       "condition": "Night Raid",
