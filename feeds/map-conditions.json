@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T19:33:15.017Z",
+  "generatedAt": "2026-08-15T20:17:12.494Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-16T17:00:00.000Z",
@@ -77,38 +77,6 @@
   ],
   "entries": [
     {
-      "condition": "Prospecting Probes",
-      "map": "Buried City",
-      "start": 1786820400000,
-      "end": 1786824000000,
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
-    {
-      "condition": "Beachcombing",
-      "map": "Riven Tides",
-      "start": 1786820400000,
-      "end": 1786824000000,
-      "type": "minor",
-      "icon": "beachcombing.png"
-    },
-    {
-      "condition": "Hurricane",
-      "map": "Spaceport",
-      "start": 1786820400000,
-      "end": 1786824000000,
-      "type": "major",
-      "icon": "hurricane.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1786820400000,
-      "end": 1786824000000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
       "condition": "Close Scrutiny",
       "map": "Dam Battlegrounds",
       "start": 1786824000000,
@@ -147,6 +115,14 @@
       "end": 1786831200000,
       "type": "minor",
       "icon": "harvester.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1786827600000,
+      "end": 1786831200000,
+      "type": "major",
+      "icon": "night_raid.png"
     },
     {
       "condition": "Bird City",
@@ -205,6 +181,14 @@
       "icon": "night_raid.png"
     },
     {
+      "condition": "Hurricane",
+      "map": "Spaceport",
+      "start": 1786842000000,
+      "end": 1786845600000,
+      "type": "major",
+      "icon": "hurricane.png"
+    },
+    {
       "condition": "Matriarch",
       "map": "Dam Battlegrounds",
       "start": 1786845600000,
@@ -235,6 +219,14 @@
       "end": 1786852800000,
       "type": "minor",
       "icon": "lush_blooms.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1786849200000,
+      "end": 1786852800000,
+      "type": "minor",
+      "icon": "beachcombing.png"
     },
     {
       "condition": "Close Scrutiny",
@@ -283,6 +275,14 @@
       "end": 1786874400000,
       "type": "minor",
       "icon": "lush_blooms.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Buried City",
+      "start": 1786874400000,
+      "end": 1786878000000,
+      "type": "minor",
+      "icon": "prospecting_probes.png"
     },
     {
       "condition": "Close Scrutiny",
