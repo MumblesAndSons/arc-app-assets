@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T08:01:01.658Z",
+  "generatedAt": "2026-08-15T09:03:53.127Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-16T06:00:00.000Z",
@@ -76,30 +76,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Prospecting Probes",
-      "map": "Buried City",
-      "start": 1786780800000,
-      "end": 1786784400000,
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
-    {
-      "condition": "Close Scrutiny",
-      "map": "Spaceport",
-      "start": 1786780800000,
-      "end": 1786784400000,
-      "type": "major",
-      "icon": "close_scrutiny.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1786780800000,
-      "end": 1786784400000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
     {
       "condition": "Night Raid",
       "map": "Riven Tides",
@@ -197,6 +173,14 @@
       "icon": "beachcombing.png"
     },
     {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1786798800000,
+      "end": 1786802400000,
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
       "condition": "Harvester",
       "map": "Dam Battlegrounds",
       "start": 1786802400000,
@@ -259,6 +243,14 @@
       "end": 1786820400000,
       "type": "major",
       "icon": "electromagnetic_storm.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Buried City",
+      "start": 1786820400000,
+      "end": 1786824000000,
+      "type": "minor",
+      "icon": "prospecting_probes.png"
     },
     {
       "condition": "Hurricane",
