@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T15:44:04.390Z",
+  "generatedAt": "2026-08-15T16:30:41.915Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-16T17:00:00.000Z",
@@ -76,22 +76,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Launch Tower Loot",
-      "map": "Spaceport",
-      "start": 1786806000000,
-      "end": 1786809600000,
-      "type": "minor",
-      "icon": "launch_tower_loot.png"
-    },
-    {
-      "condition": "Hurricane",
-      "map": "The Blue Gate",
-      "start": 1786806000000,
-      "end": 1786809600000,
-      "type": "major",
-      "icon": "hurricane.png"
-    },
     {
       "condition": "Bird City",
       "map": "Buried City",
@@ -229,6 +213,14 @@
       "icon": "lush_blooms.png"
     },
     {
+      "condition": "Hurricane",
+      "map": "The Blue Gate",
+      "start": 1786831200000,
+      "end": 1786834800000,
+      "type": "major",
+      "icon": "hurricane.png"
+    },
+    {
       "condition": "Night Raid",
       "map": "Spaceport",
       "start": 1786838400000,
@@ -283,6 +275,14 @@
       "end": 1786860000000,
       "type": "major",
       "icon": "hurricane.png"
+    },
+    {
+      "condition": "Launch Tower Loot",
+      "map": "Spaceport",
+      "start": 1786863600000,
+      "end": 1786867200000,
+      "type": "minor",
+      "icon": "launch_tower_loot.png"
     },
     {
       "condition": "Close Scrutiny",
