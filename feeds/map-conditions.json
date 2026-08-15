@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T21:43:55.793Z",
+  "generatedAt": "2026-08-15T22:25:36.167Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-16T23:00:00.000Z",
@@ -76,30 +76,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Prospecting Probes",
-      "map": "Dam Battlegrounds",
-      "start": 1786827600000,
-      "end": 1786831200000,
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "Spaceport",
-      "start": 1786827600000,
-      "end": 1786831200000,
-      "type": "minor",
-      "icon": "harvester.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1786827600000,
-      "end": 1786831200000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
     {
       "condition": "Bird City",
       "map": "Buried City",
@@ -181,6 +157,14 @@
       "icon": "hidden_bunker.png"
     },
     {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1786845600000,
+      "end": 1786849200000,
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
       "condition": "Electromagnetic Storm",
       "map": "The Blue Gate",
       "start": 1786845600000,
@@ -227,6 +211,22 @@
       "end": 1786860000000,
       "type": "major",
       "icon": "hurricane.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Dam Battlegrounds",
+      "start": 1786856400000,
+      "end": 1786860000000,
+      "type": "minor",
+      "icon": "prospecting_probes.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Spaceport",
+      "start": 1786856400000,
+      "end": 1786860000000,
+      "type": "minor",
+      "icon": "harvester.png"
     },
     {
       "condition": "Launch Tower Loot",
