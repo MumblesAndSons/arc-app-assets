@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-15T09:03:53.127Z",
+  "generatedAt": "2026-08-15T09:39:31.170Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-16T06:00:00.000Z",
+  "horizonEnd": "2026-08-16T11:00:00.000Z",
   "conditions": [
     {
       "name": "Beachcombing",
@@ -307,6 +307,14 @@
       "end": 1786860000000,
       "type": "major",
       "icon": "hurricane.png"
+    },
+    {
+      "condition": "Close Scrutiny",
+      "map": "Spaceport",
+      "start": 1786874400000,
+      "end": 1786878000000,
+      "type": "major",
+      "icon": "close_scrutiny.png"
     }
   ]
 }
