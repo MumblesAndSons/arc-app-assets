@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T18:39:45.411Z",
+  "generatedAt": "2026-08-15T19:33:15.017Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-16T17:00:00.000Z",
@@ -77,38 +77,6 @@
   ],
   "entries": [
     {
-      "condition": "Lush Blooms",
-      "map": "Dam Battlegrounds",
-      "start": 1786816800000,
-      "end": 1786820400000,
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
-    {
-      "condition": "Electromagnetic Storm",
-      "map": "Spaceport",
-      "start": 1786816800000,
-      "end": 1786820400000,
-      "type": "major",
-      "icon": "electromagnetic_storm.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "Spaceport",
-      "start": 1786816800000,
-      "end": 1786820400000,
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
-    {
-      "condition": "Locked Gate",
-      "map": "The Blue Gate",
-      "start": 1786816800000,
-      "end": 1786820400000,
-      "type": "major",
-      "icon": "locked_gate.png"
-    },
-    {
       "condition": "Prospecting Probes",
       "map": "Buried City",
       "start": 1786820400000,
@@ -147,6 +115,14 @@
       "end": 1786827600000,
       "type": "major",
       "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Electromagnetic Storm",
+      "map": "Spaceport",
+      "start": 1786824000000,
+      "end": 1786827600000,
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
     },
     {
       "condition": "Matriarch",
@@ -285,12 +261,28 @@
       "icon": "launch_tower_loot.png"
     },
     {
+      "condition": "Matriarch",
+      "map": "Spaceport",
+      "start": 1786867200000,
+      "end": 1786870800000,
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
       "condition": "Close Scrutiny",
       "map": "Buried City",
       "start": 1786870800000,
       "end": 1786874400000,
       "type": "major",
       "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Lush Blooms",
+      "map": "Dam Battlegrounds",
+      "start": 1786870800000,
+      "end": 1786874400000,
+      "type": "minor",
+      "icon": "lush_blooms.png"
     },
     {
       "condition": "Close Scrutiny",
@@ -307,6 +299,14 @@
       "end": 1786881600000,
       "type": "major",
       "icon": "night_raid.png"
+    },
+    {
+      "condition": "Locked Gate",
+      "map": "The Blue Gate",
+      "start": 1786881600000,
+      "end": 1786885200000,
+      "type": "major",
+      "icon": "locked_gate.png"
     },
     {
       "condition": "Harvester",
