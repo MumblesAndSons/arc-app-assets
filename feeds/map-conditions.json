@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T05:22:03.590Z",
+  "generatedAt": "2026-08-15T06:30:08.347Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-16T06:00:00.000Z",
@@ -76,30 +76,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Matriarch",
-      "map": "Dam Battlegrounds",
-      "start": 1786770000000,
-      "end": 1786773600000,
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
-    {
-      "condition": "Launch Tower Loot",
-      "map": "Spaceport",
-      "start": 1786770000000,
-      "end": 1786773600000,
-      "type": "minor",
-      "icon": "launch_tower_loot.png"
-    },
-    {
-      "condition": "Electromagnetic Storm",
-      "map": "The Blue Gate",
-      "start": 1786770000000,
-      "end": 1786773600000,
-      "type": "major",
-      "icon": "electromagnetic_storm.png"
-    },
     {
       "condition": "Matriarch",
       "map": "Spaceport",
@@ -253,6 +229,14 @@
       "icon": "matriarch.png"
     },
     {
+      "condition": "Launch Tower Loot",
+      "map": "Spaceport",
+      "start": 1786806000000,
+      "end": 1786809600000,
+      "type": "minor",
+      "icon": "launch_tower_loot.png"
+    },
+    {
       "condition": "Electromagnetic Storm",
       "map": "Dam Battlegrounds",
       "start": 1786813200000,
@@ -299,6 +283,22 @@
       "end": 1786842000000,
       "type": "major",
       "icon": "night_raid.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Dam Battlegrounds",
+      "start": 1786845600000,
+      "end": 1786849200000,
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
+      "condition": "Electromagnetic Storm",
+      "map": "The Blue Gate",
+      "start": 1786845600000,
+      "end": 1786849200000,
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
     },
     {
       "condition": "Close Scrutiny",
