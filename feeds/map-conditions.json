@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T22:25:36.167Z",
+  "generatedAt": "2026-08-15T23:15:21.573Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-16T23:00:00.000Z",
@@ -77,30 +77,6 @@
   ],
   "entries": [
     {
-      "condition": "Bird City",
-      "map": "Buried City",
-      "start": 1786831200000,
-      "end": 1786834800000,
-      "type": "minor",
-      "icon": "bird_city.png"
-    },
-    {
-      "condition": "Lush Blooms",
-      "map": "Riven Tides",
-      "start": 1786831200000,
-      "end": 1786834800000,
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
-    {
-      "condition": "Hurricane",
-      "map": "The Blue Gate",
-      "start": 1786831200000,
-      "end": 1786834800000,
-      "type": "major",
-      "icon": "hurricane.png"
-    },
-    {
       "condition": "Electromagnetic Storm",
       "map": "Dam Battlegrounds",
       "start": 1786834800000,
@@ -125,12 +101,36 @@
       "icon": "harvester.png"
     },
     {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1786838400000,
+      "end": 1786842000000,
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Lush Blooms",
+      "map": "Riven Tides",
+      "start": 1786838400000,
+      "end": 1786842000000,
+      "type": "minor",
+      "icon": "lush_blooms.png"
+    },
+    {
       "condition": "Night Raid",
       "map": "Spaceport",
       "start": 1786838400000,
       "end": 1786842000000,
       "type": "major",
       "icon": "night_raid.png"
+    },
+    {
+      "condition": "Hurricane",
+      "map": "The Blue Gate",
+      "start": 1786838400000,
+      "end": 1786842000000,
+      "type": "major",
+      "icon": "hurricane.png"
     },
     {
       "condition": "Hurricane",
