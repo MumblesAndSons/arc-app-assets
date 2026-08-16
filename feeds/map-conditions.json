@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T20:16:46.372Z",
+  "generatedAt": "2026-08-16T21:15:17.828Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-17T20:00:00.000Z",
@@ -77,38 +77,6 @@
   ],
   "entries": [
     {
-      "condition": "Hurricane",
-      "map": "Buried City",
-      "start": 1786910400000,
-      "end": 1786914000000,
-      "type": "major",
-      "icon": "hurricane.png"
-    },
-    {
-      "condition": "Lush Blooms",
-      "map": "Dam Battlegrounds",
-      "start": 1786910400000,
-      "end": 1786914000000,
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "Spaceport",
-      "start": 1786910400000,
-      "end": 1786914000000,
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
-    {
-      "condition": "Locked Gate",
-      "map": "The Blue Gate",
-      "start": 1786910400000,
-      "end": 1786914000000,
-      "type": "major",
-      "icon": "locked_gate.png"
-    },
-    {
       "condition": "Prospecting Probes",
       "map": "Buried City",
       "start": 1786914000000,
@@ -181,6 +149,14 @@
       "icon": "prospecting_probes.png"
     },
     {
+      "condition": "Matriarch",
+      "map": "Spaceport",
+      "start": 1786924800000,
+      "end": 1786928400000,
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
       "condition": "Electromagnetic Storm",
       "map": "The Blue Gate",
       "start": 1786924800000,
@@ -243,6 +219,14 @@
       "end": 1786939200000,
       "type": "minor",
       "icon": "uncovered_caches.png"
+    },
+    {
+      "condition": "Locked Gate",
+      "map": "The Blue Gate",
+      "start": 1786935600000,
+      "end": 1786939200000,
+      "type": "major",
+      "icon": "locked_gate.png"
     },
     {
       "condition": "Uncovered Caches",
@@ -315,6 +299,14 @@
       "end": 1786964400000,
       "type": "major",
       "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Hurricane",
+      "map": "Buried City",
+      "start": 1786968000000,
+      "end": 1786971600000,
+      "type": "major",
+      "icon": "hurricane.png"
     },
     {
       "condition": "Close Scrutiny",
