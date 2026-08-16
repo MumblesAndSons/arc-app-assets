@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T10:28:35.898Z",
+  "generatedAt": "2026-08-16T11:16:16.247Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-17T11:00:00.000Z",
@@ -76,30 +76,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Prospecting Probes",
-      "map": "Buried City",
-      "start": 1786874400000,
-      "end": 1786878000000,
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
-    {
-      "condition": "Close Scrutiny",
-      "map": "Spaceport",
-      "start": 1786874400000,
-      "end": 1786878000000,
-      "type": "major",
-      "icon": "close_scrutiny.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1786874400000,
-      "end": 1786878000000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
     {
       "condition": "Night Raid",
       "map": "Riven Tides",
@@ -197,6 +173,14 @@
       "icon": "beachcombing.png"
     },
     {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1786892400000,
+      "end": 1786896000000,
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
       "condition": "Harvester",
       "map": "Dam Battlegrounds",
       "start": 1786896000000,
@@ -261,6 +245,14 @@
       "icon": "lush_blooms.png"
     },
     {
+      "condition": "Prospecting Probes",
+      "map": "Buried City",
+      "start": 1786914000000,
+      "end": 1786917600000,
+      "type": "minor",
+      "icon": "prospecting_probes.png"
+    },
+    {
       "condition": "Close Scrutiny",
       "map": "Dam Battlegrounds",
       "start": 1786917600000,
@@ -299,6 +291,14 @@
       "end": 1786932000000,
       "type": "major",
       "icon": "electromagnetic_storm.png"
+    },
+    {
+      "condition": "Close Scrutiny",
+      "map": "Spaceport",
+      "start": 1786932000000,
+      "end": 1786935600000,
+      "type": "major",
+      "icon": "close_scrutiny.png"
     },
     {
       "condition": "Uncovered Caches",
