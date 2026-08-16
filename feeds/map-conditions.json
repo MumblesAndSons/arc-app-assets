@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-16T09:02:17.576Z",
+  "generatedAt": "2026-08-16T09:40:45.285Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-17T10:00:00.000Z",
+  "horizonEnd": "2026-08-17T11:00:00.000Z",
   "conditions": [
     {
       "name": "Beachcombing",
@@ -331,6 +331,14 @@
       "end": 1786960800000,
       "type": "minor",
       "icon": "matriarch.png"
+    },
+    {
+      "condition": "Close Scrutiny",
+      "map": "The Blue Gate",
+      "start": 1786960800000,
+      "end": 1786964400000,
+      "type": "major",
+      "icon": "close_scrutiny.png"
     }
   ]
 }
