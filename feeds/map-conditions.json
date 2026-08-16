@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T18:32:08.706Z",
+  "generatedAt": "2026-08-16T19:01:45.949Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-17T20:00:00.000Z",
@@ -77,30 +77,6 @@
   ],
   "entries": [
     {
-      "condition": "Bird City",
-      "map": "Buried City",
-      "start": 1786903200000,
-      "end": 1786906800000,
-      "type": "minor",
-      "icon": "bird_city.png"
-    },
-    {
-      "condition": "Beachcombing",
-      "map": "Riven Tides",
-      "start": 1786903200000,
-      "end": 1786906800000,
-      "type": "minor",
-      "icon": "beachcombing.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1786903200000,
-      "end": 1786906800000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
       "condition": "Electromagnetic Storm",
       "map": "Dam Battlegrounds",
       "start": 1786906800000,
@@ -163,6 +139,22 @@
       "end": 1786917600000,
       "type": "minor",
       "icon": "prospecting_probes.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1786914000000,
+      "end": 1786917600000,
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1786914000000,
+      "end": 1786917600000,
+      "type": "major",
+      "icon": "night_raid.png"
     },
     {
       "condition": "Close Scrutiny",
@@ -235,6 +227,14 @@
       "end": 1786932000000,
       "type": "major",
       "icon": "electromagnetic_storm.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1786932000000,
+      "end": 1786935600000,
+      "type": "minor",
+      "icon": "bird_city.png"
     },
     {
       "condition": "Close Scrutiny",
