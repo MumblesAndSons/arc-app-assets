@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T21:43:09.109Z",
+  "generatedAt": "2026-08-16T22:22:08.497Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-17T20:00:00.000Z",
@@ -72,30 +72,6 @@
   ],
   "entries": [
     {
-      "condition": "Prospecting Probes",
-      "map": "Buried City",
-      "start": 1786914000000,
-      "end": 1786917600000,
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
-    {
-      "condition": "Beachcombing",
-      "map": "Riven Tides",
-      "start": 1786914000000,
-      "end": 1786917600000,
-      "type": "minor",
-      "icon": "beachcombing.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1786914000000,
-      "end": 1786917600000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
       "condition": "Close Scrutiny",
       "map": "Dam Battlegrounds",
       "start": 1786917600000,
@@ -126,6 +102,14 @@
       "end": 1786924800000,
       "type": "minor",
       "icon": "harvester.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1786921200000,
+      "end": 1786924800000,
+      "type": "major",
+      "icon": "night_raid.png"
     },
     {
       "condition": "Night Raid",
@@ -200,6 +184,14 @@
       "icon": "bird_city.png"
     },
     {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1786932000000,
+      "end": 1786935600000,
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
       "condition": "Close Scrutiny",
       "map": "Spaceport",
       "start": 1786932000000,
@@ -246,6 +238,14 @@
       "end": 1786946400000,
       "type": "major",
       "icon": "hidden_bunker.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Buried City",
+      "start": 1786946400000,
+      "end": 1786950000000,
+      "type": "minor",
+      "icon": "prospecting_probes.png"
     },
     {
       "condition": "Uncovered Caches",
