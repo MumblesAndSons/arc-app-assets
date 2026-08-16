@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-16T17:25:55.333Z",
+  "generatedAt": "2026-08-16T18:32:08.706Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-17T18:00:00.000Z",
+  "horizonEnd": "2026-08-17T20:00:00.000Z",
   "conditions": [
     {
       "name": "Beachcombing",
@@ -76,22 +76,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Launch Tower Loot",
-      "map": "Spaceport",
-      "start": 1786899600000,
-      "end": 1786903200000,
-      "type": "minor",
-      "icon": "launch_tower_loot.png"
-    },
-    {
-      "condition": "Hurricane",
-      "map": "The Blue Gate",
-      "start": 1786899600000,
-      "end": 1786903200000,
-      "type": "major",
-      "icon": "hurricane.png"
-    },
     {
       "condition": "Bird City",
       "map": "Buried City",
@@ -301,6 +285,22 @@
       "icon": "uncovered_caches.png"
     },
     {
+      "condition": "Launch Tower Loot",
+      "map": "Spaceport",
+      "start": 1786950000000,
+      "end": 1786953600000,
+      "type": "minor",
+      "icon": "launch_tower_loot.png"
+    },
+    {
+      "condition": "Hurricane",
+      "map": "The Blue Gate",
+      "start": 1786950000000,
+      "end": 1786953600000,
+      "type": "major",
+      "icon": "hurricane.png"
+    },
+    {
       "condition": "Matriarch",
       "map": "Dam Battlegrounds",
       "start": 1786957200000,
@@ -331,6 +331,14 @@
       "end": 1786989600000,
       "type": "minor",
       "icon": "uncovered_caches.png"
+    },
+    {
+      "condition": "Hurricane",
+      "map": "Dam Battlegrounds",
+      "start": 1786993200000,
+      "end": 1786996800000,
+      "type": "major",
+      "icon": "hurricane.png"
     }
   ]
 }
