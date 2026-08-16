@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T09:40:45.285Z",
+  "generatedAt": "2026-08-16T10:28:35.898Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-17T11:00:00.000Z",
@@ -76,30 +76,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Close Scrutiny",
-      "map": "Buried City",
-      "start": 1786870800000,
-      "end": 1786874400000,
-      "type": "major",
-      "icon": "close_scrutiny.png"
-    },
-    {
-      "condition": "Lush Blooms",
-      "map": "Dam Battlegrounds",
-      "start": 1786870800000,
-      "end": 1786874400000,
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
-    {
-      "condition": "Beachcombing",
-      "map": "Riven Tides",
-      "start": 1786870800000,
-      "end": 1786874400000,
-      "type": "minor",
-      "icon": "beachcombing.png"
-    },
     {
       "condition": "Prospecting Probes",
       "map": "Buried City",
@@ -189,6 +165,14 @@
       "icon": "harvester.png"
     },
     {
+      "condition": "Close Scrutiny",
+      "map": "Buried City",
+      "start": 1786888800000,
+      "end": 1786892400000,
+      "type": "major",
+      "icon": "close_scrutiny.png"
+    },
+    {
       "condition": "Matriarch",
       "map": "Spaceport",
       "start": 1786888800000,
@@ -203,6 +187,14 @@
       "end": 1786896000000,
       "type": "minor",
       "icon": "lush_blooms.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1786892400000,
+      "end": 1786896000000,
+      "type": "minor",
+      "icon": "beachcombing.png"
     },
     {
       "condition": "Harvester",
@@ -259,6 +251,14 @@
       "end": 1786914000000,
       "type": "major",
       "icon": "hurricane.png"
+    },
+    {
+      "condition": "Lush Blooms",
+      "map": "Dam Battlegrounds",
+      "start": 1786910400000,
+      "end": 1786914000000,
+      "type": "minor",
+      "icon": "lush_blooms.png"
     },
     {
       "condition": "Close Scrutiny",
