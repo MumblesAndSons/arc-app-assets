@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T05:34:42.596Z",
+  "generatedAt": "2026-08-16T06:00:37.641Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-17T07:00:00.000Z",
@@ -76,30 +76,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Hurricane",
-      "map": "Buried City",
-      "start": 1786856400000,
-      "end": 1786860000000,
-      "type": "major",
-      "icon": "hurricane.png"
-    },
-    {
-      "condition": "Prospecting Probes",
-      "map": "Dam Battlegrounds",
-      "start": 1786856400000,
-      "end": 1786860000000,
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "Spaceport",
-      "start": 1786856400000,
-      "end": 1786860000000,
-      "type": "minor",
-      "icon": "harvester.png"
-    },
     {
       "condition": "Bird City",
       "map": "Buried City",
@@ -213,6 +189,14 @@
       "icon": "night_raid.png"
     },
     {
+      "condition": "Harvester",
+      "map": "Spaceport",
+      "start": 1786878000000,
+      "end": 1786881600000,
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
       "condition": "Hurricane",
       "map": "The Blue Gate",
       "start": 1786878000000,
@@ -227,6 +211,14 @@
       "end": 1786885200000,
       "type": "major",
       "icon": "locked_gate.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Dam Battlegrounds",
+      "start": 1786885200000,
+      "end": 1786888800000,
+      "type": "minor",
+      "icon": "prospecting_probes.png"
     },
     {
       "condition": "Lush Blooms",
@@ -275,6 +267,14 @@
       "end": 1786910400000,
       "type": "minor",
       "icon": "prospecting_probes.png"
+    },
+    {
+      "condition": "Hurricane",
+      "map": "Buried City",
+      "start": 1786910400000,
+      "end": 1786914000000,
+      "type": "major",
+      "icon": "hurricane.png"
     },
     {
       "condition": "Close Scrutiny",
