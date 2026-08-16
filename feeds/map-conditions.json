@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-16T07:32:24.741Z",
+  "generatedAt": "2026-08-16T08:37:52.004Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-17T07:00:00.000Z",
+  "horizonEnd": "2026-08-17T10:00:00.000Z",
   "conditions": [
     {
       "name": "Beachcombing",
@@ -76,30 +76,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Matriarch",
-      "map": "Dam Battlegrounds",
-      "start": 1786863600000,
-      "end": 1786867200000,
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
-    {
-      "condition": "Launch Tower Loot",
-      "map": "Spaceport",
-      "start": 1786863600000,
-      "end": 1786867200000,
-      "type": "minor",
-      "icon": "launch_tower_loot.png"
-    },
-    {
-      "condition": "Electromagnetic Storm",
-      "map": "The Blue Gate",
-      "start": 1786863600000,
-      "end": 1786867200000,
-      "type": "major",
-      "icon": "electromagnetic_storm.png"
-    },
     {
       "condition": "Matriarch",
       "map": "Spaceport",
@@ -253,6 +229,14 @@
       "icon": "matriarch.png"
     },
     {
+      "condition": "Launch Tower Loot",
+      "map": "Spaceport",
+      "start": 1786899600000,
+      "end": 1786903200000,
+      "type": "minor",
+      "icon": "launch_tower_loot.png"
+    },
+    {
       "condition": "Electromagnetic Storm",
       "map": "Dam Battlegrounds",
       "start": 1786906800000,
@@ -293,6 +277,14 @@
       "icon": "night_raid.png"
     },
     {
+      "condition": "Electromagnetic Storm",
+      "map": "The Blue Gate",
+      "start": 1786924800000,
+      "end": 1786928400000,
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
+    },
+    {
       "condition": "Uncovered Caches",
       "map": "Dam Battlegrounds",
       "start": 1786928400000,
@@ -331,6 +323,14 @@
       "end": 1786950000000,
       "type": "minor",
       "icon": "uncovered_caches.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Dam Battlegrounds",
+      "start": 1786957200000,
+      "end": 1786960800000,
+      "type": "minor",
+      "icon": "matriarch.png"
     }
   ]
 }
