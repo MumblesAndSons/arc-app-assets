@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-16T16:00:09.035Z",
+  "generatedAt": "2026-08-16T16:34:43.663Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-17T11:00:00.000Z",
+  "horizonEnd": "2026-08-17T18:00:00.000Z",
   "conditions": [
     {
       "name": "Beachcombing",
@@ -123,6 +123,22 @@
       "end": 1786906800000,
       "type": "minor",
       "icon": "bird_city.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1786903200000,
+      "end": 1786906800000,
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1786903200000,
+      "end": 1786906800000,
+      "type": "major",
+      "icon": "night_raid.png"
     },
     {
       "condition": "Electromagnetic Storm",
@@ -299,6 +315,22 @@
       "end": 1786964400000,
       "type": "major",
       "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Close Scrutiny",
+      "map": "Buried City",
+      "start": 1786986000000,
+      "end": 1786989600000,
+      "type": "major",
+      "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Uncovered Caches",
+      "map": "The Blue Gate",
+      "start": 1786986000000,
+      "end": 1786989600000,
+      "type": "minor",
+      "icon": "uncovered_caches.png"
     }
   ]
 }
