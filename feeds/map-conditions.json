@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-16T02:40:53.841Z",
+  "generatedAt": "2026-08-16T03:32:43.987Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-17T04:00:00.000Z",
+  "horizonEnd": "2026-08-17T05:00:00.000Z",
   "conditions": [
     {
       "name": "Beachcombing",
@@ -77,38 +77,6 @@
   ],
   "entries": [
     {
-      "condition": "Matriarch",
-      "map": "Dam Battlegrounds",
-      "start": 1786845600000,
-      "end": 1786849200000,
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
-    {
-      "condition": "Hidden Bunker",
-      "map": "Spaceport",
-      "start": 1786845600000,
-      "end": 1786849200000,
-      "type": "major",
-      "icon": "hidden_bunker.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1786845600000,
-      "end": 1786849200000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Electromagnetic Storm",
-      "map": "The Blue Gate",
-      "start": 1786845600000,
-      "end": 1786849200000,
-      "type": "major",
-      "icon": "electromagnetic_storm.png"
-    },
-    {
       "condition": "Lush Blooms",
       "map": "Buried City",
       "start": 1786849200000,
@@ -139,6 +107,14 @@
       "end": 1786856400000,
       "type": "minor",
       "icon": "bird_city.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1786852800000,
+      "end": 1786856400000,
+      "type": "major",
+      "icon": "night_raid.png"
     },
     {
       "condition": "Matriarch",
@@ -181,12 +157,28 @@
       "icon": "lush_blooms.png"
     },
     {
+      "condition": "Matriarch",
+      "map": "Dam Battlegrounds",
+      "start": 1786863600000,
+      "end": 1786867200000,
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
       "condition": "Launch Tower Loot",
       "map": "Spaceport",
       "start": 1786863600000,
       "end": 1786867200000,
       "type": "minor",
       "icon": "launch_tower_loot.png"
+    },
+    {
+      "condition": "Electromagnetic Storm",
+      "map": "The Blue Gate",
+      "start": 1786863600000,
+      "end": 1786867200000,
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
     },
     {
       "condition": "Matriarch",
@@ -269,6 +261,14 @@
       "icon": "harvester.png"
     },
     {
+      "condition": "Hidden Bunker",
+      "map": "Spaceport",
+      "start": 1786896000000,
+      "end": 1786899600000,
+      "type": "major",
+      "icon": "hidden_bunker.png"
+    },
+    {
       "condition": "Electromagnetic Storm",
       "map": "Dam Battlegrounds",
       "start": 1786906800000,
@@ -321,6 +321,14 @@
       "map": "Buried City",
       "start": 1786935600000,
       "end": 1786939200000,
+      "type": "minor",
+      "icon": "uncovered_caches.png"
+    },
+    {
+      "condition": "Uncovered Caches",
+      "map": "Spaceport",
+      "start": 1786939200000,
+      "end": 1786942800000,
       "type": "minor",
       "icon": "uncovered_caches.png"
     }
