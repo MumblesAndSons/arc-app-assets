@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T18:56:59.153Z",
+  "generatedAt": "2026-08-17T19:28:09.748Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-18T20:00:00.000Z",
@@ -71,38 +71,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Bird City",
-      "map": "Buried City",
-      "start": 1786989600000,
-      "end": 1786993200000,
-      "type": "minor",
-      "icon": "bird_city.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "Dam Battlegrounds",
-      "start": 1786989600000,
-      "end": 1786993200000,
-      "type": "minor",
-      "icon": "harvester.png"
-    },
-    {
-      "condition": "Hidden Bunker",
-      "map": "Spaceport",
-      "start": 1786989600000,
-      "end": 1786993200000,
-      "type": "major",
-      "icon": "hidden_bunker.png"
-    },
-    {
-      "condition": "Electromagnetic Storm",
-      "map": "The Blue Gate",
-      "start": 1786989600000,
-      "end": 1786993200000,
-      "type": "major",
-      "icon": "electromagnetic_storm.png"
-    },
     {
       "condition": "Hurricane",
       "map": "Dam Battlegrounds",
@@ -224,6 +192,14 @@
       "icon": "close_scrutiny.png"
     },
     {
+      "condition": "Electromagnetic Storm",
+      "map": "The Blue Gate",
+      "start": 1787018400000,
+      "end": 1787022000000,
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
+    },
+    {
       "condition": "Uncovered Caches",
       "map": "Dam Battlegrounds",
       "start": 1787022000000,
@@ -238,6 +214,14 @@
       "end": 1787025600000,
       "type": "major",
       "icon": "night_raid.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1787025600000,
+      "end": 1787029200000,
+      "type": "minor",
+      "icon": "bird_city.png"
     },
     {
       "condition": "Close Scrutiny",
@@ -270,6 +254,22 @@
       "end": 1787036400000,
       "type": "minor",
       "icon": "matriarch.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Dam Battlegrounds",
+      "start": 1787036400000,
+      "end": 1787040000000,
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
+      "condition": "Hidden Bunker",
+      "map": "Spaceport",
+      "start": 1787036400000,
+      "end": 1787040000000,
+      "type": "major",
+      "icon": "hidden_bunker.png"
     },
     {
       "condition": "Launch Tower Loot",
