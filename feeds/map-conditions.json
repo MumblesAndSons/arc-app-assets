@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T17:43:23.136Z",
+  "generatedAt": "2026-08-17T18:04:03.454Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-18T15:00:00.000Z",
@@ -71,22 +71,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Close Scrutiny",
-      "map": "Buried City",
-      "start": 1786986000000,
-      "end": 1786989600000,
-      "type": "major",
-      "icon": "close_scrutiny.png"
-    },
-    {
-      "condition": "Uncovered Caches",
-      "map": "The Blue Gate",
-      "start": 1786986000000,
-      "end": 1786989600000,
-      "type": "minor",
-      "icon": "uncovered_caches.png"
-    },
     {
       "condition": "Bird City",
       "map": "Buried City",
