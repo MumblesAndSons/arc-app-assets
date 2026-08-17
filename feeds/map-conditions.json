@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-17T01:17:00.436Z",
+  "generatedAt": "2026-08-17T02:39:26.306Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-18T00:00:00.000Z",
+  "horizonEnd": "2026-08-18T04:00:00.000Z",
   "conditions": [
     {
       "name": "Beachcombing",
@@ -71,38 +71,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Uncovered Caches",
-      "map": "Dam Battlegrounds",
-      "start": 1786928400000,
-      "end": 1786932000000,
-      "type": "minor",
-      "icon": "uncovered_caches.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Riven Tides",
-      "start": 1786928400000,
-      "end": 1786932000000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Electromagnetic Storm",
-      "map": "Spaceport",
-      "start": 1786928400000,
-      "end": 1786932000000,
-      "type": "major",
-      "icon": "electromagnetic_storm.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "The Blue Gate",
-      "start": 1786928400000,
-      "end": 1786932000000,
-      "type": "minor",
-      "icon": "harvester.png"
-    },
     {
       "condition": "Bird City",
       "map": "Buried City",
@@ -232,6 +200,14 @@
       "icon": "electromagnetic_storm.png"
     },
     {
+      "condition": "Harvester",
+      "map": "The Blue Gate",
+      "start": 1786953600000,
+      "end": 1786957200000,
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
       "condition": "Matriarch",
       "map": "Dam Battlegrounds",
       "start": 1786957200000,
@@ -262,6 +238,14 @@
       "end": 1786975200000,
       "type": "minor",
       "icon": "matriarch.png"
+    },
+    {
+      "condition": "Electromagnetic Storm",
+      "map": "Spaceport",
+      "start": 1786978800000,
+      "end": 1786982400000,
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
     },
     {
       "condition": "Close Scrutiny",
@@ -302,6 +286,22 @@
       "end": 1787011200000,
       "type": "minor",
       "icon": "harvester.png"
+    },
+    {
+      "condition": "Uncovered Caches",
+      "map": "Dam Battlegrounds",
+      "start": 1787022000000,
+      "end": 1787025600000,
+      "type": "minor",
+      "icon": "uncovered_caches.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Riven Tides",
+      "start": 1787022000000,
+      "end": 1787025600000,
+      "type": "major",
+      "icon": "night_raid.png"
     }
   ]
 }
