@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T09:08:03.785Z",
+  "generatedAt": "2026-08-17T10:30:22.502Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-18T05:00:00.000Z",
@@ -72,30 +72,6 @@
   ],
   "entries": [
     {
-      "condition": "Bird City",
-      "map": "Buried City",
-      "start": 1786957200000,
-      "end": 1786960800000,
-      "type": "minor",
-      "icon": "bird_city.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "Dam Battlegrounds",
-      "start": 1786957200000,
-      "end": 1786960800000,
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1786957200000,
-      "end": 1786960800000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
       "condition": "Beachcombing",
       "map": "Riven Tides",
       "start": 1786960800000,
@@ -118,6 +94,14 @@
       "end": 1786964400000,
       "type": "major",
       "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1786964400000,
+      "end": 1786968000000,
+      "type": "major",
+      "icon": "night_raid.png"
     },
     {
       "condition": "Matriarch",
@@ -184,6 +168,14 @@
       "icon": "harvester.png"
     },
     {
+      "condition": "Matriarch",
+      "map": "Dam Battlegrounds",
+      "start": 1786978800000,
+      "end": 1786982400000,
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
       "condition": "Electromagnetic Storm",
       "map": "Spaceport",
       "start": 1786978800000,
@@ -214,6 +206,14 @@
       "end": 1786989600000,
       "type": "minor",
       "icon": "uncovered_caches.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1786989600000,
+      "end": 1786993200000,
+      "type": "minor",
+      "icon": "bird_city.png"
     },
     {
       "condition": "Hidden Bunker",
