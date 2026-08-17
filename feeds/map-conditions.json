@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T03:32:45.987Z",
+  "generatedAt": "2026-08-17T04:25:08.019Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-18T05:00:00.000Z",
@@ -71,30 +71,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Uncovered Caches",
-      "map": "Buried City",
-      "start": 1786935600000,
-      "end": 1786939200000,
-      "type": "minor",
-      "icon": "uncovered_caches.png"
-    },
-    {
-      "condition": "Prospecting Probes",
-      "map": "Riven Tides",
-      "start": 1786935600000,
-      "end": 1786939200000,
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
-    {
-      "condition": "Locked Gate",
-      "map": "The Blue Gate",
-      "start": 1786935600000,
-      "end": 1786939200000,
-      "type": "major",
-      "icon": "locked_gate.png"
-    },
     {
       "condition": "Uncovered Caches",
       "map": "Spaceport",
@@ -232,6 +208,14 @@
       "icon": "matriarch.png"
     },
     {
+      "condition": "Locked Gate",
+      "map": "The Blue Gate",
+      "start": 1786971600000,
+      "end": 1786975200000,
+      "type": "major",
+      "icon": "locked_gate.png"
+    },
+    {
       "condition": "Electromagnetic Storm",
       "map": "Spaceport",
       "start": 1786978800000,
@@ -270,6 +254,22 @@
       "end": 1786996800000,
       "type": "major",
       "icon": "hurricane.png"
+    },
+    {
+      "condition": "Uncovered Caches",
+      "map": "Buried City",
+      "start": 1787004000000,
+      "end": 1787007600000,
+      "type": "minor",
+      "icon": "uncovered_caches.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Riven Tides",
+      "start": 1787004000000,
+      "end": 1787007600000,
+      "type": "minor",
+      "icon": "prospecting_probes.png"
     },
     {
       "condition": "Harvester",
