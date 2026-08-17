@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-17T12:53:12.641Z",
+  "generatedAt": "2026-08-17T13:35:40.121Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-18T07:00:00.000Z",
+  "horizonEnd": "2026-08-18T15:00:00.000Z",
   "conditions": [
     {
       "name": "Beachcombing",
@@ -71,22 +71,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Hurricane",
-      "map": "Buried City",
-      "start": 1786968000000,
-      "end": 1786971600000,
-      "type": "major",
-      "icon": "hurricane.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "Dam Battlegrounds",
-      "start": 1786968000000,
-      "end": 1786971600000,
-      "type": "minor",
-      "icon": "harvester.png"
-    },
     {
       "condition": "Uncovered Caches",
       "map": "Riven Tides",
@@ -190,6 +174,14 @@
       "end": 1786993200000,
       "type": "minor",
       "icon": "bird_city.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Dam Battlegrounds",
+      "start": 1786989600000,
+      "end": 1786993200000,
+      "type": "minor",
+      "icon": "harvester.png"
     },
     {
       "condition": "Hidden Bunker",
@@ -302,6 +294,14 @@
       "end": 1787036400000,
       "type": "minor",
       "icon": "matriarch.png"
+    },
+    {
+      "condition": "Hurricane",
+      "map": "Buried City",
+      "start": 1787061600000,
+      "end": 1787065200000,
+      "type": "major",
+      "icon": "hurricane.png"
     }
   ]
 }
