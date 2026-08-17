@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-17T18:04:03.454Z",
+  "generatedAt": "2026-08-17T18:56:59.153Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-18T15:00:00.000Z",
+  "horizonEnd": "2026-08-18T20:00:00.000Z",
   "conditions": [
     {
       "name": "Beachcombing",
@@ -286,6 +286,22 @@
       "end": 1787065200000,
       "type": "major",
       "icon": "hurricane.png"
+    },
+    {
+      "condition": "Close Scrutiny",
+      "map": "Buried City",
+      "start": 1787079600000,
+      "end": 1787083200000,
+      "type": "major",
+      "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Uncovered Caches",
+      "map": "The Blue Gate",
+      "start": 1787079600000,
+      "end": 1787083200000,
+      "type": "minor",
+      "icon": "uncovered_caches.png"
     }
   ]
 }
