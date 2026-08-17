@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T19:28:09.748Z",
+  "generatedAt": "2026-08-17T20:20:49.809Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-18T20:00:00.000Z",
@@ -72,38 +72,6 @@
   ],
   "entries": [
     {
-      "condition": "Hurricane",
-      "map": "Dam Battlegrounds",
-      "start": 1786993200000,
-      "end": 1786996800000,
-      "type": "major",
-      "icon": "hurricane.png"
-    },
-    {
-      "condition": "Uncovered Caches",
-      "map": "Riven Tides",
-      "start": 1786993200000,
-      "end": 1786996800000,
-      "type": "minor",
-      "icon": "uncovered_caches.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "Spaceport",
-      "start": 1786993200000,
-      "end": 1786996800000,
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1786993200000,
-      "end": 1786996800000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
       "condition": "Electromagnetic Storm",
       "map": "Dam Battlegrounds",
       "start": 1786996800000,
@@ -134,6 +102,14 @@
       "end": 1787004000000,
       "type": "minor",
       "icon": "matriarch.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1787000400000,
+      "end": 1787004000000,
+      "type": "major",
+      "icon": "night_raid.png"
     },
     {
       "condition": "Harvester",
@@ -190,6 +166,22 @@
       "end": 1787011200000,
       "type": "major",
       "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Hurricane",
+      "map": "Dam Battlegrounds",
+      "start": 1787011200000,
+      "end": 1787014800000,
+      "type": "major",
+      "icon": "hurricane.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Spaceport",
+      "start": 1787018400000,
+      "end": 1787022000000,
+      "type": "minor",
+      "icon": "matriarch.png"
     },
     {
       "condition": "Electromagnetic Storm",
@@ -270,6 +262,14 @@
       "end": 1787040000000,
       "type": "major",
       "icon": "hidden_bunker.png"
+    },
+    {
+      "condition": "Uncovered Caches",
+      "map": "Riven Tides",
+      "start": 1787040000000,
+      "end": 1787043600000,
+      "type": "minor",
+      "icon": "uncovered_caches.png"
     },
     {
       "condition": "Launch Tower Loot",
