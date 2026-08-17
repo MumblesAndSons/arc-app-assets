@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T07:39:27.209Z",
+  "generatedAt": "2026-08-17T08:24:03.642Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-18T05:00:00.000Z",
@@ -71,22 +71,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Launch Tower Loot",
-      "map": "Spaceport",
-      "start": 1786950000000,
-      "end": 1786953600000,
-      "type": "minor",
-      "icon": "launch_tower_loot.png"
-    },
-    {
-      "condition": "Hurricane",
-      "map": "The Blue Gate",
-      "start": 1786950000000,
-      "end": 1786953600000,
-      "type": "major",
-      "icon": "hurricane.png"
-    },
     {
       "condition": "Electromagnetic Storm",
       "map": "Dam Battlegrounds",
@@ -216,6 +200,14 @@
       "icon": "electromagnetic_storm.png"
     },
     {
+      "condition": "Launch Tower Loot",
+      "map": "Spaceport",
+      "start": 1786982400000,
+      "end": 1786986000000,
+      "type": "minor",
+      "icon": "launch_tower_loot.png"
+    },
+    {
       "condition": "Close Scrutiny",
       "map": "Buried City",
       "start": 1786986000000,
@@ -252,6 +244,14 @@
       "map": "Dam Battlegrounds",
       "start": 1786993200000,
       "end": 1786996800000,
+      "type": "major",
+      "icon": "hurricane.png"
+    },
+    {
+      "condition": "Hurricane",
+      "map": "The Blue Gate",
+      "start": 1786996800000,
+      "end": 1787000400000,
       "type": "major",
       "icon": "hurricane.png"
     },
