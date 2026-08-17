@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T22:19:36.541Z",
+  "generatedAt": "2026-08-17T23:18:44.191Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-18T20:00:00.000Z",
@@ -72,30 +72,6 @@
   ],
   "entries": [
     {
-      "condition": "Uncovered Caches",
-      "map": "Buried City",
-      "start": 1787004000000,
-      "end": 1787007600000,
-      "type": "minor",
-      "icon": "uncovered_caches.png"
-    },
-    {
-      "condition": "Prospecting Probes",
-      "map": "Riven Tides",
-      "start": 1787004000000,
-      "end": 1787007600000,
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
-    {
-      "condition": "Electromagnetic Storm",
-      "map": "Spaceport",
-      "start": 1787004000000,
-      "end": 1787007600000,
-      "type": "major",
-      "icon": "electromagnetic_storm.png"
-    },
-    {
       "condition": "Prospecting Probes",
       "map": "Buried City",
       "start": 1787007600000,
@@ -120,12 +96,36 @@
       "icon": "close_scrutiny.png"
     },
     {
+      "condition": "Uncovered Caches",
+      "map": "Buried City",
+      "start": 1787011200000,
+      "end": 1787014800000,
+      "type": "minor",
+      "icon": "uncovered_caches.png"
+    },
+    {
       "condition": "Hurricane",
       "map": "Dam Battlegrounds",
       "start": 1787011200000,
       "end": 1787014800000,
       "type": "major",
       "icon": "hurricane.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Riven Tides",
+      "start": 1787011200000,
+      "end": 1787014800000,
+      "type": "minor",
+      "icon": "prospecting_probes.png"
+    },
+    {
+      "condition": "Electromagnetic Storm",
+      "map": "Spaceport",
+      "start": 1787011200000,
+      "end": 1787014800000,
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
     },
     {
       "condition": "Electromagnetic Storm",
