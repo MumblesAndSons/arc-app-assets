@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T14:04:45.023Z",
+  "generatedAt": "2026-08-17T15:02:43.301Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-18T15:00:00.000Z",
@@ -72,30 +72,6 @@
   ],
   "entries": [
     {
-      "condition": "Prospecting Probes",
-      "map": "Buried City",
-      "start": 1786975200000,
-      "end": 1786978800000,
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1786975200000,
-      "end": 1786978800000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "The Blue Gate",
-      "start": 1786975200000,
-      "end": 1786978800000,
-      "type": "minor",
-      "icon": "harvester.png"
-    },
-    {
       "condition": "Matriarch",
       "map": "Dam Battlegrounds",
       "start": 1786978800000,
@@ -126,6 +102,14 @@
       "end": 1786986000000,
       "type": "minor",
       "icon": "launch_tower_loot.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1786982400000,
+      "end": 1786986000000,
+      "type": "major",
+      "icon": "night_raid.png"
     },
     {
       "condition": "Close Scrutiny",
@@ -216,6 +200,14 @@
       "icon": "hurricane.png"
     },
     {
+      "condition": "Harvester",
+      "map": "The Blue Gate",
+      "start": 1787000400000,
+      "end": 1787004000000,
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
       "condition": "Uncovered Caches",
       "map": "Buried City",
       "start": 1787004000000,
@@ -228,6 +220,14 @@
       "map": "Riven Tides",
       "start": 1787004000000,
       "end": 1787007600000,
+      "type": "minor",
+      "icon": "prospecting_probes.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Buried City",
+      "start": 1787007600000,
+      "end": 1787011200000,
       "type": "minor",
       "icon": "prospecting_probes.png"
     },
