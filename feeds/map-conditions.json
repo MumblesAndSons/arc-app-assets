@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T04:25:08.019Z",
+  "generatedAt": "2026-08-17T05:06:48.856Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-18T05:00:00.000Z",
@@ -72,30 +72,6 @@
   ],
   "entries": [
     {
-      "condition": "Uncovered Caches",
-      "map": "Spaceport",
-      "start": 1786939200000,
-      "end": 1786942800000,
-      "type": "minor",
-      "icon": "uncovered_caches.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1786939200000,
-      "end": 1786942800000,
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "The Blue Gate",
-      "start": 1786939200000,
-      "end": 1786942800000,
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
-    {
       "condition": "Harvester",
       "map": "Dam Battlegrounds",
       "start": 1786942800000,
@@ -126,6 +102,14 @@
       "end": 1786950000000,
       "type": "minor",
       "icon": "uncovered_caches.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1786946400000,
+      "end": 1786950000000,
+      "type": "major",
+      "icon": "night_raid.png"
     },
     {
       "condition": "Launch Tower Loot",
@@ -184,12 +168,28 @@
       "icon": "beachcombing.png"
     },
     {
+      "condition": "Uncovered Caches",
+      "map": "Spaceport",
+      "start": 1786960800000,
+      "end": 1786964400000,
+      "type": "minor",
+      "icon": "uncovered_caches.png"
+    },
+    {
       "condition": "Close Scrutiny",
       "map": "The Blue Gate",
       "start": 1786960800000,
       "end": 1786964400000,
       "type": "major",
       "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "The Blue Gate",
+      "start": 1786964400000,
+      "end": 1786968000000,
+      "type": "minor",
+      "icon": "matriarch.png"
     },
     {
       "condition": "Hurricane",
