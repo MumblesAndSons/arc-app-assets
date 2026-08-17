@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-17T10:30:22.502Z",
+  "generatedAt": "2026-08-17T11:02:00.523Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-18T05:00:00.000Z",
+  "horizonEnd": "2026-08-18T07:00:00.000Z",
   "conditions": [
     {
       "name": "Beachcombing",
@@ -71,30 +71,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Beachcombing",
-      "map": "Riven Tides",
-      "start": 1786960800000,
-      "end": 1786964400000,
-      "type": "minor",
-      "icon": "beachcombing.png"
-    },
-    {
-      "condition": "Uncovered Caches",
-      "map": "Spaceport",
-      "start": 1786960800000,
-      "end": 1786964400000,
-      "type": "minor",
-      "icon": "uncovered_caches.png"
-    },
-    {
-      "condition": "Close Scrutiny",
-      "map": "The Blue Gate",
-      "start": 1786960800000,
-      "end": 1786964400000,
-      "type": "major",
-      "icon": "close_scrutiny.png"
-    },
     {
       "condition": "Night Raid",
       "map": "Stella Montis",
@@ -182,6 +158,14 @@
       "end": 1786982400000,
       "type": "major",
       "icon": "electromagnetic_storm.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1786982400000,
+      "end": 1786986000000,
+      "type": "minor",
+      "icon": "beachcombing.png"
     },
     {
       "condition": "Launch Tower Loot",
@@ -280,6 +264,14 @@
       "icon": "harvester.png"
     },
     {
+      "condition": "Close Scrutiny",
+      "map": "The Blue Gate",
+      "start": 1787007600000,
+      "end": 1787011200000,
+      "type": "major",
+      "icon": "close_scrutiny.png"
+    },
+    {
       "condition": "Uncovered Caches",
       "map": "Dam Battlegrounds",
       "start": 1787022000000,
@@ -302,6 +294,14 @@
       "end": 1787029200000,
       "type": "major",
       "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Uncovered Caches",
+      "map": "Spaceport",
+      "start": 1787032800000,
+      "end": 1787036400000,
+      "type": "minor",
+      "icon": "uncovered_caches.png"
     }
   ]
 }
