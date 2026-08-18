@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T00:58:10.173Z",
+  "generatedAt": "2026-08-18T02:16:24.398Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-19T01:00:00.000Z",
@@ -72,68 +72,20 @@
   ],
   "entries": [
     {
-      "condition": "Uncovered Caches",
-      "map": "Buried City",
-      "start": 1787011200000,
-      "end": 1787014800000,
-      "type": "minor",
-      "icon": "uncovered_caches.png"
-    },
-    {
       "condition": "Hurricane",
       "map": "Dam Battlegrounds",
-      "start": 1787011200000,
-      "end": 1787014800000,
+      "start": 1787018400000,
+      "end": 1787022000000,
       "type": "major",
       "icon": "hurricane.png"
     },
     {
       "condition": "Prospecting Probes",
       "map": "Riven Tides",
-      "start": 1787011200000,
-      "end": 1787014800000,
+      "start": 1787018400000,
+      "end": 1787022000000,
       "type": "minor",
       "icon": "prospecting_probes.png"
-    },
-    {
-      "condition": "Electromagnetic Storm",
-      "map": "Spaceport",
-      "start": 1787011200000,
-      "end": 1787014800000,
-      "type": "major",
-      "icon": "electromagnetic_storm.png"
-    },
-    {
-      "condition": "Prospecting Probes",
-      "map": "Buried City",
-      "start": 1787014800000,
-      "end": 1787018400000,
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
-    {
-      "condition": "Electromagnetic Storm",
-      "map": "Dam Battlegrounds",
-      "start": 1787014800000,
-      "end": 1787018400000,
-      "type": "major",
-      "icon": "electromagnetic_storm.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "Spaceport",
-      "start": 1787014800000,
-      "end": 1787018400000,
-      "type": "minor",
-      "icon": "harvester.png"
-    },
-    {
-      "condition": "Close Scrutiny",
-      "map": "The Blue Gate",
-      "start": 1787014800000,
-      "end": 1787018400000,
-      "type": "major",
-      "icon": "close_scrutiny.png"
     },
     {
       "condition": "Matriarch",
@@ -200,6 +152,14 @@
       "icon": "close_scrutiny.png"
     },
     {
+      "condition": "Uncovered Caches",
+      "map": "Buried City",
+      "start": 1787029200000,
+      "end": 1787032800000,
+      "type": "minor",
+      "icon": "uncovered_caches.png"
+    },
+    {
       "condition": "Locked Gate",
       "map": "The Blue Gate",
       "start": 1787029200000,
@@ -248,6 +208,14 @@
       "icon": "hidden_bunker.png"
     },
     {
+      "condition": "Prospecting Probes",
+      "map": "Buried City",
+      "start": 1787040000000,
+      "end": 1787043600000,
+      "type": "minor",
+      "icon": "prospecting_probes.png"
+    },
+    {
       "condition": "Uncovered Caches",
       "map": "Riven Tides",
       "start": 1787040000000,
@@ -272,6 +240,14 @@
       "icon": "hurricane.png"
     },
     {
+      "condition": "Electromagnetic Storm",
+      "map": "Dam Battlegrounds",
+      "start": 1787047200000,
+      "end": 1787050800000,
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
+    },
+    {
       "condition": "Matriarch",
       "map": "Dam Battlegrounds",
       "start": 1787050800000,
@@ -280,12 +256,28 @@
       "icon": "matriarch.png"
     },
     {
+      "condition": "Close Scrutiny",
+      "map": "The Blue Gate",
+      "start": 1787054400000,
+      "end": 1787058000000,
+      "type": "major",
+      "icon": "close_scrutiny.png"
+    },
+    {
       "condition": "Hurricane",
       "map": "Buried City",
       "start": 1787061600000,
       "end": 1787065200000,
       "type": "major",
       "icon": "hurricane.png"
+    },
+    {
+      "condition": "Electromagnetic Storm",
+      "map": "Spaceport",
+      "start": 1787072400000,
+      "end": 1787076000000,
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
     },
     {
       "condition": "Close Scrutiny",
