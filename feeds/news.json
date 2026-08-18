@@ -1,7 +1,17 @@
 {
-  "generatedAt": "2026-08-12T16:35:35.173Z",
+  "generatedAt": "2026-08-18T09:27:46.838Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
+    {
+      "id": "live-update-1-42-0",
+      "title": "Live Update 1.42.0",
+      "date": "August 18, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/efc9be14-9630-store-update-1.42-card-300x200-300x200.png",
+      "tags": [
+        "Patch Notes"
+      ],
+      "summary": "Update 1.42.0 has gone live, bringing a set of fixes, the second part of the Phantom Targets event featuring the Anomalia Outfit, a fresh Player Project, a smarter map condition schedule, and new Twitch drops."
+    },
     {
       "id": "frozen-trail-is-coming-october-8th",
       "title": "Frozen Trail is coming October 8!",
@@ -363,16 +373,6 @@
       "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/71f5261a-e983-quick-guide-to-trials-season-3-card-300x200-300x200.png",
       "tags": [],
       "summary": "**Get moving, Raiders, Season 3 of Trials has now begun!**"
-    },
-    {
-      "id": "patch-notes-1-18-0",
-      "title": "Patch Notes 1.18.0",
-      "date": "March 3, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/temp/articles/generic-300x200.png",
-      "tags": [
-        "Patch Notes"
-      ],
-      "summary": "A new update is available to download now. Restart your client to get it."
     }
   ]
 }

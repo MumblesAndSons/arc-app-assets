@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T08:02:13.716Z",
+  "generatedAt": "2026-08-18T09:27:19.724Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-19T07:00:00.000Z",
@@ -50,6 +50,11 @@
       "icon": "locked_gate.png"
     },
     {
+      "name": "Lush Blooms",
+      "type": "minor",
+      "icon": "lush_blooms.png"
+    },
+    {
       "name": "Matriarch",
       "type": "minor",
       "icon": "matriarch.png"
@@ -74,24 +79,16 @@
     {
       "condition": "Prospecting Probes",
       "map": "Buried City",
-      "start": 1787040000000,
-      "end": 1787043600000,
+      "start": 1787043600000,
+      "end": 1787047200000,
       "type": "minor",
       "icon": "prospecting_probes.png"
     },
     {
-      "condition": "Uncovered Caches",
-      "map": "Riven Tides",
-      "start": 1787040000000,
-      "end": 1787043600000,
-      "type": "minor",
-      "icon": "uncovered_caches.png"
-    },
-    {
       "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1787040000000,
-      "end": 1787043600000,
+      "map": "Riven Tides",
+      "start": 1787043600000,
+      "end": 1787047200000,
       "type": "major",
       "icon": "night_raid.png"
     },
@@ -121,6 +118,30 @@
     },
     {
       "condition": "Harvester",
+      "map": "Dam Battlegrounds",
+      "start": 1787047200000,
+      "end": 1787050800000,
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Riven Tides",
+      "start": 1787047200000,
+      "end": 1787050800000,
+      "type": "minor",
+      "icon": "prospecting_probes.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1787047200000,
+      "end": 1787050800000,
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Harvester",
       "map": "The Blue Gate",
       "start": 1787047200000,
       "end": 1787050800000,
@@ -144,6 +165,38 @@
       "icon": "matriarch.png"
     },
     {
+      "condition": "Matriarch",
+      "map": "Spaceport",
+      "start": 1787050800000,
+      "end": 1787054400000,
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "The Blue Gate",
+      "start": 1787050800000,
+      "end": 1787054400000,
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1787054400000,
+      "end": 1787058000000,
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Electromagnetic Storm",
+      "map": "Dam Battlegrounds",
+      "start": 1787054400000,
+      "end": 1787058000000,
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
+    },
+    {
       "condition": "Beachcombing",
       "map": "Riven Tides",
       "start": 1787054400000,
@@ -164,6 +217,38 @@
       "map": "The Blue Gate",
       "start": 1787054400000,
       "end": 1787058000000,
+      "type": "major",
+      "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Dam Battlegrounds",
+      "start": 1787058000000,
+      "end": 1787061600000,
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Dam Battlegrounds",
+      "start": 1787058000000,
+      "end": 1787061600000,
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1787058000000,
+      "end": 1787061600000,
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
+      "condition": "Close Scrutiny",
+      "map": "Spaceport",
+      "start": 1787058000000,
+      "end": 1787061600000,
       "type": "major",
       "icon": "close_scrutiny.png"
     },
@@ -192,6 +277,38 @@
       "icon": "harvester.png"
     },
     {
+      "condition": "Harvester",
+      "map": "Spaceport",
+      "start": 1787061600000,
+      "end": 1787065200000,
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
+      "condition": "Electromagnetic Storm",
+      "map": "The Blue Gate",
+      "start": 1787061600000,
+      "end": 1787065200000,
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
+    },
+    {
+      "condition": "Uncovered Caches",
+      "map": "Buried City",
+      "start": 1787065200000,
+      "end": 1787068800000,
+      "type": "minor",
+      "icon": "uncovered_caches.png"
+    },
+    {
+      "condition": "Hidden Bunker",
+      "map": "Spaceport",
+      "start": 1787065200000,
+      "end": 1787068800000,
+      "type": "major",
+      "icon": "hidden_bunker.png"
+    },
+    {
       "condition": "Matriarch",
       "map": "Spaceport",
       "start": 1787065200000,
@@ -210,10 +327,34 @@
     {
       "condition": "Electromagnetic Storm",
       "map": "Spaceport",
+      "start": 1787068800000,
+      "end": 1787072400000,
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
+    },
+    {
+      "condition": "Electromagnetic Storm",
+      "map": "Spaceport",
       "start": 1787072400000,
       "end": 1787076000000,
       "type": "major",
       "icon": "electromagnetic_storm.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "The Blue Gate",
+      "start": 1787072400000,
+      "end": 1787076000000,
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
+      "condition": "Close Scrutiny",
+      "map": "Dam Battlegrounds",
+      "start": 1787076000000,
+      "end": 1787079600000,
+      "type": "major",
+      "icon": "close_scrutiny.png"
     },
     {
       "condition": "Close Scrutiny",
@@ -230,6 +371,14 @@
       "end": 1787083200000,
       "type": "major",
       "icon": "hurricane.png"
+    },
+    {
+      "condition": "Locked Gate",
+      "map": "The Blue Gate",
+      "start": 1787079600000,
+      "end": 1787083200000,
+      "type": "major",
+      "icon": "locked_gate.png"
     },
     {
       "condition": "Uncovered Caches",
@@ -254,6 +403,30 @@
       "end": 1787086800000,
       "type": "major",
       "icon": "electromagnetic_storm.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "The Blue Gate",
+      "start": 1787083200000,
+      "end": 1787086800000,
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
+      "condition": "Close Scrutiny",
+      "map": "Buried City",
+      "start": 1787090400000,
+      "end": 1787094000000,
+      "type": "major",
+      "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Uncovered Caches",
+      "map": "Spaceport",
+      "start": 1787094000000,
+      "end": 1787097600000,
+      "type": "minor",
+      "icon": "uncovered_caches.png"
     },
     {
       "condition": "Night Raid",
@@ -288,6 +461,14 @@
       "icon": "harvester.png"
     },
     {
+      "condition": "Launch Tower Loot",
+      "map": "Spaceport",
+      "start": 1787112000000,
+      "end": 1787115600000,
+      "type": "minor",
+      "icon": "launch_tower_loot.png"
+    },
+    {
       "condition": "Uncovered Caches",
       "map": "Dam Battlegrounds",
       "start": 1787115600000,
@@ -298,6 +479,14 @@
     {
       "condition": "Night Raid",
       "map": "Riven Tides",
+      "start": 1787115600000,
+      "end": 1787119200000,
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Spaceport",
       "start": 1787115600000,
       "end": 1787119200000,
       "type": "major",
