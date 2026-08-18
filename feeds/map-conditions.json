@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T07:24:02.849Z",
+  "generatedAt": "2026-08-18T08:02:13.716Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-19T07:00:00.000Z",
@@ -71,22 +71,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Harvester",
-      "map": "Dam Battlegrounds",
-      "start": 1787036400000,
-      "end": 1787040000000,
-      "type": "minor",
-      "icon": "harvester.png"
-    },
-    {
-      "condition": "Hidden Bunker",
-      "map": "Spaceport",
-      "start": 1787036400000,
-      "end": 1787040000000,
-      "type": "major",
-      "icon": "hidden_bunker.png"
-    },
     {
       "condition": "Prospecting Probes",
       "map": "Buried City",
@@ -200,6 +184,14 @@
       "icon": "hurricane.png"
     },
     {
+      "condition": "Harvester",
+      "map": "Dam Battlegrounds",
+      "start": 1787061600000,
+      "end": 1787065200000,
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
       "condition": "Matriarch",
       "map": "Spaceport",
       "start": 1787065200000,
@@ -246,6 +238,14 @@
       "end": 1787083200000,
       "type": "minor",
       "icon": "uncovered_caches.png"
+    },
+    {
+      "condition": "Hidden Bunker",
+      "map": "Spaceport",
+      "start": 1787083200000,
+      "end": 1787086800000,
+      "type": "major",
+      "icon": "hidden_bunker.png"
     },
     {
       "condition": "Electromagnetic Storm",
