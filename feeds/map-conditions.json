@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-18T04:06:18.642Z",
+  "generatedAt": "2026-08-18T04:50:28.825Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-19T04:00:00.000Z",
+  "horizonEnd": "2026-08-19T06:00:00.000Z",
   "conditions": [
     {
       "name": "Beachcombing",
@@ -294,6 +294,22 @@
       "end": 1787112000000,
       "type": "minor",
       "icon": "harvester.png"
+    },
+    {
+      "condition": "Uncovered Caches",
+      "map": "Dam Battlegrounds",
+      "start": 1787115600000,
+      "end": 1787119200000,
+      "type": "minor",
+      "icon": "uncovered_caches.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Riven Tides",
+      "start": 1787115600000,
+      "end": 1787119200000,
+      "type": "major",
+      "icon": "night_raid.png"
     }
   ]
 }
