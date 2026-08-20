@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-08-18T09:27:46.838Z",
+  "generatedAt": "2026-08-20T13:32:33.481Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
+    {
+      "id": "subway-arc-raiders-partnership",
+      "title": "ARC Raiders x Subway: Exclusive Subterranean outfit",
+      "date": "August 20, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/244efe07-a253-subway-card-300x200-300x200.png",
+      "tags": [],
+      "summary": "# ARC Raiders x Subway: Exclusive Subterranean outfit"
+    },
     {
       "id": "live-update-1-42-0",
       "title": "Live Update 1.42.0",
@@ -365,14 +373,6 @@
       "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/b2497c52-88a1-storm-stories-card-300x200-300x200.png",
       "tags": [],
       "summary": "# Community competition: Show your best ‘Storm Stories’"
-    },
-    {
-      "id": "quick-guide-to-trials-season-3",
-      "title": "Trials season 3: what you need to know",
-      "date": "March 3, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/71f5261a-e983-quick-guide-to-trials-season-3-card-300x200-300x200.png",
-      "tags": [],
-      "summary": "**Get moving, Raiders, Season 3 of Trials has now begun!**"
     }
   ]
 }
