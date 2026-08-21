@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-08-20T13:32:33.481Z",
+  "generatedAt": "2026-08-21T15:02:48.496Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
+    {
+      "id": "the-5th-expedition",
+      "title": "The 5th Expedition",
+      "date": "August 21, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/621906c4-b6d3-expedition-5-blog-card-300x200-300x200.png",
+      "tags": [],
+      "summary": "The fifth Expedition window is coming up soon, and it brings several changes. Listening to your feedback, in future Expeditions you will have the option to skip resetting your quest progress, the departure window will run one week longer, a"
+    },
     {
       "id": "subway-arc-raiders-partnership",
       "title": "ARC Raiders x Subway: Exclusive Subterranean outfit",
@@ -365,14 +373,6 @@
         "Patch Notes"
       ],
       "summary": "Update 1.19.0 is now live. Restart your game to get the download."
-    },
-    {
-      "id": "win-exclusive-raider-kit-and-raider-tokens",
-      "title": "Community competition: Show your best ‘Storm Stories’",
-      "date": "March 6, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/b2497c52-88a1-storm-stories-card-300x200-300x200.png",
-      "tags": [],
-      "summary": "# Community competition: Show your best ‘Storm Stories’"
     }
   ]
 }
