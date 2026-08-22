@@ -8,21 +8,17 @@
 // This lives on its own so the builder and the after-the-fact check
 // (scripts/verify-feed.mjs) read the page exactly the same way.
 import { clean } from './util.mjs';
+import { parseArray } from './payload.mjs';
 
 export const SOURCE = 'https://arcraiders.com/map-conditions';
 
 /** Primary: pull liveEntries out of the embedded React payload. */
 export function parsePayload(html) {
-  // the payload is escaped JSON inside self.__next_f.push(...)
-  const m = html.match(/\\"liveEntries\\":\[(.*?)\](?=,\\"|\})/s);
-  if (!m) return null;
-  let raw;
-  try {
-    raw = JSON.parse('[' + m[1].replace(/\\"/g, '"') + ']');
-  } catch {
-    return null;
-  }
-  if (!Array.isArray(raw) || raw.length === 0) return null;
+  // Read by counting brackets, never by a lazy regex. Embark added
+  // regionTimestamps on 18 August 2026 and a regex could not survive it.
+  // scripts/lib/payload.mjs has the story.
+  const raw = parseArray(html, 'liveEntries');
+  if (!raw || raw.length === 0) return null;
 
   const out = [];
   for (const e of raw) {
@@ -56,16 +52,11 @@ export function parseCards(html) {
 /** The named conditions and whether each is major or minor. */
 export function parseCatalogue(html) {
   // the payload calls this list conditionItems
-  const m = html.match(/\\"conditionItems\\":\[(.*?)\](?=,\\"|\})/s);
-  if (!m) return [];
-  try {
-    const raw = JSON.parse('[' + m[1].replace(/\\"/g, '"') + ']');
-    return raw
-      .map((c) => ({ name: clean(c.name), type: clean(c.type) }))
-      .filter((c) => c.name);
-  } catch {
-    return [];
-  }
+  const raw = parseArray(html, 'conditionItems');
+  if (!raw) return [];
+  return raw
+    .map((c) => ({ name: clean(c.name), type: clean(c.type) }))
+    .filter((c) => c.name);
 }
 
 /** Both parsers plus the catalogue. entries is null when the page is unreadable. */
@@ -76,7 +67,24 @@ export function parseConditionsPage(html) {
     entries = parseCards(html);
     via = 'cards';
   }
-  return { entries, via: entries ? via : null, catalogue: parseCatalogue(html) };
+  return {
+    entries,
+    via: entries ? via : null,
+    catalogue: parseCatalogue(html),
+    serverNow: parseServerNow(html),
+  };
+}
+
+/**
+ * The clock the page was rendered with, in milliseconds, or null when the
+ * payload does not carry one. This is how a cached replay is caught: the copy
+ * carries the clock it was built with. scripts/lib/schedule.mjs uses it.
+ */
+export function parseServerNow(html) {
+  const m = html.match(/\\"serverNow\\":(\d{10,})/);
+  if (!m) return null;
+  const ms = Number(m[1]);
+  return Number.isFinite(ms) ? ms : null;
 }
 
 /** Turns "Close Scrutiny" into "close_scrutiny", matching the asset names. */

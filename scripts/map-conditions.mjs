@@ -15,7 +15,7 @@ const OUT = 'feeds/map-conditions.json';
 
 const html = await fetchText(SRC);
 
-const { entries, via, catalogue } = parseConditionsPage(html);
+const { entries, via, catalogue, serverNow } = parseConditionsPage(html);
 if (!entries) {
   console.error('both parsers failed; leaving the previous file alone');
   process.exit(1);
@@ -29,7 +29,7 @@ const now = Date.now();
 // one left off. Exit 0 on purpose, because this is an upstream hiccup that
 // heals itself, and the workflow already fails the run if the file ever goes
 // more than six hours old.
-const stale = staleSnapshotReason(entries, now);
+const stale = staleSnapshotReason(entries, now, serverNow);
 if (stale) {
   console.error(`upstream served a stale page: ${stale}. Keeping the previous file.`);
   process.exit(0);

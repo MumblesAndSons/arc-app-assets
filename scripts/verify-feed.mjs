@@ -52,7 +52,7 @@ try {
   process.exit(0);
 }
 
-const { entries: live } = parseConditionsPage(html);
+const { entries: live, serverNow } = parseConditionsPage(html);
 if (!live) {
   fail(
     `neither parser could read ${SOURCE}. The page shape has changed, so the ` +
@@ -64,7 +64,7 @@ const now = Date.now();
 
 // Cannot judge the file against a page that is itself a cached replay. Say so
 // and stop; if this persists the staleness gate in the workflow fails the run.
-const stale = staleSnapshotReason(live, now);
+const stale = staleSnapshotReason(live, now, serverNow);
 if (stale) {
   console.log(`skipped: the site is serving a cached page (${stale})`);
   process.exit(0);

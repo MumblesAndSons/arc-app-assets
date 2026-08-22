@@ -27,16 +27,29 @@ console.log('staleSnapshotReason');
 
 check('accepts a live page, which opens with the hour already running', () => {
   const page = [entry('Bird City', 'Buried City', -0.5), entry('Matriarch', 'Spaceport', 1)];
-  assert.equal(staleSnapshotReason(page, NOW), null);
+  assert.equal(staleSnapshotReason(page, NOW, NOW), null);
 });
 
 check('accepts a page whose first entry began 59 minutes ago', () => {
-  assert.equal(staleSnapshotReason([entry('Harvester', 'Spaceport', -0.98)], NOW), null);
+  assert.equal(staleSnapshotReason([entry('Harvester', 'Spaceport', -0.98)], NOW, NOW), null);
+});
+
+// The regression that broke the feed for four days. Once Embark added per
+// region times the base window opened about nine hours back, and the old rule
+// read every live page as a replay.
+check('accepts the wide window Embark started serving on 2026-08-22', () => {
+  const wide = [entry('Uncovered Caches', 'Spaceport', -7.5), entry('Hurricane', 'Dam Battlegrounds', 33)];
+  assert.equal(staleSnapshotReason(wide, NOW, NOW - 60000), null);
 });
 
 check('rejects the cached page seen on 2026-08-10, 5.8 hours behind', () => {
   const cached = [entry('Husk Graveyard', 'Buried City', -5.8), entry('Locked Gate', 'The Blue Gate', 4)];
-  assert.match(staleSnapshotReason(cached, NOW), /cached page/);
+  assert.match(staleSnapshotReason(cached, NOW, NOW - 5.8 * H), /cached page/);
+});
+
+check('accepts a page with no clock, rather than refusing to publish', () => {
+  const page = [entry('Bird City', 'Buried City', -7.5), entry('Matriarch', 'Spaceport', 1)];
+  assert.equal(staleSnapshotReason(page, NOW, null), null);
 });
 
 check('rejects the worst cached page, entirely in the past', () => {
