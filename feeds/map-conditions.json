@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T13:52:56.452Z",
+  "generatedAt": "2026-08-22T14:16:20.359Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-24T00:00:00.000Z",
@@ -105,66 +105,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Bird City",
-      "map": "Buried City",
-      "start": 1787378400000,
-      "end": 1787382000000,
-      "times": {
-        "europe": [
-          1787378400000,
-          1787382000000
-        ],
-        "north-america": [
-          1787403600000,
-          1787407200000
-        ],
-        "south-america": [
-          1787400000000,
-          1787403600000
-        ],
-        "asia": [
-          1787360400000,
-          1787364000000
-        ],
-        "oceania": [
-          1787346000000,
-          1787349600000
-        ]
-      },
-      "type": "minor",
-      "icon": "bird_city.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1787378400000,
-      "end": 1787382000000,
-      "times": {
-        "europe": [
-          1787378400000,
-          1787382000000
-        ],
-        "north-america": [
-          1787403600000,
-          1787407200000
-        ],
-        "south-america": [
-          1787400000000,
-          1787403600000
-        ],
-        "asia": [
-          1787360400000,
-          1787364000000
-        ],
-        "oceania": [
-          1787346000000,
-          1787349600000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
     {
       "condition": "Matriarch",
       "map": "Dam Battlegrounds",
