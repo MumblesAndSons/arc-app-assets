@@ -12,6 +12,23 @@ import { parseArray } from './payload.mjs';
 
 export const SOURCE = 'https://arcraiders.com/map-conditions';
 
+/**
+ * The five server regions the site offers, in the order its own dropdown
+ * lists them. `key` is what the payload calls the region, and null means the
+ * region is the base startTimestamp and endTimestamp on the entry itself.
+ *
+ * Two of the payload names do not match the label the site shows, which is why
+ * this table exists rather than the app guessing: brazil is shown as South
+ * America, and east-asia is shown as Asia.
+ */
+export const REGIONS = [
+  { id: 'europe', name: 'Europe', key: null },
+  { id: 'north-america', name: 'North America', key: 'north-america' },
+  { id: 'south-america', name: 'South America', key: 'brazil' },
+  { id: 'asia', name: 'Asia', key: 'east-asia' },
+  { id: 'oceania', name: 'Oceania', key: 'oceania' },
+];
+
 /** Primary: pull liveEntries out of the embedded React payload. */
 export function parsePayload(html) {
   // Read by counting brackets, never by a lazy regex. Embark added
@@ -27,9 +44,36 @@ export function parsePayload(html) {
     const start = Number(e.startTimestamp);
     const end = Number(e.endTimestamp);
     if (!name || !map || !Number.isFinite(start) || !Number.isFinite(end)) continue;
-    out.push({ condition: name, map, start, end });
+    out.push({ condition: name, map, start, end, times: regionTimes(e, start, end) });
   }
   return out.length ? out : null;
+}
+
+/**
+ * The real start and end for every region, as [start, end] pairs keyed by
+ * region id. Real times, never an offset: the offsets held steady across all
+ * 138 entries on 22 August 2026, but a stored offset would go on being
+ * believed long after Embark moved a region, and nobody would see it.
+ *
+ * A region the page did not give times for is left out, so the app can fall
+ * back to Europe rather than draw an hour that was invented here.
+ */
+function regionTimes(entry, start, end) {
+  const src = entry.regionTimestamps || {};
+  const times = {};
+  for (const r of REGIONS) {
+    if (r.key === null) {
+      times[r.id] = [start, end];
+      continue;
+    }
+    const pair = src[r.key];
+    if (!Array.isArray(pair) || pair.length < 2) continue;
+    const s = Number(pair[0]);
+    const e = Number(pair[1]);
+    if (!Number.isFinite(s) || !Number.isFinite(e) || e <= s) continue;
+    times[r.id] = [s, e];
+  }
+  return times;
 }
 
 /** Fallback: read the rendered cards. Coarser, but keeps the feed alive. */

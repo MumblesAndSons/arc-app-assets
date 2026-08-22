@@ -82,6 +82,39 @@ check("reads the page's own clock", () => {
   assert.equal(new Date(at).toISOString(), '2026-08-22T12:28:56.020Z');
 });
 
+check('every entry carries all five regions', () => {
+  const { entries } = parseConditionsPage(page);
+  for (const e of entries) {
+    assert.deepEqual(
+      Object.keys(e.times).sort(),
+      ['asia', 'europe', 'north-america', 'oceania', 'south-america'],
+      `${e.condition} @ ${e.map} is short of a region`
+    );
+  }
+});
+
+check('Europe is the base time, and every region lasts the same hour', () => {
+  const { entries } = parseConditionsPage(page);
+  for (const e of entries) {
+    assert.deepEqual(e.times.europe, [e.start, e.end], `${e.condition} europe is not the base`);
+    const span = e.end - e.start;
+    for (const [id, [s, en]] of Object.entries(e.times)) {
+      assert.equal(en - s, span, `${e.condition} runs a different length in ${id}`);
+    }
+  }
+});
+
+// The offsets held on this page, but the feed stores real times, so the day
+// Embark shift a region the feed follows them and this test says what moved.
+check('the regions sit where the site says they do', () => {
+  const e = parseConditionsPage(page).entries[0];
+  const hoursFromBase = (id) => (e.times[id][0] - e.start) / 3600000;
+  assert.equal(hoursFromBase('north-america'), 7);
+  assert.equal(hoursFromBase('south-america'), 6);
+  assert.equal(hoursFromBase('asia'), -5);
+  assert.equal(hoursFromBase('oceania'), -9);
+});
+
 check('every condition slugs to an icon name the app can look for', () => {
   const { catalogue } = parseConditionsPage(page);
   for (const c of catalogue) {

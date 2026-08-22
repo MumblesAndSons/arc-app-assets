@@ -4,7 +4,7 @@
 // The numbers in the stale-page tests are taken from real snapshots this
 // repository committed on 2026-08-10, when the site replayed a cached page.
 import assert from 'node:assert/strict';
-import { mergeEntries, missingEntries, staleSnapshotReason } from './lib/schedule.mjs';
+import { entryEnd, mergeEntries, missingEntries, staleSnapshotReason } from './lib/schedule.mjs';
 
 const H = 3600000;
 const NOW = Date.parse('2026-08-11T20:30:00Z');
@@ -59,6 +59,40 @@ check('rejects the worst cached page, entirely in the past', () => {
 
 check('rejects an empty page', () => {
   assert.equal(staleSnapshotReason([], NOW), 'no entries');
+});
+
+console.log('entryEnd, which is when an entry is over EVERYWHERE');
+
+// North America runs 7 hours behind Europe. An hour that finished in Europe
+// is still to come in New York, and dropping it would empty their screen.
+const withRegions = (startsInHours) => {
+  const e = entry('Harvester', 'Spaceport', startsInHours);
+  e.times = {
+    europe: [e.start, e.end],
+    'north-america': [e.start + 7 * H, e.end + 7 * H],
+    oceania: [e.start - 9 * H, e.end - 9 * H],
+  };
+  return e;
+};
+
+check('takes the last region to finish, not the base time', () => {
+  const e = withRegions(-2);
+  assert.equal(entryEnd(e), e.end + 7 * H);
+});
+
+check('falls back to the base end for an entry saved before regions existed', () => {
+  const e = entry('Harvester', 'Spaceport', -2);
+  assert.equal(entryEnd(e), e.end);
+});
+
+check('keeps an entry that is over in Europe but still to come in New York', () => {
+  const merged = mergeEntries([], [withRegions(-2)], NOW);
+  assert.equal(merged.length, 1);
+});
+
+check('drops an entry once the last region has finished it', () => {
+  const merged = mergeEntries([], [withRegions(-9)], NOW);
+  assert.equal(merged.length, 0);
 });
 
 console.log('mergeEntries');

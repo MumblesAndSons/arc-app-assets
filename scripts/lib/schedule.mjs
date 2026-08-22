@@ -46,7 +46,7 @@ export const STALE_LEAD_MS = 3 * 60 * 60 * 1000;
 export function staleSnapshotReason(entries, now, serverNow = null) {
   if (!entries || entries.length === 0) return 'no entries';
 
-  const latestEnd = Math.max(...entries.map((e) => e.end));
+  const latestEnd = Math.max(...entries.map(entryEnd));
   if (latestEnd <= now) {
     return `every entry has already finished (last one ended ${hours(now - latestEnd)}h ago)`;
   }
@@ -58,14 +58,29 @@ export function staleSnapshotReason(entries, now, serverNow = null) {
 }
 
 /**
+ * When an entry is over EVERYWHERE, which is the only moment it is safe to
+ * forget. Europe is the base time, North America runs 7 hours behind it, so an
+ * hour that finished in Europe can still be 6 hours away in New York. Pruning
+ * on the base end alone would drop entries a North American player has not had
+ * yet. Falls back to the base end for an entry saved before regions existed.
+ */
+export function entryEnd(e) {
+  const ends = Object.values(e?.times ?? {})
+    .map((pair) => Number(pair?.[1]))
+    .filter(Number.isFinite);
+  return Math.max(e.end, ...ends);
+}
+
+/**
  * Union of what we already knew and what the page just said, minus anything
- * that has finished. Same entry from both sides keeps the fresher copy.
+ * that has finished in every region. Same entry from both sides keeps the
+ * fresher copy.
  */
 export function mergeEntries(previous = [], fresh = [], now = Date.now()) {
   const byKey = new Map();
   for (const e of [...previous, ...fresh]) {
     if (!Number.isFinite(e?.start) || !Number.isFinite(e?.end)) continue;
-    if (e.end <= now) continue;
+    if (entryEnd(e) <= now) continue;
     byKey.set(`${e.condition}|${e.map}|${e.start}`, e);
   }
   return [...byKey.values()].sort(
@@ -82,11 +97,12 @@ function hours(ms) {
 
 /**
  * What the site is publishing that the file does not carry. An entry about to
- * finish is ignored, because it can end between the build and the check.
+ * finish is ignored, because it can end between the build and the check. "About
+ * to finish" means in the last region to run it, for the reason in entryEnd.
  */
 export function missingEntries(published = [], live = [], now = Date.now(), graceMs = 300000) {
   const have = new Set(published.map((e) => `${e.condition}|${e.map}|${e.start}`));
   return live.filter(
-    (e) => e.end > now + graceMs && !have.has(`${e.condition}|${e.map}|${e.start}`)
+    (e) => entryEnd(e) > now + graceMs && !have.has(`${e.condition}|${e.map}|${e.start}`)
   );
 }

@@ -9,7 +9,7 @@
 // Page reading lives in scripts/lib/conditionsPage.mjs.
 import { fetchText, publish, readExisting } from './lib/util.mjs';
 import { mergeEntries, staleSnapshotReason } from './lib/schedule.mjs';
-import { SOURCE as SRC, parseConditionsPage, slug } from './lib/conditionsPage.mjs';
+import { REGIONS, SOURCE as SRC, parseConditionsPage, slug } from './lib/conditionsPage.mjs';
 
 const OUT = 'feeds/map-conditions.json';
 
@@ -56,12 +56,27 @@ for (const e of merged) {
 }
 for (const c of catalogue) c.icon = slug(c.name) + '.png';
 
+// How far ahead the schedule reaches in each region, so the app can say
+// "schedule ends at" honestly to whoever is reading it. North America runs 7
+// hours behind Europe, so its horizon is 7 hours further out, and a single
+// number would be wrong for four regions out of five.
+const horizonEnds = {};
+for (const r of REGIONS) {
+  const ends = merged.map((e) => e.times?.[r.id]?.[1]).filter(Number.isFinite);
+  if (ends.length) horizonEnds[r.id] = new Date(Math.max(...ends)).toISOString();
+}
+
 const payload = {
   generatedAt: new Date().toISOString(),
   source: SRC,
   parsedVia: via,
-  // how far ahead the schedule reaches, so the app can say "schedule ends at"
+  // Europe, kept under the old name because the app already live on Google
+  // Play reads this field and knows nothing about regions.
   horizonEnd: new Date(Math.max(...merged.map((e) => e.end))).toISOString(),
+  horizonEnds,
+  // the picker on the Map Conditions screen is built from this list, in this
+  // order, so a region Embark rename does not need an app release
+  regions: REGIONS.map((r) => ({ id: r.id, name: r.name })),
   conditions: catalogue,
   entries: merged,
 };
