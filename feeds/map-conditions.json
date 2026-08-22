@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-22T22:16:42.223Z",
+  "generatedAt": "2026-08-22T22:46:38.862Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-24T08:00:00.000Z",
+  "horizonEnd": "2026-08-24T09:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-08-24T08:00:00.000Z",
-    "north-america": "2026-08-24T15:00:00.000Z",
-    "south-america": "2026-08-24T14:00:00.000Z",
-    "asia": "2026-08-24T03:00:00.000Z",
-    "oceania": "2026-08-23T23:00:00.000Z"
+    "europe": "2026-08-24T09:00:00.000Z",
+    "north-america": "2026-08-24T16:00:00.000Z",
+    "south-america": "2026-08-24T15:00:00.000Z",
+    "asia": "2026-08-24T04:00:00.000Z",
+    "oceania": "2026-08-24T00:00:00.000Z"
   },
   "regions": [
     {
@@ -4150,6 +4150,96 @@
         "oceania": [
           1787522400000,
           1787526000000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1787558400000,
+      "end": 1787562000000,
+      "times": {
+        "europe": [
+          1787558400000,
+          1787562000000
+        ],
+        "north-america": [
+          1787583600000,
+          1787587200000
+        ],
+        "south-america": [
+          1787580000000,
+          1787583600000
+        ],
+        "asia": [
+          1787540400000,
+          1787544000000
+        ],
+        "oceania": [
+          1787526000000,
+          1787529600000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1787558400000,
+      "end": 1787562000000,
+      "times": {
+        "europe": [
+          1787558400000,
+          1787562000000
+        ],
+        "north-america": [
+          1787583600000,
+          1787587200000
+        ],
+        "south-america": [
+          1787580000000,
+          1787583600000
+        ],
+        "asia": [
+          1787540400000,
+          1787544000000
+        ],
+        "oceania": [
+          1787526000000,
+          1787529600000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "The Blue Gate",
+      "start": 1787558400000,
+      "end": 1787562000000,
+      "times": {
+        "europe": [
+          1787558400000,
+          1787562000000
+        ],
+        "north-america": [
+          1787583600000,
+          1787587200000
+        ],
+        "south-america": [
+          1787580000000,
+          1787583600000
+        ],
+        "asia": [
+          1787540400000,
+          1787544000000
+        ],
+        "oceania": [
+          1787526000000,
+          1787529600000
         ]
       },
       "type": "minor",
