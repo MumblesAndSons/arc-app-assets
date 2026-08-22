@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-22T15:44:21.952Z",
+  "generatedAt": "2026-08-22T16:30:29.975Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-24T02:00:00.000Z",
+  "horizonEnd": "2026-08-24T03:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-08-24T02:00:00.000Z",
-    "north-america": "2026-08-24T09:00:00.000Z",
-    "south-america": "2026-08-24T08:00:00.000Z",
-    "asia": "2026-08-23T21:00:00.000Z",
-    "oceania": "2026-08-23T17:00:00.000Z"
+    "europe": "2026-08-24T03:00:00.000Z",
+    "north-america": "2026-08-24T10:00:00.000Z",
+    "south-america": "2026-08-24T09:00:00.000Z",
+    "asia": "2026-08-23T22:00:00.000Z",
+    "oceania": "2026-08-23T18:00:00.000Z"
   },
   "regions": [
     {
@@ -106,96 +106,6 @@
   ],
   "entries": [
     {
-      "condition": "Harvester",
-      "map": "Dam Battlegrounds",
-      "start": 1787385600000,
-      "end": 1787389200000,
-      "times": {
-        "europe": [
-          1787385600000,
-          1787389200000
-        ],
-        "north-america": [
-          1787410800000,
-          1787414400000
-        ],
-        "south-america": [
-          1787407200000,
-          1787410800000
-        ],
-        "asia": [
-          1787367600000,
-          1787371200000
-        ],
-        "oceania": [
-          1787353200000,
-          1787356800000
-        ]
-      },
-      "type": "minor",
-      "icon": "harvester.png"
-    },
-    {
-      "condition": "Launch Tower Loot",
-      "map": "Spaceport",
-      "start": 1787385600000,
-      "end": 1787389200000,
-      "times": {
-        "europe": [
-          1787385600000,
-          1787389200000
-        ],
-        "north-america": [
-          1787410800000,
-          1787414400000
-        ],
-        "south-america": [
-          1787407200000,
-          1787410800000
-        ],
-        "asia": [
-          1787367600000,
-          1787371200000
-        ],
-        "oceania": [
-          1787353200000,
-          1787356800000
-        ]
-      },
-      "type": "minor",
-      "icon": "launch_tower_loot.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1787385600000,
-      "end": 1787389200000,
-      "times": {
-        "europe": [
-          1787385600000,
-          1787389200000
-        ],
-        "north-america": [
-          1787410800000,
-          1787414400000
-        ],
-        "south-america": [
-          1787407200000,
-          1787410800000
-        ],
-        "asia": [
-          1787367600000,
-          1787371200000
-        ],
-        "oceania": [
-          1787353200000,
-          1787356800000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
       "condition": "Uncovered Caches",
       "map": "Buried City",
       "start": 1787389200000,
@@ -4390,6 +4300,96 @@
         "oceania": [
           1787500800000,
           1787504400000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Uncovered Caches",
+      "map": "Buried City",
+      "start": 1787536800000,
+      "end": 1787540400000,
+      "times": {
+        "europe": [
+          1787536800000,
+          1787540400000
+        ],
+        "north-america": [
+          1787562000000,
+          1787565600000
+        ],
+        "south-america": [
+          1787558400000,
+          1787562000000
+        ],
+        "asia": [
+          1787518800000,
+          1787522400000
+        ],
+        "oceania": [
+          1787504400000,
+          1787508000000
+        ]
+      },
+      "type": "minor",
+      "icon": "uncovered_caches.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Spaceport",
+      "start": 1787536800000,
+      "end": 1787540400000,
+      "times": {
+        "europe": [
+          1787536800000,
+          1787540400000
+        ],
+        "north-america": [
+          1787562000000,
+          1787565600000
+        ],
+        "south-america": [
+          1787558400000,
+          1787562000000
+        ],
+        "asia": [
+          1787518800000,
+          1787522400000
+        ],
+        "oceania": [
+          1787504400000,
+          1787508000000
+        ]
+      },
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1787536800000,
+      "end": 1787540400000,
+      "times": {
+        "europe": [
+          1787536800000,
+          1787540400000
+        ],
+        "north-america": [
+          1787562000000,
+          1787565600000
+        ],
+        "south-america": [
+          1787558400000,
+          1787562000000
+        ],
+        "asia": [
+          1787518800000,
+          1787522400000
+        ],
+        "oceania": [
+          1787504400000,
+          1787508000000
         ]
       },
       "type": "major",
