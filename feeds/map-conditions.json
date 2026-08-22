@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T22:46:38.862Z",
+  "generatedAt": "2026-08-22T23:15:56.980Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-24T09:00:00.000Z",
@@ -105,96 +105,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Prospecting Probes",
-      "map": "Buried City",
-      "start": 1787410800000,
-      "end": 1787414400000,
-      "times": {
-        "europe": [
-          1787410800000,
-          1787414400000
-        ],
-        "north-america": [
-          1787436000000,
-          1787439600000
-        ],
-        "south-america": [
-          1787432400000,
-          1787436000000
-        ],
-        "asia": [
-          1787392800000,
-          1787396400000
-        ],
-        "oceania": [
-          1787378400000,
-          1787382000000
-        ]
-      },
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
-    {
-      "condition": "Hurricane",
-      "map": "Dam Battlegrounds",
-      "start": 1787410800000,
-      "end": 1787414400000,
-      "times": {
-        "europe": [
-          1787410800000,
-          1787414400000
-        ],
-        "north-america": [
-          1787436000000,
-          1787439600000
-        ],
-        "south-america": [
-          1787432400000,
-          1787436000000
-        ],
-        "asia": [
-          1787392800000,
-          1787396400000
-        ],
-        "oceania": [
-          1787378400000,
-          1787382000000
-        ]
-      },
-      "type": "major",
-      "icon": "hurricane.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Riven Tides",
-      "start": 1787410800000,
-      "end": 1787414400000,
-      "times": {
-        "europe": [
-          1787410800000,
-          1787414400000
-        ],
-        "north-america": [
-          1787436000000,
-          1787439600000
-        ],
-        "south-america": [
-          1787432400000,
-          1787436000000
-        ],
-        "asia": [
-          1787392800000,
-          1787396400000
-        ],
-        "oceania": [
-          1787378400000,
-          1787382000000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
     {
       "condition": "Harvester",
       "map": "Dam Battlegrounds",
