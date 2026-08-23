@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T05:43:58.705Z",
+  "generatedAt": "2026-08-23T06:03:41.249Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-24T16:00:00.000Z",
@@ -105,96 +105,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Harvester",
-      "map": "Spaceport",
-      "start": 1787436000000,
-      "end": 1787439600000,
-      "times": {
-        "europe": [
-          1787436000000,
-          1787439600000
-        ],
-        "north-america": [
-          1787461200000,
-          1787464800000
-        ],
-        "south-america": [
-          1787457600000,
-          1787461200000
-        ],
-        "asia": [
-          1787418000000,
-          1787421600000
-        ],
-        "oceania": [
-          1787403600000,
-          1787407200000
-        ]
-      },
-      "type": "minor",
-      "icon": "harvester.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1787436000000,
-      "end": 1787439600000,
-      "times": {
-        "europe": [
-          1787436000000,
-          1787439600000
-        ],
-        "north-america": [
-          1787461200000,
-          1787464800000
-        ],
-        "south-america": [
-          1787457600000,
-          1787461200000
-        ],
-        "asia": [
-          1787418000000,
-          1787421600000
-        ],
-        "oceania": [
-          1787403600000,
-          1787407200000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Locked Gate",
-      "map": "The Blue Gate",
-      "start": 1787436000000,
-      "end": 1787439600000,
-      "times": {
-        "europe": [
-          1787436000000,
-          1787439600000
-        ],
-        "north-america": [
-          1787461200000,
-          1787464800000
-        ],
-        "south-america": [
-          1787457600000,
-          1787461200000
-        ],
-        "asia": [
-          1787418000000,
-          1787421600000
-        ],
-        "oceania": [
-          1787403600000,
-          1787407200000
-        ]
-      },
-      "type": "major",
-      "icon": "locked_gate.png"
-    },
     {
       "condition": "Uncovered Caches",
       "map": "Buried City",
