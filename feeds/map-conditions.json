@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-23T14:20:01.227Z",
+  "generatedAt": "2026-08-23T14:48:15.793Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-25T00:00:00.000Z",
+  "horizonEnd": "2026-08-25T01:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-08-25T00:00:00.000Z",
-    "north-america": "2026-08-25T07:00:00.000Z",
-    "south-america": "2026-08-25T06:00:00.000Z",
-    "asia": "2026-08-24T19:00:00.000Z",
-    "oceania": "2026-08-24T15:00:00.000Z"
+    "europe": "2026-08-25T01:00:00.000Z",
+    "north-america": "2026-08-25T08:00:00.000Z",
+    "south-america": "2026-08-25T07:00:00.000Z",
+    "asia": "2026-08-24T20:00:00.000Z",
+    "oceania": "2026-08-24T16:00:00.000Z"
   },
   "regions": [
     {
@@ -4450,6 +4450,96 @@
         "oceania": [
           1787580000000,
           1787583600000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Dam Battlegrounds",
+      "start": 1787616000000,
+      "end": 1787619600000,
+      "times": {
+        "europe": [
+          1787616000000,
+          1787619600000
+        ],
+        "north-america": [
+          1787641200000,
+          1787644800000
+        ],
+        "south-america": [
+          1787637600000,
+          1787641200000
+        ],
+        "asia": [
+          1787598000000,
+          1787601600000
+        ],
+        "oceania": [
+          1787583600000,
+          1787587200000
+        ]
+      },
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
+      "condition": "Lush Blooms",
+      "map": "Spaceport",
+      "start": 1787616000000,
+      "end": 1787619600000,
+      "times": {
+        "europe": [
+          1787616000000,
+          1787619600000
+        ],
+        "north-america": [
+          1787641200000,
+          1787644800000
+        ],
+        "south-america": [
+          1787637600000,
+          1787641200000
+        ],
+        "asia": [
+          1787598000000,
+          1787601600000
+        ],
+        "oceania": [
+          1787583600000,
+          1787587200000
+        ]
+      },
+      "type": "minor",
+      "icon": "lush_blooms.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1787616000000,
+      "end": 1787619600000,
+      "times": {
+        "europe": [
+          1787616000000,
+          1787619600000
+        ],
+        "north-america": [
+          1787641200000,
+          1787644800000
+        ],
+        "south-america": [
+          1787637600000,
+          1787641200000
+        ],
+        "asia": [
+          1787598000000,
+          1787601600000
+        ],
+        "oceania": [
+          1787583600000,
+          1787587200000
         ]
       },
       "type": "major",
