@@ -10,7 +10,8 @@ name: Refresh feeds
 #  * a script that cannot parse its source exits non-zero and writes nothing,
 #    which leaves the last good file in place
 #  * the commit step only commits when something actually changed
-#  * a failure opens a GitHub issue, so it is visible without watching runs
+#  * a failure opens ONE GitHub issue and then goes quiet: a reminder a day
+#    while it stays broken, and a closing comment when it recovers
 #  * the job commits most hours, which also keeps GitHub from auto-disabling
 #    the schedule for inactivity
 #  * scripts/watch.mjs raises an issue when Embark publish an article, or when
@@ -140,6 +141,7 @@ jobs:
           fi
 
       - name: Fail the run if a feed went stale
+        id: stale
         run: |
           now=$(date -u +%s)
           for f in feeds/map-conditions.json feeds/news.json; do
@@ -160,43 +162,112 @@ jobs:
         id: verify
         run: node scripts/verify-feed.mjs
 
-      - name: Report a broken feed
-        if: failure() || steps.conditions.outcome == 'failure' || steps.news.outcome == 'failure'
+      # Alerting rule. This used to comment on every run that had any step
+      # fail, which sent an email every 15 minutes: 161 of them in 13 days,
+      # and 147 of those were the same four-day outage repeating itself.
+      # Nobody reads an alert that arrives that often.
+      #
+      # The rule now is: alert only when the JOB failed, which means the feed
+      # went stale or the app stopped matching the site. A single feed step
+      # wobbling is NOT an alert, because the app keeps the last good file and
+      # the next run 15 minutes later normally fixes it.
+      #
+      # One email when it breaks. One a day while it stays broken. One when it
+      # recovers. An outage costs two emails instead of a few hundred.
+      - name: Raise the alert
+        if: failure()
+        uses: actions/github-script@v7
+        env:
+          CONDITIONS: ${{ steps.conditions.outcome }}
+          NEWS: ${{ steps.news.outcome }}
+          VERIFY: ${{ steps.verify.outcome }}
+          STALE: ${{ steps.stale.outcome }}
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const title = 'Feed refresh is failing';
+            const run = `${context.serverUrl}/${owner}/${repo}/actions/runs/${context.runId}`;
+            const body = [
+              'Something is wrong with the feed and the app is affected.',
+              '',
+              `Map conditions step: ${process.env.CONDITIONS}`,
+              `News step: ${process.env.NEWS}`,
+              `Feed freshness check: ${process.env.STALE}`,
+              `App matches the site: ${process.env.VERIFY}`,
+              '',
+              `Run: ${run}`,
+              '',
+              'How to read this:',
+              '',
+              '* "App matches the site" = failure means the app is showing fewer map',
+              '  conditions than arcraiders.com is. Open the run and read that step,',
+              '  it lists exactly what is missing.',
+              '* "App matches the site" = skipped means the run stopped before it got',
+              '  there, because the map conditions file has not refreshed for over',
+              '  three hours. About a dozen runs in a row failed to land.',
+              '',
+              'You will get no further email about this until it recovers, or until it',
+              'is still broken 24 hours from now.',
+            ].join('\n');
+
+            const open = await github.rest.issues.listForRepo({
+              owner, repo, state: 'open', labels: 'feed-failure',
+            });
+
+            if (!open.data.length) {
+              const made = await github.rest.issues.create({
+                owner, repo, title, body,
+                labels: ['feed-failure'], assignees: [owner],
+              });
+              core.info(`raised ${made.data.html_url}`);
+              return;
+            }
+
+            // Already reported. Say nothing for a day, so an outage that lasts
+            // a weekend does not send 300 emails.
+            const issue = open.data[0];
+            const cutoff = Date.now() - 24 * 60 * 60 * 1000;
+            const recent = await github.rest.issues.listComments({
+              owner, repo, issue_number: issue.number,
+              since: new Date(cutoff).toISOString(), per_page: 1,
+            });
+            if (recent.data.length || Date.parse(issue.created_at) > cutoff) {
+              core.info(`${issue.html_url} is already open and was updated within a day; staying quiet`);
+              return;
+            }
+            await github.rest.issues.createComment({
+              owner, repo, issue_number: issue.number,
+              body: ['Still failing, 24 hours on.', '', body].join('\n'),
+            });
+            core.info(`daily reminder added to ${issue.html_url}`);
+
+      # The whole run went green, so anything we raised before is over. Closing
+      # it is the recovery email, and it means the next outage opens a fresh
+      # issue instead of adding to a thread of hundreds.
+      - name: Clear the alert
+        if: success()
         uses: actions/github-script@v7
         with:
           script: |
-            const title = 'Feed refresh is failing';
-            const body = [
-              'The hourly feed refresh failed.',
-              '',
-              `Map conditions step: ${{ toJSON(steps.conditions.outcome) }}`,
-              `News step: ${{ toJSON(steps.news.outcome) }}`,
-              `App matches the site: ${{ toJSON(steps.verify.outcome) }}`,
-              '',
-              `Run: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`,
-              '',
-              'What this means for the app:',
-              '',
-              '* "App matches the site" failure is the one that matters. The app is',
-              '  showing fewer map conditions than arcraiders.com is. Open the run and',
-              '  read the last step, it lists exactly what is missing.',
-              '* Any other failure on its own is usually a passing wobble at their end.',
-              '  The app keeps the last good file and the next run, 15 minutes later,',
-              '  normally fixes it. Worth looking at if it repeats for a few hours.',
-            ].join('\n');
+            const { owner, repo } = context.repo;
             const open = await github.rest.issues.listForRepo({
-              owner: context.repo.owner, repo: context.repo.repo,
-              state: 'open', labels: 'feed-failure',
+              owner, repo, state: 'open', labels: 'feed-failure',
             });
-            if (open.data.length) {
+            const run = `${context.serverUrl}/${owner}/${repo}/actions/runs/${context.runId}`;
+            for (const issue of open.data) {
               await github.rest.issues.createComment({
-                owner: context.repo.owner, repo: context.repo.repo,
-                issue_number: open.data[0].number, body,
+                owner, repo, issue_number: issue.number,
+                body: [
+                  'Recovered. The feed refreshed and the app matches arcraiders.com again.',
+                  '',
+                  `Run: ${run}`,
+                  '',
+                  'Closing this. A new issue opens if it breaks again.',
+                ].join('\n'),
               });
-            } else {
-              await github.rest.issues.create({
-                owner: context.repo.owner, repo: context.repo.repo,
-                title, body, labels: ['feed-failure'],
-                assignees: [context.repo.owner],
+              await github.rest.issues.update({
+                owner, repo, issue_number: issue.number,
+                state: 'closed', state_reason: 'completed',
               });
+              core.info(`closed ${issue.html_url}`);
             }
