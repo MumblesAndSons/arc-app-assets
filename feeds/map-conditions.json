@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-23T19:02:51.007Z",
+  "generatedAt": "2026-08-23T19:33:13.094Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-25T05:00:00.000Z",
+  "horizonEnd": "2026-08-25T06:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-08-25T05:00:00.000Z",
-    "north-america": "2026-08-25T12:00:00.000Z",
-    "south-america": "2026-08-25T11:00:00.000Z",
-    "asia": "2026-08-25T00:00:00.000Z",
-    "oceania": "2026-08-24T20:00:00.000Z"
+    "europe": "2026-08-25T06:00:00.000Z",
+    "north-america": "2026-08-25T13:00:00.000Z",
+    "south-america": "2026-08-25T12:00:00.000Z",
+    "asia": "2026-08-25T01:00:00.000Z",
+    "oceania": "2026-08-24T21:00:00.000Z"
   },
   "regions": [
     {
@@ -4424,6 +4424,96 @@
       },
       "type": "major",
       "icon": "night_raid.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Buried City",
+      "start": 1787634000000,
+      "end": 1787637600000,
+      "times": {
+        "europe": [
+          1787634000000,
+          1787637600000
+        ],
+        "north-america": [
+          1787659200000,
+          1787662800000
+        ],
+        "south-america": [
+          1787655600000,
+          1787659200000
+        ],
+        "asia": [
+          1787616000000,
+          1787619600000
+        ],
+        "oceania": [
+          1787601600000,
+          1787605200000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Dam Battlegrounds",
+      "start": 1787634000000,
+      "end": 1787637600000,
+      "times": {
+        "europe": [
+          1787634000000,
+          1787637600000
+        ],
+        "north-america": [
+          1787659200000,
+          1787662800000
+        ],
+        "south-america": [
+          1787655600000,
+          1787659200000
+        ],
+        "asia": [
+          1787616000000,
+          1787619600000
+        ],
+        "oceania": [
+          1787601600000,
+          1787605200000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1787634000000,
+      "end": 1787637600000,
+      "times": {
+        "europe": [
+          1787634000000,
+          1787637600000
+        ],
+        "north-america": [
+          1787659200000,
+          1787662800000
+        ],
+        "south-america": [
+          1787655600000,
+          1787659200000
+        ],
+        "asia": [
+          1787616000000,
+          1787619600000
+        ],
+        "oceania": [
+          1787601600000,
+          1787605200000
+        ]
+      },
+      "type": "minor",
+      "icon": "beachcombing.png"
     }
   ]
 }
