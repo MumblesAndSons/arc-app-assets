@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T16:50:10.133Z",
+  "generatedAt": "2026-08-23T17:16:43.849Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-25T03:00:00.000Z",
@@ -105,96 +105,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Matriarch",
-      "map": "Dam Battlegrounds",
-      "start": 1787475600000,
-      "end": 1787479200000,
-      "times": {
-        "europe": [
-          1787475600000,
-          1787479200000
-        ],
-        "north-america": [
-          1787500800000,
-          1787504400000
-        ],
-        "south-america": [
-          1787497200000,
-          1787500800000
-        ],
-        "asia": [
-          1787457600000,
-          1787461200000
-        ],
-        "oceania": [
-          1787443200000,
-          1787446800000
-        ]
-      },
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
-    {
-      "condition": "Beachcombing",
-      "map": "Riven Tides",
-      "start": 1787475600000,
-      "end": 1787479200000,
-      "times": {
-        "europe": [
-          1787475600000,
-          1787479200000
-        ],
-        "north-america": [
-          1787500800000,
-          1787504400000
-        ],
-        "south-america": [
-          1787497200000,
-          1787500800000
-        ],
-        "asia": [
-          1787457600000,
-          1787461200000
-        ],
-        "oceania": [
-          1787443200000,
-          1787446800000
-        ]
-      },
-      "type": "minor",
-      "icon": "beachcombing.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "The Blue Gate",
-      "start": 1787475600000,
-      "end": 1787479200000,
-      "times": {
-        "europe": [
-          1787475600000,
-          1787479200000
-        ],
-        "north-america": [
-          1787500800000,
-          1787504400000
-        ],
-        "south-america": [
-          1787497200000,
-          1787500800000
-        ],
-        "asia": [
-          1787457600000,
-          1787461200000
-        ],
-        "oceania": [
-          1787443200000,
-          1787446800000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
     {
       "condition": "Close Scrutiny",
       "map": "Buried City",
