@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-23T22:28:57.184Z",
+  "generatedAt": "2026-08-23T22:49:55.367Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-25T08:00:00.000Z",
+  "horizonEnd": "2026-08-25T09:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-08-25T08:00:00.000Z",
-    "north-america": "2026-08-25T15:00:00.000Z",
-    "south-america": "2026-08-25T14:00:00.000Z",
-    "asia": "2026-08-25T03:00:00.000Z",
-    "oceania": "2026-08-24T23:00:00.000Z"
+    "europe": "2026-08-25T09:00:00.000Z",
+    "north-america": "2026-08-25T16:00:00.000Z",
+    "south-america": "2026-08-25T15:00:00.000Z",
+    "asia": "2026-08-25T04:00:00.000Z",
+    "oceania": "2026-08-25T00:00:00.000Z"
   },
   "regions": [
     {
@@ -4334,6 +4334,96 @@
       },
       "type": "minor",
       "icon": "lush_blooms.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Dam Battlegrounds",
+      "start": 1787644800000,
+      "end": 1787648400000,
+      "times": {
+        "europe": [
+          1787644800000,
+          1787648400000
+        ],
+        "north-america": [
+          1787670000000,
+          1787673600000
+        ],
+        "south-america": [
+          1787666400000,
+          1787670000000
+        ],
+        "asia": [
+          1787626800000,
+          1787630400000
+        ],
+        "oceania": [
+          1787612400000,
+          1787616000000
+        ]
+      },
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
+      "condition": "Uncovered Caches",
+      "map": "Riven Tides",
+      "start": 1787644800000,
+      "end": 1787648400000,
+      "times": {
+        "europe": [
+          1787644800000,
+          1787648400000
+        ],
+        "north-america": [
+          1787670000000,
+          1787673600000
+        ],
+        "south-america": [
+          1787666400000,
+          1787670000000
+        ],
+        "asia": [
+          1787626800000,
+          1787630400000
+        ],
+        "oceania": [
+          1787612400000,
+          1787616000000
+        ]
+      },
+      "type": "minor",
+      "icon": "uncovered_caches.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1787644800000,
+      "end": 1787648400000,
+      "times": {
+        "europe": [
+          1787644800000,
+          1787648400000
+        ],
+        "north-america": [
+          1787670000000,
+          1787673600000
+        ],
+        "south-america": [
+          1787666400000,
+          1787670000000
+        ],
+        "asia": [
+          1787626800000,
+          1787630400000
+        ],
+        "oceania": [
+          1787612400000,
+          1787616000000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
     }
   ]
 }
