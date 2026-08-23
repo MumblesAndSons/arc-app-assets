@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-23T16:19:24.956Z",
+  "generatedAt": "2026-08-23T16:50:10.133Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-25T02:00:00.000Z",
+  "horizonEnd": "2026-08-25T03:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-08-25T02:00:00.000Z",
-    "north-america": "2026-08-25T09:00:00.000Z",
-    "south-america": "2026-08-25T08:00:00.000Z",
-    "asia": "2026-08-24T21:00:00.000Z",
-    "oceania": "2026-08-24T17:00:00.000Z"
+    "europe": "2026-08-25T03:00:00.000Z",
+    "north-america": "2026-08-25T10:00:00.000Z",
+    "south-america": "2026-08-25T09:00:00.000Z",
+    "asia": "2026-08-24T22:00:00.000Z",
+    "oceania": "2026-08-24T18:00:00.000Z"
   },
   "regions": [
     {
@@ -4484,6 +4484,96 @@
       },
       "type": "minor",
       "icon": "uncovered_caches.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1787623200000,
+      "end": 1787626800000,
+      "times": {
+        "europe": [
+          1787623200000,
+          1787626800000
+        ],
+        "north-america": [
+          1787648400000,
+          1787652000000
+        ],
+        "south-america": [
+          1787644800000,
+          1787648400000
+        ],
+        "asia": [
+          1787605200000,
+          1787608800000
+        ],
+        "oceania": [
+          1787590800000,
+          1787594400000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Uncovered Caches",
+      "map": "Riven Tides",
+      "start": 1787623200000,
+      "end": 1787626800000,
+      "times": {
+        "europe": [
+          1787623200000,
+          1787626800000
+        ],
+        "north-america": [
+          1787648400000,
+          1787652000000
+        ],
+        "south-america": [
+          1787644800000,
+          1787648400000
+        ],
+        "asia": [
+          1787605200000,
+          1787608800000
+        ],
+        "oceania": [
+          1787590800000,
+          1787594400000
+        ]
+      },
+      "type": "minor",
+      "icon": "uncovered_caches.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1787623200000,
+      "end": 1787626800000,
+      "times": {
+        "europe": [
+          1787623200000,
+          1787626800000
+        ],
+        "north-america": [
+          1787648400000,
+          1787652000000
+        ],
+        "south-america": [
+          1787644800000,
+          1787648400000
+        ],
+        "asia": [
+          1787605200000,
+          1787608800000
+        ],
+        "oceania": [
+          1787590800000,
+          1787594400000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
     }
   ]
 }
