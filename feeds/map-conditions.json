@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T12:54:25.754Z",
+  "generatedAt": "2026-08-23T13:28:37.663Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-24T23:00:00.000Z",
@@ -105,96 +105,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Uncovered Caches",
-      "map": "Buried City",
-      "start": 1787461200000,
-      "end": 1787464800000,
-      "times": {
-        "europe": [
-          1787461200000,
-          1787464800000
-        ],
-        "north-america": [
-          1787486400000,
-          1787490000000
-        ],
-        "south-america": [
-          1787482800000,
-          1787486400000
-        ],
-        "asia": [
-          1787443200000,
-          1787446800000
-        ],
-        "oceania": [
-          1787428800000,
-          1787432400000
-        ]
-      },
-      "type": "minor",
-      "icon": "uncovered_caches.png"
-    },
-    {
-      "condition": "Beachcombing",
-      "map": "Riven Tides",
-      "start": 1787461200000,
-      "end": 1787464800000,
-      "times": {
-        "europe": [
-          1787461200000,
-          1787464800000
-        ],
-        "north-america": [
-          1787486400000,
-          1787490000000
-        ],
-        "south-america": [
-          1787482800000,
-          1787486400000
-        ],
-        "asia": [
-          1787443200000,
-          1787446800000
-        ],
-        "oceania": [
-          1787428800000,
-          1787432400000
-        ]
-      },
-      "type": "minor",
-      "icon": "beachcombing.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "The Blue Gate",
-      "start": 1787461200000,
-      "end": 1787464800000,
-      "times": {
-        "europe": [
-          1787461200000,
-          1787464800000
-        ],
-        "north-america": [
-          1787486400000,
-          1787490000000
-        ],
-        "south-america": [
-          1787482800000,
-          1787486400000
-        ],
-        "asia": [
-          1787443200000,
-          1787446800000
-        ],
-        "oceania": [
-          1787428800000,
-          1787432400000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
     {
       "condition": "Prospecting Probes",
       "map": "Riven Tides",
