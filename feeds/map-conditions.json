@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T07:46:40.714Z",
+  "generatedAt": "2026-08-23T08:23:58.836Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-08-24T18:00:00.000Z",
@@ -105,96 +105,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Bird City",
-      "map": "Buried City",
-      "start": 1787443200000,
-      "end": 1787446800000,
-      "times": {
-        "europe": [
-          1787443200000,
-          1787446800000
-        ],
-        "north-america": [
-          1787468400000,
-          1787472000000
-        ],
-        "south-america": [
-          1787464800000,
-          1787468400000
-        ],
-        "asia": [
-          1787425200000,
-          1787428800000
-        ],
-        "oceania": [
-          1787410800000,
-          1787414400000
-        ]
-      },
-      "type": "minor",
-      "icon": "bird_city.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "Dam Battlegrounds",
-      "start": 1787443200000,
-      "end": 1787446800000,
-      "times": {
-        "europe": [
-          1787443200000,
-          1787446800000
-        ],
-        "north-america": [
-          1787468400000,
-          1787472000000
-        ],
-        "south-america": [
-          1787464800000,
-          1787468400000
-        ],
-        "asia": [
-          1787425200000,
-          1787428800000
-        ],
-        "oceania": [
-          1787410800000,
-          1787414400000
-        ]
-      },
-      "type": "minor",
-      "icon": "harvester.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1787443200000,
-      "end": 1787446800000,
-      "times": {
-        "europe": [
-          1787443200000,
-          1787446800000
-        ],
-        "north-america": [
-          1787468400000,
-          1787472000000
-        ],
-        "south-america": [
-          1787464800000,
-          1787468400000
-        ],
-        "asia": [
-          1787425200000,
-          1787428800000
-        ],
-        "oceania": [
-          1787410800000,
-          1787414400000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
     {
       "condition": "Night Raid",
       "map": "Dam Battlegrounds",
