@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-23T08:23:58.836Z",
+  "generatedAt": "2026-08-23T08:56:45.049Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-24T18:00:00.000Z",
+  "horizonEnd": "2026-08-24T19:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-08-24T18:00:00.000Z",
-    "north-america": "2026-08-25T01:00:00.000Z",
-    "south-america": "2026-08-25T00:00:00.000Z",
-    "asia": "2026-08-24T13:00:00.000Z",
-    "oceania": "2026-08-24T09:00:00.000Z"
+    "europe": "2026-08-24T19:00:00.000Z",
+    "north-america": "2026-08-25T02:00:00.000Z",
+    "south-america": "2026-08-25T01:00:00.000Z",
+    "asia": "2026-08-24T14:00:00.000Z",
+    "oceania": "2026-08-24T10:00:00.000Z"
   },
   "regions": [
     {
@@ -4300,6 +4300,126 @@
         "oceania": [
           1787558400000,
           1787562000000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Dam Battlegrounds",
+      "start": 1787594400000,
+      "end": 1787598000000,
+      "times": {
+        "europe": [
+          1787594400000,
+          1787598000000
+        ],
+        "north-america": [
+          1787619600000,
+          1787623200000
+        ],
+        "south-america": [
+          1787616000000,
+          1787619600000
+        ],
+        "asia": [
+          1787576400000,
+          1787580000000
+        ],
+        "oceania": [
+          1787562000000,
+          1787565600000
+        ]
+      },
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
+      "condition": "Uncovered Caches",
+      "map": "Riven Tides",
+      "start": 1787594400000,
+      "end": 1787598000000,
+      "times": {
+        "europe": [
+          1787594400000,
+          1787598000000
+        ],
+        "north-america": [
+          1787619600000,
+          1787623200000
+        ],
+        "south-america": [
+          1787616000000,
+          1787619600000
+        ],
+        "asia": [
+          1787576400000,
+          1787580000000
+        ],
+        "oceania": [
+          1787562000000,
+          1787565600000
+        ]
+      },
+      "type": "minor",
+      "icon": "uncovered_caches.png"
+    },
+    {
+      "condition": "Hurricane",
+      "map": "Spaceport",
+      "start": 1787594400000,
+      "end": 1787598000000,
+      "times": {
+        "europe": [
+          1787594400000,
+          1787598000000
+        ],
+        "north-america": [
+          1787619600000,
+          1787623200000
+        ],
+        "south-america": [
+          1787616000000,
+          1787619600000
+        ],
+        "asia": [
+          1787576400000,
+          1787580000000
+        ],
+        "oceania": [
+          1787562000000,
+          1787565600000
+        ]
+      },
+      "type": "major",
+      "icon": "hurricane.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1787594400000,
+      "end": 1787598000000,
+      "times": {
+        "europe": [
+          1787594400000,
+          1787598000000
+        ],
+        "north-america": [
+          1787619600000,
+          1787623200000
+        ],
+        "south-america": [
+          1787616000000,
+          1787619600000
+        ],
+        "asia": [
+          1787576400000,
+          1787580000000
+        ],
+        "oceania": [
+          1787562000000,
+          1787565600000
         ]
       },
       "type": "major",
