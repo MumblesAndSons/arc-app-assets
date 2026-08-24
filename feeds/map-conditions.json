@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-24T22:00:25.127Z",
+  "generatedAt": "2026-08-24T22:43:03.876Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-26T08:00:00.000Z",
+  "horizonEnd": "2026-08-26T09:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-08-26T08:00:00.000Z",
-    "north-america": "2026-08-26T15:00:00.000Z",
-    "south-america": "2026-08-26T14:00:00.000Z",
-    "asia": "2026-08-26T03:00:00.000Z",
-    "oceania": "2026-08-25T23:00:00.000Z"
+    "europe": "2026-08-26T09:00:00.000Z",
+    "north-america": "2026-08-26T16:00:00.000Z",
+    "south-america": "2026-08-26T15:00:00.000Z",
+    "asia": "2026-08-26T04:00:00.000Z",
+    "oceania": "2026-08-26T00:00:00.000Z"
   },
   "regions": [
     {
@@ -4419,6 +4419,96 @@
       },
       "type": "minor",
       "icon": "beachcombing.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1787731200000,
+      "end": 1787734800000,
+      "times": {
+        "europe": [
+          1787731200000,
+          1787734800000
+        ],
+        "north-america": [
+          1787756400000,
+          1787760000000
+        ],
+        "south-america": [
+          1787752800000,
+          1787756400000
+        ],
+        "asia": [
+          1787713200000,
+          1787716800000
+        ],
+        "oceania": [
+          1787698800000,
+          1787702400000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Launch Tower Loot",
+      "map": "Spaceport",
+      "start": 1787731200000,
+      "end": 1787734800000,
+      "times": {
+        "europe": [
+          1787731200000,
+          1787734800000
+        ],
+        "north-america": [
+          1787756400000,
+          1787760000000
+        ],
+        "south-america": [
+          1787752800000,
+          1787756400000
+        ],
+        "asia": [
+          1787713200000,
+          1787716800000
+        ],
+        "oceania": [
+          1787698800000,
+          1787702400000
+        ]
+      },
+      "type": "minor",
+      "icon": "launch_tower_loot.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1787731200000,
+      "end": 1787734800000,
+      "times": {
+        "europe": [
+          1787731200000,
+          1787734800000
+        ],
+        "north-america": [
+          1787756400000,
+          1787760000000
+        ],
+        "south-america": [
+          1787752800000,
+          1787756400000
+        ],
+        "asia": [
+          1787713200000,
+          1787716800000
+        ],
+        "oceania": [
+          1787698800000,
+          1787702400000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
     }
   ]
 }
