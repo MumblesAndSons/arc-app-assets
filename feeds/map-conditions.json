@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-24T17:15:06.398Z",
+  "generatedAt": "2026-08-24T17:49:05.472Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-26T03:00:00.000Z",
+  "horizonEnd": "2026-08-26T04:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-08-26T03:00:00.000Z",
-    "north-america": "2026-08-26T10:00:00.000Z",
-    "south-america": "2026-08-26T09:00:00.000Z",
-    "asia": "2026-08-25T22:00:00.000Z",
-    "oceania": "2026-08-25T18:00:00.000Z"
+    "europe": "2026-08-26T04:00:00.000Z",
+    "north-america": "2026-08-26T11:00:00.000Z",
+    "south-america": "2026-08-26T10:00:00.000Z",
+    "asia": "2026-08-25T23:00:00.000Z",
+    "oceania": "2026-08-25T19:00:00.000Z"
   },
   "regions": [
     {
@@ -4569,6 +4569,96 @@
       },
       "type": "major",
       "icon": "night_raid.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Buried City",
+      "start": 1787713200000,
+      "end": 1787716800000,
+      "times": {
+        "europe": [
+          1787713200000,
+          1787716800000
+        ],
+        "north-america": [
+          1787738400000,
+          1787742000000
+        ],
+        "south-america": [
+          1787734800000,
+          1787738400000
+        ],
+        "asia": [
+          1787695200000,
+          1787698800000
+        ],
+        "oceania": [
+          1787680800000,
+          1787684400000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Spaceport",
+      "start": 1787713200000,
+      "end": 1787716800000,
+      "times": {
+        "europe": [
+          1787713200000,
+          1787716800000
+        ],
+        "north-america": [
+          1787738400000,
+          1787742000000
+        ],
+        "south-america": [
+          1787734800000,
+          1787738400000
+        ],
+        "asia": [
+          1787695200000,
+          1787698800000
+        ],
+        "oceania": [
+          1787680800000,
+          1787684400000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
+      "condition": "Uncovered Caches",
+      "map": "The Blue Gate",
+      "start": 1787713200000,
+      "end": 1787716800000,
+      "times": {
+        "europe": [
+          1787713200000,
+          1787716800000
+        ],
+        "north-america": [
+          1787738400000,
+          1787742000000
+        ],
+        "south-america": [
+          1787734800000,
+          1787738400000
+        ],
+        "asia": [
+          1787695200000,
+          1787698800000
+        ],
+        "oceania": [
+          1787680800000,
+          1787684400000
+        ]
+      },
+      "type": "minor",
+      "icon": "uncovered_caches.png"
     }
   ]
 }
