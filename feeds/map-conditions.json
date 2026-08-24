@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-24T03:50:51.131Z",
+  "generatedAt": "2026-08-24T04:40:06.979Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-25T14:00:00.000Z",
+  "horizonEnd": "2026-08-25T15:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-08-25T14:00:00.000Z",
-    "north-america": "2026-08-25T21:00:00.000Z",
-    "south-america": "2026-08-25T20:00:00.000Z",
-    "asia": "2026-08-25T09:00:00.000Z",
-    "oceania": "2026-08-25T05:00:00.000Z"
+    "europe": "2026-08-25T15:00:00.000Z",
+    "north-america": "2026-08-25T22:00:00.000Z",
+    "south-america": "2026-08-25T21:00:00.000Z",
+    "asia": "2026-08-25T10:00:00.000Z",
+    "oceania": "2026-08-25T06:00:00.000Z"
   },
   "regions": [
     {
@@ -101,96 +101,6 @@
   ],
   "entries": [
     {
-      "condition": "Bird City",
-      "map": "Buried City",
-      "start": 1787515200000,
-      "end": 1787518800000,
-      "times": {
-        "europe": [
-          1787515200000,
-          1787518800000
-        ],
-        "north-america": [
-          1787540400000,
-          1787544000000
-        ],
-        "south-america": [
-          1787536800000,
-          1787540400000
-        ],
-        "asia": [
-          1787497200000,
-          1787500800000
-        ],
-        "oceania": [
-          1787482800000,
-          1787486400000
-        ]
-      },
-      "type": "minor",
-      "icon": "bird_city.png"
-    },
-    {
-      "condition": "Hidden Bunker",
-      "map": "Spaceport",
-      "start": 1787515200000,
-      "end": 1787518800000,
-      "times": {
-        "europe": [
-          1787515200000,
-          1787518800000
-        ],
-        "north-america": [
-          1787540400000,
-          1787544000000
-        ],
-        "south-america": [
-          1787536800000,
-          1787540400000
-        ],
-        "asia": [
-          1787497200000,
-          1787500800000
-        ],
-        "oceania": [
-          1787482800000,
-          1787486400000
-        ]
-      },
-      "type": "major",
-      "icon": "hidden_bunker.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1787515200000,
-      "end": 1787518800000,
-      "times": {
-        "europe": [
-          1787515200000,
-          1787518800000
-        ],
-        "north-america": [
-          1787540400000,
-          1787544000000
-        ],
-        "south-america": [
-          1787536800000,
-          1787540400000
-        ],
-        "asia": [
-          1787497200000,
-          1787500800000
-        ],
-        "oceania": [
-          1787482800000,
-          1787486400000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
       "condition": "Matriarch",
       "map": "Dam Battlegrounds",
       "start": 1787518800000,
@@ -4449,6 +4359,126 @@
       },
       "type": "minor",
       "icon": "lush_blooms.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1787666400000,
+      "end": 1787670000000,
+      "times": {
+        "europe": [
+          1787666400000,
+          1787670000000
+        ],
+        "north-america": [
+          1787691600000,
+          1787695200000
+        ],
+        "south-america": [
+          1787688000000,
+          1787691600000
+        ],
+        "asia": [
+          1787648400000,
+          1787652000000
+        ],
+        "oceania": [
+          1787634000000,
+          1787637600000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Dam Battlegrounds",
+      "start": 1787666400000,
+      "end": 1787670000000,
+      "times": {
+        "europe": [
+          1787666400000,
+          1787670000000
+        ],
+        "north-america": [
+          1787691600000,
+          1787695200000
+        ],
+        "south-america": [
+          1787688000000,
+          1787691600000
+        ],
+        "asia": [
+          1787648400000,
+          1787652000000
+        ],
+        "oceania": [
+          1787634000000,
+          1787637600000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
+      "condition": "Hidden Bunker",
+      "map": "Spaceport",
+      "start": 1787666400000,
+      "end": 1787670000000,
+      "times": {
+        "europe": [
+          1787666400000,
+          1787670000000
+        ],
+        "north-america": [
+          1787691600000,
+          1787695200000
+        ],
+        "south-america": [
+          1787688000000,
+          1787691600000
+        ],
+        "asia": [
+          1787648400000,
+          1787652000000
+        ],
+        "oceania": [
+          1787634000000,
+          1787637600000
+        ]
+      },
+      "type": "major",
+      "icon": "hidden_bunker.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1787666400000,
+      "end": 1787670000000,
+      "times": {
+        "europe": [
+          1787666400000,
+          1787670000000
+        ],
+        "north-america": [
+          1787691600000,
+          1787695200000
+        ],
+        "south-america": [
+          1787688000000,
+          1787691600000
+        ],
+        "asia": [
+          1787648400000,
+          1787652000000
+        ],
+        "oceania": [
+          1787634000000,
+          1787637600000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
     }
   ]
 }
