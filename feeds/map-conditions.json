@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-24T02:50:35.933Z",
+  "generatedAt": "2026-08-24T03:50:51.131Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-25T13:00:00.000Z",
+  "horizonEnd": "2026-08-25T14:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-08-25T13:00:00.000Z",
-    "north-america": "2026-08-25T20:00:00.000Z",
-    "south-america": "2026-08-25T19:00:00.000Z",
-    "asia": "2026-08-25T08:00:00.000Z",
-    "oceania": "2026-08-25T04:00:00.000Z"
+    "europe": "2026-08-25T14:00:00.000Z",
+    "north-america": "2026-08-25T21:00:00.000Z",
+    "south-america": "2026-08-25T20:00:00.000Z",
+    "asia": "2026-08-25T09:00:00.000Z",
+    "oceania": "2026-08-25T05:00:00.000Z"
   },
   "regions": [
     {
@@ -101,96 +101,6 @@
   ],
   "entries": [
     {
-      "condition": "Hurricane",
-      "map": "Buried City",
-      "start": 1787511600000,
-      "end": 1787515200000,
-      "times": {
-        "europe": [
-          1787511600000,
-          1787515200000
-        ],
-        "north-america": [
-          1787536800000,
-          1787540400000
-        ],
-        "south-america": [
-          1787533200000,
-          1787536800000
-        ],
-        "asia": [
-          1787493600000,
-          1787497200000
-        ],
-        "oceania": [
-          1787479200000,
-          1787482800000
-        ]
-      },
-      "type": "major",
-      "icon": "hurricane.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "Spaceport",
-      "start": 1787511600000,
-      "end": 1787515200000,
-      "times": {
-        "europe": [
-          1787511600000,
-          1787515200000
-        ],
-        "north-america": [
-          1787536800000,
-          1787540400000
-        ],
-        "south-america": [
-          1787533200000,
-          1787536800000
-        ],
-        "asia": [
-          1787493600000,
-          1787497200000
-        ],
-        "oceania": [
-          1787479200000,
-          1787482800000
-        ]
-      },
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "The Blue Gate",
-      "start": 1787511600000,
-      "end": 1787515200000,
-      "times": {
-        "europe": [
-          1787511600000,
-          1787515200000
-        ],
-        "north-america": [
-          1787536800000,
-          1787540400000
-        ],
-        "south-america": [
-          1787533200000,
-          1787536800000
-        ],
-        "asia": [
-          1787493600000,
-          1787497200000
-        ],
-        "oceania": [
-          1787479200000,
-          1787482800000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
       "condition": "Bird City",
       "map": "Buried City",
       "start": 1787515200000,
@@ -4419,6 +4329,126 @@
       },
       "type": "minor",
       "icon": "harvester.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Buried City",
+      "start": 1787662800000,
+      "end": 1787666400000,
+      "times": {
+        "europe": [
+          1787662800000,
+          1787666400000
+        ],
+        "north-america": [
+          1787688000000,
+          1787691600000
+        ],
+        "south-america": [
+          1787684400000,
+          1787688000000
+        ],
+        "asia": [
+          1787644800000,
+          1787648400000
+        ],
+        "oceania": [
+          1787630400000,
+          1787634000000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Dam Battlegrounds",
+      "start": 1787662800000,
+      "end": 1787666400000,
+      "times": {
+        "europe": [
+          1787662800000,
+          1787666400000
+        ],
+        "north-america": [
+          1787688000000,
+          1787691600000
+        ],
+        "south-america": [
+          1787684400000,
+          1787688000000
+        ],
+        "asia": [
+          1787644800000,
+          1787648400000
+        ],
+        "oceania": [
+          1787630400000,
+          1787634000000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
+      "condition": "Hurricane",
+      "map": "Spaceport",
+      "start": 1787662800000,
+      "end": 1787666400000,
+      "times": {
+        "europe": [
+          1787662800000,
+          1787666400000
+        ],
+        "north-america": [
+          1787688000000,
+          1787691600000
+        ],
+        "south-america": [
+          1787684400000,
+          1787688000000
+        ],
+        "asia": [
+          1787644800000,
+          1787648400000
+        ],
+        "oceania": [
+          1787630400000,
+          1787634000000
+        ]
+      },
+      "type": "major",
+      "icon": "hurricane.png"
+    },
+    {
+      "condition": "Lush Blooms",
+      "map": "The Blue Gate",
+      "start": 1787662800000,
+      "end": 1787666400000,
+      "times": {
+        "europe": [
+          1787662800000,
+          1787666400000
+        ],
+        "north-america": [
+          1787688000000,
+          1787691600000
+        ],
+        "south-america": [
+          1787684400000,
+          1787688000000
+        ],
+        "asia": [
+          1787644800000,
+          1787648400000
+        ],
+        "oceania": [
+          1787630400000,
+          1787634000000
+        ]
+      },
+      "type": "minor",
+      "icon": "lush_blooms.png"
     }
   ]
 }
