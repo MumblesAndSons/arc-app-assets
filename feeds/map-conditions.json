@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-24T01:43:11.049Z",
+  "generatedAt": "2026-08-24T02:50:35.933Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-25T12:00:00.000Z",
+  "horizonEnd": "2026-08-25T13:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-08-25T12:00:00.000Z",
-    "north-america": "2026-08-25T19:00:00.000Z",
-    "south-america": "2026-08-25T18:00:00.000Z",
-    "asia": "2026-08-25T07:00:00.000Z",
-    "oceania": "2026-08-25T03:00:00.000Z"
+    "europe": "2026-08-25T13:00:00.000Z",
+    "north-america": "2026-08-25T20:00:00.000Z",
+    "south-america": "2026-08-25T19:00:00.000Z",
+    "asia": "2026-08-25T08:00:00.000Z",
+    "oceania": "2026-08-25T04:00:00.000Z"
   },
   "regions": [
     {
@@ -94,11 +94,6 @@
       "icon": "night_raid.png"
     },
     {
-      "name": "Prospecting Probes",
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
-    {
       "name": "Uncovered Caches",
       "type": "minor",
       "icon": "uncovered_caches.png"
@@ -106,126 +101,6 @@
   ],
   "entries": [
     {
-      "condition": "Harvester",
-      "map": "Dam Battlegrounds",
-      "start": 1787508000000,
-      "end": 1787511600000,
-      "times": {
-        "europe": [
-          1787508000000,
-          1787511600000
-        ],
-        "north-america": [
-          1787533200000,
-          1787536800000
-        ],
-        "south-america": [
-          1787529600000,
-          1787533200000
-        ],
-        "asia": [
-          1787490000000,
-          1787493600000
-        ],
-        "oceania": [
-          1787475600000,
-          1787479200000
-        ]
-      },
-      "type": "minor",
-      "icon": "harvester.png"
-    },
-    {
-      "condition": "Prospecting Probes",
-      "map": "Riven Tides",
-      "start": 1787508000000,
-      "end": 1787511600000,
-      "times": {
-        "europe": [
-          1787508000000,
-          1787511600000
-        ],
-        "north-america": [
-          1787533200000,
-          1787536800000
-        ],
-        "south-america": [
-          1787529600000,
-          1787533200000
-        ],
-        "asia": [
-          1787490000000,
-          1787493600000
-        ],
-        "oceania": [
-          1787475600000,
-          1787479200000
-        ]
-      },
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1787508000000,
-      "end": 1787511600000,
-      "times": {
-        "europe": [
-          1787508000000,
-          1787511600000
-        ],
-        "north-america": [
-          1787533200000,
-          1787536800000
-        ],
-        "south-america": [
-          1787529600000,
-          1787533200000
-        ],
-        "asia": [
-          1787490000000,
-          1787493600000
-        ],
-        "oceania": [
-          1787475600000,
-          1787479200000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Close Scrutiny",
-      "map": "The Blue Gate",
-      "start": 1787508000000,
-      "end": 1787511600000,
-      "times": {
-        "europe": [
-          1787508000000,
-          1787511600000
-        ],
-        "north-america": [
-          1787533200000,
-          1787536800000
-        ],
-        "south-america": [
-          1787529600000,
-          1787533200000
-        ],
-        "asia": [
-          1787490000000,
-          1787493600000
-        ],
-        "oceania": [
-          1787475600000,
-          1787479200000
-        ]
-      },
-      "type": "major",
-      "icon": "close_scrutiny.png"
-    },
-    {
       "condition": "Hurricane",
       "map": "Buried City",
       "start": 1787511600000,
@@ -4424,6 +4299,126 @@
       },
       "type": "major",
       "icon": "hurricane.png"
+    },
+    {
+      "condition": "Close Scrutiny",
+      "map": "Buried City",
+      "start": 1787659200000,
+      "end": 1787662800000,
+      "times": {
+        "europe": [
+          1787659200000,
+          1787662800000
+        ],
+        "north-america": [
+          1787684400000,
+          1787688000000
+        ],
+        "south-america": [
+          1787680800000,
+          1787684400000
+        ],
+        "asia": [
+          1787641200000,
+          1787644800000
+        ],
+        "oceania": [
+          1787626800000,
+          1787630400000
+        ]
+      },
+      "type": "major",
+      "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Uncovered Caches",
+      "map": "Spaceport",
+      "start": 1787659200000,
+      "end": 1787662800000,
+      "times": {
+        "europe": [
+          1787659200000,
+          1787662800000
+        ],
+        "north-america": [
+          1787684400000,
+          1787688000000
+        ],
+        "south-america": [
+          1787680800000,
+          1787684400000
+        ],
+        "asia": [
+          1787641200000,
+          1787644800000
+        ],
+        "oceania": [
+          1787626800000,
+          1787630400000
+        ]
+      },
+      "type": "minor",
+      "icon": "uncovered_caches.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1787659200000,
+      "end": 1787662800000,
+      "times": {
+        "europe": [
+          1787659200000,
+          1787662800000
+        ],
+        "north-america": [
+          1787684400000,
+          1787688000000
+        ],
+        "south-america": [
+          1787680800000,
+          1787684400000
+        ],
+        "asia": [
+          1787641200000,
+          1787644800000
+        ],
+        "oceania": [
+          1787626800000,
+          1787630400000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "The Blue Gate",
+      "start": 1787659200000,
+      "end": 1787662800000,
+      "times": {
+        "europe": [
+          1787659200000,
+          1787662800000
+        ],
+        "north-america": [
+          1787684400000,
+          1787688000000
+        ],
+        "south-america": [
+          1787680800000,
+          1787684400000
+        ],
+        "asia": [
+          1787641200000,
+          1787644800000
+        ],
+        "oceania": [
+          1787626800000,
+          1787630400000
+        ]
+      },
+      "type": "minor",
+      "icon": "harvester.png"
     }
   ]
 }
