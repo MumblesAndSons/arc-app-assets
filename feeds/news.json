@@ -1,7 +1,17 @@
 {
-  "generatedAt": "2026-08-21T15:02:48.496Z",
+  "generatedAt": "2026-08-25T09:42:04.141Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
+    {
+      "id": "store-update-1-43-0",
+      "title": "Store Update 1.43.0",
+      "date": "August 25, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/6053ff74-0fbf-store-update-1.43-card-300x200-300x200.png",
+      "tags": [
+        "Store Update"
+      ],
+      "summary": "Store Update 1.43.0 is now rolling out, bringing with it the heavy duty Roamer Set! Be sure to restart your game so you're running the latest version."
+    },
     {
       "id": "the-5th-expedition",
       "title": "The 5th Expedition",
@@ -363,16 +373,6 @@
         "Patch Notes"
       ],
       "summary": "Patch 1.20.0 is now deploying across all platforms. You will need to restart your game to grab the download."
-    },
-    {
-      "id": "patch-notes-1-19-0",
-      "title": "Patch Notes 1.19.0",
-      "date": "March 10, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/e6d007df-0a91-patch-notes-1-19-0-card-300x200-300x200.png",
-      "tags": [
-        "Patch Notes"
-      ],
-      "summary": "Update 1.19.0 is now live. Restart your game to get the download."
     }
   ]
 }
