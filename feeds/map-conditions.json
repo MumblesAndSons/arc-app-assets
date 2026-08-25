@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-25T23:21:13.724Z",
+  "generatedAt": "2026-08-25T23:48:06.030Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-27T09:00:00.000Z",
+  "horizonEnd": "2026-08-27T10:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-08-27T09:00:00.000Z",
-    "north-america": "2026-08-27T16:00:00.000Z",
-    "south-america": "2026-08-27T15:00:00.000Z",
-    "asia": "2026-08-27T04:00:00.000Z",
-    "oceania": "2026-08-27T00:00:00.000Z"
+    "europe": "2026-08-27T10:00:00.000Z",
+    "north-america": "2026-08-27T17:00:00.000Z",
+    "south-america": "2026-08-27T16:00:00.000Z",
+    "asia": "2026-08-27T05:00:00.000Z",
+    "oceania": "2026-08-27T01:00:00.000Z"
   },
   "regions": [
     {
@@ -6605,6 +6605,96 @@
         "oceania": [
           1787785200000,
           1787788800000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1787821200000,
+      "end": 1787824800000,
+      "times": {
+        "europe": [
+          1787821200000,
+          1787824800000
+        ],
+        "north-america": [
+          1787846400000,
+          1787850000000
+        ],
+        "south-america": [
+          1787842800000,
+          1787846400000
+        ],
+        "asia": [
+          1787803200000,
+          1787806800000
+        ],
+        "oceania": [
+          1787788800000,
+          1787792400000
+        ]
+      },
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Spaceport",
+      "start": 1787821200000,
+      "end": 1787824800000,
+      "times": {
+        "europe": [
+          1787821200000,
+          1787824800000
+        ],
+        "north-america": [
+          1787846400000,
+          1787850000000
+        ],
+        "south-america": [
+          1787842800000,
+          1787846400000
+        ],
+        "asia": [
+          1787803200000,
+          1787806800000
+        ],
+        "oceania": [
+          1787788800000,
+          1787792400000
+        ]
+      },
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1787821200000,
+      "end": 1787824800000,
+      "times": {
+        "europe": [
+          1787821200000,
+          1787824800000
+        ],
+        "north-america": [
+          1787846400000,
+          1787850000000
+        ],
+        "south-america": [
+          1787842800000,
+          1787846400000
+        ],
+        "asia": [
+          1787803200000,
+          1787806800000
+        ],
+        "oceania": [
+          1787788800000,
+          1787792400000
         ]
       },
       "type": "major",
