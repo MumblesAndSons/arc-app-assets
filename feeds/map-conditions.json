@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-25T11:22:51.198Z",
+  "generatedAt": "2026-08-25T11:53:47.602Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-26T21:00:00.000Z",
+  "horizonEnd": "2026-08-26T22:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-08-26T21:00:00.000Z",
-    "north-america": "2026-08-27T04:00:00.000Z",
-    "south-america": "2026-08-27T03:00:00.000Z",
-    "asia": "2026-08-26T16:00:00.000Z",
-    "oceania": "2026-08-26T12:00:00.000Z"
+    "europe": "2026-08-26T22:00:00.000Z",
+    "north-america": "2026-08-27T05:00:00.000Z",
+    "south-america": "2026-08-27T04:00:00.000Z",
+    "asia": "2026-08-26T17:00:00.000Z",
+    "oceania": "2026-08-26T13:00:00.000Z"
   },
   "regions": [
     {
@@ -7989,6 +7989,96 @@
       },
       "type": "minor",
       "icon": "harvester.png"
+    },
+    {
+      "condition": "Uncovered Caches",
+      "map": "Buried City",
+      "start": 1787778000000,
+      "end": 1787781600000,
+      "times": {
+        "europe": [
+          1787778000000,
+          1787781600000
+        ],
+        "north-america": [
+          1787803200000,
+          1787806800000
+        ],
+        "south-america": [
+          1787799600000,
+          1787803200000
+        ],
+        "asia": [
+          1787760000000,
+          1787763600000
+        ],
+        "oceania": [
+          1787745600000,
+          1787749200000
+        ]
+      },
+      "type": "minor",
+      "icon": "uncovered_caches.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Dam Battlegrounds",
+      "start": 1787778000000,
+      "end": 1787781600000,
+      "times": {
+        "europe": [
+          1787778000000,
+          1787781600000
+        ],
+        "north-america": [
+          1787803200000,
+          1787806800000
+        ],
+        "south-america": [
+          1787799600000,
+          1787803200000
+        ],
+        "asia": [
+          1787760000000,
+          1787763600000
+        ],
+        "oceania": [
+          1787745600000,
+          1787749200000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Riven Tides",
+      "start": 1787778000000,
+      "end": 1787781600000,
+      "times": {
+        "europe": [
+          1787778000000,
+          1787781600000
+        ],
+        "north-america": [
+          1787803200000,
+          1787806800000
+        ],
+        "south-america": [
+          1787799600000,
+          1787803200000
+        ],
+        "asia": [
+          1787760000000,
+          1787763600000
+        ],
+        "oceania": [
+          1787745600000,
+          1787749200000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
     }
   ]
 }
