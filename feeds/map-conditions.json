@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-25T02:36:22.836Z",
+  "generatedAt": "2026-08-25T03:30:30.826Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-26T13:00:00.000Z",
+  "horizonEnd": "2026-08-26T14:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-08-26T13:00:00.000Z",
-    "north-america": "2026-08-26T20:00:00.000Z",
-    "south-america": "2026-08-26T19:00:00.000Z",
-    "asia": "2026-08-26T08:00:00.000Z",
-    "oceania": "2026-08-26T04:00:00.000Z"
+    "europe": "2026-08-26T14:00:00.000Z",
+    "north-america": "2026-08-26T21:00:00.000Z",
+    "south-america": "2026-08-26T20:00:00.000Z",
+    "asia": "2026-08-26T09:00:00.000Z",
+    "oceania": "2026-08-26T05:00:00.000Z"
   },
   "regions": [
     {
@@ -101,126 +101,6 @@
   ],
   "entries": [
     {
-      "condition": "Lush Blooms",
-      "map": "Buried City",
-      "start": 1787598000000,
-      "end": 1787601600000,
-      "times": {
-        "europe": [
-          1787598000000,
-          1787601600000
-        ],
-        "north-america": [
-          1787623200000,
-          1787626800000
-        ],
-        "south-america": [
-          1787619600000,
-          1787623200000
-        ],
-        "asia": [
-          1787580000000,
-          1787583600000
-        ],
-        "oceania": [
-          1787565600000,
-          1787569200000
-        ]
-      },
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
-    {
-      "condition": "Hidden Bunker",
-      "map": "Spaceport",
-      "start": 1787598000000,
-      "end": 1787601600000,
-      "times": {
-        "europe": [
-          1787598000000,
-          1787601600000
-        ],
-        "north-america": [
-          1787623200000,
-          1787626800000
-        ],
-        "south-america": [
-          1787619600000,
-          1787623200000
-        ],
-        "asia": [
-          1787580000000,
-          1787583600000
-        ],
-        "oceania": [
-          1787565600000,
-          1787569200000
-        ]
-      },
-      "type": "major",
-      "icon": "hidden_bunker.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "Spaceport",
-      "start": 1787598000000,
-      "end": 1787601600000,
-      "times": {
-        "europe": [
-          1787598000000,
-          1787601600000
-        ],
-        "north-america": [
-          1787623200000,
-          1787626800000
-        ],
-        "south-america": [
-          1787619600000,
-          1787623200000
-        ],
-        "asia": [
-          1787580000000,
-          1787583600000
-        ],
-        "oceania": [
-          1787565600000,
-          1787569200000
-        ]
-      },
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "The Blue Gate",
-      "start": 1787598000000,
-      "end": 1787601600000,
-      "times": {
-        "europe": [
-          1787598000000,
-          1787601600000
-        ],
-        "north-america": [
-          1787623200000,
-          1787626800000
-        ],
-        "south-america": [
-          1787619600000,
-          1787623200000
-        ],
-        "asia": [
-          1787580000000,
-          1787583600000
-        ],
-        "oceania": [
-          1787565600000,
-          1787569200000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
       "condition": "Bird City",
       "map": "Buried City",
       "start": 1787601600000,
@@ -4479,6 +4359,126 @@
       },
       "type": "minor",
       "icon": "matriarch.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Dam Battlegrounds",
+      "start": 1787749200000,
+      "end": 1787752800000,
+      "times": {
+        "europe": [
+          1787749200000,
+          1787752800000
+        ],
+        "north-america": [
+          1787774400000,
+          1787778000000
+        ],
+        "south-america": [
+          1787770800000,
+          1787774400000
+        ],
+        "asia": [
+          1787731200000,
+          1787734800000
+        ],
+        "oceania": [
+          1787716800000,
+          1787720400000
+        ]
+      },
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Dam Battlegrounds",
+      "start": 1787749200000,
+      "end": 1787752800000,
+      "times": {
+        "europe": [
+          1787749200000,
+          1787752800000
+        ],
+        "north-america": [
+          1787774400000,
+          1787778000000
+        ],
+        "south-america": [
+          1787770800000,
+          1787774400000
+        ],
+        "asia": [
+          1787731200000,
+          1787734800000
+        ],
+        "oceania": [
+          1787716800000,
+          1787720400000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1787749200000,
+      "end": 1787752800000,
+      "times": {
+        "europe": [
+          1787749200000,
+          1787752800000
+        ],
+        "north-america": [
+          1787774400000,
+          1787778000000
+        ],
+        "south-america": [
+          1787770800000,
+          1787774400000
+        ],
+        "asia": [
+          1787731200000,
+          1787734800000
+        ],
+        "oceania": [
+          1787716800000,
+          1787720400000
+        ]
+      },
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
+      "condition": "Hurricane",
+      "map": "Spaceport",
+      "start": 1787749200000,
+      "end": 1787752800000,
+      "times": {
+        "europe": [
+          1787749200000,
+          1787752800000
+        ],
+        "north-america": [
+          1787774400000,
+          1787778000000
+        ],
+        "south-america": [
+          1787770800000,
+          1787774400000
+        ],
+        "asia": [
+          1787731200000,
+          1787734800000
+        ],
+        "oceania": [
+          1787716800000,
+          1787720400000
+        ]
+      },
+      "type": "major",
+      "icon": "hurricane.png"
     }
   ]
 }
