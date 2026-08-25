@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-25T10:12:46.968Z",
+  "generatedAt": "2026-08-25T10:50:30.282Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-26T20:00:00.000Z",
+  "horizonEnd": "2026-08-26T21:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-08-26T20:00:00.000Z",
-    "north-america": "2026-08-27T03:00:00.000Z",
-    "south-america": "2026-08-27T02:00:00.000Z",
-    "asia": "2026-08-26T15:00:00.000Z",
-    "oceania": "2026-08-26T11:00:00.000Z"
+    "europe": "2026-08-26T21:00:00.000Z",
+    "north-america": "2026-08-27T04:00:00.000Z",
+    "south-america": "2026-08-27T03:00:00.000Z",
+    "asia": "2026-08-26T16:00:00.000Z",
+    "oceania": "2026-08-26T12:00:00.000Z"
   },
   "regions": [
     {
@@ -8049,6 +8049,126 @@
       },
       "type": "major",
       "icon": "night_raid.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1787774400000,
+      "end": 1787778000000,
+      "times": {
+        "europe": [
+          1787774400000,
+          1787778000000
+        ],
+        "north-america": [
+          1787799600000,
+          1787803200000
+        ],
+        "south-america": [
+          1787796000000,
+          1787799600000
+        ],
+        "asia": [
+          1787756400000,
+          1787760000000
+        ],
+        "oceania": [
+          1787742000000,
+          1787745600000
+        ]
+      },
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
+      "condition": "Hidden Bunker",
+      "map": "Spaceport",
+      "start": 1787774400000,
+      "end": 1787778000000,
+      "times": {
+        "europe": [
+          1787774400000,
+          1787778000000
+        ],
+        "north-america": [
+          1787799600000,
+          1787803200000
+        ],
+        "south-america": [
+          1787796000000,
+          1787799600000
+        ],
+        "asia": [
+          1787756400000,
+          1787760000000
+        ],
+        "oceania": [
+          1787742000000,
+          1787745600000
+        ]
+      },
+      "type": "major",
+      "icon": "hidden_bunker.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1787774400000,
+      "end": 1787778000000,
+      "times": {
+        "europe": [
+          1787774400000,
+          1787778000000
+        ],
+        "north-america": [
+          1787799600000,
+          1787803200000
+        ],
+        "south-america": [
+          1787796000000,
+          1787799600000
+        ],
+        "asia": [
+          1787756400000,
+          1787760000000
+        ],
+        "oceania": [
+          1787742000000,
+          1787745600000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "The Blue Gate",
+      "start": 1787774400000,
+      "end": 1787778000000,
+      "times": {
+        "europe": [
+          1787774400000,
+          1787778000000
+        ],
+        "north-america": [
+          1787799600000,
+          1787803200000
+        ],
+        "south-america": [
+          1787796000000,
+          1787799600000
+        ],
+        "asia": [
+          1787756400000,
+          1787760000000
+        ],
+        "oceania": [
+          1787742000000,
+          1787745600000
+        ]
+      },
+      "type": "minor",
+      "icon": "harvester.png"
     }
   ]
 }
