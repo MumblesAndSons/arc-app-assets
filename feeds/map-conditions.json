@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-26T16:50:21.037Z",
+  "generatedAt": "2026-08-26T18:54:37.132Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-08-28T03:00:00.000Z",
+  "horizonEnd": "2026-08-28T05:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-08-28T03:00:00.000Z",
-    "north-america": "2026-08-28T10:00:00.000Z",
-    "south-america": "2026-08-28T09:00:00.000Z",
-    "asia": "2026-08-27T22:00:00.000Z",
-    "oceania": "2026-08-27T18:00:00.000Z"
+    "europe": "2026-08-28T05:00:00.000Z",
+    "north-america": "2026-08-28T12:00:00.000Z",
+    "south-america": "2026-08-28T11:00:00.000Z",
+    "asia": "2026-08-28T00:00:00.000Z",
+    "oceania": "2026-08-27T20:00:00.000Z"
   },
   "regions": [
     {
@@ -101,366 +101,6 @@
   ],
   "entries": [
     {
-      "condition": "Night Raid",
-      "map": "Dam Battlegrounds",
-      "start": 1787734800000,
-      "end": 1787738400000,
-      "times": {
-        "europe": [
-          1787734800000,
-          1787738400000
-        ],
-        "north-america": [
-          1787760000000,
-          1787763600000
-        ],
-        "south-america": [
-          1787756400000,
-          1787760000000
-        ],
-        "asia": [
-          1787716800000,
-          1787720400000
-        ],
-        "oceania": [
-          1787702400000,
-          1787706000000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Beachcombing",
-      "map": "Riven Tides",
-      "start": 1787734800000,
-      "end": 1787738400000,
-      "times": {
-        "europe": [
-          1787734800000,
-          1787738400000
-        ],
-        "north-america": [
-          1787760000000,
-          1787763600000
-        ],
-        "south-america": [
-          1787756400000,
-          1787760000000
-        ],
-        "asia": [
-          1787716800000,
-          1787720400000
-        ],
-        "oceania": [
-          1787702400000,
-          1787706000000
-        ]
-      },
-      "type": "minor",
-      "icon": "beachcombing.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Spaceport",
-      "start": 1787734800000,
-      "end": 1787738400000,
-      "times": {
-        "europe": [
-          1787734800000,
-          1787738400000
-        ],
-        "north-america": [
-          1787760000000,
-          1787763600000
-        ],
-        "south-america": [
-          1787756400000,
-          1787760000000
-        ],
-        "asia": [
-          1787716800000,
-          1787720400000
-        ],
-        "oceania": [
-          1787702400000,
-          1787706000000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Uncovered Caches",
-      "map": "Spaceport",
-      "start": 1787734800000,
-      "end": 1787738400000,
-      "times": {
-        "europe": [
-          1787734800000,
-          1787738400000
-        ],
-        "north-america": [
-          1787760000000,
-          1787763600000
-        ],
-        "south-america": [
-          1787756400000,
-          1787760000000
-        ],
-        "asia": [
-          1787716800000,
-          1787720400000
-        ],
-        "oceania": [
-          1787702400000,
-          1787706000000
-        ]
-      },
-      "type": "minor",
-      "icon": "uncovered_caches.png"
-    },
-    {
-      "condition": "Lush Blooms",
-      "map": "The Blue Gate",
-      "start": 1787734800000,
-      "end": 1787738400000,
-      "times": {
-        "europe": [
-          1787734800000,
-          1787738400000
-        ],
-        "north-america": [
-          1787760000000,
-          1787763600000
-        ],
-        "south-america": [
-          1787756400000,
-          1787760000000
-        ],
-        "asia": [
-          1787716800000,
-          1787720400000
-        ],
-        "oceania": [
-          1787702400000,
-          1787706000000
-        ]
-      },
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "The Blue Gate",
-      "start": 1787734800000,
-      "end": 1787738400000,
-      "times": {
-        "europe": [
-          1787734800000,
-          1787738400000
-        ],
-        "north-america": [
-          1787760000000,
-          1787763600000
-        ],
-        "south-america": [
-          1787756400000,
-          1787760000000
-        ],
-        "asia": [
-          1787716800000,
-          1787720400000
-        ],
-        "oceania": [
-          1787702400000,
-          1787706000000
-        ]
-      },
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
-    {
-      "condition": "Bird City",
-      "map": "Buried City",
-      "start": 1787738400000,
-      "end": 1787742000000,
-      "times": {
-        "europe": [
-          1787738400000,
-          1787742000000
-        ],
-        "north-america": [
-          1787763600000,
-          1787767200000
-        ],
-        "south-america": [
-          1787760000000,
-          1787763600000
-        ],
-        "asia": [
-          1787720400000,
-          1787724000000
-        ],
-        "oceania": [
-          1787706000000,
-          1787709600000
-        ]
-      },
-      "type": "minor",
-      "icon": "bird_city.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "Dam Battlegrounds",
-      "start": 1787738400000,
-      "end": 1787742000000,
-      "times": {
-        "europe": [
-          1787738400000,
-          1787742000000
-        ],
-        "north-america": [
-          1787763600000,
-          1787767200000
-        ],
-        "south-america": [
-          1787760000000,
-          1787763600000
-        ],
-        "asia": [
-          1787720400000,
-          1787724000000
-        ],
-        "oceania": [
-          1787706000000,
-          1787709600000
-        ]
-      },
-      "type": "minor",
-      "icon": "harvester.png"
-    },
-    {
-      "condition": "Uncovered Caches",
-      "map": "Riven Tides",
-      "start": 1787738400000,
-      "end": 1787742000000,
-      "times": {
-        "europe": [
-          1787738400000,
-          1787742000000
-        ],
-        "north-america": [
-          1787763600000,
-          1787767200000
-        ],
-        "south-america": [
-          1787760000000,
-          1787763600000
-        ],
-        "asia": [
-          1787720400000,
-          1787724000000
-        ],
-        "oceania": [
-          1787706000000,
-          1787709600000
-        ]
-      },
-      "type": "minor",
-      "icon": "uncovered_caches.png"
-    },
-    {
-      "condition": "Close Scrutiny",
-      "map": "Spaceport",
-      "start": 1787738400000,
-      "end": 1787742000000,
-      "times": {
-        "europe": [
-          1787738400000,
-          1787742000000
-        ],
-        "north-america": [
-          1787763600000,
-          1787767200000
-        ],
-        "south-america": [
-          1787760000000,
-          1787763600000
-        ],
-        "asia": [
-          1787720400000,
-          1787724000000
-        ],
-        "oceania": [
-          1787706000000,
-          1787709600000
-        ]
-      },
-      "type": "major",
-      "icon": "close_scrutiny.png"
-    },
-    {
-      "condition": "Hidden Bunker",
-      "map": "Spaceport",
-      "start": 1787738400000,
-      "end": 1787742000000,
-      "times": {
-        "europe": [
-          1787738400000,
-          1787742000000
-        ],
-        "north-america": [
-          1787763600000,
-          1787767200000
-        ],
-        "south-america": [
-          1787760000000,
-          1787763600000
-        ],
-        "asia": [
-          1787720400000,
-          1787724000000
-        ],
-        "oceania": [
-          1787706000000,
-          1787709600000
-        ]
-      },
-      "type": "major",
-      "icon": "hidden_bunker.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1787738400000,
-      "end": 1787742000000,
-      "times": {
-        "europe": [
-          1787738400000,
-          1787742000000
-        ],
-        "north-america": [
-          1787763600000,
-          1787767200000
-        ],
-        "south-america": [
-          1787760000000,
-          1787763600000
-        ],
-        "asia": [
-          1787720400000,
-          1787724000000
-        ],
-        "oceania": [
-          1787706000000,
-          1787709600000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
       "condition": "Lush Blooms",
       "map": "Buried City",
       "start": 1787742000000,
@@ -5469,6 +5109,186 @@
       },
       "type": "minor",
       "icon": "harvester.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1787886000000,
+      "end": 1787889600000,
+      "times": {
+        "europe": [
+          1787886000000,
+          1787889600000
+        ],
+        "north-america": [
+          1787911200000,
+          1787914800000
+        ],
+        "south-america": [
+          1787907600000,
+          1787911200000
+        ],
+        "asia": [
+          1787868000000,
+          1787871600000
+        ],
+        "oceania": [
+          1787853600000,
+          1787857200000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Dam Battlegrounds",
+      "start": 1787886000000,
+      "end": 1787889600000,
+      "times": {
+        "europe": [
+          1787886000000,
+          1787889600000
+        ],
+        "north-america": [
+          1787911200000,
+          1787914800000
+        ],
+        "south-america": [
+          1787907600000,
+          1787911200000
+        ],
+        "asia": [
+          1787868000000,
+          1787871600000
+        ],
+        "oceania": [
+          1787853600000,
+          1787857200000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Spaceport",
+      "start": 1787886000000,
+      "end": 1787889600000,
+      "times": {
+        "europe": [
+          1787886000000,
+          1787889600000
+        ],
+        "north-america": [
+          1787911200000,
+          1787914800000
+        ],
+        "south-america": [
+          1787907600000,
+          1787911200000
+        ],
+        "asia": [
+          1787868000000,
+          1787871600000
+        ],
+        "oceania": [
+          1787853600000,
+          1787857200000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1787889600000,
+      "end": 1787893200000,
+      "times": {
+        "europe": [
+          1787889600000,
+          1787893200000
+        ],
+        "north-america": [
+          1787914800000,
+          1787918400000
+        ],
+        "south-america": [
+          1787911200000,
+          1787914800000
+        ],
+        "asia": [
+          1787871600000,
+          1787875200000
+        ],
+        "oceania": [
+          1787857200000,
+          1787860800000
+        ]
+      },
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Spaceport",
+      "start": 1787889600000,
+      "end": 1787893200000,
+      "times": {
+        "europe": [
+          1787889600000,
+          1787893200000
+        ],
+        "north-america": [
+          1787914800000,
+          1787918400000
+        ],
+        "south-america": [
+          1787911200000,
+          1787914800000
+        ],
+        "asia": [
+          1787871600000,
+          1787875200000
+        ],
+        "oceania": [
+          1787857200000,
+          1787860800000
+        ]
+      },
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1787889600000,
+      "end": 1787893200000,
+      "times": {
+        "europe": [
+          1787889600000,
+          1787893200000
+        ],
+        "north-america": [
+          1787914800000,
+          1787918400000
+        ],
+        "south-america": [
+          1787911200000,
+          1787914800000
+        ],
+        "asia": [
+          1787871600000,
+          1787875200000
+        ],
+        "oceania": [
+          1787857200000,
+          1787860800000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
     }
   ]
 }
