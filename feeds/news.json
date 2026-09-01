@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-08-25T09:42:04.141Z",
+  "generatedAt": "2026-09-01T11:42:33.988Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
+    {
+      "id": "store-update-1-44-0",
+      "title": "Store Update 1.44.0",
+      "date": "September 1, 2026",
+      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/77f2c443-0a22-store-update-1.44-card-300x200-300x200.png",
+      "tags": [],
+      "summary": "Store Update 1.44.0 is now live, bringing the stunning Static Set to the store. No restart is needed to access it."
+    },
     {
       "id": "store-update-1-43-0",
       "title": "Store Update 1.43.0",
@@ -363,16 +371,6 @@
         "Patch Notes"
       ],
       "summary": "Patch 1.21.0 is now rolling out across all platforms. Restart your game so it can download."
-    },
-    {
-      "id": "patch-notes-1-20-0",
-      "title": "Patch Notes 1.20.0",
-      "date": "March 17, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/cd665944-4c09-patch-notes-1-20-0-card-300x200-300x200.png",
-      "tags": [
-        "Patch Notes"
-      ],
-      "summary": "Patch 1.20.0 is now deploying across all platforms. You will need to restart your game to grab the download."
     }
   ]
 }
