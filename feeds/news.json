@@ -1,20 +1,22 @@
 {
-  "generatedAt": "2026-09-01T11:42:33.988Z",
+  "generatedAt": "2026-09-01T15:33:27.620Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
     {
       "id": "store-update-1-44-0",
       "title": "Store Update 1.44.0",
       "date": "September 1, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/77f2c443-0a22-store-update-1.44-card-300x200-300x200.png",
-      "tags": [],
+      "image": "https://assets.arcraiders.com/article-cards/77f2c443-0a22-store-update-1.44-card-300x200-300x200.png",
+      "tags": [
+        "Store Update"
+      ],
       "summary": "Store Update 1.44.0 is now live, bringing the stunning Static Set to the store. No restart is needed to access it."
     },
     {
       "id": "store-update-1-43-0",
       "title": "Store Update 1.43.0",
       "date": "August 25, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/6053ff74-0fbf-store-update-1.43-card-300x200-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/6053ff74-0fbf-store-update-1.43-card-300x200-300x200.png",
       "tags": [
         "Store Update"
       ],
@@ -24,7 +26,7 @@
       "id": "the-5th-expedition",
       "title": "The 5th Expedition",
       "date": "August 21, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/621906c4-b6d3-expedition-5-blog-card-300x200-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/621906c4-b6d3-expedition-5-blog-card-300x200-300x200.png",
       "tags": [],
       "summary": "The fifth Expedition window is coming up soon, and it brings several changes. Listening to your feedback, in future Expeditions you will have the option to skip resetting your quest progress, the departure window will run one week longer, a"
     },
@@ -32,7 +34,7 @@
       "id": "subway-arc-raiders-partnership",
       "title": "ARC Raiders x Subway: Exclusive Subterranean outfit",
       "date": "August 20, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/244efe07-a253-subway-card-300x200-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/244efe07-a253-subway-card-300x200-300x200.png",
       "tags": [],
       "summary": "# ARC Raiders x Subway: Exclusive Subterranean outfit"
     },
@@ -40,7 +42,7 @@
       "id": "live-update-1-42-0",
       "title": "Live Update 1.42.0",
       "date": "August 18, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/efc9be14-9630-store-update-1.42-card-300x200-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/efc9be14-9630-store-update-1.42-card-300x200-300x200.png",
       "tags": [
         "Patch Notes"
       ],
@@ -50,7 +52,7 @@
       "id": "frozen-trail-is-coming-october-8th",
       "title": "Frozen Trail is coming October 8!",
       "date": "August 12, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/0c270bdc-0226-ArcRaiders_Blogs_GeneralAsset_PatchNotes_300x200-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/0c270bdc-0226-ArcRaiders_Blogs_GeneralAsset_PatchNotes_300x200-300x200.png",
       "tags": [],
       "summary": "**Hello Raiders, this is Embark speaking.**"
     },
@@ -58,7 +60,7 @@
       "id": "store-update-1-41-0",
       "title": "Store Update 1.41.0",
       "date": "August 11, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/1990c3be-2a4d-store-update-1.41-card-300x200-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/1990c3be-2a4d-store-update-1.41-card-300x200-300x200.png",
       "tags": [
         "Store Update"
       ],
@@ -68,7 +70,7 @@
       "id": "store-update-1-40-0",
       "title": "Store Update 1.40.0",
       "date": "August 4, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/1ce8fcfe-faff-store-update-1.40-card-300x200-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/1ce8fcfe-faff-store-update-1.40-card-300x200-300x200.png",
       "tags": [
         "Store Update"
       ],
@@ -78,7 +80,7 @@
       "id": "live-update-1-39-0",
       "title": "Live Update 1.39.0",
       "date": "July 28, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/674fd509-41fb-live-update-1.39-card-300x200 (1)-300x200.jpg",
+      "image": "https://assets.arcraiders.com/article-cards/674fd509-41fb-live-update-1.39-card-300x200 (1)-300x200.jpg",
       "tags": [
         "Patch Notes"
       ],
@@ -88,7 +90,7 @@
       "id": "patch-notes-1-38-0",
       "title": "Store Update 1.38.0",
       "date": "July 21, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/e2ebbcea-dff2-store-update-1.37-card-300x200 (2)-300x200.jpg",
+      "image": "https://assets.arcraiders.com/article-cards/e2ebbcea-dff2-store-update-1.37-card-300x200 (2)-300x200.jpg",
       "tags": [
         "Store Update"
       ],
@@ -98,7 +100,7 @@
       "id": "store-update-1-37-0",
       "title": "Store Update 1.37.0",
       "date": "July 14, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/b877ac91-f750-store-update-1.37-card-300x200 (1)-300x200.jpg",
+      "image": "https://assets.arcraiders.com/article-cards/b877ac91-f750-store-update-1.37-card-300x200 (1)-300x200.jpg",
       "tags": [
         "Store Update"
       ],
@@ -108,7 +110,7 @@
       "id": "live-update-1-36-0",
       "title": "Live Update 1.36.0",
       "date": "July 7, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/c3d5e74a-2be7-store-update-1.36-card-300x200-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/c3d5e74a-2be7-store-update-1.36-card-300x200-300x200.png",
       "tags": [
         "Patch Notes"
       ],
@@ -118,7 +120,7 @@
       "id": "trials-season-5",
       "title": "Trials Season 5: Prove Your Mettle",
       "date": "July 1, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/c4904225-86cd-trials-s5-card-300x200-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/c4904225-86cd-trials-s5-card-300x200-300x200.png",
       "tags": [],
       "summary": "Menacing machines continue to stalk the surface, and their activity keeps ramping up at a worrying pace. Across Season 4 of your weekly Trials, you've shot, burned, exploded, bludgeoned, and scavenged your way through the chaos, gathering e"
     },
@@ -126,7 +128,7 @@
       "id": "store-update-1-35-0",
       "title": "Store Update 1.35.0",
       "date": "June 30, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/8d5b641b-2eb0-store-update-1.35-card-300x200-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/8d5b641b-2eb0-store-update-1.35-card-300x200-300x200.png",
       "tags": [
         "Store Update"
       ],
@@ -136,7 +138,7 @@
       "id": "the-fourth-expedition",
       "title": "The Fourth Expedition",
       "date": "June 25, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/1460a908-aecf-expedition-4-blog-card-300x200-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/1460a908-aecf-expedition-4-blog-card-300x200-300x200.png",
       "tags": [],
       "summary": "The fourth Expedition is nearly upon us, and it arrives with some notable changes. With every Expedition we run, we take away lessons and search for ways to improve things. This time, that means overhauling the reward structure."
     },
@@ -144,7 +146,7 @@
       "id": "store-update-1-34-0",
       "title": "Store Update 1.34.0",
       "date": "June 23, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/b186b3df-3c8f-store-update-card-300x200-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/b186b3df-3c8f-store-update-card-300x200-300x200.png",
       "tags": [
         "Store Update"
       ],
@@ -154,7 +156,7 @@
       "id": "live-update-1-33-0",
       "title": "Live Update 1.33.0",
       "date": "June 16, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/0e0ca8b4-3a7a-saltwalker-1-33-card-300x200-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/0e0ca8b4-3a7a-saltwalker-1-33-card-300x200-300x200.png",
       "tags": [
         "Patch Notes"
       ],
@@ -164,7 +166,7 @@
       "id": "store-update-1-32-0",
       "title": "Store Update 1.32.0",
       "date": "June 9, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/06fbe7d9-1f16-store-update-1-32-card-300x200-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/06fbe7d9-1f16-store-update-1-32-card-300x200-300x200.png",
       "tags": [
         "Store Update"
       ],
@@ -174,7 +176,7 @@
       "id": "store-update-1-31-0",
       "title": "Store Update 1.31.0",
       "date": "June 2, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/store-update-1-31-card-300x200-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/store-update-1-31-card-300x200-300x200.png",
       "tags": [
         "Store Update"
       ],
@@ -184,7 +186,7 @@
       "id": "store-update-1-30-0",
       "title": "Store Update 1.30.0",
       "date": "May 26, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/patch-notes-1-30-0-card-300x200-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/patch-notes-1-30-0-card-300x200-300x200.png",
       "tags": [
         "Store Update"
       ],
@@ -194,7 +196,7 @@
       "id": "notes-on-the-matchmaking-system",
       "title": "Notes on The Matchmaking System",
       "date": "May 20, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/0332f64e-2bd2-notes-on-matchmaking-300x200-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/0332f64e-2bd2-notes-on-matchmaking-300x200-300x200.png",
       "tags": [],
       "summary": "There has been a lot of conversation about matchmaking in **ARC Raiders**. That conversation has been followed closely, and this piece aims to clarify what the system is designed to accomplish, how it behaves in reality, and what falls outs"
     },
@@ -202,7 +204,7 @@
       "id": "meet-the-new-trader",
       "title": "Meet the new Trader: Nomadic Envoys",
       "date": "May 19, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/1e966ca0-7ae1-new-trader-blog_300x200-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/1e966ca0-7ae1-new-trader-blog_300x200-300x200.png",
       "tags": [],
       "summary": "A new Trader has arrived. Ermal, an envoy sent by a band of nomadic surface dwellers, has made his way into Speranza to trade on his tribe's behalf. He carries a set of unique rewards, but the price is steep - he wants both your gear and sp"
     },
@@ -210,7 +212,7 @@
       "id": "patch-notes-1-29-0",
       "title": "Patch Notes 1.29.0",
       "date": "May 19, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/a4454a64-7efc-patch-notes-1-29-0-card-300x200-2-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/a4454a64-7efc-patch-notes-1-29-0-card-300x200-2-300x200.png",
       "tags": [
         "Patch Notes"
       ],
@@ -220,7 +222,7 @@
       "id": "development-update",
       "title": "We’re changing how we update ARC Raiders - here’s what it means for you",
       "date": "May 13, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/31b157ff-d3ea-development-update_300x200-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/31b157ff-d3ea-development-update_300x200-300x200.png",
       "tags": [],
       "summary": "# ARC Raiders is shifting to a new update schedule - here's what that means for you"
     },
@@ -228,7 +230,7 @@
       "id": "patch-notes-1-28-0",
       "title": "Store Update 1.28.0",
       "date": "May 12, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/73bbc060-acac-patch-notes-1-28-0-card-300x200-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/73bbc060-acac-patch-notes-1-28-0-card-300x200-300x200.png",
       "tags": [
         "Store Update"
       ],
@@ -238,7 +240,7 @@
       "id": "ensuring-fair-play",
       "title": "Ensuring Fair Play",
       "date": "May 7, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/8c90c0a1-27ce-our-take-on-ensuringg-fair-play-card-300x200-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/8c90c0a1-27ce-our-take-on-ensuringg-fair-play-card-300x200-300x200.png",
       "tags": [],
       "summary": "Anti-cheat at Embark is a studio-wide effort that protects every player across our games. With ARC Raiders Riven Tides now live, we want to lay out where things currently stand, what we are building, and how we approach the tougher challeng"
     },
@@ -246,7 +248,7 @@
       "id": "patch-notes-1-27-0",
       "title": "Patch Notes 1.27.0",
       "date": "May 5, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/6172755c-5d8a-patch-notes-1-27-0-card-300x200-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/6172755c-5d8a-patch-notes-1-27-0-card-300x200-300x200.png",
       "tags": [
         "Patch Notes"
       ],
@@ -256,7 +258,7 @@
       "id": "hotfix-1-26-1",
       "title": "Hotfix 1.26.1",
       "date": "April 30, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/434ec7b9-574d-riven-tides-patch-notes-1-26-0-card-300x200-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/434ec7b9-574d-riven-tides-patch-notes-1-26-0-card-300x200-300x200.png",
       "tags": [
         "Patch Notes",
         "Hotfix"
@@ -267,7 +269,7 @@
       "id": "riven-tides-patch-notes-1-26-0",
       "title": "Riven Tides - Patch Notes 1.26.0",
       "date": "April 28, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/434ec7b9-574d-riven-tides-patch-notes-1-26-0-card-300x200-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/434ec7b9-574d-riven-tides-patch-notes-1-26-0-card-300x200-300x200.png",
       "tags": [
         "Patch Notes"
       ],
@@ -277,7 +279,7 @@
       "id": "riven-tides",
       "title": "Riven Tides update - Reclaim the coast",
       "date": "April 27, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/0b3112ae-ce3c-riven-tides-launch-card-300x200-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/0b3112ae-ce3c-riven-tides-launch-card-300x200-300x200.png",
       "tags": [],
       "summary": "Scout reports have been coming back from Riven Tides. Fragments of observation logs, faded photographs, and coastal footage have finally made their way back to Speranza."
     },
@@ -285,7 +287,7 @@
       "id": "quick-guide-to-trials-season-4",
       "title": "Trials season 4: What’s on the horizon",
       "date": "April 25, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/e021e243-491a-trials-s4-card-300x200-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/e021e243-491a-trials-s4-card-300x200-300x200.png",
       "tags": [],
       "summary": "# **ARE YOU READY TO FACE THE TRIALS, RAIDER?**"
     },
@@ -293,7 +295,7 @@
       "id": "riven-tides-map-scout-report",
       "title": "Riven Tides: Scout Report",
       "date": "April 18, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/80e91f03-a811-scout-report-card-300x200-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/80e91f03-a811-scout-report-card-300x200-300x200.png",
       "tags": [],
       "summary": "I want to be honest about how all this started."
     },
@@ -301,7 +303,7 @@
       "id": "a-triumphant-exit",
       "title": "A Triumphant Exit",
       "date": "April 17, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/47231351-4534-expedition-blog-card-300x200-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/47231351-4534-expedition-blog-card-300x200-300x200.png",
       "tags": [],
       "summary": "**We heard you. Respecting your time was always a core idea behind the Expedition Project system, so we've made further adjustments to how this round works.**"
     },
@@ -309,7 +311,7 @@
       "id": "patch-notes-1-24-0",
       "title": "Patch Notes 1.24.0",
       "date": "April 14, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/a1608deb-bbf9-patch-notes-1-24-0-card-300x200-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/a1608deb-bbf9-patch-notes-1-24-0-card-300x200-300x200.png",
       "tags": [
         "Patch Notes"
       ],
@@ -319,7 +321,7 @@
       "id": "patch-notes-1-23-0",
       "title": "Patch Notes 1.23.0",
       "date": "April 8, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/e8daba88-a59c-patch-notes-1-23-0-card-300x200-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/e8daba88-a59c-patch-notes-1-23-0-card-300x200-300x200.png",
       "tags": [
         "Patch Notes"
       ],
@@ -329,7 +331,7 @@
       "id": "user-experience-improvements",
       "title": "Reducing friction in ARC Raiders",
       "date": "April 4, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/temp/articles/generic-300x200.png",
+      "image": "https://assets.arcraiders.com/static/articles/generic-300x200.png",
       "tags": [],
       "summary": "As a development team, one of our biggest priorities is making sure every moment you spend in ARC Raiders feels purposeful. Your time matters, and we don't want you clicking through menus when you could be out raiding instead."
     },
@@ -337,7 +339,7 @@
       "id": "hotfix-1-22-1",
       "title": "Hotfix 1.22.1",
       "date": "April 1, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/273ee48a-b794-generic-300x200-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/273ee48a-b794-generic-300x200-300x200.png",
       "tags": [
         "Patch Notes",
         "Hotfix"
@@ -348,7 +350,7 @@
       "id": "patch-notes-1-22-0",
       "title": "Flashpoint - Patch Notes 1.22.0",
       "date": "March 31, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/465e6f7b-5ed4-patch-notes-1-22-0-card-300x200-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/465e6f7b-5ed4-patch-notes-1-22-0-card-300x200-300x200.png",
       "tags": [
         "Patch Notes"
       ],
@@ -358,7 +360,7 @@
       "id": "flashpoint-content-update",
       "title": "Flashpoint update - Find the truth",
       "date": "March 30, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/temp/articles/generic-300x200.png",
+      "image": "https://assets.arcraiders.com/static/articles/generic-300x200.png",
       "tags": [],
       "summary": "Celeste's radar is filling up with unidentified signatures."
     },
@@ -366,7 +368,7 @@
       "id": "patch-notes-1-21-0",
       "title": "Patch Notes 1.21.0",
       "date": "March 24, 2026",
-      "image": "https://storage.googleapis.com/web-arc-raiders-cms-assets/article-cards/b210facd-bb47-patch-notes-1-21-0-card-300x200-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/b210facd-bb47-patch-notes-1-21-0-card-300x200-300x200.png",
       "tags": [
         "Patch Notes"
       ],
