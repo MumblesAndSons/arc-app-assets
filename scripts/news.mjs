@@ -1,8 +1,7 @@
 // Builds feeds/news.json from https://arcraiders.com/news
 //
-// The list page is server-rendered, so the cards parse from plain HTML.
-// Class names carry a build hash (news-article-card_title__7LpPs), so every
-// selector here matches the stable PREFIX only and ignores the hash.
+// Reading the list page lives in scripts/lib/newsPage.mjs, which also says why
+// it has two readers.
 //
 // Article bodies are only fetched for slugs that are not already published.
 // That keeps an hourly run down to one request when nothing has changed.
@@ -12,6 +11,7 @@
 // body is fetched once and never again, each article is rewritten exactly once.
 import { fetchText, publish, readExisting, clean } from './lib/util.mjs';
 import { rewriteArticle, rewriteModel } from './lib/rewrite.mjs';
+import { parseNewsPage } from './lib/newsPage.mjs';
 import { writeFileSync, readFileSync, mkdirSync, existsSync } from 'node:fs';
 
 const LIST = 'https://arcraiders.com/news';
@@ -28,49 +28,6 @@ const MAX_NEW = Number(process.env.MAX_NEW) || 12;
 // current version is rewritten again, a dozen per run, until they all match.
 // That is also how the first batch of scraped bodies got replaced.
 const REWRITE_VERSION = 1;
-
-/** Splits the list page into one chunk per article card. */
-function cardChunks(html) {
-  const parts = html.split(/<a\s+class="news-article-card_container__[^"]*"/);
-  return parts.slice(1);
-}
-
-function firstMatch(s, re) {
-  const m = s.match(re);
-  return m ? clean(m[1]) : '';
-}
-
-function parseList(html) {
-  const out = [];
-  for (const chunk of cardChunks(html)) {
-    const slug = firstMatch(chunk, /href="\/news\/([a-z0-9-]+)"/);
-    if (!slug) continue;
-
-    const title = firstMatch(chunk, /news-article-card_title__[^"]*">([^<]*)</);
-    const date = firstMatch(chunk, /news-article-card_date__[^"]*">([^<]*)</);
-    // prefer the 300x200 card image over the 300x100 mobile crop
-    const image = firstMatch(chunk, /news-article-card_image__[^"]*"\s+src="([^"]+)"/);
-
-    const tags = [];
-    const tagRe = /news-article-tag_tag__[^"]*"[^>]*>([^<]*)</g;
-    let tm;
-    while ((tm = tagRe.exec(chunk))) {
-      const t = clean(tm[1]);
-      if (t && !tags.includes(t)) tags.push(t);
-    }
-
-    if (!title) continue;
-    out.push({
-      id: slug,
-      title,
-      date,
-      image,
-      tags,
-      url: `https://arcraiders.com/news/${slug}`,
-    });
-  }
-  return out;
-}
 
 /**
  * Cuts the page furniture off the end of an article.
@@ -151,14 +108,26 @@ function isCurrent(path) {
 }
 
 const listHtml = await fetchText(LIST);
-const cards = parseList(listHtml);
+const { cards, via, complete } = parseNewsPage(listHtml);
 if (cards.length < 5) {
   console.error(`only ${cards.length} cards parsed; leaving the previous file alone`);
   process.exit(1);
 }
+console.log(`read ${cards.length} articles from the ${via}`);
 
 const prev = readExisting(OUT);
 const known = new Map((prev?.articles ?? []).map((a) => [a.id, a]));
+
+// The rows stop at the newest dozen. Publishing only those would cut the app's
+// list from 40 articles to 12, so carry on with the ones we already hold.
+if (!complete) {
+  const onPage = new Set(cards.map((c) => c.id));
+  for (const a of prev?.articles ?? []) {
+    if (onPage.has(a.id)) continue;
+    const { summary, ...rest } = a;
+    cards.push({ ...rest, url: `https://arcraiders.com/news/${a.id}` });
+  }
+}
 
 // No key means no rewrite, and an article we cannot rewrite must not ship.
 // The index still refreshes, so the run is useful and the failure is visible.

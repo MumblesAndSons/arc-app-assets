@@ -155,6 +155,18 @@ jobs:
             echo "map conditions have not refreshed for ${age} hours"
             exit 1
           fi
+          # News rewrites its index on every good run, so an old stamp means
+          # the news step has been failing. In September 2026 it failed for
+          # three weeks after a site redesign and nothing said so, because a
+          # single feed step failing is not an alert on its own. A day is long
+          # enough to ride out a wobble and short enough to catch a redesign.
+          gen=$(node -e "console.log(Math.floor(Date.parse(require('./feeds/news.json').generatedAt)/1000))")
+          age=$(( (now - gen) / 3600 ))
+          echo "news is ${age}h old"
+          if [ "$age" -gt 24 ]; then
+            echo "news has not refreshed for ${age} hours"
+            exit 1
+          fi
 
       # The one check that asks whether the APP is right, rather than whether
       # the run went well. Deliberately last, so it judges what was committed.
@@ -202,6 +214,9 @@ jobs:
               '* "App matches the site" = failure means the app is showing fewer map',
               '  conditions than arcraiders.com is. Open the run and read that step,',
               '  it lists exactly what is missing.',
+              '* "Feed freshness check" = failure with a good map conditions step means',
+              '  the NEWS feed is over a day old. Open the run and read the News step.',
+              '  Last time, arcraiders.com had changed the layout of its news page.',
               '* "App matches the site" = skipped means the run stopped before it got',
               '  there, because the map conditions file has not refreshed for over',
               '  three hours. About a dozen runs in a row failed to land.',
