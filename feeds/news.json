@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-09-01T15:33:27.620Z",
+  "generatedAt": "2026-09-21T19:27:00.480Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
+    {
+      "id": "store-update-1-46-0",
+      "title": "Store Update 1.46.0",
+      "date": "September 15, 2026",
+      "image": "https://assets.arcraiders.com/article-cards/9207c39d-aa32-store-update-1.46-card-600x400-300x200.png",
+      "tags": [
+        "Store Update"
+      ],
+      "summary": "Store Update 1.46.0 is now live, adding two new colour variants for the Boonie Set: Black and Green Camo. If you already own the outfit, these variants unlock automatically. No restart needed!"
+    },
+    {
+      "id": "live-update-1-45-0",
+      "title": "Live Update 1.45.0",
+      "date": "September 8, 2026",
+      "image": "https://assets.arcraiders.com/article-cards/e3bf2866-1c70-store-update-1.45-card-300x200-300x200.png",
+      "tags": [
+        "Patch Notes"
+      ],
+      "summary": "Update 1.45.0 is now live, bringing several fixes, a new Raider Project, the launch of the fifth Expedition, the Hornet Hunter Set, and upcoming changes to Cred. Restart your game to receive the download."
+    },
     {
       "id": "store-update-1-44-0",
       "title": "Store Update 1.44.0",
@@ -52,7 +72,7 @@
       "id": "frozen-trail-is-coming-october-8th",
       "title": "Frozen Trail is coming October 8!",
       "date": "August 12, 2026",
-      "image": "https://assets.arcraiders.com/article-cards/0c270bdc-0226-ArcRaiders_Blogs_GeneralAsset_PatchNotes_300x200-300x200.png",
+      "image": "https://assets.arcraiders.com/article-cards/8387678f-f218-ArcRaiders_Blogs_GeneralAsset_PatchNotes_TEST_600x400600x400-300x200.png",
       "tags": [],
       "summary": "**Hello Raiders, this is Embark speaking.**"
     },
@@ -355,24 +375,6 @@
         "Patch Notes"
       ],
       "summary": "The storm has passed, but new dangers have appeared in its wake. Speranza buzzes with talk of a fresh ARC operation, shifting enemy behaviour, and strange things happening in the sky. Tian Wen is hard at work on new combat technology, while"
-    },
-    {
-      "id": "flashpoint-content-update",
-      "title": "Flashpoint update - Find the truth",
-      "date": "March 30, 2026",
-      "image": "https://assets.arcraiders.com/static/articles/generic-300x200.png",
-      "tags": [],
-      "summary": "Celeste's radar is filling up with unidentified signatures."
-    },
-    {
-      "id": "patch-notes-1-21-0",
-      "title": "Patch Notes 1.21.0",
-      "date": "March 24, 2026",
-      "image": "https://assets.arcraiders.com/article-cards/b210facd-bb47-patch-notes-1-21-0-card-300x200-300x200.png",
-      "tags": [
-        "Patch Notes"
-      ],
-      "summary": "Patch 1.21.0 is now rolling out across all platforms. Restart your game so it can download."
     }
   ]
 }
