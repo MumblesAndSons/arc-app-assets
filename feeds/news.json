@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-09-21T19:27:00.480Z",
+  "generatedAt": "2026-09-22T11:56:05.120Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
+    {
+      "id": "store-update-1-47-0",
+      "title": "Store Update 1.47.0",
+      "date": "September 22, 2026",
+      "image": "https://assets.arcraiders.com/article-cards/c2e22458-6199-store-update-1.47-card-600x400-300x200.png",
+      "tags": [
+        "Store Update",
+        "Patch Notes"
+      ],
+      "summary": "Greetings, Raiders. Update 1.47.0 is rolling out now, adding two fresh color options for the Riposta Set, an update regarding Fair Play, and several additional fixes and improvements. You'll need to download the update, so be sure to do tha"
+    },
     {
       "id": "store-update-1-46-0",
       "title": "Store Update 1.46.0",
@@ -365,16 +376,6 @@
         "Hotfix"
       ],
       "summary": "A hotfix has just gone live to fix a crash that was affecting some players. Xbox players can expect their own patch to arrive at a later time."
-    },
-    {
-      "id": "patch-notes-1-22-0",
-      "title": "Flashpoint - Patch Notes 1.22.0",
-      "date": "March 31, 2026",
-      "image": "https://assets.arcraiders.com/article-cards/465e6f7b-5ed4-patch-notes-1-22-0-card-300x200-300x200.png",
-      "tags": [
-        "Patch Notes"
-      ],
-      "summary": "The storm has passed, but new dangers have appeared in its wake. Speranza buzzes with talk of a fresh ARC operation, shifting enemy behaviour, and strange things happening in the sky. Tian Wen is hard at work on new combat technology, while"
     }
   ]
 }
