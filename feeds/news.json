@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-09-22T11:56:05.120Z",
+  "generatedAt": "2026-09-23T19:03:18.301Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
+    {
+      "id": "frozen-trail-content-preview",
+      "title": "Frozen Trail First Look: Content highlights from October 8",
+      "date": "September 23, 2026",
+      "image": "https://assets.arcraiders.com/article-cards/28124da9-f6a8-first-look-card-600x400-300x200.png",
+      "tags": [],
+      "summary": "# Frozen Trail First Look: Content highlights from October 8"
+    },
     {
       "id": "store-update-1-47-0",
       "title": "Store Update 1.47.0",
@@ -365,17 +373,6 @@
       "image": "https://assets.arcraiders.com/static/articles/generic-300x200.png",
       "tags": [],
       "summary": "As a development team, one of our biggest priorities is making sure every moment you spend in ARC Raiders feels purposeful. Your time matters, and we don't want you clicking through menus when you could be out raiding instead."
-    },
-    {
-      "id": "hotfix-1-22-1",
-      "title": "Hotfix 1.22.1",
-      "date": "April 1, 2026",
-      "image": "https://assets.arcraiders.com/article-cards/273ee48a-b794-generic-300x200-300x200.png",
-      "tags": [
-        "Patch Notes",
-        "Hotfix"
-      ],
-      "summary": "A hotfix has just gone live to fix a crash that was affecting some players. Xbox players can expect their own patch to arrive at a later time."
     }
   ]
 }
