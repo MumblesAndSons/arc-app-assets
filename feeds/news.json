@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-09-23T19:03:18.301Z",
+  "generatedAt": "2026-09-24T19:22:56.381Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
+    {
+      "id": "pve-toggle-beta-test",
+      "title": "We’re testing a PvE Toggle: here’s what it means for you",
+      "date": "September 24, 2026",
+      "image": "https://assets.arcraiders.com/article-cards/2880927f-36f2-pve-toggle-card-600x400-300x200.png",
+      "tags": [],
+      "summary": "# We're Trialling a PvE Toggle: What It Means for You"
+    },
     {
       "id": "frozen-trail-content-preview",
       "title": "Frozen Trail First Look: Content highlights from October 8",
@@ -365,14 +373,6 @@
         "Patch Notes"
       ],
       "summary": "Patch 1.23.0 is deploying now. Restart your game to install it. The Vanguard Set is now available in the shop, and the fixes included in this update are listed below."
-    },
-    {
-      "id": "user-experience-improvements",
-      "title": "Reducing friction in ARC Raiders",
-      "date": "April 4, 2026",
-      "image": "https://assets.arcraiders.com/static/articles/generic-300x200.png",
-      "tags": [],
-      "summary": "As a development team, one of our biggest priorities is making sure every moment you spend in ARC Raiders feels purposeful. Your time matters, and we don't want you clicking through menus when you could be out raiding instead."
     }
   ]
 }
