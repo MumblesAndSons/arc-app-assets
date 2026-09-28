@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-09-24T19:22:56.381Z",
+  "generatedAt": "2026-09-28T19:34:27.128Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
+    {
+      "id": "frozen-trail-reward-pass",
+      "title": "Reward Passes: our new progression mechanic, explained",
+      "date": "September 28, 2026",
+      "image": "https://assets.arcraiders.com/article-cards/a804194e-0cad-reward-pass-card-600x400-300x200.png",
+      "tags": [],
+      "summary": "# Reward Passes: our new progression mechanic, explained"
+    },
     {
       "id": "pve-toggle-beta-test",
       "title": "We’re testing a PvE Toggle: here’s what it means for you",
@@ -363,16 +371,6 @@
         "Patch Notes"
       ],
       "summary": "Patch 1.24.0 is being deployed now across all platforms. The Nascosto Set and the Scrappy Speckled Set are now available in the shop, alongside a set of fixes listed below. A game restart is required to download the update."
-    },
-    {
-      "id": "patch-notes-1-23-0",
-      "title": "Patch Notes 1.23.0",
-      "date": "April 8, 2026",
-      "image": "https://assets.arcraiders.com/article-cards/e8daba88-a59c-patch-notes-1-23-0-card-300x200-300x200.png",
-      "tags": [
-        "Patch Notes"
-      ],
-      "summary": "Patch 1.23.0 is deploying now. Restart your game to install it. The Vanguard Set is now available in the shop, and the fixes included in this update are listed below."
     }
   ]
 }
