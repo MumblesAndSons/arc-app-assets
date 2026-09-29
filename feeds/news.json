@@ -1,7 +1,17 @@
 {
-  "generatedAt": "2026-09-28T19:34:27.128Z",
+  "generatedAt": "2026-09-29T10:49:35.507Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
+    {
+      "id": "store-update-1-48-0",
+      "title": "Store Update 1.48.0",
+      "date": "September 29, 2026",
+      "image": "https://assets.arcraiders.com/article-cards/c31cbcfe-e178-store-update-1.48-card-600x400-300x200.png",
+      "tags": [
+        "Store Update"
+      ],
+      "summary": "Update 1.48.0 is rolling out now, adding two new colour variants for the Misthorn Set: Blue Silver and Green Wood. If you already own the set, these variants will be applied to you automatically. There's no need to restart your game."
+    },
     {
       "id": "frozen-trail-reward-pass",
       "title": "Reward Passes: our new progression mechanic, explained",
@@ -361,16 +371,6 @@
       "image": "https://assets.arcraiders.com/article-cards/47231351-4534-expedition-blog-card-300x200-300x200.png",
       "tags": [],
       "summary": "**We heard you. Respecting your time was always a core idea behind the Expedition Project system, so we've made further adjustments to how this round works.**"
-    },
-    {
-      "id": "patch-notes-1-24-0",
-      "title": "Patch Notes 1.24.0",
-      "date": "April 14, 2026",
-      "image": "https://assets.arcraiders.com/article-cards/a1608deb-bbf9-patch-notes-1-24-0-card-300x200-300x200.png",
-      "tags": [
-        "Patch Notes"
-      ],
-      "summary": "Patch 1.24.0 is being deployed now across all platforms. The Nascosto Set and the Scrappy Speckled Set are now available in the shop, alongside a set of fixes listed below. A game restart is required to download the update."
     }
   ]
 }
