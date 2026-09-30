@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-09-29T10:49:35.507Z",
+  "generatedAt": "2026-09-30T17:30:56.802Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
+    {
+      "id": "update-on-anti-cheat",
+      "title": "An Update on Anti-Cheat",
+      "date": "September 30, 2026",
+      "image": "https://assets.arcraiders.com/article-cards/e64ebf90-1513-generic-card-600x400-300x200.png",
+      "tags": [],
+      "summary": "Before our major update lands on October 8, I want to speak plainly about something that has frustrated both the community and our team: cheating."
+    },
     {
       "id": "store-update-1-48-0",
       "title": "Store Update 1.48.0",
@@ -363,14 +371,6 @@
       "image": "https://assets.arcraiders.com/article-cards/80e91f03-a811-scout-report-card-300x200-300x200.png",
       "tags": [],
       "summary": "I want to be honest about how all this started."
-    },
-    {
-      "id": "a-triumphant-exit",
-      "title": "A Triumphant Exit",
-      "date": "April 17, 2026",
-      "image": "https://assets.arcraiders.com/article-cards/47231351-4534-expedition-blog-card-300x200-300x200.png",
-      "tags": [],
-      "summary": "**We heard you. Respecting your time was always a core idea behind the Expedition Project system, so we've made further adjustments to how this round works.**"
     }
   ]
 }
