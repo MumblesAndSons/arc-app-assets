@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-09-30T17:30:56.802Z",
+  "generatedAt": "2026-10-02T20:03:28.741Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
+    {
+      "id": "play-for-free-weekend",
+      "title": "Play ARC Raiders for free: October 8 - 12",
+      "date": "October 2, 2026",
+      "image": "https://assets.arcraiders.com/article-cards/449a8e83-d164-play-for-free-card-600x400-300x200.png",
+      "tags": [],
+      "summary": "# Play ARC Raiders for free: October 8 - 12"
+    },
     {
       "id": "update-on-anti-cheat",
       "title": "An Update on Anti-Cheat",
@@ -363,14 +371,6 @@
       "image": "https://assets.arcraiders.com/article-cards/e021e243-491a-trials-s4-card-300x200-300x200.png",
       "tags": [],
       "summary": "# **ARE YOU READY TO FACE THE TRIALS, RAIDER?**"
-    },
-    {
-      "id": "riven-tides-map-scout-report",
-      "title": "Riven Tides: Scout Report",
-      "date": "April 18, 2026",
-      "image": "https://assets.arcraiders.com/article-cards/80e91f03-a811-scout-report-card-300x200-300x200.png",
-      "tags": [],
-      "summary": "I want to be honest about how all this started."
     }
   ]
 }
