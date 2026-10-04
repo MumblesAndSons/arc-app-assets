@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T10:32:13.671Z",
+  "generatedAt": "2026-10-04T11:02:14.372Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-10-05T21:00:00.000Z",
@@ -105,96 +105,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Night Raid",
-      "map": "Riven Tides",
-      "start": 1791082800000,
-      "end": 1791086400000,
-      "times": {
-        "europe": [
-          1791082800000,
-          1791086400000
-        ],
-        "north-america": [
-          1791108000000,
-          1791111600000
-        ],
-        "south-america": [
-          1791104400000,
-          1791108000000
-        ],
-        "asia": [
-          1791064800000,
-          1791068400000
-        ],
-        "oceania": [
-          1791050400000,
-          1791054000000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Husk Graveyard",
-      "map": "Spaceport",
-      "start": 1791082800000,
-      "end": 1791086400000,
-      "times": {
-        "europe": [
-          1791082800000,
-          1791086400000
-        ],
-        "north-america": [
-          1791108000000,
-          1791111600000
-        ],
-        "south-america": [
-          1791104400000,
-          1791108000000
-        ],
-        "asia": [
-          1791064800000,
-          1791068400000
-        ],
-        "oceania": [
-          1791050400000,
-          1791054000000
-        ]
-      },
-      "type": "minor",
-      "icon": "husk_graveyard.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "The Blue Gate",
-      "start": 1791082800000,
-      "end": 1791086400000,
-      "times": {
-        "europe": [
-          1791082800000,
-          1791086400000
-        ],
-        "north-america": [
-          1791108000000,
-          1791111600000
-        ],
-        "south-america": [
-          1791104400000,
-          1791108000000
-        ],
-        "asia": [
-          1791064800000,
-          1791068400000
-        ],
-        "oceania": [
-          1791050400000,
-          1791054000000
-        ]
-      },
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
     {
       "condition": "Bird City",
       "map": "Buried City",
