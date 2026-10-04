@@ -31,6 +31,23 @@ It also announces late. Replaying every snapshot this repository has committed,
 started, and one turned up only after it had already begun. Hourly runs left the
 app behind, so the job runs four times an hour.
 
+## How the 15 minutes are kept
+
+Not by the cron line. GitHub makes no promise for timed jobs on free projects.
+Over 17 days to 4 October 2026 it started this job about every four hours, and
+the app fell 26 conditions behind the site.
+
+So each run starts the next one. The workflow has a second job, `next`, that
+sleeps to the quarter hour and then asks GitHub for a new run. GitHub starts a
+run at once when asked. Those runs show as **Refresh feeds (timer)** on the
+Actions page, and they land at 2, 17, 32 and 47 minutes past the hour.
+
+The cron line stays as the safety net. Whenever GitHub does fire it, that run
+restarts the timer if it has stopped. So does a run by hand, and so does a push
+that changes the scripts.
+
+To stop the timer, disable the workflow on the Actions page.
+
 ## The schedule is built up, not copied
 
 `feeds/map-conditions.json` is a running schedule. Each run MERGES the page into

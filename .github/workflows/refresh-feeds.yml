@@ -1,8 +1,22 @@
 name: Refresh feeds
 
+# The Actions list shows which runs belong to the timer described below.
+run-name: Refresh feeds${{ inputs.chained && ' (timer)' || '' }}
+
 # Runs every 15 minutes. The schedule is announced late: 27 of 138 recorded
 # conditions appeared less than two hours before they started, and a few only
 # once they were already running. Hourly was leaving the app behind.
+#
+# The 15 minutes do NOT come from the cron line. GitHub gives no promise for
+# timed jobs on free projects: over 17 days to 4 October 2026 it started this
+# one about every four hours, with gaps up to seven and a half, and the app
+# fell 26 conditions behind the site. So each run starts the next one itself.
+# The second job, "next", waits for the quarter hour and then asks GitHub for a
+# new run. GitHub starts a run at once when it is asked for; only its own
+# timer is slow. The cron line stays as the safety net: whenever GitHub does
+# fire it, that run restarts the timer if it has stopped.
+#
+# To stop the timer, disable this workflow on the Actions page.
 #
 # Design notes, because this has to survive unattended:
 #  * each feed runs in its own step with continue-on-error, so one broken
@@ -25,16 +39,25 @@ name: Refresh feeds
 on:
   schedule:
     - cron: '*/15 * * * *'
+  # A fix to the scripts or to this file goes live at once, and restarts the
+  # timer if it has stopped. The feed commits themselves never match these
+  # paths, and GitHub does not start a run for a push made by a run.
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'package*.json'
+      - '.github/workflows/refresh-feeds.yml'
   workflow_dispatch:
     inputs:
       test_alert:
         description: 'Raise a test issue, to prove the alert email arrives'
         type: boolean
         default: false
-
-concurrency:
-  group: refresh-feeds
-  cancel-in-progress: false
+      chained:
+        description: 'Set by the timer itself. Leave this off when you run it by hand'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -43,6 +66,12 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    # On the job, not the workflow, so only the feed work queues up. The "next"
+    # job below spends most of its life asleep, and a sleeping run must not
+    # hold up a run somebody starts by hand.
+    concurrency:
+      group: refresh-feeds
+      cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
 
@@ -155,8 +184,9 @@ jobs:
             echo "map conditions have not refreshed for ${age} hours"
             exit 1
           fi
-          # News rewrites its index on every good run, so an old stamp means
-          # the news step has been failing. In September 2026 it failed for
+          # News stamps its index at least every six hours on a good run, even
+          # when Embark have posted nothing, so an old stamp means the news
+          # step has been failing. In September 2026 it failed for
           # three weeks after a site redesign and nothing said so, because a
           # single feed step failing is not an alert on its own. A day is long
           # enough to ride out a wobble and short enough to catch a redesign.
@@ -286,3 +316,77 @@ jobs:
               });
               core.info(`closed ${issue.html_url}`);
             }
+
+  # The timer. See the note at the top of this file.
+  #
+  # Rules, so there is always exactly one timer:
+  #  * a timer run sleeps to the next quarter hour, starts the next timer run,
+  #    and stays alive for half a minute so the two overlap
+  #  * any other run (cron, a push, a run by hand) starts a timer run only when
+  #    it can see none alive
+  #  * if two timers ever exist, the older run sees the newer one and stops
+  #
+  # always(), because a failed refresh is exactly when the next one matters.
+  next:
+    name: Start the next run
+    needs: refresh
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      actions: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      ME: ${{ github.run_id }}
+      CHAINED: ${{ inputs.chained }}
+    steps:
+      - name: Wait for the quarter hour, then start the next run
+        run: |
+          # Timer runs still going, other than this one, with an id above $1.
+          alive() {
+            gh run list --workflow refresh-feeds.yml --limit 30 \
+              --json databaseId,status,displayTitle \
+              --jq "[.[] | select(.status != \"completed\" and (.displayTitle | endswith(\"(timer)\")) and .databaseId != $ME and .databaseId > $1)] | length"
+          }
+
+          if [ "$CHAINED" != "true" ]; then
+            # If GitHub will not answer, assume a timer exists. A second timer
+            # is worse than a late one, and the next cron run asks again.
+            n=$(alive 0 || echo 1)
+            if [ "$n" != "0" ]; then
+              echo "the timer is already running; nothing to do"
+              exit 0
+            fi
+            echo "no timer is running; starting one"
+          else
+            # Runs land at 2, 17, 32 and 47 minutes past, which is just after
+            # the site announces a condition that starts on the hour.
+            now=$(date -u +%s)
+            wait=$(( 900 - (now - 120) % 900 ))
+            # A run that started late would otherwise fire twice in a row.
+            if [ "$wait" -lt 240 ]; then wait=$(( wait + 900 )); fi
+            echo "sleeping ${wait}s"
+            sleep "$wait"
+
+            # Here the doubt goes the other way: carry on, because a timer that
+            # stops costs hours and a double one is put right on the next lap.
+            n=$(alive "$ME" || echo 0)
+            if [ "$n" != "0" ]; then
+              echo "a newer timer run is alive; this one stops"
+              exit 0
+            fi
+          fi
+
+          for try in 1 2 3; do
+            if gh workflow run refresh-feeds.yml --ref main -f chained=true; then
+              # stay visible until the new run is listed, so a cron run that
+              # looks right now does not think the timer has stopped
+              sleep 30
+              exit 0
+            fi
+            echo "try $try failed"
+            sleep 20
+          done
+          echo "could not start the next run; the next cron run restarts the timer"
+          exit 1
