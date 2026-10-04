@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T09:47:11.459Z",
+  "generatedAt": "2026-10-04T10:02:42.203Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-10-05T20:00:00.000Z",
@@ -105,96 +105,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Husk Graveyard",
-      "map": "Buried City",
-      "start": 1791079200000,
-      "end": 1791082800000,
-      "times": {
-        "europe": [
-          1791079200000,
-          1791082800000
-        ],
-        "north-america": [
-          1791104400000,
-          1791108000000
-        ],
-        "south-america": [
-          1791100800000,
-          1791104400000
-        ],
-        "asia": [
-          1791061200000,
-          1791064800000
-        ],
-        "oceania": [
-          1791046800000,
-          1791050400000
-        ]
-      },
-      "type": "minor",
-      "icon": "husk_graveyard.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "Spaceport",
-      "start": 1791079200000,
-      "end": 1791082800000,
-      "times": {
-        "europe": [
-          1791079200000,
-          1791082800000
-        ],
-        "north-america": [
-          1791104400000,
-          1791108000000
-        ],
-        "south-america": [
-          1791100800000,
-          1791104400000
-        ],
-        "asia": [
-          1791061200000,
-          1791064800000
-        ],
-        "oceania": [
-          1791046800000,
-          1791050400000
-        ]
-      },
-      "type": "minor",
-      "icon": "harvester.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1791079200000,
-      "end": 1791082800000,
-      "times": {
-        "europe": [
-          1791079200000,
-          1791082800000
-        ],
-        "north-america": [
-          1791104400000,
-          1791108000000
-        ],
-        "south-america": [
-          1791100800000,
-          1791104400000
-        ],
-        "asia": [
-          1791061200000,
-          1791064800000
-        ],
-        "oceania": [
-          1791046800000,
-          1791050400000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
     {
       "condition": "Night Raid",
       "map": "Riven Tides",
