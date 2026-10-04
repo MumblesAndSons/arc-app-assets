@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T12:32:33.839Z",
+  "generatedAt": "2026-10-04T13:02:16.930Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-10-05T23:00:00.000Z",
@@ -105,96 +105,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Night Raid",
-      "map": "Buried City",
-      "start": 1791090000000,
-      "end": 1791093600000,
-      "times": {
-        "europe": [
-          1791090000000,
-          1791093600000
-        ],
-        "north-america": [
-          1791115200000,
-          1791118800000
-        ],
-        "south-america": [
-          1791111600000,
-          1791115200000
-        ],
-        "asia": [
-          1791072000000,
-          1791075600000
-        ],
-        "oceania": [
-          1791057600000,
-          1791061200000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Husk Graveyard",
-      "map": "Spaceport",
-      "start": 1791090000000,
-      "end": 1791093600000,
-      "times": {
-        "europe": [
-          1791090000000,
-          1791093600000
-        ],
-        "north-america": [
-          1791115200000,
-          1791118800000
-        ],
-        "south-america": [
-          1791111600000,
-          1791115200000
-        ],
-        "asia": [
-          1791072000000,
-          1791075600000
-        ],
-        "oceania": [
-          1791057600000,
-          1791061200000
-        ]
-      },
-      "type": "minor",
-      "icon": "husk_graveyard.png"
-    },
-    {
-      "condition": "Lush Blooms",
-      "map": "The Blue Gate",
-      "start": 1791090000000,
-      "end": 1791093600000,
-      "times": {
-        "europe": [
-          1791090000000,
-          1791093600000
-        ],
-        "north-america": [
-          1791115200000,
-          1791118800000
-        ],
-        "south-america": [
-          1791111600000,
-          1791115200000
-        ],
-        "asia": [
-          1791072000000,
-          1791075600000
-        ],
-        "oceania": [
-          1791057600000,
-          1791061200000
-        ]
-      },
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
     {
       "condition": "Beachcombing",
       "map": "Riven Tides",
