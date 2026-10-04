@@ -6,10 +6,12 @@
 // weeks. When the page changes again, save a fresh copy beside this one and
 // add a case; keep the old one.
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
+import { mkdtempSync, readFileSync, rmSync } from 'node:fs';
+import { tmpdir } from 'node:os';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { parseNewsPage, parsePayload, parseRows, displayDate } from './lib/newsPage.mjs';
+import { publish } from './lib/util.mjs';
 
 const here = dirname(fileURLToPath(import.meta.url));
 const page = readFileSync(join(here, 'fixtures', 'news-2026-09-21.html'), 'utf8');
@@ -83,5 +85,43 @@ check('dates read the way the app has always shown them', () => {
   assert.equal(displayDate('2026-09-08T09:00:00.000Z'), 'September 8, 2026');
   assert.equal(displayDate('not a date'), '');
 });
+
+// October 2026. The workflow fails a run when news.json is over a day old, to
+// catch a broken reader. But an unchanged index was never rewritten, so every
+// quiet day at Embark looked like a broken reader.
+console.log('\nthe stamp on the index');
+
+const H = 3600000;
+const dir = mkdtempSync(join(tmpdir(), 'topside-news-'));
+const file = join(dir, 'news.json');
+const articles = [1, 2, 3, 4, 5].map((n) => ({ id: `a${n}` }));
+const index = (at) => ({ generatedAt: new Date(at).toISOString(), articles });
+const opts = { minItems: 5, itemsKey: 'articles', heartbeatMs: 6 * H };
+const T0 = Date.parse('2026-10-02T20:00:00Z');
+const stamp = () => JSON.parse(readFileSync(file, 'utf8')).generatedAt;
+
+check('the same articles an hour later leave the file alone', () => {
+  assert.equal(publish(file, index(T0), opts), 'written');
+  assert.equal(publish(file, index(T0 + H), opts), 'unchanged');
+  assert.equal(stamp(), new Date(T0).toISOString());
+});
+
+check('the same articles seven hours later still get a fresh stamp', () => {
+  assert.equal(publish(file, index(T0 + 7 * H), opts), 'written');
+  assert.equal(stamp(), new Date(T0 + 7 * H).toISOString());
+});
+
+check('a feed with no heartbeat never rewrites an unchanged file', () => {
+  const plain = { minItems: 5, itemsKey: 'articles' };
+  assert.equal(publish(file, index(T0 + 90 * H), plain), 'unchanged');
+});
+
+check('a reader that finds too few articles still writes nothing', () => {
+  const thin = { generatedAt: new Date(T0 + 99 * H).toISOString(), articles: articles.slice(0, 2) };
+  assert.equal(publish(file, thin, opts), 'rejected');
+  assert.equal(stamp(), new Date(T0 + 7 * H).toISOString());
+});
+
+rmSync(dir, { recursive: true, force: true });
 
 console.log(`\n${passed} passed`);

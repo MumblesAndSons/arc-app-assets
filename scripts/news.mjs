@@ -206,7 +206,14 @@ const payload = {
   articles,
 };
 
-const result = publish(OUT, payload, { minItems: 5, itemsKey: 'articles' });
+// Embark can go days without posting. The six hour heartbeat keeps the stamp
+// moving on every good run, so the workflow's "news is over a day old" check
+// only fires when this script has really stopped working.
+const result = publish(OUT, payload, {
+  minItems: 5,
+  itemsKey: 'articles',
+  heartbeatMs: 6 * 60 * 60 * 1000,
+});
 if (result === 'rejected') process.exit(1);
 
 // The index is saved by this point, so failing here still leaves a useful run.

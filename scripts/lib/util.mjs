@@ -46,8 +46,14 @@ export function readExisting(path) {
  * Writes only if the new payload passes its sanity check.
  * A scrape that returns nothing must never wipe a good file.
  * Returns 'written' | 'unchanged' | 'rejected'.
+ *
+ * `heartbeatMs` is for a feed whose upstream can stand still for days. The
+ * workflow reads generatedAt to tell "nothing new" from "the script is
+ * broken", so an unchanged file still gets a fresh stamp once the old one is
+ * that old. Without it the news feed raised a false alarm every time Embark
+ * went a day without posting, which was most weeks in the autumn of 2026.
  */
-export function publish(path, next, { minItems, itemsKey }) {
+export function publish(path, next, { minItems, itemsKey, heartbeatMs = Infinity }) {
   const count = Array.isArray(next[itemsKey]) ? next[itemsKey].length : 0;
   if (count < minItems) {
     console.error(
@@ -63,8 +69,13 @@ export function publish(path, next, { minItems, itemsKey }) {
     const a = JSON.stringify({ ...prev, generatedAt: null });
     const b = JSON.stringify({ ...next, generatedAt: null });
     if (a === b) {
-      console.log(`unchanged ${path} (${count} ${itemsKey})`);
-      return 'unchanged';
+      const age = Date.parse(next.generatedAt) - Date.parse(prev.generatedAt);
+      // An unreadable old stamp counts as old, so the file heals itself.
+      if (age < heartbeatMs) {
+        console.log(`unchanged ${path} (${count} ${itemsKey})`);
+        return 'unchanged';
+      }
+      console.log(`same ${count} ${itemsKey}, but the stamp is old; writing a fresh one`);
     }
   }
 
