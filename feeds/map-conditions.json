@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-04T18:02:16.121Z",
+  "generatedAt": "2026-10-04T18:32:13.968Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-06T04:00:00.000Z",
+  "horizonEnd": "2026-10-06T05:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-06T04:00:00.000Z",
-    "north-america": "2026-10-06T11:00:00.000Z",
-    "south-america": "2026-10-06T10:00:00.000Z",
-    "asia": "2026-10-05T23:00:00.000Z",
-    "oceania": "2026-10-05T19:00:00.000Z"
+    "europe": "2026-10-06T05:00:00.000Z",
+    "north-america": "2026-10-06T12:00:00.000Z",
+    "south-america": "2026-10-06T11:00:00.000Z",
+    "asia": "2026-10-06T00:00:00.000Z",
+    "oceania": "2026-10-05T20:00:00.000Z"
   },
   "regions": [
     {
@@ -4810,6 +4810,96 @@
         "oceania": [
           1791223200000,
           1791226800000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Buried City",
+      "start": 1791259200000,
+      "end": 1791262800000,
+      "times": {
+        "europe": [
+          1791259200000,
+          1791262800000
+        ],
+        "north-america": [
+          1791284400000,
+          1791288000000
+        ],
+        "south-america": [
+          1791280800000,
+          1791284400000
+        ],
+        "asia": [
+          1791241200000,
+          1791244800000
+        ],
+        "oceania": [
+          1791226800000,
+          1791230400000
+        ]
+      },
+      "type": "minor",
+      "icon": "prospecting_probes.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Dam Battlegrounds",
+      "start": 1791259200000,
+      "end": 1791262800000,
+      "times": {
+        "europe": [
+          1791259200000,
+          1791262800000
+        ],
+        "north-america": [
+          1791284400000,
+          1791288000000
+        ],
+        "south-america": [
+          1791280800000,
+          1791284400000
+        ],
+        "asia": [
+          1791241200000,
+          1791244800000
+        ],
+        "oceania": [
+          1791226800000,
+          1791230400000
+        ]
+      },
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Spaceport",
+      "start": 1791259200000,
+      "end": 1791262800000,
+      "times": {
+        "europe": [
+          1791259200000,
+          1791262800000
+        ],
+        "north-america": [
+          1791284400000,
+          1791288000000
+        ],
+        "south-america": [
+          1791280800000,
+          1791284400000
+        ],
+        "asia": [
+          1791241200000,
+          1791244800000
+        ],
+        "oceania": [
+          1791226800000,
+          1791230400000
         ]
       },
       "type": "major",
