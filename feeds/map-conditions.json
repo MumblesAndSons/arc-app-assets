@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-05T18:02:16.203Z",
+  "generatedAt": "2026-10-05T18:32:15.429Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-07T04:00:00.000Z",
+  "horizonEnd": "2026-10-07T05:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-07T04:00:00.000Z",
-    "north-america": "2026-10-07T11:00:00.000Z",
-    "south-america": "2026-10-07T10:00:00.000Z",
-    "asia": "2026-10-06T23:00:00.000Z",
-    "oceania": "2026-10-06T19:00:00.000Z"
+    "europe": "2026-10-07T05:00:00.000Z",
+    "north-america": "2026-10-07T12:00:00.000Z",
+    "south-america": "2026-10-07T11:00:00.000Z",
+    "asia": "2026-10-07T00:00:00.000Z",
+    "oceania": "2026-10-06T20:00:00.000Z"
   },
   "regions": [
     {
@@ -4839,6 +4839,126 @@
       },
       "type": "minor",
       "icon": "harvester.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1791345600000,
+      "end": 1791349200000,
+      "times": {
+        "europe": [
+          1791345600000,
+          1791349200000
+        ],
+        "north-america": [
+          1791370800000,
+          1791374400000
+        ],
+        "south-america": [
+          1791367200000,
+          1791370800000
+        ],
+        "asia": [
+          1791327600000,
+          1791331200000
+        ],
+        "oceania": [
+          1791313200000,
+          1791316800000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1791345600000,
+      "end": 1791349200000,
+      "times": {
+        "europe": [
+          1791345600000,
+          1791349200000
+        ],
+        "north-america": [
+          1791370800000,
+          1791374400000
+        ],
+        "south-america": [
+          1791367200000,
+          1791370800000
+        ],
+        "asia": [
+          1791327600000,
+          1791331200000
+        ],
+        "oceania": [
+          1791313200000,
+          1791316800000
+        ]
+      },
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Spaceport",
+      "start": 1791345600000,
+      "end": 1791349200000,
+      "times": {
+        "europe": [
+          1791345600000,
+          1791349200000
+        ],
+        "north-america": [
+          1791370800000,
+          1791374400000
+        ],
+        "south-america": [
+          1791367200000,
+          1791370800000
+        ],
+        "asia": [
+          1791327600000,
+          1791331200000
+        ],
+        "oceania": [
+          1791313200000,
+          1791316800000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1791345600000,
+      "end": 1791349200000,
+      "times": {
+        "europe": [
+          1791345600000,
+          1791349200000
+        ],
+        "north-america": [
+          1791370800000,
+          1791374400000
+        ],
+        "south-america": [
+          1791367200000,
+          1791370800000
+        ],
+        "asia": [
+          1791327600000,
+          1791331200000
+        ],
+        "oceania": [
+          1791313200000,
+          1791316800000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
     }
   ]
 }
