@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-05T11:02:19.313Z",
+  "generatedAt": "2026-10-05T11:32:18.565Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-06T21:00:00.000Z",
+  "horizonEnd": "2026-10-06T22:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-06T21:00:00.000Z",
-    "north-america": "2026-10-07T04:00:00.000Z",
-    "south-america": "2026-10-07T03:00:00.000Z",
-    "asia": "2026-10-06T16:00:00.000Z",
-    "oceania": "2026-10-06T12:00:00.000Z"
+    "europe": "2026-10-06T22:00:00.000Z",
+    "north-america": "2026-10-07T05:00:00.000Z",
+    "south-america": "2026-10-07T04:00:00.000Z",
+    "asia": "2026-10-06T17:00:00.000Z",
+    "oceania": "2026-10-06T13:00:00.000Z"
   },
   "regions": [
     {
@@ -4779,6 +4779,156 @@
       },
       "type": "major",
       "icon": "night_raid.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1791320400000,
+      "end": 1791324000000,
+      "times": {
+        "europe": [
+          1791320400000,
+          1791324000000
+        ],
+        "north-america": [
+          1791345600000,
+          1791349200000
+        ],
+        "south-america": [
+          1791342000000,
+          1791345600000
+        ],
+        "asia": [
+          1791302400000,
+          1791306000000
+        ],
+        "oceania": [
+          1791288000000,
+          1791291600000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1791320400000,
+      "end": 1791324000000,
+      "times": {
+        "europe": [
+          1791320400000,
+          1791324000000
+        ],
+        "north-america": [
+          1791345600000,
+          1791349200000
+        ],
+        "south-america": [
+          1791342000000,
+          1791345600000
+        ],
+        "asia": [
+          1791302400000,
+          1791306000000
+        ],
+        "oceania": [
+          1791288000000,
+          1791291600000
+        ]
+      },
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Spaceport",
+      "start": 1791320400000,
+      "end": 1791324000000,
+      "times": {
+        "europe": [
+          1791320400000,
+          1791324000000
+        ],
+        "north-america": [
+          1791345600000,
+          1791349200000
+        ],
+        "south-america": [
+          1791342000000,
+          1791345600000
+        ],
+        "asia": [
+          1791302400000,
+          1791306000000
+        ],
+        "oceania": [
+          1791288000000,
+          1791291600000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1791320400000,
+      "end": 1791324000000,
+      "times": {
+        "europe": [
+          1791320400000,
+          1791324000000
+        ],
+        "north-america": [
+          1791345600000,
+          1791349200000
+        ],
+        "south-america": [
+          1791342000000,
+          1791345600000
+        ],
+        "asia": [
+          1791302400000,
+          1791306000000
+        ],
+        "oceania": [
+          1791288000000,
+          1791291600000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Electromagnetic Storm",
+      "map": "The Blue Gate",
+      "start": 1791320400000,
+      "end": 1791324000000,
+      "times": {
+        "europe": [
+          1791320400000,
+          1791324000000
+        ],
+        "north-america": [
+          1791345600000,
+          1791349200000
+        ],
+        "south-america": [
+          1791342000000,
+          1791345600000
+        ],
+        "asia": [
+          1791302400000,
+          1791306000000
+        ],
+        "oceania": [
+          1791288000000,
+          1791291600000
+        ]
+      },
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
     }
   ]
 }
