@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T05:32:22.250Z",
+  "generatedAt": "2026-10-05T06:02:18.246Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-10-06T16:00:00.000Z",
@@ -84,11 +84,6 @@
       "icon": "locked_gate.png"
     },
     {
-      "name": "Lush Blooms",
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
-    {
       "name": "Matriarch",
       "type": "minor",
       "icon": "matriarch.png"
@@ -105,126 +100,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Husk Graveyard",
-      "map": "Buried City",
-      "start": 1791151200000,
-      "end": 1791154800000,
-      "times": {
-        "europe": [
-          1791151200000,
-          1791154800000
-        ],
-        "north-america": [
-          1791176400000,
-          1791180000000
-        ],
-        "south-america": [
-          1791172800000,
-          1791176400000
-        ],
-        "asia": [
-          1791133200000,
-          1791136800000
-        ],
-        "oceania": [
-          1791118800000,
-          1791122400000
-        ]
-      },
-      "type": "minor",
-      "icon": "husk_graveyard.png"
-    },
-    {
-      "condition": "Close Scrutiny",
-      "map": "Dam Battlegrounds",
-      "start": 1791151200000,
-      "end": 1791154800000,
-      "times": {
-        "europe": [
-          1791151200000,
-          1791154800000
-        ],
-        "north-america": [
-          1791176400000,
-          1791180000000
-        ],
-        "south-america": [
-          1791172800000,
-          1791176400000
-        ],
-        "asia": [
-          1791133200000,
-          1791136800000
-        ],
-        "oceania": [
-          1791118800000,
-          1791122400000
-        ]
-      },
-      "type": "major",
-      "icon": "close_scrutiny.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1791151200000,
-      "end": 1791154800000,
-      "times": {
-        "europe": [
-          1791151200000,
-          1791154800000
-        ],
-        "north-america": [
-          1791176400000,
-          1791180000000
-        ],
-        "south-america": [
-          1791172800000,
-          1791176400000
-        ],
-        "asia": [
-          1791133200000,
-          1791136800000
-        ],
-        "oceania": [
-          1791118800000,
-          1791122400000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "The Blue Gate",
-      "start": 1791151200000,
-      "end": 1791154800000,
-      "times": {
-        "europe": [
-          1791151200000,
-          1791154800000
-        ],
-        "north-america": [
-          1791176400000,
-          1791180000000
-        ],
-        "south-america": [
-          1791172800000,
-          1791176400000
-        ],
-        "asia": [
-          1791133200000,
-          1791136800000
-        ],
-        "oceania": [
-          1791118800000,
-          1791122400000
-        ]
-      },
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
     {
       "condition": "Bird City",
       "map": "Buried City",
