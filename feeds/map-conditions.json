@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-05T06:02:18.246Z",
+  "generatedAt": "2026-10-05T06:32:15.579Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-06T16:00:00.000Z",
+  "horizonEnd": "2026-10-06T17:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-06T16:00:00.000Z",
-    "north-america": "2026-10-06T23:00:00.000Z",
-    "south-america": "2026-10-06T22:00:00.000Z",
-    "asia": "2026-10-06T11:00:00.000Z",
-    "oceania": "2026-10-06T07:00:00.000Z"
+    "europe": "2026-10-06T17:00:00.000Z",
+    "north-america": "2026-10-07T00:00:00.000Z",
+    "south-america": "2026-10-06T23:00:00.000Z",
+    "asia": "2026-10-06T12:00:00.000Z",
+    "oceania": "2026-10-06T08:00:00.000Z"
   },
   "regions": [
     {
@@ -4689,6 +4689,126 @@
       },
       "type": "major",
       "icon": "night_raid.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Dam Battlegrounds",
+      "start": 1791302400000,
+      "end": 1791306000000,
+      "times": {
+        "europe": [
+          1791302400000,
+          1791306000000
+        ],
+        "north-america": [
+          1791327600000,
+          1791331200000
+        ],
+        "south-america": [
+          1791324000000,
+          1791327600000
+        ],
+        "asia": [
+          1791284400000,
+          1791288000000
+        ],
+        "oceania": [
+          1791270000000,
+          1791273600000
+        ]
+      },
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Dam Battlegrounds",
+      "start": 1791302400000,
+      "end": 1791306000000,
+      "times": {
+        "europe": [
+          1791302400000,
+          1791306000000
+        ],
+        "north-america": [
+          1791327600000,
+          1791331200000
+        ],
+        "south-america": [
+          1791324000000,
+          1791327600000
+        ],
+        "asia": [
+          1791284400000,
+          1791288000000
+        ],
+        "oceania": [
+          1791270000000,
+          1791273600000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Spaceport",
+      "start": 1791302400000,
+      "end": 1791306000000,
+      "times": {
+        "europe": [
+          1791302400000,
+          1791306000000
+        ],
+        "north-america": [
+          1791327600000,
+          1791331200000
+        ],
+        "south-america": [
+          1791324000000,
+          1791327600000
+        ],
+        "asia": [
+          1791284400000,
+          1791288000000
+        ],
+        "oceania": [
+          1791270000000,
+          1791273600000
+        ]
+      },
+      "type": "minor",
+      "icon": "prospecting_probes.png"
+    },
+    {
+      "condition": "Hurricane",
+      "map": "The Blue Gate",
+      "start": 1791302400000,
+      "end": 1791306000000,
+      "times": {
+        "europe": [
+          1791302400000,
+          1791306000000
+        ],
+        "north-america": [
+          1791327600000,
+          1791331200000
+        ],
+        "south-america": [
+          1791324000000,
+          1791327600000
+        ],
+        "asia": [
+          1791284400000,
+          1791288000000
+        ],
+        "oceania": [
+          1791270000000,
+          1791273600000
+        ]
+      },
+      "type": "major",
+      "icon": "hurricane.png"
     }
   ]
 }
