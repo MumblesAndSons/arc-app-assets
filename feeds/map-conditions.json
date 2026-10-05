@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T13:32:19.807Z",
+  "generatedAt": "2026-10-05T14:02:16.541Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-10-07T00:00:00.000Z",
@@ -100,96 +100,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Matriarch",
-      "map": "Dam Battlegrounds",
-      "start": 1791180000000,
-      "end": 1791183600000,
-      "times": {
-        "europe": [
-          1791180000000,
-          1791183600000
-        ],
-        "north-america": [
-          1791205200000,
-          1791208800000
-        ],
-        "south-america": [
-          1791201600000,
-          1791205200000
-        ],
-        "asia": [
-          1791162000000,
-          1791165600000
-        ],
-        "oceania": [
-          1791147600000,
-          1791151200000
-        ]
-      },
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
-    {
-      "condition": "Husk Graveyard",
-      "map": "Spaceport",
-      "start": 1791180000000,
-      "end": 1791183600000,
-      "times": {
-        "europe": [
-          1791180000000,
-          1791183600000
-        ],
-        "north-america": [
-          1791205200000,
-          1791208800000
-        ],
-        "south-america": [
-          1791201600000,
-          1791205200000
-        ],
-        "asia": [
-          1791162000000,
-          1791165600000
-        ],
-        "oceania": [
-          1791147600000,
-          1791151200000
-        ]
-      },
-      "type": "minor",
-      "icon": "husk_graveyard.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1791180000000,
-      "end": 1791183600000,
-      "times": {
-        "europe": [
-          1791180000000,
-          1791183600000
-        ],
-        "north-america": [
-          1791205200000,
-          1791208800000
-        ],
-        "south-america": [
-          1791201600000,
-          1791205200000
-        ],
-        "asia": [
-          1791162000000,
-          1791165600000
-        ],
-        "oceania": [
-          1791147600000,
-          1791151200000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
     {
       "condition": "Prospecting Probes",
       "map": "Riven Tides",
