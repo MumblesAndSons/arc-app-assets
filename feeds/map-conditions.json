@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-06T14:02:15.739Z",
+  "generatedAt": "2026-10-06T14:32:19.063Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-08T00:00:00.000Z",
+  "horizonEnd": "2026-10-08T01:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-08T00:00:00.000Z",
-    "north-america": "2026-10-08T07:00:00.000Z",
-    "south-america": "2026-10-08T06:00:00.000Z",
-    "asia": "2026-10-07T19:00:00.000Z",
-    "oceania": "2026-10-07T15:00:00.000Z"
+    "europe": "2026-10-08T01:00:00.000Z",
+    "north-america": "2026-10-08T08:00:00.000Z",
+    "south-america": "2026-10-08T07:00:00.000Z",
+    "asia": "2026-10-07T20:00:00.000Z",
+    "oceania": "2026-10-07T16:00:00.000Z"
   },
   "regions": [
     {
@@ -4864,6 +4864,96 @@
       },
       "type": "major",
       "icon": "night_raid.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Dam Battlegrounds",
+      "start": 1791417600000,
+      "end": 1791421200000,
+      "times": {
+        "europe": [
+          1791417600000,
+          1791421200000
+        ],
+        "north-america": [
+          1791442800000,
+          1791446400000
+        ],
+        "south-america": [
+          1791439200000,
+          1791442800000
+        ],
+        "asia": [
+          1791399600000,
+          1791403200000
+        ],
+        "oceania": [
+          1791385200000,
+          1791388800000
+        ]
+      },
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Dam Battlegrounds",
+      "start": 1791417600000,
+      "end": 1791421200000,
+      "times": {
+        "europe": [
+          1791417600000,
+          1791421200000
+        ],
+        "north-america": [
+          1791442800000,
+          1791446400000
+        ],
+        "south-america": [
+          1791439200000,
+          1791442800000
+        ],
+        "asia": [
+          1791399600000,
+          1791403200000
+        ],
+        "oceania": [
+          1791385200000,
+          1791388800000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Riven Tides",
+      "start": 1791417600000,
+      "end": 1791421200000,
+      "times": {
+        "europe": [
+          1791417600000,
+          1791421200000
+        ],
+        "north-america": [
+          1791442800000,
+          1791446400000
+        ],
+        "south-america": [
+          1791439200000,
+          1791442800000
+        ],
+        "asia": [
+          1791399600000,
+          1791403200000
+        ],
+        "oceania": [
+          1791385200000,
+          1791388800000
+        ]
+      },
+      "type": "minor",
+      "icon": "prospecting_probes.png"
     }
   ]
 }
