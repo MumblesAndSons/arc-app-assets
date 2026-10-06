@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T00:32:18.041Z",
+  "generatedAt": "2026-10-06T01:02:15.770Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-10-07T11:00:00.000Z",
@@ -79,11 +79,6 @@
       "icon": "launch_tower_loot.png"
     },
     {
-      "name": "Locked Gate",
-      "type": "major",
-      "icon": "locked_gate.png"
-    },
-    {
       "name": "Matriarch",
       "type": "minor",
       "icon": "matriarch.png"
@@ -100,156 +95,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Bird City",
-      "map": "Buried City",
-      "start": 1791219600000,
-      "end": 1791223200000,
-      "times": {
-        "europe": [
-          1791219600000,
-          1791223200000
-        ],
-        "north-america": [
-          1791244800000,
-          1791248400000
-        ],
-        "south-america": [
-          1791241200000,
-          1791244800000
-        ],
-        "asia": [
-          1791201600000,
-          1791205200000
-        ],
-        "oceania": [
-          1791187200000,
-          1791190800000
-        ]
-      },
-      "type": "minor",
-      "icon": "bird_city.png"
-    },
-    {
-      "condition": "Close Scrutiny",
-      "map": "Dam Battlegrounds",
-      "start": 1791219600000,
-      "end": 1791223200000,
-      "times": {
-        "europe": [
-          1791219600000,
-          1791223200000
-        ],
-        "north-america": [
-          1791244800000,
-          1791248400000
-        ],
-        "south-america": [
-          1791241200000,
-          1791244800000
-        ],
-        "asia": [
-          1791201600000,
-          1791205200000
-        ],
-        "oceania": [
-          1791187200000,
-          1791190800000
-        ]
-      },
-      "type": "major",
-      "icon": "close_scrutiny.png"
-    },
-    {
-      "condition": "Beachcombing",
-      "map": "Riven Tides",
-      "start": 1791219600000,
-      "end": 1791223200000,
-      "times": {
-        "europe": [
-          1791219600000,
-          1791223200000
-        ],
-        "north-america": [
-          1791244800000,
-          1791248400000
-        ],
-        "south-america": [
-          1791241200000,
-          1791244800000
-        ],
-        "asia": [
-          1791201600000,
-          1791205200000
-        ],
-        "oceania": [
-          1791187200000,
-          1791190800000
-        ]
-      },
-      "type": "minor",
-      "icon": "beachcombing.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "Spaceport",
-      "start": 1791219600000,
-      "end": 1791223200000,
-      "times": {
-        "europe": [
-          1791219600000,
-          1791223200000
-        ],
-        "north-america": [
-          1791244800000,
-          1791248400000
-        ],
-        "south-america": [
-          1791241200000,
-          1791244800000
-        ],
-        "asia": [
-          1791201600000,
-          1791205200000
-        ],
-        "oceania": [
-          1791187200000,
-          1791190800000
-        ]
-      },
-      "type": "minor",
-      "icon": "harvester.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Spaceport",
-      "start": 1791219600000,
-      "end": 1791223200000,
-      "times": {
-        "europe": [
-          1791219600000,
-          1791223200000
-        ],
-        "north-america": [
-          1791244800000,
-          1791248400000
-        ],
-        "south-america": [
-          1791241200000,
-          1791244800000
-        ],
-        "asia": [
-          1791201600000,
-          1791205200000
-        ],
-        "oceania": [
-          1791187200000,
-          1791190800000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
     {
       "condition": "Matriarch",
       "map": "Dam Battlegrounds",
