@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T17:32:15.536Z",
+  "generatedAt": "2026-10-06T18:02:15.424Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-10-08T04:00:00.000Z",
@@ -95,96 +95,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Harvester",
-      "map": "Dam Battlegrounds",
-      "start": 1791280800000,
-      "end": 1791284400000,
-      "times": {
-        "europe": [
-          1791280800000,
-          1791284400000
-        ],
-        "north-america": [
-          1791306000000,
-          1791309600000
-        ],
-        "south-america": [
-          1791302400000,
-          1791306000000
-        ],
-        "asia": [
-          1791262800000,
-          1791266400000
-        ],
-        "oceania": [
-          1791248400000,
-          1791252000000
-        ]
-      },
-      "type": "minor",
-      "icon": "harvester.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Spaceport",
-      "start": 1791280800000,
-      "end": 1791284400000,
-      "times": {
-        "europe": [
-          1791280800000,
-          1791284400000
-        ],
-        "north-america": [
-          1791306000000,
-          1791309600000
-        ],
-        "south-america": [
-          1791302400000,
-          1791306000000
-        ],
-        "asia": [
-          1791262800000,
-          1791266400000
-        ],
-        "oceania": [
-          1791248400000,
-          1791252000000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Prospecting Probes",
-      "map": "The Blue Gate",
-      "start": 1791280800000,
-      "end": 1791284400000,
-      "times": {
-        "europe": [
-          1791280800000,
-          1791284400000
-        ],
-        "north-america": [
-          1791306000000,
-          1791309600000
-        ],
-        "south-america": [
-          1791302400000,
-          1791306000000
-        ],
-        "asia": [
-          1791262800000,
-          1791266400000
-        ],
-        "oceania": [
-          1791248400000,
-          1791252000000
-        ]
-      },
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
     {
       "condition": "Husk Graveyard",
       "map": "Buried City",
