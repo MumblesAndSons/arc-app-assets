@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-06T06:02:18.289Z",
+  "generatedAt": "2026-10-06T06:32:18.287Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-07T16:00:00.000Z",
+  "horizonEnd": "2026-10-07T17:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-07T16:00:00.000Z",
-    "north-america": "2026-10-07T23:00:00.000Z",
-    "south-america": "2026-10-07T22:00:00.000Z",
-    "asia": "2026-10-07T11:00:00.000Z",
-    "oceania": "2026-10-07T07:00:00.000Z"
+    "europe": "2026-10-07T17:00:00.000Z",
+    "north-america": "2026-10-08T00:00:00.000Z",
+    "south-america": "2026-10-07T23:00:00.000Z",
+    "asia": "2026-10-07T12:00:00.000Z",
+    "oceania": "2026-10-07T08:00:00.000Z"
   },
   "regions": [
     {
@@ -4650,6 +4650,156 @@
         "oceania": [
           1791352800000,
           1791356400000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1791388800000,
+      "end": 1791392400000,
+      "times": {
+        "europe": [
+          1791388800000,
+          1791392400000
+        ],
+        "north-america": [
+          1791414000000,
+          1791417600000
+        ],
+        "south-america": [
+          1791410400000,
+          1791414000000
+        ],
+        "asia": [
+          1791370800000,
+          1791374400000
+        ],
+        "oceania": [
+          1791356400000,
+          1791360000000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Close Scrutiny",
+      "map": "Dam Battlegrounds",
+      "start": 1791388800000,
+      "end": 1791392400000,
+      "times": {
+        "europe": [
+          1791388800000,
+          1791392400000
+        ],
+        "north-america": [
+          1791414000000,
+          1791417600000
+        ],
+        "south-america": [
+          1791410400000,
+          1791414000000
+        ],
+        "asia": [
+          1791370800000,
+          1791374400000
+        ],
+        "oceania": [
+          1791356400000,
+          1791360000000
+        ]
+      },
+      "type": "major",
+      "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1791388800000,
+      "end": 1791392400000,
+      "times": {
+        "europe": [
+          1791388800000,
+          1791392400000
+        ],
+        "north-america": [
+          1791414000000,
+          1791417600000
+        ],
+        "south-america": [
+          1791410400000,
+          1791414000000
+        ],
+        "asia": [
+          1791370800000,
+          1791374400000
+        ],
+        "oceania": [
+          1791356400000,
+          1791360000000
+        ]
+      },
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Spaceport",
+      "start": 1791388800000,
+      "end": 1791392400000,
+      "times": {
+        "europe": [
+          1791388800000,
+          1791392400000
+        ],
+        "north-america": [
+          1791414000000,
+          1791417600000
+        ],
+        "south-america": [
+          1791410400000,
+          1791414000000
+        ],
+        "asia": [
+          1791370800000,
+          1791374400000
+        ],
+        "oceania": [
+          1791356400000,
+          1791360000000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1791388800000,
+      "end": 1791392400000,
+      "times": {
+        "europe": [
+          1791388800000,
+          1791392400000
+        ],
+        "north-america": [
+          1791414000000,
+          1791417600000
+        ],
+        "south-america": [
+          1791410400000,
+          1791414000000
+        ],
+        "asia": [
+          1791370800000,
+          1791374400000
+        ],
+        "oceania": [
+          1791356400000,
+          1791360000000
         ]
       },
       "type": "major",
