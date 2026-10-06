@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-06T03:02:16.700Z",
+  "generatedAt": "2026-10-06T03:32:15.445Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-07T13:00:00.000Z",
+  "horizonEnd": "2026-10-07T14:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-07T13:00:00.000Z",
-    "north-america": "2026-10-07T20:00:00.000Z",
-    "south-america": "2026-10-07T19:00:00.000Z",
-    "asia": "2026-10-07T08:00:00.000Z",
-    "oceania": "2026-10-07T04:00:00.000Z"
+    "europe": "2026-10-07T14:00:00.000Z",
+    "north-america": "2026-10-07T21:00:00.000Z",
+    "south-america": "2026-10-07T20:00:00.000Z",
+    "asia": "2026-10-07T09:00:00.000Z",
+    "oceania": "2026-10-07T05:00:00.000Z"
   },
   "regions": [
     {
@@ -4684,6 +4684,156 @@
       },
       "type": "minor",
       "icon": "matriarch.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1791378000000,
+      "end": 1791381600000,
+      "times": {
+        "europe": [
+          1791378000000,
+          1791381600000
+        ],
+        "north-america": [
+          1791403200000,
+          1791406800000
+        ],
+        "south-america": [
+          1791399600000,
+          1791403200000
+        ],
+        "asia": [
+          1791360000000,
+          1791363600000
+        ],
+        "oceania": [
+          1791345600000,
+          1791349200000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Dam Battlegrounds",
+      "start": 1791378000000,
+      "end": 1791381600000,
+      "times": {
+        "europe": [
+          1791378000000,
+          1791381600000
+        ],
+        "north-america": [
+          1791403200000,
+          1791406800000
+        ],
+        "south-america": [
+          1791399600000,
+          1791403200000
+        ],
+        "asia": [
+          1791360000000,
+          1791363600000
+        ],
+        "oceania": [
+          1791345600000,
+          1791349200000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1791378000000,
+      "end": 1791381600000,
+      "times": {
+        "europe": [
+          1791378000000,
+          1791381600000
+        ],
+        "north-america": [
+          1791403200000,
+          1791406800000
+        ],
+        "south-america": [
+          1791399600000,
+          1791403200000
+        ],
+        "asia": [
+          1791360000000,
+          1791363600000
+        ],
+        "oceania": [
+          1791345600000,
+          1791349200000
+        ]
+      },
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Spaceport",
+      "start": 1791378000000,
+      "end": 1791381600000,
+      "times": {
+        "europe": [
+          1791378000000,
+          1791381600000
+        ],
+        "north-america": [
+          1791403200000,
+          1791406800000
+        ],
+        "south-america": [
+          1791399600000,
+          1791403200000
+        ],
+        "asia": [
+          1791360000000,
+          1791363600000
+        ],
+        "oceania": [
+          1791345600000,
+          1791349200000
+        ]
+      },
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
+      "condition": "Hurricane",
+      "map": "The Blue Gate",
+      "start": 1791378000000,
+      "end": 1791381600000,
+      "times": {
+        "europe": [
+          1791378000000,
+          1791381600000
+        ],
+        "north-america": [
+          1791403200000,
+          1791406800000
+        ],
+        "south-america": [
+          1791399600000,
+          1791403200000
+        ],
+        "asia": [
+          1791360000000,
+          1791363600000
+        ],
+        "oceania": [
+          1791345600000,
+          1791349200000
+        ]
+      },
+      "type": "major",
+      "icon": "hurricane.png"
     }
   ]
 }
