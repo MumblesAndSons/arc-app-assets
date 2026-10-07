@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T12:32:18.213Z",
+  "generatedAt": "2026-10-07T13:02:19.819Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-10-08T23:00:00.000Z",
@@ -95,96 +95,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Prospecting Probes",
-      "map": "Buried City",
-      "start": 1791349200000,
-      "end": 1791352800000,
-      "times": {
-        "europe": [
-          1791349200000,
-          1791352800000
-        ],
-        "north-america": [
-          1791374400000,
-          1791378000000
-        ],
-        "south-america": [
-          1791370800000,
-          1791374400000
-        ],
-        "asia": [
-          1791331200000,
-          1791334800000
-        ],
-        "oceania": [
-          1791316800000,
-          1791320400000
-        ]
-      },
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "Dam Battlegrounds",
-      "start": 1791349200000,
-      "end": 1791352800000,
-      "times": {
-        "europe": [
-          1791349200000,
-          1791352800000
-        ],
-        "north-america": [
-          1791374400000,
-          1791378000000
-        ],
-        "south-america": [
-          1791370800000,
-          1791374400000
-        ],
-        "asia": [
-          1791331200000,
-          1791334800000
-        ],
-        "oceania": [
-          1791316800000,
-          1791320400000
-        ]
-      },
-      "type": "minor",
-      "icon": "harvester.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Spaceport",
-      "start": 1791349200000,
-      "end": 1791352800000,
-      "times": {
-        "europe": [
-          1791349200000,
-          1791352800000
-        ],
-        "north-america": [
-          1791374400000,
-          1791378000000
-        ],
-        "south-america": [
-          1791370800000,
-          1791374400000
-        ],
-        "asia": [
-          1791331200000,
-          1791334800000
-        ],
-        "oceania": [
-          1791316800000,
-          1791320400000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
     {
       "condition": "Launch Tower Loot",
       "map": "Spaceport",
