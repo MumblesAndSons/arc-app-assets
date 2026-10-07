@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-07T13:02:19.819Z",
+  "generatedAt": "2026-10-07T13:32:18.727Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-08T23:00:00.000Z",
+  "horizonEnd": "2026-10-09T00:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-08T23:00:00.000Z",
-    "north-america": "2026-10-09T06:00:00.000Z",
-    "south-america": "2026-10-09T05:00:00.000Z",
-    "asia": "2026-10-08T18:00:00.000Z",
-    "oceania": "2026-10-08T14:00:00.000Z"
+    "europe": "2026-10-09T00:00:00.000Z",
+    "north-america": "2026-10-09T07:00:00.000Z",
+    "south-america": "2026-10-09T06:00:00.000Z",
+    "asia": "2026-10-08T19:00:00.000Z",
+    "oceania": "2026-10-08T15:00:00.000Z"
   },
   "regions": [
     {
@@ -4894,6 +4894,96 @@
       },
       "type": "major",
       "icon": "electromagnetic_storm.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Dam Battlegrounds",
+      "start": 1791500400000,
+      "end": 1791504000000,
+      "times": {
+        "europe": [
+          1791500400000,
+          1791504000000
+        ],
+        "north-america": [
+          1791525600000,
+          1791529200000
+        ],
+        "south-america": [
+          1791522000000,
+          1791525600000
+        ],
+        "asia": [
+          1791482400000,
+          1791486000000
+        ],
+        "oceania": [
+          1791468000000,
+          1791471600000
+        ]
+      },
+      "type": "minor",
+      "icon": "prospecting_probes.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "The Blue Gate",
+      "start": 1791500400000,
+      "end": 1791504000000,
+      "times": {
+        "europe": [
+          1791500400000,
+          1791504000000
+        ],
+        "north-america": [
+          1791525600000,
+          1791529200000
+        ],
+        "south-america": [
+          1791522000000,
+          1791525600000
+        ],
+        "asia": [
+          1791482400000,
+          1791486000000
+        ],
+        "oceania": [
+          1791468000000,
+          1791471600000
+        ]
+      },
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "The Blue Gate",
+      "start": 1791500400000,
+      "end": 1791504000000,
+      "times": {
+        "europe": [
+          1791500400000,
+          1791504000000
+        ],
+        "north-america": [
+          1791525600000,
+          1791529200000
+        ],
+        "south-america": [
+          1791522000000,
+          1791525600000
+        ],
+        "asia": [
+          1791482400000,
+          1791486000000
+        ],
+        "oceania": [
+          1791468000000,
+          1791471600000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
     }
   ]
 }
