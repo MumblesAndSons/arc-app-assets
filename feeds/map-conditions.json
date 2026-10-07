@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-07T19:02:16.914Z",
+  "generatedAt": "2026-10-07T19:32:18.072Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-09T05:00:00.000Z",
+  "horizonEnd": "2026-10-09T06:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-09T05:00:00.000Z",
-    "north-america": "2026-10-09T12:00:00.000Z",
-    "south-america": "2026-10-09T11:00:00.000Z",
-    "asia": "2026-10-09T00:00:00.000Z",
-    "oceania": "2026-10-08T20:00:00.000Z"
+    "europe": "2026-10-09T06:00:00.000Z",
+    "north-america": "2026-10-09T13:00:00.000Z",
+    "south-america": "2026-10-09T12:00:00.000Z",
+    "asia": "2026-10-09T01:00:00.000Z",
+    "oceania": "2026-10-08T21:00:00.000Z"
   },
   "regions": [
     {
@@ -4834,6 +4834,96 @@
       },
       "type": "major",
       "icon": "night_raid.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Buried City",
+      "start": 1791522000000,
+      "end": 1791525600000,
+      "times": {
+        "europe": [
+          1791522000000,
+          1791525600000
+        ],
+        "north-america": [
+          1791547200000,
+          1791550800000
+        ],
+        "south-america": [
+          1791543600000,
+          1791547200000
+        ],
+        "asia": [
+          1791504000000,
+          1791507600000
+        ],
+        "oceania": [
+          1791489600000,
+          1791493200000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Riven Tides",
+      "start": 1791522000000,
+      "end": 1791525600000,
+      "times": {
+        "europe": [
+          1791522000000,
+          1791525600000
+        ],
+        "north-america": [
+          1791547200000,
+          1791550800000
+        ],
+        "south-america": [
+          1791543600000,
+          1791547200000
+        ],
+        "asia": [
+          1791504000000,
+          1791507600000
+        ],
+        "oceania": [
+          1791489600000,
+          1791493200000
+        ]
+      },
+      "type": "minor",
+      "icon": "prospecting_probes.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "The Blue Gate",
+      "start": 1791522000000,
+      "end": 1791525600000,
+      "times": {
+        "europe": [
+          1791522000000,
+          1791525600000
+        ],
+        "north-america": [
+          1791547200000,
+          1791550800000
+        ],
+        "south-america": [
+          1791543600000,
+          1791547200000
+        ],
+        "asia": [
+          1791504000000,
+          1791507600000
+        ],
+        "oceania": [
+          1791489600000,
+          1791493200000
+        ]
+      },
+      "type": "minor",
+      "icon": "harvester.png"
     }
   ]
 }
