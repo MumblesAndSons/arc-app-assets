@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-08T18:02:17.714Z",
+  "generatedAt": "2026-10-08T18:32:14.897Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-10T04:00:00.000Z",
+  "horizonEnd": "2026-10-10T05:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-10T04:00:00.000Z",
-    "north-america": "2026-10-10T11:00:00.000Z",
-    "south-america": "2026-10-10T10:00:00.000Z",
-    "asia": "2026-10-09T23:00:00.000Z",
-    "oceania": "2026-10-09T19:00:00.000Z"
+    "europe": "2026-10-10T05:00:00.000Z",
+    "north-america": "2026-10-10T12:00:00.000Z",
+    "south-america": "2026-10-10T11:00:00.000Z",
+    "asia": "2026-10-10T00:00:00.000Z",
+    "oceania": "2026-10-09T20:00:00.000Z"
   },
   "regions": [
     {
@@ -7220,6 +7220,20 @@
       "icon": "arc_frigate.png"
     },
     {
+      "condition": "Redirection",
+      "map": "Pendola Pass",
+      "start": 1791572400000,
+      "end": 1791576000000,
+      "times": {
+        "europe": [
+          1791572400000,
+          1791576000000
+        ]
+      },
+      "type": "minor",
+      "icon": "redirection.png"
+    },
+    {
       "condition": "Matriarch",
       "map": "The Blue Gate",
       "start": 1791572400000,
@@ -8208,6 +8222,126 @@
       },
       "type": "minor",
       "icon": "harvester.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Buried City",
+      "start": 1791604800000,
+      "end": 1791608400000,
+      "times": {
+        "europe": [
+          1791604800000,
+          1791608400000
+        ],
+        "north-america": [
+          1791630000000,
+          1791633600000
+        ],
+        "south-america": [
+          1791626400000,
+          1791630000000
+        ],
+        "asia": [
+          1791586800000,
+          1791590400000
+        ],
+        "oceania": [
+          1791572400000,
+          1791576000000
+        ]
+      },
+      "type": "minor",
+      "icon": "prospecting_probes.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Pendola Pass",
+      "start": 1791604800000,
+      "end": 1791608400000,
+      "times": {
+        "europe": [
+          1791604800000,
+          1791608400000
+        ],
+        "north-america": [
+          1791630000000,
+          1791633600000
+        ],
+        "south-america": [
+          1791626400000,
+          1791630000000
+        ],
+        "asia": [
+          1791586800000,
+          1791590400000
+        ],
+        "oceania": [
+          1791572400000,
+          1791576000000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1791604800000,
+      "end": 1791608400000,
+      "times": {
+        "europe": [
+          1791604800000,
+          1791608400000
+        ],
+        "north-america": [
+          1791630000000,
+          1791633600000
+        ],
+        "south-america": [
+          1791626400000,
+          1791630000000
+        ],
+        "asia": [
+          1791586800000,
+          1791590400000
+        ],
+        "oceania": [
+          1791572400000,
+          1791576000000
+        ]
+      },
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
+      "condition": "Electromagnetic Storm",
+      "map": "The Blue Gate",
+      "start": 1791604800000,
+      "end": 1791608400000,
+      "times": {
+        "europe": [
+          1791604800000,
+          1791608400000
+        ],
+        "north-america": [
+          1791630000000,
+          1791633600000
+        ],
+        "south-america": [
+          1791626400000,
+          1791630000000
+        ],
+        "asia": [
+          1791586800000,
+          1791590400000
+        ],
+        "oceania": [
+          1791572400000,
+          1791576000000
+        ]
+      },
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
     }
   ]
 }
