@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-08T05:02:13.765Z",
+  "generatedAt": "2026-10-08T05:32:15.623Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-09T15:00:00.000Z",
+  "horizonEnd": "2026-10-09T16:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-09T15:00:00.000Z",
-    "north-america": "2026-10-09T22:00:00.000Z",
-    "south-america": "2026-10-09T21:00:00.000Z",
-    "asia": "2026-10-09T10:00:00.000Z",
-    "oceania": "2026-10-09T06:00:00.000Z"
+    "europe": "2026-10-09T16:00:00.000Z",
+    "north-america": "2026-10-09T23:00:00.000Z",
+    "south-america": "2026-10-09T22:00:00.000Z",
+    "asia": "2026-10-09T11:00:00.000Z",
+    "oceania": "2026-10-09T07:00:00.000Z"
   },
   "regions": [
     {
@@ -4714,6 +4714,156 @@
       },
       "type": "minor",
       "icon": "matriarch.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1791558000000,
+      "end": 1791561600000,
+      "times": {
+        "europe": [
+          1791558000000,
+          1791561600000
+        ],
+        "north-america": [
+          1791583200000,
+          1791586800000
+        ],
+        "south-america": [
+          1791579600000,
+          1791583200000
+        ],
+        "asia": [
+          1791540000000,
+          1791543600000
+        ],
+        "oceania": [
+          1791525600000,
+          1791529200000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Dam Battlegrounds",
+      "start": 1791558000000,
+      "end": 1791561600000,
+      "times": {
+        "europe": [
+          1791558000000,
+          1791561600000
+        ],
+        "north-america": [
+          1791583200000,
+          1791586800000
+        ],
+        "south-america": [
+          1791579600000,
+          1791583200000
+        ],
+        "asia": [
+          1791540000000,
+          1791543600000
+        ],
+        "oceania": [
+          1791525600000,
+          1791529200000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1791558000000,
+      "end": 1791561600000,
+      "times": {
+        "europe": [
+          1791558000000,
+          1791561600000
+        ],
+        "north-america": [
+          1791583200000,
+          1791586800000
+        ],
+        "south-america": [
+          1791579600000,
+          1791583200000
+        ],
+        "asia": [
+          1791540000000,
+          1791543600000
+        ],
+        "oceania": [
+          1791525600000,
+          1791529200000
+        ]
+      },
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Spaceport",
+      "start": 1791558000000,
+      "end": 1791561600000,
+      "times": {
+        "europe": [
+          1791558000000,
+          1791561600000
+        ],
+        "north-america": [
+          1791583200000,
+          1791586800000
+        ],
+        "south-america": [
+          1791579600000,
+          1791583200000
+        ],
+        "asia": [
+          1791540000000,
+          1791543600000
+        ],
+        "oceania": [
+          1791525600000,
+          1791529200000
+        ]
+      },
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
+      "condition": "Close Scrutiny",
+      "map": "The Blue Gate",
+      "start": 1791558000000,
+      "end": 1791561600000,
+      "times": {
+        "europe": [
+          1791558000000,
+          1791561600000
+        ],
+        "north-america": [
+          1791583200000,
+          1791586800000
+        ],
+        "south-america": [
+          1791579600000,
+          1791583200000
+        ],
+        "asia": [
+          1791540000000,
+          1791543600000
+        ],
+        "oceania": [
+          1791525600000,
+          1791529200000
+        ]
+      },
+      "type": "major",
+      "icon": "close_scrutiny.png"
     }
   ]
 }
