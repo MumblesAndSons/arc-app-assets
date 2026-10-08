@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-08T06:02:18.083Z",
+  "generatedAt": "2026-10-08T06:32:14.268Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-09T16:00:00.000Z",
+  "horizonEnd": "2026-10-09T17:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-09T16:00:00.000Z",
-    "north-america": "2026-10-09T23:00:00.000Z",
-    "south-america": "2026-10-09T22:00:00.000Z",
-    "asia": "2026-10-09T11:00:00.000Z",
-    "oceania": "2026-10-09T07:00:00.000Z"
+    "europe": "2026-10-09T17:00:00.000Z",
+    "north-america": "2026-10-10T00:00:00.000Z",
+    "south-america": "2026-10-09T23:00:00.000Z",
+    "asia": "2026-10-09T12:00:00.000Z",
+    "oceania": "2026-10-09T08:00:00.000Z"
   },
   "regions": [
     {
@@ -4744,6 +4744,126 @@
       },
       "type": "major",
       "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Hurricane",
+      "map": "Buried City",
+      "start": 1791561600000,
+      "end": 1791565200000,
+      "times": {
+        "europe": [
+          1791561600000,
+          1791565200000
+        ],
+        "north-america": [
+          1791586800000,
+          1791590400000
+        ],
+        "south-america": [
+          1791583200000,
+          1791586800000
+        ],
+        "asia": [
+          1791543600000,
+          1791547200000
+        ],
+        "oceania": [
+          1791529200000,
+          1791532800000
+        ]
+      },
+      "type": "major",
+      "icon": "hurricane.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Dam Battlegrounds",
+      "start": 1791561600000,
+      "end": 1791565200000,
+      "times": {
+        "europe": [
+          1791561600000,
+          1791565200000
+        ],
+        "north-america": [
+          1791586800000,
+          1791590400000
+        ],
+        "south-america": [
+          1791583200000,
+          1791586800000
+        ],
+        "asia": [
+          1791543600000,
+          1791547200000
+        ],
+        "oceania": [
+          1791529200000,
+          1791532800000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
+      "condition": "Husk Graveyard",
+      "map": "Riven Tides",
+      "start": 1791561600000,
+      "end": 1791565200000,
+      "times": {
+        "europe": [
+          1791561600000,
+          1791565200000
+        ],
+        "north-america": [
+          1791586800000,
+          1791590400000
+        ],
+        "south-america": [
+          1791583200000,
+          1791586800000
+        ],
+        "asia": [
+          1791543600000,
+          1791547200000
+        ],
+        "oceania": [
+          1791529200000,
+          1791532800000
+        ]
+      },
+      "type": "minor",
+      "icon": "husk_graveyard.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1791561600000,
+      "end": 1791565200000,
+      "times": {
+        "europe": [
+          1791561600000,
+          1791565200000
+        ],
+        "north-america": [
+          1791586800000,
+          1791590400000
+        ],
+        "south-america": [
+          1791583200000,
+          1791586800000
+        ],
+        "asia": [
+          1791543600000,
+          1791547200000
+        ],
+        "oceania": [
+          1791529200000,
+          1791532800000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
     }
   ]
 }
