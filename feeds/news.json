@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-10-08T06:02:18.710Z",
+  "generatedAt": "2026-10-08T09:03:34.791Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
+    {
+      "id": "collector-set-dlc",
+      "title": "Collector Set DLC: Gear up for Frozen Trail",
+      "date": "October 8, 2026",
+      "image": "https://assets.arcraiders.com/article-cards/976cd9ca-3d04-collector-set-card-600x400-300x200.png",
+      "tags": [],
+      "summary": "# Collector Set DLC: Gear up for Frozen Trail"
+    },
+    {
+      "id": "frozen-trail-is-live",
+      "title": "Frozen Trail is live! Play for free October 8-12",
+      "date": "October 8, 2026",
+      "image": "https://assets.arcraiders.com/article-cards/fdd8bb8a-8323-live-update-2,0-card-600x400-300x200.png",
+      "tags": [],
+      "summary": "# Frozen Trail has arrived! Free to play October 8-12"
+    },
+    {
+      "id": "frozen-trail-2-0-update",
+      "title": "FROZEN TRAIL - 2.0 Update",
+      "date": "October 8, 2026",
+      "image": "https://assets.arcraiders.com/article-cards/fdd8bb8a-8323-live-update-2,0-card-600x400-300x200.png",
+      "tags": [
+        "Patch Notes"
+      ],
+      "summary": "Winter has set in, bringing a substantial load of new content with it. Frozen Trail stands as the largest update since the game's launch, loaded with new features, fresh challenges, and an extensive set of fixes and improvements."
+    },
     {
       "id": "celeste-capture-upgrade",
       "title": "Bringing Celeste to life: how we’re adapting to better honor actor performances",
@@ -342,35 +368,6 @@
         "Patch Notes"
       ],
       "summary": "Raiders, Patch 1.27.0 is rolling out right now. Please restart your game to download it."
-    },
-    {
-      "id": "hotfix-1-26-1",
-      "title": "Hotfix 1.26.1",
-      "date": "April 30, 2026",
-      "image": "https://assets.arcraiders.com/article-cards/434ec7b9-574d-riven-tides-patch-notes-1-26-0-card-300x200-300x200.png",
-      "tags": [
-        "Patch Notes",
-        "Hotfix"
-      ],
-      "summary": "A hotfix has been released to fix a critical issue that had disabled Crossplay, along with a handful of crash fixes and a repair for a problem affecting color variants on certain backpacks. Additional fixes for more common crashes are still"
-    },
-    {
-      "id": "riven-tides-patch-notes-1-26-0",
-      "title": "Riven Tides - Patch Notes 1.26.0",
-      "date": "April 28, 2026",
-      "image": "https://assets.arcraiders.com/article-cards/434ec7b9-574d-riven-tides-patch-notes-1-26-0-card-300x200-300x200.png",
-      "tags": [
-        "Patch Notes"
-      ],
-      "summary": "Scout reports have started arriving from Riven Tides. Bits of observation logs, worn photographs, and coastal footage have finally reached Speranza."
-    },
-    {
-      "id": "riven-tides",
-      "title": "Riven Tides update - Reclaim the coast",
-      "date": "April 27, 2026",
-      "image": "https://assets.arcraiders.com/article-cards/0b3112ae-ce3c-riven-tides-launch-card-300x200-300x200.png",
-      "tags": [],
-      "summary": "Scout reports have been coming back from Riven Tides. Fragments of observation logs, faded photographs, and coastal footage have finally made their way back to Speranza."
     }
   ]
 }
