@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-08T12:02:16.447Z",
+  "generatedAt": "2026-10-08T12:32:14.674Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-09T22:00:00.000Z",
+  "horizonEnd": "2026-10-09T23:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-09T22:00:00.000Z",
-    "north-america": "2026-10-10T05:00:00.000Z",
-    "south-america": "2026-10-10T04:00:00.000Z",
-    "asia": "2026-10-09T17:00:00.000Z",
-    "oceania": "2026-10-09T13:00:00.000Z"
+    "europe": "2026-10-09T23:00:00.000Z",
+    "north-america": "2026-10-10T06:00:00.000Z",
+    "south-america": "2026-10-10T05:00:00.000Z",
+    "asia": "2026-10-09T18:00:00.000Z",
+    "oceania": "2026-10-09T14:00:00.000Z"
   },
   "regions": [
     {
@@ -8714,6 +8714,156 @@
         "oceania": [
           1791547200000,
           1791550800000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Dam Battlegrounds",
+      "start": 1791583200000,
+      "end": 1791586800000,
+      "times": {
+        "europe": [
+          1791583200000,
+          1791586800000
+        ],
+        "north-america": [
+          1791608400000,
+          1791612000000
+        ],
+        "south-america": [
+          1791604800000,
+          1791608400000
+        ],
+        "asia": [
+          1791565200000,
+          1791568800000
+        ],
+        "oceania": [
+          1791550800000,
+          1791554400000
+        ]
+      },
+      "type": "minor",
+      "icon": "prospecting_probes.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1791583200000,
+      "end": 1791586800000,
+      "times": {
+        "europe": [
+          1791583200000,
+          1791586800000
+        ],
+        "north-america": [
+          1791608400000,
+          1791612000000
+        ],
+        "south-america": [
+          1791604800000,
+          1791608400000
+        ],
+        "asia": [
+          1791565200000,
+          1791568800000
+        ],
+        "oceania": [
+          1791550800000,
+          1791554400000
+        ]
+      },
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
+      "condition": "Electromagnetic Storm",
+      "map": "Spaceport",
+      "start": 1791583200000,
+      "end": 1791586800000,
+      "times": {
+        "europe": [
+          1791583200000,
+          1791586800000
+        ],
+        "north-america": [
+          1791608400000,
+          1791612000000
+        ],
+        "south-america": [
+          1791604800000,
+          1791608400000
+        ],
+        "asia": [
+          1791565200000,
+          1791568800000
+        ],
+        "oceania": [
+          1791550800000,
+          1791554400000
+        ]
+      },
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1791583200000,
+      "end": 1791586800000,
+      "times": {
+        "europe": [
+          1791583200000,
+          1791586800000
+        ],
+        "north-america": [
+          1791608400000,
+          1791612000000
+        ],
+        "south-america": [
+          1791604800000,
+          1791608400000
+        ],
+        "asia": [
+          1791565200000,
+          1791568800000
+        ],
+        "oceania": [
+          1791550800000,
+          1791554400000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "The Blue Gate",
+      "start": 1791583200000,
+      "end": 1791586800000,
+      "times": {
+        "europe": [
+          1791583200000,
+          1791586800000
+        ],
+        "north-america": [
+          1791608400000,
+          1791612000000
+        ],
+        "south-america": [
+          1791604800000,
+          1791608400000
+        ],
+        "asia": [
+          1791565200000,
+          1791568800000
+        ],
+        "oceania": [
+          1791550800000,
+          1791554400000
         ]
       },
       "type": "major",
