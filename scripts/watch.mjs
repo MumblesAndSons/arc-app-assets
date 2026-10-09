@@ -18,6 +18,7 @@ import { readFileSync, existsSync, appendFileSync } from 'node:fs';
 // ArcRaidersApp/assets/conditions.json. Add to this list in the same change
 // that adds the artwork, otherwise the alert keeps firing.
 const APP_KNOWS = [
+  'ARC Frigate',
   'Beachcombing',
   'Bird City',
   'Close Scrutiny',
@@ -33,6 +34,7 @@ const APP_KNOWS = [
   'Matriarch',
   'Night Raid',
   'Prospecting Probes',
+  'Redirection',
   'Uncovered Caches',
 ];
 
