@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-09T15:02:17.393Z",
+  "generatedAt": "2026-10-09T15:32:18.272Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-11T01:00:00.000Z",
+  "horizonEnd": "2026-10-11T02:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-11T01:00:00.000Z",
-    "north-america": "2026-10-11T08:00:00.000Z",
-    "south-america": "2026-10-11T07:00:00.000Z",
-    "asia": "2026-10-10T20:00:00.000Z",
-    "oceania": "2026-10-10T16:00:00.000Z"
+    "europe": "2026-10-11T02:00:00.000Z",
+    "north-america": "2026-10-11T09:00:00.000Z",
+    "south-america": "2026-10-11T08:00:00.000Z",
+    "asia": "2026-10-10T21:00:00.000Z",
+    "oceania": "2026-10-10T17:00:00.000Z"
   },
   "regions": [
     {
@@ -5150,6 +5150,20 @@
       "icon": "uncovered_caches.png"
     },
     {
+      "condition": "Redirection",
+      "map": "Pendola Pass",
+      "start": 1791648000000,
+      "end": 1791651600000,
+      "times": {
+        "europe": [
+          1791648000000,
+          1791651600000
+        ]
+      },
+      "type": "minor",
+      "icon": "redirection.png"
+    },
+    {
       "condition": "Beachcombing",
       "map": "Riven Tides",
       "start": 1791648000000,
@@ -6108,6 +6122,96 @@
       },
       "type": "minor",
       "icon": "harvester.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Buried City",
+      "start": 1791680400000,
+      "end": 1791684000000,
+      "times": {
+        "europe": [
+          1791680400000,
+          1791684000000
+        ],
+        "north-america": [
+          1791705600000,
+          1791709200000
+        ],
+        "south-america": [
+          1791702000000,
+          1791705600000
+        ],
+        "asia": [
+          1791662400000,
+          1791666000000
+        ],
+        "oceania": [
+          1791648000000,
+          1791651600000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Dam Battlegrounds",
+      "start": 1791680400000,
+      "end": 1791684000000,
+      "times": {
+        "europe": [
+          1791680400000,
+          1791684000000
+        ],
+        "north-america": [
+          1791705600000,
+          1791709200000
+        ],
+        "south-america": [
+          1791702000000,
+          1791705600000
+        ],
+        "asia": [
+          1791662400000,
+          1791666000000
+        ],
+        "oceania": [
+          1791648000000,
+          1791651600000
+        ]
+      },
+      "type": "minor",
+      "icon": "prospecting_probes.png"
+    },
+    {
+      "condition": "Electromagnetic Storm",
+      "map": "Spaceport",
+      "start": 1791680400000,
+      "end": 1791684000000,
+      "times": {
+        "europe": [
+          1791680400000,
+          1791684000000
+        ],
+        "north-america": [
+          1791705600000,
+          1791709200000
+        ],
+        "south-america": [
+          1791702000000,
+          1791705600000
+        ],
+        "asia": [
+          1791662400000,
+          1791666000000
+        ],
+        "oceania": [
+          1791648000000,
+          1791651600000
+        ]
+      },
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
     }
   ]
 }
