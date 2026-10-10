@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-10T11:02:18.832Z",
+  "generatedAt": "2026-10-10T11:32:15.052Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-11T21:00:00.000Z",
+  "horizonEnd": "2026-10-11T22:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-11T21:00:00.000Z",
-    "north-america": "2026-10-12T04:00:00.000Z",
-    "south-america": "2026-10-12T03:00:00.000Z",
-    "asia": "2026-10-11T16:00:00.000Z",
-    "oceania": "2026-10-11T12:00:00.000Z"
+    "europe": "2026-10-11T22:00:00.000Z",
+    "north-america": "2026-10-12T05:00:00.000Z",
+    "south-america": "2026-10-12T04:00:00.000Z",
+    "asia": "2026-10-11T17:00:00.000Z",
+    "oceania": "2026-10-11T13:00:00.000Z"
   },
   "regions": [
     {
@@ -4922,6 +4922,126 @@
       },
       "type": "major",
       "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1791752400000,
+      "end": 1791756000000,
+      "times": {
+        "europe": [
+          1791752400000,
+          1791756000000
+        ],
+        "north-america": [
+          1791777600000,
+          1791781200000
+        ],
+        "south-america": [
+          1791774000000,
+          1791777600000
+        ],
+        "asia": [
+          1791734400000,
+          1791738000000
+        ],
+        "oceania": [
+          1791720000000,
+          1791723600000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Electromagnetic Storm",
+      "map": "Dam Battlegrounds",
+      "start": 1791752400000,
+      "end": 1791756000000,
+      "times": {
+        "europe": [
+          1791752400000,
+          1791756000000
+        ],
+        "north-america": [
+          1791777600000,
+          1791781200000
+        ],
+        "south-america": [
+          1791774000000,
+          1791777600000
+        ],
+        "asia": [
+          1791734400000,
+          1791738000000
+        ],
+        "oceania": [
+          1791720000000,
+          1791723600000
+        ]
+      },
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Pendola Pass",
+      "start": 1791752400000,
+      "end": 1791756000000,
+      "times": {
+        "europe": [
+          1791752400000,
+          1791756000000
+        ],
+        "north-america": [
+          1791777600000,
+          1791781200000
+        ],
+        "south-america": [
+          1791774000000,
+          1791777600000
+        ],
+        "asia": [
+          1791734400000,
+          1791738000000
+        ],
+        "oceania": [
+          1791720000000,
+          1791723600000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "The Blue Gate",
+      "start": 1791752400000,
+      "end": 1791756000000,
+      "times": {
+        "europe": [
+          1791752400000,
+          1791756000000
+        ],
+        "north-america": [
+          1791777600000,
+          1791781200000
+        ],
+        "south-america": [
+          1791774000000,
+          1791777600000
+        ],
+        "asia": [
+          1791734400000,
+          1791738000000
+        ],
+        "oceania": [
+          1791720000000,
+          1791723600000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
     }
   ]
 }
