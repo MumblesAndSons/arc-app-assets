@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T07:32:17.711Z",
+  "generatedAt": "2026-10-10T08:02:15.091Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-10-11T18:00:00.000Z",
@@ -115,96 +115,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "ARC Frigate",
-      "map": "Buried City",
-      "start": 1791590400000,
-      "end": 1791594000000,
-      "times": {
-        "europe": [
-          1791590400000,
-          1791594000000
-        ],
-        "north-america": [
-          1791615600000,
-          1791619200000
-        ],
-        "south-america": [
-          1791612000000,
-          1791615600000
-        ],
-        "asia": [
-          1791572400000,
-          1791576000000
-        ],
-        "oceania": [
-          1791558000000,
-          1791561600000
-        ]
-      },
-      "type": "major",
-      "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Prospecting Probes",
-      "map": "Dam Battlegrounds",
-      "start": 1791590400000,
-      "end": 1791594000000,
-      "times": {
-        "europe": [
-          1791590400000,
-          1791594000000
-        ],
-        "north-america": [
-          1791615600000,
-          1791619200000
-        ],
-        "south-america": [
-          1791612000000,
-          1791615600000
-        ],
-        "asia": [
-          1791572400000,
-          1791576000000
-        ],
-        "oceania": [
-          1791558000000,
-          1791561600000
-        ]
-      },
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
-    {
-      "condition": "Electromagnetic Storm",
-      "map": "Spaceport",
-      "start": 1791590400000,
-      "end": 1791594000000,
-      "times": {
-        "europe": [
-          1791590400000,
-          1791594000000
-        ],
-        "north-america": [
-          1791615600000,
-          1791619200000
-        ],
-        "south-america": [
-          1791612000000,
-          1791615600000
-        ],
-        "asia": [
-          1791572400000,
-          1791576000000
-        ],
-        "oceania": [
-          1791558000000,
-          1791561600000
-        ]
-      },
-      "type": "major",
-      "icon": "electromagnetic_storm.png"
-    },
     {
       "condition": "ARC Frigate",
       "map": "Pendola Pass",
