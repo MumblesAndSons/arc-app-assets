@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-10T20:02:18.917Z",
+  "generatedAt": "2026-10-10T20:32:14.033Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-12T06:00:00.000Z",
+  "horizonEnd": "2026-10-12T07:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-12T06:00:00.000Z",
-    "north-america": "2026-10-12T13:00:00.000Z",
-    "south-america": "2026-10-12T12:00:00.000Z",
-    "asia": "2026-10-12T01:00:00.000Z",
-    "oceania": "2026-10-11T21:00:00.000Z"
+    "europe": "2026-10-12T07:00:00.000Z",
+    "north-america": "2026-10-12T14:00:00.000Z",
+    "south-america": "2026-10-12T13:00:00.000Z",
+    "asia": "2026-10-12T02:00:00.000Z",
+    "oceania": "2026-10-11T22:00:00.000Z"
   },
   "regions": [
     {
@@ -3964,6 +3964,20 @@
       "icon": "arc_frigate.png"
     },
     {
+      "condition": "Redirection",
+      "map": "Pendola Pass",
+      "start": 1791752400000,
+      "end": 1791756000000,
+      "times": {
+        "europe": [
+          1791752400000,
+          1791756000000
+        ]
+      },
+      "type": "minor",
+      "icon": "redirection.png"
+    },
+    {
       "condition": "Matriarch",
       "map": "The Blue Gate",
       "start": 1791752400000,
@@ -5012,6 +5026,156 @@
       },
       "type": "major",
       "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Pendola Pass",
+      "start": 1791784800000,
+      "end": 1791788400000,
+      "times": {
+        "europe": [
+          1791784800000,
+          1791788400000
+        ],
+        "north-america": [
+          1791810000000,
+          1791813600000
+        ],
+        "south-america": [
+          1791806400000,
+          1791810000000
+        ],
+        "asia": [
+          1791766800000,
+          1791770400000
+        ],
+        "oceania": [
+          1791752400000,
+          1791756000000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1791784800000,
+      "end": 1791788400000,
+      "times": {
+        "europe": [
+          1791784800000,
+          1791788400000
+        ],
+        "north-america": [
+          1791810000000,
+          1791813600000
+        ],
+        "south-america": [
+          1791806400000,
+          1791810000000
+        ],
+        "asia": [
+          1791766800000,
+          1791770400000
+        ],
+        "oceania": [
+          1791752400000,
+          1791756000000
+        ]
+      },
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Riven Tides",
+      "start": 1791784800000,
+      "end": 1791788400000,
+      "times": {
+        "europe": [
+          1791784800000,
+          1791788400000
+        ],
+        "north-america": [
+          1791810000000,
+          1791813600000
+        ],
+        "south-america": [
+          1791806400000,
+          1791810000000
+        ],
+        "asia": [
+          1791766800000,
+          1791770400000
+        ],
+        "oceania": [
+          1791752400000,
+          1791756000000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Spaceport",
+      "start": 1791784800000,
+      "end": 1791788400000,
+      "times": {
+        "europe": [
+          1791784800000,
+          1791788400000
+        ],
+        "north-america": [
+          1791810000000,
+          1791813600000
+        ],
+        "south-america": [
+          1791806400000,
+          1791810000000
+        ],
+        "asia": [
+          1791766800000,
+          1791770400000
+        ],
+        "oceania": [
+          1791752400000,
+          1791756000000
+        ]
+      },
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1791784800000,
+      "end": 1791788400000,
+      "times": {
+        "europe": [
+          1791784800000,
+          1791788400000
+        ],
+        "north-america": [
+          1791810000000,
+          1791813600000
+        ],
+        "south-america": [
+          1791806400000,
+          1791810000000
+        ],
+        "asia": [
+          1791766800000,
+          1791770400000
+        ],
+        "oceania": [
+          1791752400000,
+          1791756000000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
     }
   ]
 }
