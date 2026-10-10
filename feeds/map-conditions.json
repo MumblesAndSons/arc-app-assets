@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-10T19:02:14.037Z",
+  "generatedAt": "2026-10-10T19:32:14.889Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-12T05:00:00.000Z",
+  "horizonEnd": "2026-10-12T06:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-12T05:00:00.000Z",
-    "north-america": "2026-10-12T12:00:00.000Z",
-    "south-america": "2026-10-12T11:00:00.000Z",
-    "asia": "2026-10-12T00:00:00.000Z",
-    "oceania": "2026-10-11T20:00:00.000Z"
+    "europe": "2026-10-12T06:00:00.000Z",
+    "north-america": "2026-10-12T13:00:00.000Z",
+    "south-america": "2026-10-12T12:00:00.000Z",
+    "asia": "2026-10-12T01:00:00.000Z",
+    "oceania": "2026-10-11T21:00:00.000Z"
   },
   "regions": [
     {
@@ -5012,6 +5012,126 @@
       },
       "type": "major",
       "icon": "night_raid.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Buried City",
+      "start": 1791781200000,
+      "end": 1791784800000,
+      "times": {
+        "europe": [
+          1791781200000,
+          1791784800000
+        ],
+        "north-america": [
+          1791806400000,
+          1791810000000
+        ],
+        "south-america": [
+          1791802800000,
+          1791806400000
+        ],
+        "asia": [
+          1791763200000,
+          1791766800000
+        ],
+        "oceania": [
+          1791748800000,
+          1791752400000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Dam Battlegrounds",
+      "start": 1791781200000,
+      "end": 1791784800000,
+      "times": {
+        "europe": [
+          1791781200000,
+          1791784800000
+        ],
+        "north-america": [
+          1791806400000,
+          1791810000000
+        ],
+        "south-america": [
+          1791802800000,
+          1791806400000
+        ],
+        "asia": [
+          1791763200000,
+          1791766800000
+        ],
+        "oceania": [
+          1791748800000,
+          1791752400000
+        ]
+      },
+      "type": "minor",
+      "icon": "prospecting_probes.png"
+    },
+    {
+      "condition": "Launch Tower Loot",
+      "map": "Spaceport",
+      "start": 1791781200000,
+      "end": 1791784800000,
+      "times": {
+        "europe": [
+          1791781200000,
+          1791784800000
+        ],
+        "north-america": [
+          1791806400000,
+          1791810000000
+        ],
+        "south-america": [
+          1791802800000,
+          1791806400000
+        ],
+        "asia": [
+          1791763200000,
+          1791766800000
+        ],
+        "oceania": [
+          1791748800000,
+          1791752400000
+        ]
+      },
+      "type": "minor",
+      "icon": "launch_tower_loot.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "The Blue Gate",
+      "start": 1791781200000,
+      "end": 1791784800000,
+      "times": {
+        "europe": [
+          1791781200000,
+          1791784800000
+        ],
+        "north-america": [
+          1791806400000,
+          1791810000000
+        ],
+        "south-america": [
+          1791802800000,
+          1791806400000
+        ],
+        "asia": [
+          1791763200000,
+          1791766800000
+        ],
+        "oceania": [
+          1791748800000,
+          1791752400000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
     }
   ]
 }
