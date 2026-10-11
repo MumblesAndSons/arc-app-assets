@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-11T03:02:14.311Z",
+  "generatedAt": "2026-10-11T03:32:18.910Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-12T13:00:00.000Z",
+  "horizonEnd": "2026-10-12T14:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-12T13:00:00.000Z",
-    "north-america": "2026-10-12T20:00:00.000Z",
-    "south-america": "2026-10-12T19:00:00.000Z",
-    "asia": "2026-10-12T08:00:00.000Z",
-    "oceania": "2026-10-12T04:00:00.000Z"
+    "europe": "2026-10-12T14:00:00.000Z",
+    "north-america": "2026-10-12T21:00:00.000Z",
+    "south-america": "2026-10-12T20:00:00.000Z",
+    "asia": "2026-10-12T09:00:00.000Z",
+    "oceania": "2026-10-12T05:00:00.000Z"
   },
   "regions": [
     {
@@ -5010,6 +5010,126 @@
         "oceania": [
           1791774000000,
           1791777600000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1791810000000,
+      "end": 1791813600000,
+      "times": {
+        "europe": [
+          1791810000000,
+          1791813600000
+        ],
+        "north-america": [
+          1791835200000,
+          1791838800000
+        ],
+        "south-america": [
+          1791831600000,
+          1791835200000
+        ],
+        "asia": [
+          1791792000000,
+          1791795600000
+        ],
+        "oceania": [
+          1791777600000,
+          1791781200000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Hurricane",
+      "map": "Dam Battlegrounds",
+      "start": 1791810000000,
+      "end": 1791813600000,
+      "times": {
+        "europe": [
+          1791810000000,
+          1791813600000
+        ],
+        "north-america": [
+          1791835200000,
+          1791838800000
+        ],
+        "south-america": [
+          1791831600000,
+          1791835200000
+        ],
+        "asia": [
+          1791792000000,
+          1791795600000
+        ],
+        "oceania": [
+          1791777600000,
+          1791781200000
+        ]
+      },
+      "type": "major",
+      "icon": "hurricane.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Riven Tides",
+      "start": 1791810000000,
+      "end": 1791813600000,
+      "times": {
+        "europe": [
+          1791810000000,
+          1791813600000
+        ],
+        "north-america": [
+          1791835200000,
+          1791838800000
+        ],
+        "south-america": [
+          1791831600000,
+          1791835200000
+        ],
+        "asia": [
+          1791792000000,
+          1791795600000
+        ],
+        "oceania": [
+          1791777600000,
+          1791781200000
+        ]
+      },
+      "type": "minor",
+      "icon": "prospecting_probes.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Spaceport",
+      "start": 1791810000000,
+      "end": 1791813600000,
+      "times": {
+        "europe": [
+          1791810000000,
+          1791813600000
+        ],
+        "north-america": [
+          1791835200000,
+          1791838800000
+        ],
+        "south-america": [
+          1791831600000,
+          1791835200000
+        ],
+        "asia": [
+          1791792000000,
+          1791795600000
+        ],
+        "oceania": [
+          1791777600000,
+          1791781200000
         ]
       },
       "type": "major",
