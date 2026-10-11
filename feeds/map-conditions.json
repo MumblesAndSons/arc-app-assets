@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-11T06:02:14.103Z",
+  "generatedAt": "2026-10-11T06:32:16.363Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-12T16:00:00.000Z",
+  "horizonEnd": "2026-10-12T17:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-12T16:00:00.000Z",
-    "north-america": "2026-10-12T23:00:00.000Z",
-    "south-america": "2026-10-12T22:00:00.000Z",
-    "asia": "2026-10-12T11:00:00.000Z",
-    "oceania": "2026-10-12T07:00:00.000Z"
+    "europe": "2026-10-12T17:00:00.000Z",
+    "north-america": "2026-10-13T00:00:00.000Z",
+    "south-america": "2026-10-12T23:00:00.000Z",
+    "asia": "2026-10-12T12:00:00.000Z",
+    "oceania": "2026-10-12T08:00:00.000Z"
   },
   "regions": [
     {
@@ -5044,6 +5044,156 @@
       },
       "type": "minor",
       "icon": "lush_blooms.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1791820800000,
+      "end": 1791824400000,
+      "times": {
+        "europe": [
+          1791820800000,
+          1791824400000
+        ],
+        "north-america": [
+          1791846000000,
+          1791849600000
+        ],
+        "south-america": [
+          1791842400000,
+          1791846000000
+        ],
+        "asia": [
+          1791802800000,
+          1791806400000
+        ],
+        "oceania": [
+          1791788400000,
+          1791792000000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Riven Tides",
+      "start": 1791820800000,
+      "end": 1791824400000,
+      "times": {
+        "europe": [
+          1791820800000,
+          1791824400000
+        ],
+        "north-america": [
+          1791846000000,
+          1791849600000
+        ],
+        "south-america": [
+          1791842400000,
+          1791846000000
+        ],
+        "asia": [
+          1791802800000,
+          1791806400000
+        ],
+        "oceania": [
+          1791788400000,
+          1791792000000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Spaceport",
+      "start": 1791820800000,
+      "end": 1791824400000,
+      "times": {
+        "europe": [
+          1791820800000,
+          1791824400000
+        ],
+        "north-america": [
+          1791846000000,
+          1791849600000
+        ],
+        "south-america": [
+          1791842400000,
+          1791846000000
+        ],
+        "asia": [
+          1791802800000,
+          1791806400000
+        ],
+        "oceania": [
+          1791788400000,
+          1791792000000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Spaceport",
+      "start": 1791820800000,
+      "end": 1791824400000,
+      "times": {
+        "europe": [
+          1791820800000,
+          1791824400000
+        ],
+        "north-america": [
+          1791846000000,
+          1791849600000
+        ],
+        "south-america": [
+          1791842400000,
+          1791846000000
+        ],
+        "asia": [
+          1791802800000,
+          1791806400000
+        ],
+        "oceania": [
+          1791788400000,
+          1791792000000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "The Blue Gate",
+      "start": 1791820800000,
+      "end": 1791824400000,
+      "times": {
+        "europe": [
+          1791820800000,
+          1791824400000
+        ],
+        "north-america": [
+          1791846000000,
+          1791849600000
+        ],
+        "south-america": [
+          1791842400000,
+          1791846000000
+        ],
+        "asia": [
+          1791802800000,
+          1791806400000
+        ],
+        "oceania": [
+          1791788400000,
+          1791792000000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
     }
   ]
 }
