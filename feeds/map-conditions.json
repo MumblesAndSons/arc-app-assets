@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T01:32:18.008Z",
+  "generatedAt": "2026-10-11T02:02:18.896Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-10-12T12:00:00.000Z",
@@ -115,96 +115,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "ARC Frigate",
-      "map": "Buried City",
-      "start": 1791655200000,
-      "end": 1791658800000,
-      "times": {
-        "europe": [
-          1791655200000,
-          1791658800000
-        ],
-        "north-america": [
-          1791680400000,
-          1791684000000
-        ],
-        "south-america": [
-          1791676800000,
-          1791680400000
-        ],
-        "asia": [
-          1791637200000,
-          1791640800000
-        ],
-        "oceania": [
-          1791622800000,
-          1791626400000
-        ]
-      },
-      "type": "major",
-      "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Uncovered Caches",
-      "map": "Riven Tides",
-      "start": 1791655200000,
-      "end": 1791658800000,
-      "times": {
-        "europe": [
-          1791655200000,
-          1791658800000
-        ],
-        "north-america": [
-          1791680400000,
-          1791684000000
-        ],
-        "south-america": [
-          1791676800000,
-          1791680400000
-        ],
-        "asia": [
-          1791637200000,
-          1791640800000
-        ],
-        "oceania": [
-          1791622800000,
-          1791626400000
-        ]
-      },
-      "type": "minor",
-      "icon": "uncovered_caches.png"
-    },
-    {
-      "condition": "Electromagnetic Storm",
-      "map": "Spaceport",
-      "start": 1791655200000,
-      "end": 1791658800000,
-      "times": {
-        "europe": [
-          1791655200000,
-          1791658800000
-        ],
-        "north-america": [
-          1791680400000,
-          1791684000000
-        ],
-        "south-america": [
-          1791676800000,
-          1791680400000
-        ],
-        "asia": [
-          1791637200000,
-          1791640800000
-        ],
-        "oceania": [
-          1791622800000,
-          1791626400000
-        ]
-      },
-      "type": "major",
-      "icon": "electromagnetic_storm.png"
-    },
     {
       "condition": "Harvester",
       "map": "Dam Battlegrounds",
