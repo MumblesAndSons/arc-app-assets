@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-11T14:02:14.593Z",
+  "generatedAt": "2026-10-11T14:32:16.027Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-13T00:00:00.000Z",
+  "horizonEnd": "2026-10-13T01:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-13T00:00:00.000Z",
-    "north-america": "2026-10-13T07:00:00.000Z",
-    "south-america": "2026-10-13T06:00:00.000Z",
-    "asia": "2026-10-12T19:00:00.000Z",
-    "oceania": "2026-10-12T15:00:00.000Z"
+    "europe": "2026-10-13T01:00:00.000Z",
+    "north-america": "2026-10-13T08:00:00.000Z",
+    "south-america": "2026-10-13T07:00:00.000Z",
+    "asia": "2026-10-12T20:00:00.000Z",
+    "oceania": "2026-10-12T16:00:00.000Z"
   },
   "regions": [
     {
@@ -5208,6 +5208,126 @@
       },
       "type": "minor",
       "icon": "harvester.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Buried City",
+      "start": 1791849600000,
+      "end": 1791853200000,
+      "times": {
+        "europe": [
+          1791849600000,
+          1791853200000
+        ],
+        "north-america": [
+          1791874800000,
+          1791878400000
+        ],
+        "south-america": [
+          1791871200000,
+          1791874800000
+        ],
+        "asia": [
+          1791831600000,
+          1791835200000
+        ],
+        "oceania": [
+          1791817200000,
+          1791820800000
+        ]
+      },
+      "type": "minor",
+      "icon": "prospecting_probes.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Dam Battlegrounds",
+      "start": 1791849600000,
+      "end": 1791853200000,
+      "times": {
+        "europe": [
+          1791849600000,
+          1791853200000
+        ],
+        "north-america": [
+          1791874800000,
+          1791878400000
+        ],
+        "south-america": [
+          1791871200000,
+          1791874800000
+        ],
+        "asia": [
+          1791831600000,
+          1791835200000
+        ],
+        "oceania": [
+          1791817200000,
+          1791820800000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Pendola Pass",
+      "start": 1791849600000,
+      "end": 1791853200000,
+      "times": {
+        "europe": [
+          1791849600000,
+          1791853200000
+        ],
+        "north-america": [
+          1791874800000,
+          1791878400000
+        ],
+        "south-america": [
+          1791871200000,
+          1791874800000
+        ],
+        "asia": [
+          1791831600000,
+          1791835200000
+        ],
+        "oceania": [
+          1791817200000,
+          1791820800000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Spaceport",
+      "start": 1791849600000,
+      "end": 1791853200000,
+      "times": {
+        "europe": [
+          1791849600000,
+          1791853200000
+        ],
+        "north-america": [
+          1791874800000,
+          1791878400000
+        ],
+        "south-america": [
+          1791871200000,
+          1791874800000
+        ],
+        "asia": [
+          1791831600000,
+          1791835200000
+        ],
+        "oceania": [
+          1791817200000,
+          1791820800000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
     }
   ]
 }
