@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-12T11:02:25.608Z",
+  "generatedAt": "2026-10-12T11:32:15.113Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-13T21:00:00.000Z",
+  "horizonEnd": "2026-10-13T22:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-13T21:00:00.000Z",
-    "north-america": "2026-10-14T04:00:00.000Z",
-    "south-america": "2026-10-14T03:00:00.000Z",
-    "asia": "2026-10-13T16:00:00.000Z",
-    "oceania": "2026-10-13T12:00:00.000Z"
+    "europe": "2026-10-13T22:00:00.000Z",
+    "north-america": "2026-10-14T05:00:00.000Z",
+    "south-america": "2026-10-14T04:00:00.000Z",
+    "asia": "2026-10-13T17:00:00.000Z",
+    "oceania": "2026-10-13T13:00:00.000Z"
   },
   "regions": [
     {
@@ -5169,6 +5169,156 @@
         "oceania": [
           1791889200000,
           1791892800000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Buried City",
+      "start": 1791925200000,
+      "end": 1791928800000,
+      "times": {
+        "europe": [
+          1791925200000,
+          1791928800000
+        ],
+        "north-america": [
+          1791950400000,
+          1791954000000
+        ],
+        "south-america": [
+          1791946800000,
+          1791950400000
+        ],
+        "asia": [
+          1791907200000,
+          1791910800000
+        ],
+        "oceania": [
+          1791892800000,
+          1791896400000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Electromagnetic Storm",
+      "map": "Dam Battlegrounds",
+      "start": 1791925200000,
+      "end": 1791928800000,
+      "times": {
+        "europe": [
+          1791925200000,
+          1791928800000
+        ],
+        "north-america": [
+          1791950400000,
+          1791954000000
+        ],
+        "south-america": [
+          1791946800000,
+          1791950400000
+        ],
+        "asia": [
+          1791907200000,
+          1791910800000
+        ],
+        "oceania": [
+          1791892800000,
+          1791896400000
+        ]
+      },
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Dam Battlegrounds",
+      "start": 1791925200000,
+      "end": 1791928800000,
+      "times": {
+        "europe": [
+          1791925200000,
+          1791928800000
+        ],
+        "north-america": [
+          1791950400000,
+          1791954000000
+        ],
+        "south-america": [
+          1791946800000,
+          1791950400000
+        ],
+        "asia": [
+          1791907200000,
+          1791910800000
+        ],
+        "oceania": [
+          1791892800000,
+          1791896400000
+        ]
+      },
+      "type": "minor",
+      "icon": "prospecting_probes.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Spaceport",
+      "start": 1791925200000,
+      "end": 1791928800000,
+      "times": {
+        "europe": [
+          1791925200000,
+          1791928800000
+        ],
+        "north-america": [
+          1791950400000,
+          1791954000000
+        ],
+        "south-america": [
+          1791946800000,
+          1791950400000
+        ],
+        "asia": [
+          1791907200000,
+          1791910800000
+        ],
+        "oceania": [
+          1791892800000,
+          1791896400000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "The Blue Gate",
+      "start": 1791925200000,
+      "end": 1791928800000,
+      "times": {
+        "europe": [
+          1791925200000,
+          1791928800000
+        ],
+        "north-america": [
+          1791950400000,
+          1791954000000
+        ],
+        "south-america": [
+          1791946800000,
+          1791950400000
+        ],
+        "asia": [
+          1791907200000,
+          1791910800000
+        ],
+        "oceania": [
+          1791892800000,
+          1791896400000
         ]
       },
       "type": "major",
