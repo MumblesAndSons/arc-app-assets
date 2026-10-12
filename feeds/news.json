@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-10-12T09:17:17.485Z",
+  "generatedAt": "2026-10-12T13:32:24.244Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
+    {
+      "id": "trials-season-6",
+      "title": "Trials season 6: Frozen Trials",
+      "date": "October 12, 2026",
+      "image": "https://assets.arcraiders.com/article-cards/07b280bc-89c5-trials-s6-card-600x400-300x200.png",
+      "tags": [],
+      "summary": "# Treacherous conditions call for drastic measures"
+    },
     {
       "id": "collector-set-dlc",
       "title": "Collector Set DLC: Gear up for Frozen Trail",
@@ -358,16 +366,6 @@
       "image": "https://assets.arcraiders.com/article-cards/8c90c0a1-27ce-our-take-on-ensuringg-fair-play-card-300x200-300x200.png",
       "tags": [],
       "summary": "Anti-cheat at Embark is a studio-wide effort that protects every player across our games. With ARC Raiders Riven Tides now live, we want to lay out where things currently stand, what we are building, and how we approach the tougher challeng"
-    },
-    {
-      "id": "patch-notes-1-27-0",
-      "title": "Patch Notes 1.27.0",
-      "date": "May 5, 2026",
-      "image": "https://assets.arcraiders.com/article-cards/6172755c-5d8a-patch-notes-1-27-0-card-300x200-300x200.png",
-      "tags": [
-        "Patch Notes"
-      ],
-      "summary": "Raiders, Patch 1.27.0 is rolling out right now. Please restart your game to download it."
     }
   ]
 }
