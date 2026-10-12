@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-10-12T14:32:16.337Z",
+  "generatedAt": "2026-10-12T16:02:33.284Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
+    {
+      "id": "pve-toggle-what-to-know",
+      "title": "PvE Toggle Beta Test: October 13-20",
+      "date": "October 12, 2026",
+      "image": "https://assets.arcraiders.com/article-cards/972912c5-1908-pve-test-card-600x400-300x200.png",
+      "tags": [],
+      "summary": "Starting October 13 (11:00 CEST) and running through October 20 (11:00 CEST), ARC Raiders will be testing a PvE matchmaking toggle. Back in September, we shared background on why this test is happening now, and if you haven't seen that info"
+    },
     {
       "id": "trials-season-6",
       "title": "Trials Season 6: Frozen Trials",
@@ -358,14 +366,6 @@
         "Store Update"
       ],
       "summary": "A new store rotation is now live, bringing in The Castaway Set. To get the update, restart the game or click the update prompt."
-    },
-    {
-      "id": "ensuring-fair-play",
-      "title": "Ensuring Fair Play",
-      "date": "May 7, 2026",
-      "image": "https://assets.arcraiders.com/article-cards/8c90c0a1-27ce-our-take-on-ensuringg-fair-play-card-300x200-300x200.png",
-      "tags": [],
-      "summary": "Anti-cheat at Embark is a studio-wide effort that protects every player across our games. With ARC Raiders Riven Tides now live, we want to lay out where things currently stand, what we are building, and how we approach the tougher challeng"
     }
   ]
 }
