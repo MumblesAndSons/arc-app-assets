@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-10-13T04:32:17.715Z",
+  "generatedAt": "2026-10-13T09:02:42.395Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
+    {
+      "id": "store-update-2-1-0",
+      "title": "Store Update 2.1.0",
+      "date": "October 13, 2026",
+      "image": "https://assets.arcraiders.com/article-cards/4d6f7fd1-a679-live-update-2.1-card-600x400-300x200.png",
+      "tags": [],
+      "summary": "Update 2.1 is now live, and with it comes the launch of the PvE toggle Beta Test. The reveal of this long-requested feature stirred up a mix of enthusiasm and doubt, so give it a try and share your thoughts. Your feedback, combined with dat"
+    },
     {
       "id": "pve-toggle-what-to-know",
       "title": "PvE Toggle Beta Test: October 13-20",
@@ -356,16 +364,6 @@
       "image": "https://assets.arcraiders.com/article-cards/31b157ff-d3ea-development-update_300x200-300x200.png",
       "tags": [],
       "summary": "# ARC Raiders is shifting to a new update schedule - here's what that means for you"
-    },
-    {
-      "id": "patch-notes-1-28-0",
-      "title": "Store Update 1.28.0",
-      "date": "May 12, 2026",
-      "image": "https://assets.arcraiders.com/article-cards/73bbc060-acac-patch-notes-1-28-0-card-300x200-300x200.png",
-      "tags": [
-        "Store Update"
-      ],
-      "summary": "A new store rotation is now live, bringing in The Castaway Set. To get the update, restart the game or click the update prompt."
     }
   ]
 }
