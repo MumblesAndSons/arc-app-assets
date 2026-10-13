@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-13T03:02:20.753Z",
+  "generatedAt": "2026-10-13T03:32:21.410Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-14T13:00:00.000Z",
+  "horizonEnd": "2026-10-14T14:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-14T13:00:00.000Z",
-    "north-america": "2026-10-14T20:00:00.000Z",
-    "south-america": "2026-10-14T19:00:00.000Z",
-    "asia": "2026-10-14T08:00:00.000Z",
-    "oceania": "2026-10-14T04:00:00.000Z"
+    "europe": "2026-10-14T14:00:00.000Z",
+    "north-america": "2026-10-14T21:00:00.000Z",
+    "south-america": "2026-10-14T20:00:00.000Z",
+    "asia": "2026-10-14T09:00:00.000Z",
+    "oceania": "2026-10-14T05:00:00.000Z"
   },
   "regions": [
     {
@@ -5293,6 +5293,126 @@
       },
       "type": "minor",
       "icon": "matriarch.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Buried City",
+      "start": 1791982800000,
+      "end": 1791986400000,
+      "times": {
+        "europe": [
+          1791982800000,
+          1791986400000
+        ],
+        "north-america": [
+          1792008000000,
+          1792011600000
+        ],
+        "south-america": [
+          1792004400000,
+          1792008000000
+        ],
+        "asia": [
+          1791964800000,
+          1791968400000
+        ],
+        "oceania": [
+          1791950400000,
+          1791954000000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Lush Blooms",
+      "map": "Dam Battlegrounds",
+      "start": 1791982800000,
+      "end": 1791986400000,
+      "times": {
+        "europe": [
+          1791982800000,
+          1791986400000
+        ],
+        "north-america": [
+          1792008000000,
+          1792011600000
+        ],
+        "south-america": [
+          1792004400000,
+          1792008000000
+        ],
+        "asia": [
+          1791964800000,
+          1791968400000
+        ],
+        "oceania": [
+          1791950400000,
+          1791954000000
+        ]
+      },
+      "type": "minor",
+      "icon": "lush_blooms.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Spaceport",
+      "start": 1791982800000,
+      "end": 1791986400000,
+      "times": {
+        "europe": [
+          1791982800000,
+          1791986400000
+        ],
+        "north-america": [
+          1792008000000,
+          1792011600000
+        ],
+        "south-america": [
+          1792004400000,
+          1792008000000
+        ],
+        "asia": [
+          1791964800000,
+          1791968400000
+        ],
+        "oceania": [
+          1791950400000,
+          1791954000000
+        ]
+      },
+      "type": "minor",
+      "icon": "prospecting_probes.png"
+    },
+    {
+      "condition": "Electromagnetic Storm",
+      "map": "The Blue Gate",
+      "start": 1791982800000,
+      "end": 1791986400000,
+      "times": {
+        "europe": [
+          1791982800000,
+          1791986400000
+        ],
+        "north-america": [
+          1792008000000,
+          1792011600000
+        ],
+        "south-america": [
+          1792004400000,
+          1792008000000
+        ],
+        "asia": [
+          1791964800000,
+          1791968400000
+        ],
+        "oceania": [
+          1791950400000,
+          1791954000000
+        ]
+      },
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
     }
   ]
 }
