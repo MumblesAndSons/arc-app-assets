@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-14T03:02:14.495Z",
+  "generatedAt": "2026-10-14T03:32:13.386Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-15T13:00:00.000Z",
+  "horizonEnd": "2026-10-15T14:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-15T13:00:00.000Z",
-    "north-america": "2026-10-15T20:00:00.000Z",
-    "south-america": "2026-10-15T19:00:00.000Z",
-    "asia": "2026-10-15T08:00:00.000Z",
-    "oceania": "2026-10-15T04:00:00.000Z"
+    "europe": "2026-10-15T14:00:00.000Z",
+    "north-america": "2026-10-15T21:00:00.000Z",
+    "south-america": "2026-10-15T20:00:00.000Z",
+    "asia": "2026-10-15T09:00:00.000Z",
+    "oceania": "2026-10-15T05:00:00.000Z"
   },
   "regions": [
     {
@@ -5222,6 +5222,156 @@
       },
       "type": "major",
       "icon": "locked_gate.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1792069200000,
+      "end": 1792072800000,
+      "times": {
+        "europe": [
+          1792069200000,
+          1792072800000
+        ],
+        "north-america": [
+          1792094400000,
+          1792098000000
+        ],
+        "south-america": [
+          1792090800000,
+          1792094400000
+        ],
+        "asia": [
+          1792051200000,
+          1792054800000
+        ],
+        "oceania": [
+          1792036800000,
+          1792040400000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Riven Tides",
+      "start": 1792069200000,
+      "end": 1792072800000,
+      "times": {
+        "europe": [
+          1792069200000,
+          1792072800000
+        ],
+        "north-america": [
+          1792094400000,
+          1792098000000
+        ],
+        "south-america": [
+          1792090800000,
+          1792094400000
+        ],
+        "asia": [
+          1792051200000,
+          1792054800000
+        ],
+        "oceania": [
+          1792036800000,
+          1792040400000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Spaceport",
+      "start": 1792069200000,
+      "end": 1792072800000,
+      "times": {
+        "europe": [
+          1792069200000,
+          1792072800000
+        ],
+        "north-america": [
+          1792094400000,
+          1792098000000
+        ],
+        "south-america": [
+          1792090800000,
+          1792094400000
+        ],
+        "asia": [
+          1792051200000,
+          1792054800000
+        ],
+        "oceania": [
+          1792036800000,
+          1792040400000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1792069200000,
+      "end": 1792072800000,
+      "times": {
+        "europe": [
+          1792069200000,
+          1792072800000
+        ],
+        "north-america": [
+          1792094400000,
+          1792098000000
+        ],
+        "south-america": [
+          1792090800000,
+          1792094400000
+        ],
+        "asia": [
+          1792051200000,
+          1792054800000
+        ],
+        "oceania": [
+          1792036800000,
+          1792040400000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "The Blue Gate",
+      "start": 1792069200000,
+      "end": 1792072800000,
+      "times": {
+        "europe": [
+          1792069200000,
+          1792072800000
+        ],
+        "north-america": [
+          1792094400000,
+          1792098000000
+        ],
+        "south-america": [
+          1792090800000,
+          1792094400000
+        ],
+        "asia": [
+          1792051200000,
+          1792054800000
+        ],
+        "oceania": [
+          1792036800000,
+          1792040400000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
     }
   ]
 }
