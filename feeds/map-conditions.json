@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-14T02:02:20.199Z",
+  "generatedAt": "2026-10-14T02:32:16.897Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-15T12:00:00.000Z",
+  "horizonEnd": "2026-10-15T13:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-15T12:00:00.000Z",
-    "north-america": "2026-10-15T19:00:00.000Z",
-    "south-america": "2026-10-15T18:00:00.000Z",
-    "asia": "2026-10-15T07:00:00.000Z",
-    "oceania": "2026-10-15T03:00:00.000Z"
+    "europe": "2026-10-15T13:00:00.000Z",
+    "north-america": "2026-10-15T20:00:00.000Z",
+    "south-america": "2026-10-15T19:00:00.000Z",
+    "asia": "2026-10-15T08:00:00.000Z",
+    "oceania": "2026-10-15T04:00:00.000Z"
   },
   "regions": [
     {
@@ -5222,6 +5222,126 @@
       },
       "type": "major",
       "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Dam Battlegrounds",
+      "start": 1792065600000,
+      "end": 1792069200000,
+      "times": {
+        "europe": [
+          1792065600000,
+          1792069200000
+        ],
+        "north-america": [
+          1792090800000,
+          1792094400000
+        ],
+        "south-america": [
+          1792087200000,
+          1792090800000
+        ],
+        "asia": [
+          1792047600000,
+          1792051200000
+        ],
+        "oceania": [
+          1792033200000,
+          1792036800000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1792065600000,
+      "end": 1792069200000,
+      "times": {
+        "europe": [
+          1792065600000,
+          1792069200000
+        ],
+        "north-america": [
+          1792090800000,
+          1792094400000
+        ],
+        "south-america": [
+          1792087200000,
+          1792090800000
+        ],
+        "asia": [
+          1792047600000,
+          1792051200000
+        ],
+        "oceania": [
+          1792033200000,
+          1792036800000
+        ]
+      },
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
+      "condition": "Lush Blooms",
+      "map": "Spaceport",
+      "start": 1792065600000,
+      "end": 1792069200000,
+      "times": {
+        "europe": [
+          1792065600000,
+          1792069200000
+        ],
+        "north-america": [
+          1792090800000,
+          1792094400000
+        ],
+        "south-america": [
+          1792087200000,
+          1792090800000
+        ],
+        "asia": [
+          1792047600000,
+          1792051200000
+        ],
+        "oceania": [
+          1792033200000,
+          1792036800000
+        ]
+      },
+      "type": "minor",
+      "icon": "lush_blooms.png"
+    },
+    {
+      "condition": "Locked Gate",
+      "map": "The Blue Gate",
+      "start": 1792065600000,
+      "end": 1792069200000,
+      "times": {
+        "europe": [
+          1792065600000,
+          1792069200000
+        ],
+        "north-america": [
+          1792090800000,
+          1792094400000
+        ],
+        "south-america": [
+          1792087200000,
+          1792090800000
+        ],
+        "asia": [
+          1792047600000,
+          1792051200000
+        ],
+        "oceania": [
+          1792033200000,
+          1792036800000
+        ]
+      },
+      "type": "major",
+      "icon": "locked_gate.png"
     }
   ]
 }
