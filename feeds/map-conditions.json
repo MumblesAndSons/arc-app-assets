@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-14T00:02:15.798Z",
+  "generatedAt": "2026-10-14T00:32:18.093Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-15T10:00:00.000Z",
+  "horizonEnd": "2026-10-15T11:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-15T10:00:00.000Z",
-    "north-america": "2026-10-15T17:00:00.000Z",
-    "south-america": "2026-10-15T16:00:00.000Z",
-    "asia": "2026-10-15T05:00:00.000Z",
-    "oceania": "2026-10-15T01:00:00.000Z"
+    "europe": "2026-10-15T11:00:00.000Z",
+    "north-america": "2026-10-15T18:00:00.000Z",
+    "south-america": "2026-10-15T17:00:00.000Z",
+    "asia": "2026-10-15T06:00:00.000Z",
+    "oceania": "2026-10-15T02:00:00.000Z"
   },
   "regions": [
     {
@@ -5278,6 +5278,96 @@
         "oceania": [
           1792022400000,
           1792026000000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1792058400000,
+      "end": 1792062000000,
+      "times": {
+        "europe": [
+          1792058400000,
+          1792062000000
+        ],
+        "north-america": [
+          1792083600000,
+          1792087200000
+        ],
+        "south-america": [
+          1792080000000,
+          1792083600000
+        ],
+        "asia": [
+          1792040400000,
+          1792044000000
+        ],
+        "oceania": [
+          1792026000000,
+          1792029600000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Spaceport",
+      "start": 1792058400000,
+      "end": 1792062000000,
+      "times": {
+        "europe": [
+          1792058400000,
+          1792062000000
+        ],
+        "north-america": [
+          1792083600000,
+          1792087200000
+        ],
+        "south-america": [
+          1792080000000,
+          1792083600000
+        ],
+        "asia": [
+          1792040400000,
+          1792044000000
+        ],
+        "oceania": [
+          1792026000000,
+          1792029600000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "The Blue Gate",
+      "start": 1792058400000,
+      "end": 1792062000000,
+      "times": {
+        "europe": [
+          1792058400000,
+          1792062000000
+        ],
+        "north-america": [
+          1792083600000,
+          1792087200000
+        ],
+        "south-america": [
+          1792080000000,
+          1792083600000
+        ],
+        "asia": [
+          1792040400000,
+          1792044000000
+        ],
+        "oceania": [
+          1792026000000,
+          1792029600000
         ]
       },
       "type": "major",
