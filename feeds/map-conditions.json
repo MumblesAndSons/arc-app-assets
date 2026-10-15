@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-15T06:02:17.402Z",
+  "generatedAt": "2026-10-15T06:32:18.531Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-16T16:00:00.000Z",
+  "horizonEnd": "2026-10-16T17:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-16T16:00:00.000Z",
-    "north-america": "2026-10-16T23:00:00.000Z",
-    "south-america": "2026-10-16T22:00:00.000Z",
-    "asia": "2026-10-16T11:00:00.000Z",
-    "oceania": "2026-10-16T07:00:00.000Z"
+    "europe": "2026-10-16T17:00:00.000Z",
+    "north-america": "2026-10-17T00:00:00.000Z",
+    "south-america": "2026-10-16T23:00:00.000Z",
+    "asia": "2026-10-16T12:00:00.000Z",
+    "oceania": "2026-10-16T08:00:00.000Z"
   },
   "regions": [
     {
@@ -5178,6 +5178,126 @@
       },
       "type": "major",
       "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Pendola Pass",
+      "start": 1792166400000,
+      "end": 1792170000000,
+      "times": {
+        "europe": [
+          1792166400000,
+          1792170000000
+        ],
+        "north-america": [
+          1792191600000,
+          1792195200000
+        ],
+        "south-america": [
+          1792188000000,
+          1792191600000
+        ],
+        "asia": [
+          1792148400000,
+          1792152000000
+        ],
+        "oceania": [
+          1792134000000,
+          1792137600000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1792166400000,
+      "end": 1792170000000,
+      "times": {
+        "europe": [
+          1792166400000,
+          1792170000000
+        ],
+        "north-america": [
+          1792191600000,
+          1792195200000
+        ],
+        "south-america": [
+          1792188000000,
+          1792191600000
+        ],
+        "asia": [
+          1792148400000,
+          1792152000000
+        ],
+        "oceania": [
+          1792134000000,
+          1792137600000
+        ]
+      },
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Spaceport",
+      "start": 1792166400000,
+      "end": 1792170000000,
+      "times": {
+        "europe": [
+          1792166400000,
+          1792170000000
+        ],
+        "north-america": [
+          1792191600000,
+          1792195200000
+        ],
+        "south-america": [
+          1792188000000,
+          1792191600000
+        ],
+        "asia": [
+          1792148400000,
+          1792152000000
+        ],
+        "oceania": [
+          1792134000000,
+          1792137600000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "The Blue Gate",
+      "start": 1792166400000,
+      "end": 1792170000000,
+      "times": {
+        "europe": [
+          1792166400000,
+          1792170000000
+        ],
+        "north-america": [
+          1792191600000,
+          1792195200000
+        ],
+        "south-america": [
+          1792188000000,
+          1792191600000
+        ],
+        "asia": [
+          1792148400000,
+          1792152000000
+        ],
+        "oceania": [
+          1792134000000,
+          1792137600000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
     }
   ]
 }
