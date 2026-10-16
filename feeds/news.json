@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-10-16T10:47:17.995Z",
+  "generatedAt": "2026-10-16T16:02:25.432Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
+    {
+      "id": "frozen-trail-photo-competition",
+      "title": "Say Freeze! Frozen Trail photo competition open now",
+      "date": "October 15, 2026",
+      "image": "https://assets.arcraiders.com/article-cards/6450d406-36a8-photo-comp-card_600x400-300x200.png",
+      "tags": [],
+      "summary": "# Say Freeze! Frozen Trail photo competition open now"
+    },
     {
       "id": "store-update-2-1-0",
       "title": "Store Update 2.1.0",
@@ -358,14 +366,6 @@
         "Patch Notes"
       ],
       "summary": "The whispers turned out to be accurate. Having steered clear of underground travel for a long time, the Nomadic Envoys have now set foot in Speranza. These enigmatic figures from the nomadic tribe are searching for prized gear and firearms,"
-    },
-    {
-      "id": "development-update",
-      "title": "We’re changing how we update ARC Raiders - here’s what it means for you",
-      "date": "May 13, 2026",
-      "image": "https://assets.arcraiders.com/article-cards/31b157ff-d3ea-development-update_300x200-300x200.png",
-      "tags": [],
-      "summary": "# ARC Raiders is shifting to a new update schedule - here's what that means for you"
     }
   ]
 }
