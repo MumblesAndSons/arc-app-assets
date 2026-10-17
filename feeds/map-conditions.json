@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-17T14:01:40.281Z",
+  "generatedAt": "2026-10-17T14:32:15.287Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-19T00:00:00.000Z",
+  "horizonEnd": "2026-10-19T01:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-19T00:00:00.000Z",
-    "north-america": "2026-10-19T07:00:00.000Z",
-    "south-america": "2026-10-19T06:00:00.000Z",
-    "asia": "2026-10-18T19:00:00.000Z",
-    "oceania": "2026-10-18T15:00:00.000Z"
+    "europe": "2026-10-19T01:00:00.000Z",
+    "north-america": "2026-10-19T08:00:00.000Z",
+    "south-america": "2026-10-19T07:00:00.000Z",
+    "asia": "2026-10-18T20:00:00.000Z",
+    "oceania": "2026-10-18T16:00:00.000Z"
   },
   "regions": [
     {
@@ -4234,6 +4234,20 @@
       "icon": "arc_frigate.png"
     },
     {
+      "condition": "Redirection",
+      "map": "Pendola Pass",
+      "start": 1792335600000,
+      "end": 1792339200000,
+      "times": {
+        "europe": [
+          1792335600000,
+          1792339200000
+        ]
+      },
+      "type": "minor",
+      "icon": "redirection.png"
+    },
+    {
       "condition": "Beachcombing",
       "map": "Riven Tides",
       "start": 1792335600000,
@@ -5252,6 +5266,96 @@
       },
       "type": "major",
       "icon": "night_raid.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1792368000000,
+      "end": 1792371600000,
+      "times": {
+        "europe": [
+          1792368000000,
+          1792371600000
+        ],
+        "north-america": [
+          1792393200000,
+          1792396800000
+        ],
+        "south-america": [
+          1792389600000,
+          1792393200000
+        ],
+        "asia": [
+          1792350000000,
+          1792353600000
+        ],
+        "oceania": [
+          1792335600000,
+          1792339200000
+        ]
+      },
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1792368000000,
+      "end": 1792371600000,
+      "times": {
+        "europe": [
+          1792368000000,
+          1792371600000
+        ],
+        "north-america": [
+          1792393200000,
+          1792396800000
+        ],
+        "south-america": [
+          1792389600000,
+          1792393200000
+        ],
+        "asia": [
+          1792350000000,
+          1792353600000
+        ],
+        "oceania": [
+          1792335600000,
+          1792339200000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "The Blue Gate",
+      "start": 1792368000000,
+      "end": 1792371600000,
+      "times": {
+        "europe": [
+          1792368000000,
+          1792371600000
+        ],
+        "north-america": [
+          1792393200000,
+          1792396800000
+        ],
+        "south-america": [
+          1792389600000,
+          1792393200000
+        ],
+        "asia": [
+          1792350000000,
+          1792353600000
+        ],
+        "oceania": [
+          1792335600000,
+          1792339200000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
     }
   ]
 }
