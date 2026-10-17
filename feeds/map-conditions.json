@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T01:32:13.326Z",
+  "generatedAt": "2026-10-17T02:02:17.821Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-10-18T12:00:00.000Z",
@@ -115,96 +115,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "ARC Frigate",
-      "map": "Dam Battlegrounds",
-      "start": 1792173600000,
-      "end": 1792177200000,
-      "times": {
-        "europe": [
-          1792173600000,
-          1792177200000
-        ],
-        "north-america": [
-          1792198800000,
-          1792202400000
-        ],
-        "south-america": [
-          1792195200000,
-          1792198800000
-        ],
-        "asia": [
-          1792155600000,
-          1792159200000
-        ],
-        "oceania": [
-          1792141200000,
-          1792144800000
-        ]
-      },
-      "type": "major",
-      "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "Spaceport",
-      "start": 1792173600000,
-      "end": 1792177200000,
-      "times": {
-        "europe": [
-          1792173600000,
-          1792177200000
-        ],
-        "north-america": [
-          1792198800000,
-          1792202400000
-        ],
-        "south-america": [
-          1792195200000,
-          1792198800000
-        ],
-        "asia": [
-          1792155600000,
-          1792159200000
-        ],
-        "oceania": [
-          1792141200000,
-          1792144800000
-        ]
-      },
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1792173600000,
-      "end": 1792177200000,
-      "times": {
-        "europe": [
-          1792173600000,
-          1792177200000
-        ],
-        "north-america": [
-          1792198800000,
-          1792202400000
-        ],
-        "south-america": [
-          1792195200000,
-          1792198800000
-        ],
-        "asia": [
-          1792155600000,
-          1792159200000
-        ],
-        "oceania": [
-          1792141200000,
-          1792144800000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
     {
       "condition": "ARC Frigate",
       "map": "Buried City",
