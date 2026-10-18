@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T23:32:15.800Z",
+  "generatedAt": "2026-10-18T00:02:13.873Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-10-19T10:00:00.000Z",
@@ -115,126 +115,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "ARC Frigate",
-      "map": "Buried City",
-      "start": 1792252800000,
-      "end": 1792256400000,
-      "times": {
-        "europe": [
-          1792252800000,
-          1792256400000
-        ],
-        "north-america": [
-          1792278000000,
-          1792281600000
-        ],
-        "south-america": [
-          1792274400000,
-          1792278000000
-        ],
-        "asia": [
-          1792234800000,
-          1792238400000
-        ],
-        "oceania": [
-          1792220400000,
-          1792224000000
-        ]
-      },
-      "type": "major",
-      "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Lush Blooms",
-      "map": "Dam Battlegrounds",
-      "start": 1792252800000,
-      "end": 1792256400000,
-      "times": {
-        "europe": [
-          1792252800000,
-          1792256400000
-        ],
-        "north-america": [
-          1792278000000,
-          1792281600000
-        ],
-        "south-america": [
-          1792274400000,
-          1792278000000
-        ],
-        "asia": [
-          1792234800000,
-          1792238400000
-        ],
-        "oceania": [
-          1792220400000,
-          1792224000000
-        ]
-      },
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
-    {
-      "condition": "Hidden Bunker",
-      "map": "Spaceport",
-      "start": 1792252800000,
-      "end": 1792256400000,
-      "times": {
-        "europe": [
-          1792252800000,
-          1792256400000
-        ],
-        "north-america": [
-          1792278000000,
-          1792281600000
-        ],
-        "south-america": [
-          1792274400000,
-          1792278000000
-        ],
-        "asia": [
-          1792234800000,
-          1792238400000
-        ],
-        "oceania": [
-          1792220400000,
-          1792224000000
-        ]
-      },
-      "type": "major",
-      "icon": "hidden_bunker.png"
-    },
-    {
-      "condition": "Prospecting Probes",
-      "map": "Spaceport",
-      "start": 1792252800000,
-      "end": 1792256400000,
-      "times": {
-        "europe": [
-          1792252800000,
-          1792256400000
-        ],
-        "north-america": [
-          1792278000000,
-          1792281600000
-        ],
-        "south-america": [
-          1792274400000,
-          1792278000000
-        ],
-        "asia": [
-          1792234800000,
-          1792238400000
-        ],
-        "oceania": [
-          1792220400000,
-          1792224000000
-        ]
-      },
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
     {
       "condition": "Night Raid",
       "map": "Pendola Pass",
@@ -1044,20 +924,6 @@
       },
       "type": "major",
       "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Redirection",
-      "map": "Pendola Pass",
-      "start": 1792278000000,
-      "end": 1792281600000,
-      "times": {
-        "europe": [
-          1792278000000,
-          1792281600000
-        ]
-      },
-      "type": "minor",
-      "icon": "redirection.png"
     },
     {
       "condition": "Lush Blooms",
