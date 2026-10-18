@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-18T05:02:15.150Z",
+  "generatedAt": "2026-10-18T05:32:14.711Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-19T15:00:00.000Z",
+  "horizonEnd": "2026-10-19T16:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-19T15:00:00.000Z",
-    "north-america": "2026-10-19T22:00:00.000Z",
-    "south-america": "2026-10-19T21:00:00.000Z",
-    "asia": "2026-10-19T10:00:00.000Z",
-    "oceania": "2026-10-19T06:00:00.000Z"
+    "europe": "2026-10-19T16:00:00.000Z",
+    "north-america": "2026-10-19T23:00:00.000Z",
+    "south-america": "2026-10-19T22:00:00.000Z",
+    "asia": "2026-10-19T11:00:00.000Z",
+    "oceania": "2026-10-19T07:00:00.000Z"
   },
   "regions": [
     {
@@ -4086,6 +4086,20 @@
       "icon": "arc_frigate.png"
     },
     {
+      "condition": "Redirection",
+      "map": "Pendola Pass",
+      "start": 1792389600000,
+      "end": 1792393200000,
+      "times": {
+        "europe": [
+          1792389600000,
+          1792393200000
+        ]
+      },
+      "type": "minor",
+      "icon": "redirection.png"
+    },
+    {
       "condition": "Beachcombing",
       "map": "Riven Tides",
       "start": 1792389600000,
@@ -5044,6 +5058,126 @@
       },
       "type": "minor",
       "icon": "harvester.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Buried City",
+      "start": 1792422000000,
+      "end": 1792425600000,
+      "times": {
+        "europe": [
+          1792422000000,
+          1792425600000
+        ],
+        "north-america": [
+          1792447200000,
+          1792450800000
+        ],
+        "south-america": [
+          1792443600000,
+          1792447200000
+        ],
+        "asia": [
+          1792404000000,
+          1792407600000
+        ],
+        "oceania": [
+          1792389600000,
+          1792393200000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1792422000000,
+      "end": 1792425600000,
+      "times": {
+        "europe": [
+          1792422000000,
+          1792425600000
+        ],
+        "north-america": [
+          1792447200000,
+          1792450800000
+        ],
+        "south-america": [
+          1792443600000,
+          1792447200000
+        ],
+        "asia": [
+          1792404000000,
+          1792407600000
+        ],
+        "oceania": [
+          1792389600000,
+          1792393200000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Close Scrutiny",
+      "map": "Dam Battlegrounds",
+      "start": 1792422000000,
+      "end": 1792425600000,
+      "times": {
+        "europe": [
+          1792422000000,
+          1792425600000
+        ],
+        "north-america": [
+          1792447200000,
+          1792450800000
+        ],
+        "south-america": [
+          1792443600000,
+          1792447200000
+        ],
+        "asia": [
+          1792404000000,
+          1792407600000
+        ],
+        "oceania": [
+          1792389600000,
+          1792393200000
+        ]
+      },
+      "type": "major",
+      "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1792422000000,
+      "end": 1792425600000,
+      "times": {
+        "europe": [
+          1792422000000,
+          1792425600000
+        ],
+        "north-america": [
+          1792447200000,
+          1792450800000
+        ],
+        "south-america": [
+          1792443600000,
+          1792447200000
+        ],
+        "asia": [
+          1792404000000,
+          1792407600000
+        ],
+        "oceania": [
+          1792389600000,
+          1792393200000
+        ]
+      },
+      "type": "minor",
+      "icon": "beachcombing.png"
     }
   ]
 }
