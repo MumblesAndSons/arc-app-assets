@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-18T19:02:16.368Z",
+  "generatedAt": "2026-10-18T19:32:16.028Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-20T05:00:00.000Z",
+  "horizonEnd": "2026-10-20T06:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-20T05:00:00.000Z",
-    "north-america": "2026-10-20T12:00:00.000Z",
-    "south-america": "2026-10-20T11:00:00.000Z",
-    "asia": "2026-10-20T00:00:00.000Z",
-    "oceania": "2026-10-19T20:00:00.000Z"
+    "europe": "2026-10-20T06:00:00.000Z",
+    "north-america": "2026-10-20T13:00:00.000Z",
+    "south-america": "2026-10-20T12:00:00.000Z",
+    "asia": "2026-10-20T01:00:00.000Z",
+    "oceania": "2026-10-19T21:00:00.000Z"
   },
   "regions": [
     {
@@ -5058,6 +5058,96 @@
       },
       "type": "minor",
       "icon": "beachcombing.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Spaceport",
+      "start": 1792472400000,
+      "end": 1792476000000,
+      "times": {
+        "europe": [
+          1792472400000,
+          1792476000000
+        ],
+        "north-america": [
+          1792497600000,
+          1792501200000
+        ],
+        "south-america": [
+          1792494000000,
+          1792497600000
+        ],
+        "asia": [
+          1792454400000,
+          1792458000000
+        ],
+        "oceania": [
+          1792440000000,
+          1792443600000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1792472400000,
+      "end": 1792476000000,
+      "times": {
+        "europe": [
+          1792472400000,
+          1792476000000
+        ],
+        "north-america": [
+          1792497600000,
+          1792501200000
+        ],
+        "south-america": [
+          1792494000000,
+          1792497600000
+        ],
+        "asia": [
+          1792454400000,
+          1792458000000
+        ],
+        "oceania": [
+          1792440000000,
+          1792443600000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Lush Blooms",
+      "map": "The Blue Gate",
+      "start": 1792472400000,
+      "end": 1792476000000,
+      "times": {
+        "europe": [
+          1792472400000,
+          1792476000000
+        ],
+        "north-america": [
+          1792497600000,
+          1792501200000
+        ],
+        "south-america": [
+          1792494000000,
+          1792497600000
+        ],
+        "asia": [
+          1792454400000,
+          1792458000000
+        ],
+        "oceania": [
+          1792440000000,
+          1792443600000
+        ]
+      },
+      "type": "minor",
+      "icon": "lush_blooms.png"
     }
   ]
 }
