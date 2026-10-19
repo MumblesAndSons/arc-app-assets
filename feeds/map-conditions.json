@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-19T11:02:18.141Z",
+  "generatedAt": "2026-10-19T11:32:18.484Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-20T21:00:00.000Z",
+  "horizonEnd": "2026-10-20T22:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-20T21:00:00.000Z",
-    "north-america": "2026-10-21T04:00:00.000Z",
-    "south-america": "2026-10-21T03:00:00.000Z",
-    "asia": "2026-10-20T16:00:00.000Z",
-    "oceania": "2026-10-20T12:00:00.000Z"
+    "europe": "2026-10-20T22:00:00.000Z",
+    "north-america": "2026-10-21T05:00:00.000Z",
+    "south-america": "2026-10-21T04:00:00.000Z",
+    "asia": "2026-10-20T17:00:00.000Z",
+    "oceania": "2026-10-20T13:00:00.000Z"
   },
   "regions": [
     {
@@ -4963,6 +4963,156 @@
       },
       "type": "major",
       "icon": "hurricane.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Dam Battlegrounds",
+      "start": 1792530000000,
+      "end": 1792533600000,
+      "times": {
+        "europe": [
+          1792530000000,
+          1792533600000
+        ],
+        "north-america": [
+          1792555200000,
+          1792558800000
+        ],
+        "south-america": [
+          1792551600000,
+          1792555200000
+        ],
+        "asia": [
+          1792512000000,
+          1792515600000
+        ],
+        "oceania": [
+          1792497600000,
+          1792501200000
+        ]
+      },
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
+      "condition": "Launch Tower Loot",
+      "map": "Spaceport",
+      "start": 1792530000000,
+      "end": 1792533600000,
+      "times": {
+        "europe": [
+          1792530000000,
+          1792533600000
+        ],
+        "north-america": [
+          1792555200000,
+          1792558800000
+        ],
+        "south-america": [
+          1792551600000,
+          1792555200000
+        ],
+        "asia": [
+          1792512000000,
+          1792515600000
+        ],
+        "oceania": [
+          1792497600000,
+          1792501200000
+        ]
+      },
+      "type": "minor",
+      "icon": "launch_tower_loot.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Spaceport",
+      "start": 1792530000000,
+      "end": 1792533600000,
+      "times": {
+        "europe": [
+          1792530000000,
+          1792533600000
+        ],
+        "north-america": [
+          1792555200000,
+          1792558800000
+        ],
+        "south-america": [
+          1792551600000,
+          1792555200000
+        ],
+        "asia": [
+          1792512000000,
+          1792515600000
+        ],
+        "oceania": [
+          1792497600000,
+          1792501200000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1792530000000,
+      "end": 1792533600000,
+      "times": {
+        "europe": [
+          1792530000000,
+          1792533600000
+        ],
+        "north-america": [
+          1792555200000,
+          1792558800000
+        ],
+        "south-america": [
+          1792551600000,
+          1792555200000
+        ],
+        "asia": [
+          1792512000000,
+          1792515600000
+        ],
+        "oceania": [
+          1792497600000,
+          1792501200000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "The Blue Gate",
+      "start": 1792530000000,
+      "end": 1792533600000,
+      "times": {
+        "europe": [
+          1792530000000,
+          1792533600000
+        ],
+        "north-america": [
+          1792555200000,
+          1792558800000
+        ],
+        "south-america": [
+          1792551600000,
+          1792555200000
+        ],
+        "asia": [
+          1792512000000,
+          1792515600000
+        ],
+        "oceania": [
+          1792497600000,
+          1792501200000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
     }
   ]
 }
