@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T14:32:20.045Z",
+  "generatedAt": "2026-10-19T15:02:17.313Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-10-21T01:00:00.000Z",
@@ -110,96 +110,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "ARC Frigate",
-      "map": "Spaceport",
-      "start": 1792393200000,
-      "end": 1792396800000,
-      "times": {
-        "europe": [
-          1792393200000,
-          1792396800000
-        ],
-        "north-america": [
-          1792418400000,
-          1792422000000
-        ],
-        "south-america": [
-          1792414800000,
-          1792418400000
-        ],
-        "asia": [
-          1792375200000,
-          1792378800000
-        ],
-        "oceania": [
-          1792360800000,
-          1792364400000
-        ]
-      },
-      "type": "major",
-      "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Launch Tower Loot",
-      "map": "Spaceport",
-      "start": 1792393200000,
-      "end": 1792396800000,
-      "times": {
-        "europe": [
-          1792393200000,
-          1792396800000
-        ],
-        "north-america": [
-          1792418400000,
-          1792422000000
-        ],
-        "south-america": [
-          1792414800000,
-          1792418400000
-        ],
-        "asia": [
-          1792375200000,
-          1792378800000
-        ],
-        "oceania": [
-          1792360800000,
-          1792364400000
-        ]
-      },
-      "type": "minor",
-      "icon": "launch_tower_loot.png"
-    },
-    {
-      "condition": "Husk Graveyard",
-      "map": "The Blue Gate",
-      "start": 1792393200000,
-      "end": 1792396800000,
-      "times": {
-        "europe": [
-          1792393200000,
-          1792396800000
-        ],
-        "north-america": [
-          1792418400000,
-          1792422000000
-        ],
-        "south-america": [
-          1792414800000,
-          1792418400000
-        ],
-        "asia": [
-          1792375200000,
-          1792378800000
-        ],
-        "oceania": [
-          1792360800000,
-          1792364400000
-        ]
-      },
-      "type": "minor",
-      "icon": "husk_graveyard.png"
-    },
     {
       "condition": "Matriarch",
       "map": "Dam Battlegrounds",
@@ -919,20 +829,6 @@
       },
       "type": "major",
       "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Redirection",
-      "map": "Pendola Pass",
-      "start": 1792418400000,
-      "end": 1792422000000,
-      "times": {
-        "europe": [
-          1792418400000,
-          1792422000000
-        ]
-      },
-      "type": "minor",
-      "icon": "redirection.png"
     },
     {
       "condition": "Matriarch",
