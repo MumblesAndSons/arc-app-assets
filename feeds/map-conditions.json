@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-19T12:02:18.787Z",
+  "generatedAt": "2026-10-19T12:32:18.473Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-20T22:00:00.000Z",
+  "horizonEnd": "2026-10-20T23:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-20T22:00:00.000Z",
-    "north-america": "2026-10-21T05:00:00.000Z",
-    "south-america": "2026-10-21T04:00:00.000Z",
-    "asia": "2026-10-20T17:00:00.000Z",
-    "oceania": "2026-10-20T13:00:00.000Z"
+    "europe": "2026-10-20T23:00:00.000Z",
+    "north-america": "2026-10-21T06:00:00.000Z",
+    "south-america": "2026-10-21T05:00:00.000Z",
+    "asia": "2026-10-20T18:00:00.000Z",
+    "oceania": "2026-10-20T14:00:00.000Z"
   },
   "regions": [
     {
@@ -5019,6 +5019,126 @@
         "oceania": [
           1792497600000,
           1792501200000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Dam Battlegrounds",
+      "start": 1792533600000,
+      "end": 1792537200000,
+      "times": {
+        "europe": [
+          1792533600000,
+          1792537200000
+        ],
+        "north-america": [
+          1792558800000,
+          1792562400000
+        ],
+        "south-america": [
+          1792555200000,
+          1792558800000
+        ],
+        "asia": [
+          1792515600000,
+          1792519200000
+        ],
+        "oceania": [
+          1792501200000,
+          1792504800000
+        ]
+      },
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
+      "condition": "Launch Tower Loot",
+      "map": "Spaceport",
+      "start": 1792533600000,
+      "end": 1792537200000,
+      "times": {
+        "europe": [
+          1792533600000,
+          1792537200000
+        ],
+        "north-america": [
+          1792558800000,
+          1792562400000
+        ],
+        "south-america": [
+          1792555200000,
+          1792558800000
+        ],
+        "asia": [
+          1792515600000,
+          1792519200000
+        ],
+        "oceania": [
+          1792501200000,
+          1792504800000
+        ]
+      },
+      "type": "minor",
+      "icon": "launch_tower_loot.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1792533600000,
+      "end": 1792537200000,
+      "times": {
+        "europe": [
+          1792533600000,
+          1792537200000
+        ],
+        "north-america": [
+          1792558800000,
+          1792562400000
+        ],
+        "south-america": [
+          1792555200000,
+          1792558800000
+        ],
+        "asia": [
+          1792515600000,
+          1792519200000
+        ],
+        "oceania": [
+          1792501200000,
+          1792504800000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "The Blue Gate",
+      "start": 1792533600000,
+      "end": 1792537200000,
+      "times": {
+        "europe": [
+          1792533600000,
+          1792537200000
+        ],
+        "north-america": [
+          1792558800000,
+          1792562400000
+        ],
+        "south-america": [
+          1792555200000,
+          1792558800000
+        ],
+        "asia": [
+          1792515600000,
+          1792519200000
+        ],
+        "oceania": [
+          1792501200000,
+          1792504800000
         ]
       },
       "type": "major",
