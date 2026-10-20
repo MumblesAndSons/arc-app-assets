@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-10-20T15:15:08.726Z",
+  "generatedAt": "2026-10-20T16:02:29.634Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
+    {
+      "id": "speranza-security-recruitment",
+      "title": "SPERANZA SECURITY RECRUITMENT",
+      "date": "October 20, 2026",
+      "image": "https://assets.arcraiders.com/article-cards/6ee9ef61-b110-gondola-operator-card-600x400-300x200.png",
+      "tags": [],
+      "summary": "ARC activity is on the rise, and Raiders are moving deeper into the new Northern Frontiers, leaving Speranza Security stretched to its limits. Tube Operators are already clocking extra hours, which is why Shani is bringing on new recruits t"
+    },
     {
       "id": "pve-test-thanks-for-playing",
       "title": "PvE Matchmaking Toggle Test: Thanks for taking part!",
@@ -358,14 +366,6 @@
         "Store Update"
       ],
       "summary": "Today brings a small store update: two new colour variants for the Leviathan Set are now available, Midnight and Crimson Frost. Anyone who already owns the Leviathan Set will have these unlocked without any extra action. There is no need to"
-    },
-    {
-      "id": "notes-on-the-matchmaking-system",
-      "title": "Notes on The Matchmaking System",
-      "date": "May 20, 2026",
-      "image": "https://assets.arcraiders.com/article-cards/0332f64e-2bd2-notes-on-matchmaking-300x200-300x200.png",
-      "tags": [],
-      "summary": "There has been a lot of conversation about matchmaking in **ARC Raiders**. That conversation has been followed closely, and this piece aims to clarify what the system is designed to accomplish, how it behaves in reality, and what falls outs"
     }
   ]
 }
