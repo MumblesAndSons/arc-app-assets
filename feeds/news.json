@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-10-20T06:47:16.643Z",
+  "generatedAt": "2026-10-20T09:02:52.605Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
+    {
+      "id": "pve-test-thanks-for-playing",
+      "title": "PvE Matchmaking Toggle Test: Thanks for taking part!",
+      "date": "October 20, 2026",
+      "image": "https://assets.arcraiders.com/article-cards/2880927f-36f2-pve-toggle-card-600x400-300x200.png",
+      "tags": [],
+      "summary": "# PvE Matchmaking Toggle Test: Thanks for taking part!"
+    },
+    {
+      "id": "store-update-2-2-0",
+      "title": "Store Update 2.2.0",
+      "date": "October 20, 2026",
+      "image": "https://assets.arcraiders.com/article-cards/2b4d09fb-96d3-live-update-2.2-card-600x400 (2)-300x200.png",
+      "tags": [
+        "Patch Notes"
+      ],
+      "summary": "Update 2.2 is now live and brings the Wreck Set along with a range of fixes. Restart your game to download it. The PvE Beta test has now concluded, and we hope many of you got a chance to try it out."
+    },
     {
       "id": "frozen-trail-photo-competition",
       "title": "Say Freeze! Frozen Trail photo competition open now",
@@ -348,24 +366,6 @@
       "image": "https://assets.arcraiders.com/article-cards/0332f64e-2bd2-notes-on-matchmaking-300x200-300x200.png",
       "tags": [],
       "summary": "There has been a lot of conversation about matchmaking in **ARC Raiders**. That conversation has been followed closely, and this piece aims to clarify what the system is designed to accomplish, how it behaves in reality, and what falls outs"
-    },
-    {
-      "id": "meet-the-new-trader",
-      "title": "Meet the new Trader: Nomadic Envoys",
-      "date": "May 19, 2026",
-      "image": "https://assets.arcraiders.com/article-cards/1e966ca0-7ae1-new-trader-blog_300x200-300x200.png",
-      "tags": [],
-      "summary": "A new Trader has arrived. Ermal, an envoy sent by a band of nomadic surface dwellers, has made his way into Speranza to trade on his tribe's behalf. He carries a set of unique rewards, but the price is steep - he wants both your gear and sp"
-    },
-    {
-      "id": "patch-notes-1-29-0",
-      "title": "Patch Notes 1.29.0",
-      "date": "May 19, 2026",
-      "image": "https://assets.arcraiders.com/article-cards/a4454a64-7efc-patch-notes-1-29-0-card-300x200-2-300x200.png",
-      "tags": [
-        "Patch Notes"
-      ],
-      "summary": "The whispers turned out to be accurate. Having steered clear of underground travel for a long time, the Nomadic Envoys have now set foot in Speranza. These enigmatic figures from the nomadic tribe are searching for prized gear and firearms,"
     }
   ]
 }
