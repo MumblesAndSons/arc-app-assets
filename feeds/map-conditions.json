@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-20T22:02:18.870Z",
+  "generatedAt": "2026-10-20T22:32:16.217Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-22T08:00:00.000Z",
+  "horizonEnd": "2026-10-22T09:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-22T08:00:00.000Z",
-    "north-america": "2026-10-22T15:00:00.000Z",
-    "south-america": "2026-10-22T14:00:00.000Z",
-    "asia": "2026-10-22T03:00:00.000Z",
-    "oceania": "2026-10-21T23:00:00.000Z"
+    "europe": "2026-10-22T09:00:00.000Z",
+    "north-america": "2026-10-22T16:00:00.000Z",
+    "south-america": "2026-10-22T15:00:00.000Z",
+    "asia": "2026-10-22T04:00:00.000Z",
+    "oceania": "2026-10-22T00:00:00.000Z"
   },
   "regions": [
     {
@@ -3985,6 +3985,20 @@
       "icon": "harvester.png"
     },
     {
+      "condition": "Redirection",
+      "map": "Pendola Pass",
+      "start": 1792623600000,
+      "end": 1792627200000,
+      "times": {
+        "europe": [
+          1792623600000,
+          1792627200000
+        ]
+      },
+      "type": "minor",
+      "icon": "redirection.png"
+    },
+    {
       "condition": "Launch Tower Loot",
       "map": "Spaceport",
       "start": 1792623600000,
@@ -4973,6 +4987,126 @@
       },
       "type": "minor",
       "icon": "lush_blooms.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Buried City",
+      "start": 1792656000000,
+      "end": 1792659600000,
+      "times": {
+        "europe": [
+          1792656000000,
+          1792659600000
+        ],
+        "north-america": [
+          1792681200000,
+          1792684800000
+        ],
+        "south-america": [
+          1792677600000,
+          1792681200000
+        ],
+        "asia": [
+          1792638000000,
+          1792641600000
+        ],
+        "oceania": [
+          1792623600000,
+          1792627200000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Husk Graveyard",
+      "map": "Dam Battlegrounds",
+      "start": 1792656000000,
+      "end": 1792659600000,
+      "times": {
+        "europe": [
+          1792656000000,
+          1792659600000
+        ],
+        "north-america": [
+          1792681200000,
+          1792684800000
+        ],
+        "south-america": [
+          1792677600000,
+          1792681200000
+        ],
+        "asia": [
+          1792638000000,
+          1792641600000
+        ],
+        "oceania": [
+          1792623600000,
+          1792627200000
+        ]
+      },
+      "type": "minor",
+      "icon": "husk_graveyard.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Spaceport",
+      "start": 1792656000000,
+      "end": 1792659600000,
+      "times": {
+        "europe": [
+          1792656000000,
+          1792659600000
+        ],
+        "north-america": [
+          1792681200000,
+          1792684800000
+        ],
+        "south-america": [
+          1792677600000,
+          1792681200000
+        ],
+        "asia": [
+          1792638000000,
+          1792641600000
+        ],
+        "oceania": [
+          1792623600000,
+          1792627200000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "The Blue Gate",
+      "start": 1792656000000,
+      "end": 1792659600000,
+      "times": {
+        "europe": [
+          1792656000000,
+          1792659600000
+        ],
+        "north-america": [
+          1792681200000,
+          1792684800000
+        ],
+        "south-america": [
+          1792677600000,
+          1792681200000
+        ],
+        "asia": [
+          1792638000000,
+          1792641600000
+        ],
+        "oceania": [
+          1792623600000,
+          1792627200000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
     }
   ]
 }
