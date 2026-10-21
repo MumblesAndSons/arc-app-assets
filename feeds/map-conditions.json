@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-21T06:02:14.415Z",
+  "generatedAt": "2026-10-21T06:32:14.379Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-22T16:00:00.000Z",
+  "horizonEnd": "2026-10-22T17:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-22T16:00:00.000Z",
-    "north-america": "2026-10-22T23:00:00.000Z",
-    "south-america": "2026-10-22T22:00:00.000Z",
-    "asia": "2026-10-22T11:00:00.000Z",
-    "oceania": "2026-10-22T07:00:00.000Z"
+    "europe": "2026-10-22T17:00:00.000Z",
+    "north-america": "2026-10-23T00:00:00.000Z",
+    "south-america": "2026-10-22T23:00:00.000Z",
+    "asia": "2026-10-22T12:00:00.000Z",
+    "oceania": "2026-10-22T08:00:00.000Z"
   },
   "regions": [
     {
@@ -4923,6 +4923,126 @@
         "oceania": [
           1792648800000,
           1792652400000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Lush Blooms",
+      "map": "Buried City",
+      "start": 1792684800000,
+      "end": 1792688400000,
+      "times": {
+        "europe": [
+          1792684800000,
+          1792688400000
+        ],
+        "north-america": [
+          1792710000000,
+          1792713600000
+        ],
+        "south-america": [
+          1792706400000,
+          1792710000000
+        ],
+        "asia": [
+          1792666800000,
+          1792670400000
+        ],
+        "oceania": [
+          1792652400000,
+          1792656000000
+        ]
+      },
+      "type": "minor",
+      "icon": "lush_blooms.png"
+    },
+    {
+      "condition": "Electromagnetic Storm",
+      "map": "Dam Battlegrounds",
+      "start": 1792684800000,
+      "end": 1792688400000,
+      "times": {
+        "europe": [
+          1792684800000,
+          1792688400000
+        ],
+        "north-america": [
+          1792710000000,
+          1792713600000
+        ],
+        "south-america": [
+          1792706400000,
+          1792710000000
+        ],
+        "asia": [
+          1792666800000,
+          1792670400000
+        ],
+        "oceania": [
+          1792652400000,
+          1792656000000
+        ]
+      },
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
+    },
+    {
+      "condition": "Husk Graveyard",
+      "map": "Riven Tides",
+      "start": 1792684800000,
+      "end": 1792688400000,
+      "times": {
+        "europe": [
+          1792684800000,
+          1792688400000
+        ],
+        "north-america": [
+          1792710000000,
+          1792713600000
+        ],
+        "south-america": [
+          1792706400000,
+          1792710000000
+        ],
+        "asia": [
+          1792666800000,
+          1792670400000
+        ],
+        "oceania": [
+          1792652400000,
+          1792656000000
+        ]
+      },
+      "type": "minor",
+      "icon": "husk_graveyard.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Spaceport",
+      "start": 1792684800000,
+      "end": 1792688400000,
+      "times": {
+        "europe": [
+          1792684800000,
+          1792688400000
+        ],
+        "north-america": [
+          1792710000000,
+          1792713600000
+        ],
+        "south-america": [
+          1792706400000,
+          1792710000000
+        ],
+        "asia": [
+          1792666800000,
+          1792670400000
+        ],
+        "oceania": [
+          1792652400000,
+          1792656000000
         ]
       },
       "type": "major",
