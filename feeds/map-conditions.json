@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T16:32:17.398Z",
+  "generatedAt": "2026-10-21T17:02:18.674Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-10-23T03:00:00.000Z",
@@ -120,66 +120,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Launch Tower Loot",
-      "map": "Spaceport",
-      "start": 1792573200000,
-      "end": 1792576800000,
-      "times": {
-        "europe": [
-          1792573200000,
-          1792576800000
-        ],
-        "north-america": [
-          1792598400000,
-          1792602000000
-        ],
-        "south-america": [
-          1792594800000,
-          1792598400000
-        ],
-        "asia": [
-          1792555200000,
-          1792558800000
-        ],
-        "oceania": [
-          1792540800000,
-          1792544400000
-        ]
-      },
-      "type": "minor",
-      "icon": "launch_tower_loot.png"
-    },
-    {
-      "condition": "Husk Graveyard",
-      "map": "The Blue Gate",
-      "start": 1792573200000,
-      "end": 1792576800000,
-      "times": {
-        "europe": [
-          1792573200000,
-          1792576800000
-        ],
-        "north-america": [
-          1792598400000,
-          1792602000000
-        ],
-        "south-america": [
-          1792594800000,
-          1792598400000
-        ],
-        "asia": [
-          1792555200000,
-          1792558800000
-        ],
-        "oceania": [
-          1792540800000,
-          1792544400000
-        ]
-      },
-      "type": "minor",
-      "icon": "husk_graveyard.png"
-    },
     {
       "condition": "Matriarch",
       "map": "Dam Battlegrounds",
@@ -929,20 +869,6 @@
       },
       "type": "major",
       "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Redirection",
-      "map": "Pendola Pass",
-      "start": 1792598400000,
-      "end": 1792602000000,
-      "times": {
-        "europe": [
-          1792598400000,
-          1792602000000
-        ]
-      },
-      "type": "minor",
-      "icon": "redirection.png"
     },
     {
       "condition": "Matriarch",
