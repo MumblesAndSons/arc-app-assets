@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T00:32:16.025Z",
+  "generatedAt": "2026-10-22T01:02:16.024Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-10-23T11:00:00.000Z",
@@ -120,126 +120,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "ARC Frigate",
-      "map": "Buried City",
-      "start": 1792602000000,
-      "end": 1792605600000,
-      "times": {
-        "europe": [
-          1792602000000,
-          1792605600000
-        ],
-        "north-america": [
-          1792627200000,
-          1792630800000
-        ],
-        "south-america": [
-          1792623600000,
-          1792627200000
-        ],
-        "asia": [
-          1792584000000,
-          1792587600000
-        ],
-        "oceania": [
-          1792569600000,
-          1792573200000
-        ]
-      },
-      "type": "major",
-      "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Bird City",
-      "map": "Buried City",
-      "start": 1792602000000,
-      "end": 1792605600000,
-      "times": {
-        "europe": [
-          1792602000000,
-          1792605600000
-        ],
-        "north-america": [
-          1792627200000,
-          1792630800000
-        ],
-        "south-america": [
-          1792623600000,
-          1792627200000
-        ],
-        "asia": [
-          1792584000000,
-          1792587600000
-        ],
-        "oceania": [
-          1792569600000,
-          1792573200000
-        ]
-      },
-      "type": "minor",
-      "icon": "bird_city.png"
-    },
-    {
-      "condition": "Hurricane",
-      "map": "Dam Battlegrounds",
-      "start": 1792602000000,
-      "end": 1792605600000,
-      "times": {
-        "europe": [
-          1792602000000,
-          1792605600000
-        ],
-        "north-america": [
-          1792627200000,
-          1792630800000
-        ],
-        "south-america": [
-          1792623600000,
-          1792627200000
-        ],
-        "asia": [
-          1792584000000,
-          1792587600000
-        ],
-        "oceania": [
-          1792569600000,
-          1792573200000
-        ]
-      },
-      "type": "major",
-      "icon": "hurricane.png"
-    },
-    {
-      "condition": "Beachcombing",
-      "map": "Riven Tides",
-      "start": 1792602000000,
-      "end": 1792605600000,
-      "times": {
-        "europe": [
-          1792602000000,
-          1792605600000
-        ],
-        "north-america": [
-          1792627200000,
-          1792630800000
-        ],
-        "south-america": [
-          1792623600000,
-          1792627200000
-        ],
-        "asia": [
-          1792584000000,
-          1792587600000
-        ],
-        "oceania": [
-          1792569600000,
-          1792573200000
-        ]
-      },
-      "type": "minor",
-      "icon": "beachcombing.png"
-    },
     {
       "condition": "Harvester",
       "map": "Dam Battlegrounds",
@@ -1019,20 +899,6 @@
       },
       "type": "major",
       "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Redirection",
-      "map": "Pendola Pass",
-      "start": 1792627200000,
-      "end": 1792630800000,
-      "times": {
-        "europe": [
-          1792627200000,
-          1792630800000
-        ]
-      },
-      "type": "minor",
-      "icon": "redirection.png"
     },
     {
       "condition": "Beachcombing",
