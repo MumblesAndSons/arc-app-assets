@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T11:32:17.449Z",
+  "generatedAt": "2026-10-23T12:02:19.120Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-10-24T22:00:00.000Z",
@@ -120,96 +120,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Beachcombing",
-      "map": "Riven Tides",
-      "start": 1792728000000,
-      "end": 1792731600000,
-      "times": {
-        "europe": [
-          1792728000000,
-          1792731600000
-        ],
-        "north-america": [
-          1792753200000,
-          1792756800000
-        ],
-        "south-america": [
-          1792749600000,
-          1792753200000
-        ],
-        "asia": [
-          1792710000000,
-          1792713600000
-        ],
-        "oceania": [
-          1792695600000,
-          1792699200000
-        ]
-      },
-      "type": "minor",
-      "icon": "beachcombing.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1792728000000,
-      "end": 1792731600000,
-      "times": {
-        "europe": [
-          1792728000000,
-          1792731600000
-        ],
-        "north-america": [
-          1792753200000,
-          1792756800000
-        ],
-        "south-america": [
-          1792749600000,
-          1792753200000
-        ],
-        "asia": [
-          1792710000000,
-          1792713600000
-        ],
-        "oceania": [
-          1792695600000,
-          1792699200000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "ARC Frigate",
-      "map": "The Blue Gate",
-      "start": 1792728000000,
-      "end": 1792731600000,
-      "times": {
-        "europe": [
-          1792728000000,
-          1792731600000
-        ],
-        "north-america": [
-          1792753200000,
-          1792756800000
-        ],
-        "south-america": [
-          1792749600000,
-          1792753200000
-        ],
-        "asia": [
-          1792710000000,
-          1792713600000
-        ],
-        "oceania": [
-          1792695600000,
-          1792699200000
-        ]
-      },
-      "type": "major",
-      "icon": "arc_frigate.png"
-    },
     {
       "condition": "Lush Blooms",
       "map": "Buried City",
