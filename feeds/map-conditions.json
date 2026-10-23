@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T06:32:13.568Z",
+  "generatedAt": "2026-10-23T07:02:15.234Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-10-24T17:00:00.000Z",
@@ -120,96 +120,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Night Raid",
-      "map": "Buried City",
-      "start": 1792710000000,
-      "end": 1792713600000,
-      "times": {
-        "europe": [
-          1792710000000,
-          1792713600000
-        ],
-        "north-america": [
-          1792735200000,
-          1792738800000
-        ],
-        "south-america": [
-          1792731600000,
-          1792735200000
-        ],
-        "asia": [
-          1792692000000,
-          1792695600000
-        ],
-        "oceania": [
-          1792677600000,
-          1792681200000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Lush Blooms",
-      "map": "Dam Battlegrounds",
-      "start": 1792710000000,
-      "end": 1792713600000,
-      "times": {
-        "europe": [
-          1792710000000,
-          1792713600000
-        ],
-        "north-america": [
-          1792735200000,
-          1792738800000
-        ],
-        "south-america": [
-          1792731600000,
-          1792735200000
-        ],
-        "asia": [
-          1792692000000,
-          1792695600000
-        ],
-        "oceania": [
-          1792677600000,
-          1792681200000
-        ]
-      },
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
-    {
-      "condition": "ARC Frigate",
-      "map": "Spaceport",
-      "start": 1792710000000,
-      "end": 1792713600000,
-      "times": {
-        "europe": [
-          1792710000000,
-          1792713600000
-        ],
-        "north-america": [
-          1792735200000,
-          1792738800000
-        ],
-        "south-america": [
-          1792731600000,
-          1792735200000
-        ],
-        "asia": [
-          1792692000000,
-          1792695600000
-        ],
-        "oceania": [
-          1792677600000,
-          1792681200000
-        ]
-      },
-      "type": "major",
-      "icon": "arc_frigate.png"
-    },
     {
       "condition": "Harvester",
       "map": "Dam Battlegrounds",
@@ -929,20 +839,6 @@
       },
       "type": "major",
       "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Redirection",
-      "map": "Pendola Pass",
-      "start": 1792735200000,
-      "end": 1792738800000,
-      "times": {
-        "europe": [
-          1792735200000,
-          1792738800000
-        ]
-      },
-      "type": "minor",
-      "icon": "redirection.png"
     },
     {
       "condition": "Matriarch",
