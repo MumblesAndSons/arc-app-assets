@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-24T03:02:15.235Z",
+  "generatedAt": "2026-10-24T03:32:17.153Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-25T13:00:00.000Z",
+  "horizonEnd": "2026-10-25T14:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-25T13:00:00.000Z",
-    "north-america": "2026-10-25T20:00:00.000Z",
-    "south-america": "2026-10-25T19:00:00.000Z",
-    "asia": "2026-10-25T08:00:00.000Z",
-    "oceania": "2026-10-25T04:00:00.000Z"
+    "europe": "2026-10-25T14:00:00.000Z",
+    "north-america": "2026-10-25T21:00:00.000Z",
+    "south-america": "2026-10-25T20:00:00.000Z",
+    "asia": "2026-10-25T09:00:00.000Z",
+    "oceania": "2026-10-25T05:00:00.000Z"
   },
   "regions": [
     {
@@ -4913,6 +4913,96 @@
       },
       "type": "major",
       "icon": "night_raid.png"
+    },
+    {
+      "condition": "Close Scrutiny",
+      "map": "Dam Battlegrounds",
+      "start": 1792933200000,
+      "end": 1792936800000,
+      "times": {
+        "europe": [
+          1792933200000,
+          1792936800000
+        ],
+        "north-america": [
+          1792958400000,
+          1792962000000
+        ],
+        "south-america": [
+          1792954800000,
+          1792958400000
+        ],
+        "asia": [
+          1792915200000,
+          1792918800000
+        ],
+        "oceania": [
+          1792900800000,
+          1792904400000
+        ]
+      },
+      "type": "major",
+      "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Launch Tower Loot",
+      "map": "Spaceport",
+      "start": 1792933200000,
+      "end": 1792936800000,
+      "times": {
+        "europe": [
+          1792933200000,
+          1792936800000
+        ],
+        "north-america": [
+          1792958400000,
+          1792962000000
+        ],
+        "south-america": [
+          1792954800000,
+          1792958400000
+        ],
+        "asia": [
+          1792915200000,
+          1792918800000
+        ],
+        "oceania": [
+          1792900800000,
+          1792904400000
+        ]
+      },
+      "type": "minor",
+      "icon": "launch_tower_loot.png"
+    },
+    {
+      "condition": "Husk Graveyard",
+      "map": "The Blue Gate",
+      "start": 1792933200000,
+      "end": 1792936800000,
+      "times": {
+        "europe": [
+          1792933200000,
+          1792936800000
+        ],
+        "north-america": [
+          1792958400000,
+          1792962000000
+        ],
+        "south-america": [
+          1792954800000,
+          1792958400000
+        ],
+        "asia": [
+          1792915200000,
+          1792918800000
+        ],
+        "oceania": [
+          1792900800000,
+          1792904400000
+        ]
+      },
+      "type": "minor",
+      "icon": "husk_graveyard.png"
     }
   ]
 }
