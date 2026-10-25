@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-25T08:02:17.199Z",
+  "generatedAt": "2026-10-25T08:32:12.752Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-26T18:00:00.000Z",
+  "horizonEnd": "2026-10-26T19:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-26T18:00:00.000Z",
-    "north-america": "2026-10-27T01:00:00.000Z",
-    "south-america": "2026-10-27T00:00:00.000Z",
-    "asia": "2026-10-26T13:00:00.000Z",
-    "oceania": "2026-10-26T09:00:00.000Z"
+    "europe": "2026-10-26T19:00:00.000Z",
+    "north-america": "2026-10-27T02:00:00.000Z",
+    "south-america": "2026-10-27T01:00:00.000Z",
+    "asia": "2026-10-26T14:00:00.000Z",
+    "oceania": "2026-10-26T10:00:00.000Z"
   },
   "regions": [
     {
@@ -3939,6 +3939,20 @@
       "icon": "husk_graveyard.png"
     },
     {
+      "condition": "Redirection",
+      "map": "Pendola Pass",
+      "start": 1793005200000,
+      "end": 1793008800000,
+      "times": {
+        "europe": [
+          1793005200000,
+          1793008800000
+        ]
+      },
+      "type": "minor",
+      "icon": "redirection.png"
+    },
+    {
       "condition": "Harvester",
       "map": "Spaceport",
       "start": 1793005200000,
@@ -4987,6 +5001,156 @@
       },
       "type": "major",
       "icon": "night_raid.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Buried City",
+      "start": 1793037600000,
+      "end": 1793041200000,
+      "times": {
+        "europe": [
+          1793037600000,
+          1793041200000
+        ],
+        "north-america": [
+          1793062800000,
+          1793066400000
+        ],
+        "south-america": [
+          1793059200000,
+          1793062800000
+        ],
+        "asia": [
+          1793019600000,
+          1793023200000
+        ],
+        "oceania": [
+          1793005200000,
+          1793008800000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Pendola Pass",
+      "start": 1793037600000,
+      "end": 1793041200000,
+      "times": {
+        "europe": [
+          1793037600000,
+          1793041200000
+        ],
+        "north-america": [
+          1793062800000,
+          1793066400000
+        ],
+        "south-america": [
+          1793059200000,
+          1793062800000
+        ],
+        "asia": [
+          1793019600000,
+          1793023200000
+        ],
+        "oceania": [
+          1793005200000,
+          1793008800000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Uncovered Caches",
+      "map": "Riven Tides",
+      "start": 1793037600000,
+      "end": 1793041200000,
+      "times": {
+        "europe": [
+          1793037600000,
+          1793041200000
+        ],
+        "north-america": [
+          1793062800000,
+          1793066400000
+        ],
+        "south-america": [
+          1793059200000,
+          1793062800000
+        ],
+        "asia": [
+          1793019600000,
+          1793023200000
+        ],
+        "oceania": [
+          1793005200000,
+          1793008800000
+        ]
+      },
+      "type": "minor",
+      "icon": "uncovered_caches.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Spaceport",
+      "start": 1793037600000,
+      "end": 1793041200000,
+      "times": {
+        "europe": [
+          1793037600000,
+          1793041200000
+        ],
+        "north-america": [
+          1793062800000,
+          1793066400000
+        ],
+        "south-america": [
+          1793059200000,
+          1793062800000
+        ],
+        "asia": [
+          1793019600000,
+          1793023200000
+        ],
+        "oceania": [
+          1793005200000,
+          1793008800000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
+      "condition": "Close Scrutiny",
+      "map": "The Blue Gate",
+      "start": 1793037600000,
+      "end": 1793041200000,
+      "times": {
+        "europe": [
+          1793037600000,
+          1793041200000
+        ],
+        "north-america": [
+          1793062800000,
+          1793066400000
+        ],
+        "south-america": [
+          1793059200000,
+          1793062800000
+        ],
+        "asia": [
+          1793019600000,
+          1793023200000
+        ],
+        "oceania": [
+          1793005200000,
+          1793008800000
+        ]
+      },
+      "type": "major",
+      "icon": "close_scrutiny.png"
     }
   ]
 }
