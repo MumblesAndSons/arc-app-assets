@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-25T22:02:14.230Z",
+  "generatedAt": "2026-10-25T22:32:14.255Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-27T08:00:00.000Z",
+  "horizonEnd": "2026-10-27T09:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-27T08:00:00.000Z",
-    "north-america": "2026-10-27T15:00:00.000Z",
-    "south-america": "2026-10-27T14:00:00.000Z",
-    "asia": "2026-10-27T03:00:00.000Z",
-    "oceania": "2026-10-26T23:00:00.000Z"
+    "europe": "2026-10-27T09:00:00.000Z",
+    "north-america": "2026-10-27T16:00:00.000Z",
+    "south-america": "2026-10-27T15:00:00.000Z",
+    "asia": "2026-10-27T04:00:00.000Z",
+    "oceania": "2026-10-27T00:00:00.000Z"
   },
   "regions": [
     {
@@ -5043,6 +5043,96 @@
         "oceania": [
           1793052000000,
           1793055600000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Dam Battlegrounds",
+      "start": 1793088000000,
+      "end": 1793091600000,
+      "times": {
+        "europe": [
+          1793088000000,
+          1793091600000
+        ],
+        "north-america": [
+          1793113200000,
+          1793116800000
+        ],
+        "south-america": [
+          1793109600000,
+          1793113200000
+        ],
+        "asia": [
+          1793070000000,
+          1793073600000
+        ],
+        "oceania": [
+          1793055600000,
+          1793059200000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Husk Graveyard",
+      "map": "Spaceport",
+      "start": 1793088000000,
+      "end": 1793091600000,
+      "times": {
+        "europe": [
+          1793088000000,
+          1793091600000
+        ],
+        "north-america": [
+          1793113200000,
+          1793116800000
+        ],
+        "south-america": [
+          1793109600000,
+          1793113200000
+        ],
+        "asia": [
+          1793070000000,
+          1793073600000
+        ],
+        "oceania": [
+          1793055600000,
+          1793059200000
+        ]
+      },
+      "type": "minor",
+      "icon": "husk_graveyard.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1793088000000,
+      "end": 1793091600000,
+      "times": {
+        "europe": [
+          1793088000000,
+          1793091600000
+        ],
+        "north-america": [
+          1793113200000,
+          1793116800000
+        ],
+        "south-america": [
+          1793109600000,
+          1793113200000
+        ],
+        "asia": [
+          1793070000000,
+          1793073600000
+        ],
+        "oceania": [
+          1793055600000,
+          1793059200000
         ]
       },
       "type": "major",
