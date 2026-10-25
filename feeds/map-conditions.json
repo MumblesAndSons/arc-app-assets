@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-25T04:02:12.908Z",
+  "generatedAt": "2026-10-25T04:32:16.438Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-26T14:00:00.000Z",
+  "horizonEnd": "2026-10-26T15:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-26T14:00:00.000Z",
-    "north-america": "2026-10-26T21:00:00.000Z",
-    "south-america": "2026-10-26T20:00:00.000Z",
-    "asia": "2026-10-26T09:00:00.000Z",
-    "oceania": "2026-10-26T05:00:00.000Z"
+    "europe": "2026-10-26T15:00:00.000Z",
+    "north-america": "2026-10-26T22:00:00.000Z",
+    "south-america": "2026-10-26T21:00:00.000Z",
+    "asia": "2026-10-26T10:00:00.000Z",
+    "oceania": "2026-10-26T06:00:00.000Z"
   },
   "regions": [
     {
@@ -4943,6 +4943,126 @@
       },
       "type": "minor",
       "icon": "harvester.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1793023200000,
+      "end": 1793026800000,
+      "times": {
+        "europe": [
+          1793023200000,
+          1793026800000
+        ],
+        "north-america": [
+          1793048400000,
+          1793052000000
+        ],
+        "south-america": [
+          1793044800000,
+          1793048400000
+        ],
+        "asia": [
+          1793005200000,
+          1793008800000
+        ],
+        "oceania": [
+          1792990800000,
+          1792994400000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Electromagnetic Storm",
+      "map": "Dam Battlegrounds",
+      "start": 1793023200000,
+      "end": 1793026800000,
+      "times": {
+        "europe": [
+          1793023200000,
+          1793026800000
+        ],
+        "north-america": [
+          1793048400000,
+          1793052000000
+        ],
+        "south-america": [
+          1793044800000,
+          1793048400000
+        ],
+        "asia": [
+          1793005200000,
+          1793008800000
+        ],
+        "oceania": [
+          1792990800000,
+          1792994400000
+        ]
+      },
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1793023200000,
+      "end": 1793026800000,
+      "times": {
+        "europe": [
+          1793023200000,
+          1793026800000
+        ],
+        "north-america": [
+          1793048400000,
+          1793052000000
+        ],
+        "south-america": [
+          1793044800000,
+          1793048400000
+        ],
+        "asia": [
+          1793005200000,
+          1793008800000
+        ],
+        "oceania": [
+          1792990800000,
+          1792994400000
+        ]
+      },
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Spaceport",
+      "start": 1793023200000,
+      "end": 1793026800000,
+      "times": {
+        "europe": [
+          1793023200000,
+          1793026800000
+        ],
+        "north-america": [
+          1793048400000,
+          1793052000000
+        ],
+        "south-america": [
+          1793044800000,
+          1793048400000
+        ],
+        "asia": [
+          1793005200000,
+          1793008800000
+        ],
+        "oceania": [
+          1792990800000,
+          1792994400000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
     }
   ]
 }
