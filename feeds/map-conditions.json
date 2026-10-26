@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T02:32:12.934Z",
+  "generatedAt": "2026-10-26T03:02:13.806Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-10-27T13:00:00.000Z",
@@ -120,126 +120,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Lush Blooms",
-      "map": "Buried City",
-      "start": 1792954800000,
-      "end": 1792958400000,
-      "times": {
-        "europe": [
-          1792954800000,
-          1792958400000
-        ],
-        "north-america": [
-          1792980000000,
-          1792983600000
-        ],
-        "south-america": [
-          1792976400000,
-          1792980000000
-        ],
-        "asia": [
-          1792936800000,
-          1792940400000
-        ],
-        "oceania": [
-          1792922400000,
-          1792926000000
-        ]
-      },
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
-    {
-      "condition": "Electromagnetic Storm",
-      "map": "Dam Battlegrounds",
-      "start": 1792954800000,
-      "end": 1792958400000,
-      "times": {
-        "europe": [
-          1792954800000,
-          1792958400000
-        ],
-        "north-america": [
-          1792980000000,
-          1792983600000
-        ],
-        "south-america": [
-          1792976400000,
-          1792980000000
-        ],
-        "asia": [
-          1792936800000,
-          1792940400000
-        ],
-        "oceania": [
-          1792922400000,
-          1792926000000
-        ]
-      },
-      "type": "major",
-      "icon": "electromagnetic_storm.png"
-    },
-    {
-      "condition": "Husk Graveyard",
-      "map": "Riven Tides",
-      "start": 1792954800000,
-      "end": 1792958400000,
-      "times": {
-        "europe": [
-          1792954800000,
-          1792958400000
-        ],
-        "north-america": [
-          1792980000000,
-          1792983600000
-        ],
-        "south-america": [
-          1792976400000,
-          1792980000000
-        ],
-        "asia": [
-          1792936800000,
-          1792940400000
-        ],
-        "oceania": [
-          1792922400000,
-          1792926000000
-        ]
-      },
-      "type": "minor",
-      "icon": "husk_graveyard.png"
-    },
-    {
-      "condition": "ARC Frigate",
-      "map": "Spaceport",
-      "start": 1792954800000,
-      "end": 1792958400000,
-      "times": {
-        "europe": [
-          1792954800000,
-          1792958400000
-        ],
-        "north-america": [
-          1792980000000,
-          1792983600000
-        ],
-        "south-america": [
-          1792976400000,
-          1792980000000
-        ],
-        "asia": [
-          1792936800000,
-          1792940400000
-        ],
-        "oceania": [
-          1792922400000,
-          1792926000000
-        ]
-      },
-      "type": "major",
-      "icon": "arc_frigate.png"
-    },
     {
       "condition": "ARC Frigate",
       "map": "Dam Battlegrounds",
@@ -1019,20 +899,6 @@
       },
       "type": "major",
       "icon": "night_raid.png"
-    },
-    {
-      "condition": "Redirection",
-      "map": "Pendola Pass",
-      "start": 1792980000000,
-      "end": 1792983600000,
-      "times": {
-        "europe": [
-          1792980000000,
-          1792983600000
-        ]
-      },
-      "type": "minor",
-      "icon": "redirection.png"
     },
     {
       "condition": "Beachcombing",
