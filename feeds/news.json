@@ -1,7 +1,17 @@
 {
-  "generatedAt": "2026-10-27T08:02:17.053Z",
+  "generatedAt": "2026-10-27T10:02:53.821Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
+    {
+      "id": "live-update-2-3-0",
+      "title": "Live Update 2.3.0",
+      "date": "October 27, 2026",
+      "image": "https://assets.arcraiders.com/article-cards/2409c2bd-f7b5-live-update-2.3-card-600x400-300x200.png",
+      "tags": [
+        "Patch Notes"
+      ],
+      "summary": "Update 2.3 is now rolling out, bringing the Noxious Set, a batch of fixes, and a new player project. Restart the game to download it."
+    },
     {
       "id": "speranza-security-recruitment",
       "title": "Speranza Security Recruitment",
@@ -356,16 +366,6 @@
         "Store Update"
       ],
       "summary": "Today's update is a Store Update, bringing the new Sheath Set into the game. No restart is required, you can find it in the game right now."
-    },
-    {
-      "id": "store-update-1-30-0",
-      "title": "Store Update 1.30.0",
-      "date": "May 26, 2026",
-      "image": "https://assets.arcraiders.com/article-cards/patch-notes-1-30-0-card-300x200-300x200.png",
-      "tags": [
-        "Store Update"
-      ],
-      "summary": "Today brings a small store update: two new colour variants for the Leviathan Set are now available, Midnight and Crimson Frost. Anyone who already owns the Leviathan Set will have these unlocked without any extra action. There is no need to"
     }
   ]
 }
