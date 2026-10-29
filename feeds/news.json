@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-10-29T11:17:17.454Z",
+  "generatedAt": "2026-10-29T13:17:34.169Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
+    {
+      "id": "who-are-the-contradas-of-toledo",
+      "title": "The ‘contradas’ of Toledo: Who are they?",
+      "date": "October 29, 2026",
+      "image": "https://assets.arcraiders.com/article-cards/c241a4ac-5db6-contradas-card-600x400-300x200.png",
+      "tags": [],
+      "summary": "# The ‘contradas’ of Toledo: Who are they?"
+    },
     {
       "id": "live-update-2-3-0",
       "title": "Live Update 2.3.0",
@@ -356,16 +364,6 @@
         "Store Update"
       ],
       "summary": "This week brings two new colour variants, black and white, for the Macrame Set. If you already own the set, these variants will appear automatically. You will also find a new hair style, the Lob Bangs!"
-    },
-    {
-      "id": "store-update-1-31-0",
-      "title": "Store Update 1.31.0",
-      "date": "June 2, 2026",
-      "image": "https://assets.arcraiders.com/article-cards/store-update-1-31-card-300x200-300x200.png",
-      "tags": [
-        "Store Update"
-      ],
-      "summary": "Today's update is a Store Update, bringing the new Sheath Set into the game. No restart is required, you can find it in the game right now."
     }
   ]
 }
