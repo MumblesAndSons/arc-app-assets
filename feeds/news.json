@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-10-29T13:32:18.418Z",
+  "generatedAt": "2026-10-29T17:02:57.277Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
+    {
+      "id": "corsair-collab-exclusive-rewards",
+      "title": "ARC Raiders x CORSAIR: Official gear collection and exclusive in-game rewards",
+      "date": "October 29, 2026",
+      "image": "https://assets.arcraiders.com/article-cards/353f0a3c-fa01-corsair-collab-card-600x400-300x200.png",
+      "tags": [],
+      "summary": "Has this ever happened to you? Your bag is full of loot. The elevator is opening. You're almost home free."
+    },
     {
       "id": "who-are-the-contradas-of-toledo",
       "title": "The ‘Contradas’ of Toledo: Who are they?",
@@ -354,16 +362,6 @@
         "Patch Notes"
       ],
       "summary": "A strange alliance is taking shape in the Rust Belt."
-    },
-    {
-      "id": "store-update-1-32-0",
-      "title": "Store Update 1.32.0",
-      "date": "June 9, 2026",
-      "image": "https://assets.arcraiders.com/article-cards/06fbe7d9-1f16-store-update-1-32-card-300x200-300x200.png",
-      "tags": [
-        "Store Update"
-      ],
-      "summary": "This week brings two new colour variants, black and white, for the Macrame Set. If you already own the set, these variants will appear automatically. You will also find a new hair style, the Lob Bangs!"
     }
   ]
 }
