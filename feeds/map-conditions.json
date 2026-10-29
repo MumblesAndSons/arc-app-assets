@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-29T20:02:16.359Z",
+  "generatedAt": "2026-10-29T20:32:14.796Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-31T06:00:00.000Z",
+  "horizonEnd": "2026-10-31T07:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-31T06:00:00.000Z",
-    "north-america": "2026-10-31T13:00:00.000Z",
-    "south-america": "2026-10-31T12:00:00.000Z",
-    "asia": "2026-10-31T01:00:00.000Z",
-    "oceania": "2026-10-30T21:00:00.000Z"
+    "europe": "2026-10-31T07:00:00.000Z",
+    "north-america": "2026-10-31T14:00:00.000Z",
+    "south-america": "2026-10-31T13:00:00.000Z",
+    "asia": "2026-10-31T02:00:00.000Z",
+    "oceania": "2026-10-30T22:00:00.000Z"
   },
   "regions": [
     {
@@ -3980,6 +3980,20 @@
       "icon": "arc_frigate.png"
     },
     {
+      "condition": "Redirection",
+      "map": "Pendola Pass",
+      "start": 1793394000000,
+      "end": 1793397600000,
+      "times": {
+        "europe": [
+          1793394000000,
+          1793397600000
+        ]
+      },
+      "type": "minor",
+      "icon": "redirection.png"
+    },
+    {
       "condition": "Beachcombing",
       "map": "Riven Tides",
       "start": 1793394000000,
@@ -4938,6 +4952,126 @@
       },
       "type": "minor",
       "icon": "launch_tower_loot.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Buried City",
+      "start": 1793426400000,
+      "end": 1793430000000,
+      "times": {
+        "europe": [
+          1793426400000,
+          1793430000000
+        ],
+        "north-america": [
+          1793451600000,
+          1793455200000
+        ],
+        "south-america": [
+          1793448000000,
+          1793451600000
+        ],
+        "asia": [
+          1793408400000,
+          1793412000000
+        ],
+        "oceania": [
+          1793394000000,
+          1793397600000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Spaceport",
+      "start": 1793426400000,
+      "end": 1793430000000,
+      "times": {
+        "europe": [
+          1793426400000,
+          1793430000000
+        ],
+        "north-america": [
+          1793451600000,
+          1793455200000
+        ],
+        "south-america": [
+          1793448000000,
+          1793451600000
+        ],
+        "asia": [
+          1793408400000,
+          1793412000000
+        ],
+        "oceania": [
+          1793394000000,
+          1793397600000
+        ]
+      },
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1793426400000,
+      "end": 1793430000000,
+      "times": {
+        "europe": [
+          1793426400000,
+          1793430000000
+        ],
+        "north-america": [
+          1793451600000,
+          1793455200000
+        ],
+        "south-america": [
+          1793448000000,
+          1793451600000
+        ],
+        "asia": [
+          1793408400000,
+          1793412000000
+        ],
+        "oceania": [
+          1793394000000,
+          1793397600000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Uncovered Caches",
+      "map": "The Blue Gate",
+      "start": 1793426400000,
+      "end": 1793430000000,
+      "times": {
+        "europe": [
+          1793426400000,
+          1793430000000
+        ],
+        "north-america": [
+          1793451600000,
+          1793455200000
+        ],
+        "south-america": [
+          1793448000000,
+          1793451600000
+        ],
+        "asia": [
+          1793408400000,
+          1793412000000
+        ],
+        "oceania": [
+          1793394000000,
+          1793397600000
+        ]
+      },
+      "type": "minor",
+      "icon": "uncovered_caches.png"
     }
   ]
 }
