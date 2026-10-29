@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T10:32:14.055Z",
+  "generatedAt": "2026-10-29T11:02:14.191Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-10-30T21:00:00.000Z",
@@ -115,96 +115,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Night Raid",
-      "map": "Buried City",
-      "start": 1793242800000,
-      "end": 1793246400000,
-      "times": {
-        "europe": [
-          1793242800000,
-          1793246400000
-        ],
-        "north-america": [
-          1793268000000,
-          1793271600000
-        ],
-        "south-america": [
-          1793264400000,
-          1793268000000
-        ],
-        "asia": [
-          1793224800000,
-          1793228400000
-        ],
-        "oceania": [
-          1793210400000,
-          1793214000000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "ARC Frigate",
-      "map": "Dam Battlegrounds",
-      "start": 1793242800000,
-      "end": 1793246400000,
-      "times": {
-        "europe": [
-          1793242800000,
-          1793246400000
-        ],
-        "north-america": [
-          1793268000000,
-          1793271600000
-        ],
-        "south-america": [
-          1793264400000,
-          1793268000000
-        ],
-        "asia": [
-          1793224800000,
-          1793228400000
-        ],
-        "oceania": [
-          1793210400000,
-          1793214000000
-        ]
-      },
-      "type": "major",
-      "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Launch Tower Loot",
-      "map": "Spaceport",
-      "start": 1793242800000,
-      "end": 1793246400000,
-      "times": {
-        "europe": [
-          1793242800000,
-          1793246400000
-        ],
-        "north-america": [
-          1793268000000,
-          1793271600000
-        ],
-        "south-america": [
-          1793264400000,
-          1793268000000
-        ],
-        "asia": [
-          1793224800000,
-          1793228400000
-        ],
-        "oceania": [
-          1793210400000,
-          1793214000000
-        ]
-      },
-      "type": "minor",
-      "icon": "launch_tower_loot.png"
-    },
     {
       "condition": "ARC Frigate",
       "map": "Buried City",
