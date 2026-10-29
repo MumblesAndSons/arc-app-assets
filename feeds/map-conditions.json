@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-29T06:02:13.949Z",
+  "generatedAt": "2026-10-29T06:32:16.539Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-10-30T16:00:00.000Z",
+  "horizonEnd": "2026-10-30T17:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-10-30T16:00:00.000Z",
-    "north-america": "2026-10-30T23:00:00.000Z",
-    "south-america": "2026-10-30T22:00:00.000Z",
-    "asia": "2026-10-30T11:00:00.000Z",
-    "oceania": "2026-10-30T07:00:00.000Z"
+    "europe": "2026-10-30T17:00:00.000Z",
+    "north-america": "2026-10-31T00:00:00.000Z",
+    "south-america": "2026-10-30T23:00:00.000Z",
+    "asia": "2026-10-30T12:00:00.000Z",
+    "oceania": "2026-10-30T08:00:00.000Z"
   },
   "regions": [
     {
@@ -4938,6 +4938,96 @@
       },
       "type": "major",
       "icon": "night_raid.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Buried City",
+      "start": 1793376000000,
+      "end": 1793379600000,
+      "times": {
+        "europe": [
+          1793376000000,
+          1793379600000
+        ],
+        "north-america": [
+          1793401200000,
+          1793404800000
+        ],
+        "south-america": [
+          1793397600000,
+          1793401200000
+        ],
+        "asia": [
+          1793358000000,
+          1793361600000
+        ],
+        "oceania": [
+          1793343600000,
+          1793347200000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Dam Battlegrounds",
+      "start": 1793376000000,
+      "end": 1793379600000,
+      "times": {
+        "europe": [
+          1793376000000,
+          1793379600000
+        ],
+        "north-america": [
+          1793401200000,
+          1793404800000
+        ],
+        "south-america": [
+          1793397600000,
+          1793401200000
+        ],
+        "asia": [
+          1793358000000,
+          1793361600000
+        ],
+        "oceania": [
+          1793343600000,
+          1793347200000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
+      "condition": "Uncovered Caches",
+      "map": "The Blue Gate",
+      "start": 1793376000000,
+      "end": 1793379600000,
+      "times": {
+        "europe": [
+          1793376000000,
+          1793379600000
+        ],
+        "north-america": [
+          1793401200000,
+          1793404800000
+        ],
+        "south-america": [
+          1793397600000,
+          1793401200000
+        ],
+        "asia": [
+          1793358000000,
+          1793361600000
+        ],
+        "oceania": [
+          1793343600000,
+          1793347200000
+        ]
+      },
+      "type": "minor",
+      "icon": "uncovered_caches.png"
     }
   ]
 }
