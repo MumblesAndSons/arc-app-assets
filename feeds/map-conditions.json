@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-30T22:02:17.066Z",
+  "generatedAt": "2026-10-30T22:32:13.824Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-01T08:00:00.000Z",
+  "horizonEnd": "2026-11-01T09:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-01T08:00:00.000Z",
-    "north-america": "2026-11-01T15:00:00.000Z",
-    "south-america": "2026-11-01T14:00:00.000Z",
-    "asia": "2026-11-01T03:00:00.000Z",
-    "oceania": "2026-10-31T23:00:00.000Z"
+    "europe": "2026-11-01T09:00:00.000Z",
+    "north-america": "2026-11-01T16:00:00.000Z",
+    "south-america": "2026-11-01T15:00:00.000Z",
+    "asia": "2026-11-01T04:00:00.000Z",
+    "oceania": "2026-11-01T00:00:00.000Z"
   },
   "regions": [
     {
@@ -4878,6 +4878,126 @@
       },
       "type": "minor",
       "icon": "uncovered_caches.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1793520000000,
+      "end": 1793523600000,
+      "times": {
+        "europe": [
+          1793520000000,
+          1793523600000
+        ],
+        "north-america": [
+          1793545200000,
+          1793548800000
+        ],
+        "south-america": [
+          1793541600000,
+          1793545200000
+        ],
+        "asia": [
+          1793502000000,
+          1793505600000
+        ],
+        "oceania": [
+          1793487600000,
+          1793491200000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Dam Battlegrounds",
+      "start": 1793520000000,
+      "end": 1793523600000,
+      "times": {
+        "europe": [
+          1793520000000,
+          1793523600000
+        ],
+        "north-america": [
+          1793545200000,
+          1793548800000
+        ],
+        "south-america": [
+          1793541600000,
+          1793545200000
+        ],
+        "asia": [
+          1793502000000,
+          1793505600000
+        ],
+        "oceania": [
+          1793487600000,
+          1793491200000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1793520000000,
+      "end": 1793523600000,
+      "times": {
+        "europe": [
+          1793520000000,
+          1793523600000
+        ],
+        "north-america": [
+          1793545200000,
+          1793548800000
+        ],
+        "south-america": [
+          1793541600000,
+          1793545200000
+        ],
+        "asia": [
+          1793502000000,
+          1793505600000
+        ],
+        "oceania": [
+          1793487600000,
+          1793491200000
+        ]
+      },
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "The Blue Gate",
+      "start": 1793520000000,
+      "end": 1793523600000,
+      "times": {
+        "europe": [
+          1793520000000,
+          1793523600000
+        ],
+        "north-america": [
+          1793545200000,
+          1793548800000
+        ],
+        "south-america": [
+          1793541600000,
+          1793545200000
+        ],
+        "asia": [
+          1793502000000,
+          1793505600000
+        ],
+        "oceania": [
+          1793487600000,
+          1793491200000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
     }
   ]
 }
