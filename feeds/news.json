@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-10-30T11:32:17.870Z",
+  "generatedAt": "2026-10-30T17:02:18.949Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
+    {
+      "id": "one-year-anniversary",
+      "title": "One year anniversary of ARC Raiders: Thanks for being here!",
+      "date": "October 30, 2026",
+      "image": "https://assets.arcraiders.com/article-cards/54bc7553-4c94-first-anniversary-card-600x400-300x200.png",
+      "tags": [],
+      "summary": "# One year anniversary of ARC Raiders: Thanks for being here!"
+    },
     {
       "id": "corsair-collab-exclusive-rewards",
       "title": "ARC Raiders x CORSAIR: Official gear collection and exclusive in-game rewards",
@@ -352,16 +360,6 @@
         "Store Update"
       ],
       "summary": "Store Update 1.34.0 is going live at this very moment!"
-    },
-    {
-      "id": "live-update-1-33-0",
-      "title": "Live Update 1.33.0",
-      "date": "June 16, 2026",
-      "image": "https://assets.arcraiders.com/article-cards/0e0ca8b4-3a7a-saltwalker-1-33-card-300x200-300x200.png",
-      "tags": [
-        "Patch Notes"
-      ],
-      "summary": "A strange alliance is taking shape in the Rust Belt."
     }
   ]
 }
