@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T18:32:16.442Z",
+  "generatedAt": "2026-10-30T19:02:16.630Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-01T05:00:00.000Z",
@@ -115,96 +115,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "ARC Frigate",
-      "map": "Dam Battlegrounds",
-      "start": 1793358000000,
-      "end": 1793361600000,
-      "times": {
-        "europe": [
-          1793358000000,
-          1793361600000
-        ],
-        "north-america": [
-          1793383200000,
-          1793386800000
-        ],
-        "south-america": [
-          1793379600000,
-          1793383200000
-        ],
-        "asia": [
-          1793340000000,
-          1793343600000
-        ],
-        "oceania": [
-          1793325600000,
-          1793329200000
-        ]
-      },
-      "type": "major",
-      "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Husk Graveyard",
-      "map": "Spaceport",
-      "start": 1793358000000,
-      "end": 1793361600000,
-      "times": {
-        "europe": [
-          1793358000000,
-          1793361600000
-        ],
-        "north-america": [
-          1793383200000,
-          1793386800000
-        ],
-        "south-america": [
-          1793379600000,
-          1793383200000
-        ],
-        "asia": [
-          1793340000000,
-          1793343600000
-        ],
-        "oceania": [
-          1793325600000,
-          1793329200000
-        ]
-      },
-      "type": "minor",
-      "icon": "husk_graveyard.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1793358000000,
-      "end": 1793361600000,
-      "times": {
-        "europe": [
-          1793358000000,
-          1793361600000
-        ],
-        "north-america": [
-          1793383200000,
-          1793386800000
-        ],
-        "south-america": [
-          1793379600000,
-          1793383200000
-        ],
-        "asia": [
-          1793340000000,
-          1793343600000
-        ],
-        "oceania": [
-          1793325600000,
-          1793329200000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
     {
       "condition": "Bird City",
       "map": "Buried City",
