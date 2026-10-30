@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-30T17:02:14.338Z",
+  "generatedAt": "2026-10-30T17:32:14.938Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-01T03:00:00.000Z",
+  "horizonEnd": "2026-11-01T04:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-01T03:00:00.000Z",
-    "north-america": "2026-11-01T10:00:00.000Z",
-    "south-america": "2026-11-01T09:00:00.000Z",
-    "asia": "2026-10-31T22:00:00.000Z",
-    "oceania": "2026-10-31T18:00:00.000Z"
+    "europe": "2026-11-01T04:00:00.000Z",
+    "north-america": "2026-11-01T11:00:00.000Z",
+    "south-america": "2026-11-01T10:00:00.000Z",
+    "asia": "2026-10-31T23:00:00.000Z",
+    "oceania": "2026-10-31T19:00:00.000Z"
   },
   "regions": [
     {
@@ -3890,6 +3890,20 @@
       "icon": "arc_frigate.png"
     },
     {
+      "condition": "Redirection",
+      "map": "Pendola Pass",
+      "start": 1793469600000,
+      "end": 1793473200000,
+      "times": {
+        "europe": [
+          1793469600000,
+          1793473200000
+        ]
+      },
+      "type": "minor",
+      "icon": "redirection.png"
+    },
+    {
       "condition": "Husk Graveyard",
       "map": "Spaceport",
       "start": 1793469600000,
@@ -4878,6 +4892,126 @@
       },
       "type": "major",
       "icon": "night_raid.png"
+    },
+    {
+      "condition": "Uncovered Caches",
+      "map": "Dam Battlegrounds",
+      "start": 1793502000000,
+      "end": 1793505600000,
+      "times": {
+        "europe": [
+          1793502000000,
+          1793505600000
+        ],
+        "north-america": [
+          1793527200000,
+          1793530800000
+        ],
+        "south-america": [
+          1793523600000,
+          1793527200000
+        ],
+        "asia": [
+          1793484000000,
+          1793487600000
+        ],
+        "oceania": [
+          1793469600000,
+          1793473200000
+        ]
+      },
+      "type": "minor",
+      "icon": "uncovered_caches.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Pendola Pass",
+      "start": 1793502000000,
+      "end": 1793505600000,
+      "times": {
+        "europe": [
+          1793502000000,
+          1793505600000
+        ],
+        "north-america": [
+          1793527200000,
+          1793530800000
+        ],
+        "south-america": [
+          1793523600000,
+          1793527200000
+        ],
+        "asia": [
+          1793484000000,
+          1793487600000
+        ],
+        "oceania": [
+          1793469600000,
+          1793473200000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1793502000000,
+      "end": 1793505600000,
+      "times": {
+        "europe": [
+          1793502000000,
+          1793505600000
+        ],
+        "north-america": [
+          1793527200000,
+          1793530800000
+        ],
+        "south-america": [
+          1793523600000,
+          1793527200000
+        ],
+        "asia": [
+          1793484000000,
+          1793487600000
+        ],
+        "oceania": [
+          1793469600000,
+          1793473200000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "The Blue Gate",
+      "start": 1793502000000,
+      "end": 1793505600000,
+      "times": {
+        "europe": [
+          1793502000000,
+          1793505600000
+        ],
+        "north-america": [
+          1793527200000,
+          1793530800000
+        ],
+        "south-america": [
+          1793523600000,
+          1793527200000
+        ],
+        "asia": [
+          1793484000000,
+          1793487600000
+        ],
+        "oceania": [
+          1793469600000,
+          1793473200000
+        ]
+      },
+      "type": "minor",
+      "icon": "harvester.png"
     }
   ]
 }
