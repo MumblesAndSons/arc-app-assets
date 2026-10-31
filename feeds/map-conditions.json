@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-31T23:02:15.962Z",
+  "generatedAt": "2026-10-31T23:32:14.568Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-02T09:00:00.000Z",
+  "horizonEnd": "2026-11-02T10:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-02T09:00:00.000Z",
-    "north-america": "2026-11-02T16:00:00.000Z",
-    "south-america": "2026-11-02T15:00:00.000Z",
-    "asia": "2026-11-02T04:00:00.000Z",
-    "oceania": "2026-11-02T00:00:00.000Z"
+    "europe": "2026-11-02T10:00:00.000Z",
+    "north-america": "2026-11-02T17:00:00.000Z",
+    "south-america": "2026-11-02T16:00:00.000Z",
+    "asia": "2026-11-02T05:00:00.000Z",
+    "oceania": "2026-11-02T01:00:00.000Z"
   },
   "regions": [
     {
@@ -4908,6 +4908,96 @@
       },
       "type": "minor",
       "icon": "matriarch.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1793610000000,
+      "end": 1793613600000,
+      "times": {
+        "europe": [
+          1793610000000,
+          1793613600000
+        ],
+        "north-america": [
+          1793635200000,
+          1793638800000
+        ],
+        "south-america": [
+          1793631600000,
+          1793635200000
+        ],
+        "asia": [
+          1793592000000,
+          1793595600000
+        ],
+        "oceania": [
+          1793577600000,
+          1793581200000
+        ]
+      },
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Spaceport",
+      "start": 1793610000000,
+      "end": 1793613600000,
+      "times": {
+        "europe": [
+          1793610000000,
+          1793613600000
+        ],
+        "north-america": [
+          1793635200000,
+          1793638800000
+        ],
+        "south-america": [
+          1793631600000,
+          1793635200000
+        ],
+        "asia": [
+          1793592000000,
+          1793595600000
+        ],
+        "oceania": [
+          1793577600000,
+          1793581200000
+        ]
+      },
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "The Blue Gate",
+      "start": 1793610000000,
+      "end": 1793613600000,
+      "times": {
+        "europe": [
+          1793610000000,
+          1793613600000
+        ],
+        "north-america": [
+          1793635200000,
+          1793638800000
+        ],
+        "south-america": [
+          1793631600000,
+          1793635200000
+        ],
+        "asia": [
+          1793592000000,
+          1793595600000
+        ],
+        "oceania": [
+          1793577600000,
+          1793581200000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
     }
   ]
 }
