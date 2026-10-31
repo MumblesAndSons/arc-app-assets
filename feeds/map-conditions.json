@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-31T14:02:17.739Z",
+  "generatedAt": "2026-10-31T14:32:22.518Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-02T00:00:00.000Z",
+  "horizonEnd": "2026-11-02T01:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-02T00:00:00.000Z",
-    "north-america": "2026-11-02T07:00:00.000Z",
-    "south-america": "2026-11-02T06:00:00.000Z",
-    "asia": "2026-11-01T19:00:00.000Z",
-    "oceania": "2026-11-01T15:00:00.000Z"
+    "europe": "2026-11-02T01:00:00.000Z",
+    "north-america": "2026-11-02T08:00:00.000Z",
+    "south-america": "2026-11-02T07:00:00.000Z",
+    "asia": "2026-11-01T20:00:00.000Z",
+    "oceania": "2026-11-01T16:00:00.000Z"
   },
   "regions": [
     {
@@ -3860,6 +3860,20 @@
       "icon": "husk_graveyard.png"
     },
     {
+      "condition": "Redirection",
+      "map": "Pendola Pass",
+      "start": 1793545200000,
+      "end": 1793548800000,
+      "times": {
+        "europe": [
+          1793545200000,
+          1793548800000
+        ]
+      },
+      "type": "minor",
+      "icon": "redirection.png"
+    },
+    {
       "condition": "Harvester",
       "map": "Spaceport",
       "start": 1793545200000,
@@ -4908,6 +4922,126 @@
       },
       "type": "minor",
       "icon": "matriarch.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Dam Battlegrounds",
+      "start": 1793577600000,
+      "end": 1793581200000,
+      "times": {
+        "europe": [
+          1793577600000,
+          1793581200000
+        ],
+        "north-america": [
+          1793602800000,
+          1793606400000
+        ],
+        "south-america": [
+          1793599200000,
+          1793602800000
+        ],
+        "asia": [
+          1793559600000,
+          1793563200000
+        ],
+        "oceania": [
+          1793545200000,
+          1793548800000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1793577600000,
+      "end": 1793581200000,
+      "times": {
+        "europe": [
+          1793577600000,
+          1793581200000
+        ],
+        "north-america": [
+          1793602800000,
+          1793606400000
+        ],
+        "south-america": [
+          1793599200000,
+          1793602800000
+        ],
+        "asia": [
+          1793559600000,
+          1793563200000
+        ],
+        "oceania": [
+          1793545200000,
+          1793548800000
+        ]
+      },
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
+      "condition": "Launch Tower Loot",
+      "map": "Spaceport",
+      "start": 1793577600000,
+      "end": 1793581200000,
+      "times": {
+        "europe": [
+          1793577600000,
+          1793581200000
+        ],
+        "north-america": [
+          1793602800000,
+          1793606400000
+        ],
+        "south-america": [
+          1793599200000,
+          1793602800000
+        ],
+        "asia": [
+          1793559600000,
+          1793563200000
+        ],
+        "oceania": [
+          1793545200000,
+          1793548800000
+        ]
+      },
+      "type": "minor",
+      "icon": "launch_tower_loot.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1793577600000,
+      "end": 1793581200000,
+      "times": {
+        "europe": [
+          1793577600000,
+          1793581200000
+        ],
+        "north-america": [
+          1793602800000,
+          1793606400000
+        ],
+        "south-america": [
+          1793599200000,
+          1793602800000
+        ],
+        "asia": [
+          1793559600000,
+          1793563200000
+        ],
+        "oceania": [
+          1793545200000,
+          1793548800000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
     }
   ]
 }
