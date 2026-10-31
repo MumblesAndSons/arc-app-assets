@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-31T18:02:16.167Z",
+  "generatedAt": "2026-10-31T18:32:14.553Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-02T04:00:00.000Z",
+  "horizonEnd": "2026-11-02T05:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-02T04:00:00.000Z",
-    "north-america": "2026-11-02T11:00:00.000Z",
-    "south-america": "2026-11-02T10:00:00.000Z",
-    "asia": "2026-11-01T23:00:00.000Z",
-    "oceania": "2026-11-01T19:00:00.000Z"
+    "europe": "2026-11-02T05:00:00.000Z",
+    "north-america": "2026-11-02T12:00:00.000Z",
+    "south-america": "2026-11-02T11:00:00.000Z",
+    "asia": "2026-11-02T00:00:00.000Z",
+    "oceania": "2026-11-01T20:00:00.000Z"
   },
   "regions": [
     {
@@ -3890,6 +3890,20 @@
       "icon": "arc_frigate.png"
     },
     {
+      "condition": "Redirection",
+      "map": "Pendola Pass",
+      "start": 1793559600000,
+      "end": 1793563200000,
+      "times": {
+        "europe": [
+          1793559600000,
+          1793563200000
+        ]
+      },
+      "type": "minor",
+      "icon": "redirection.png"
+    },
+    {
       "condition": "Husk Graveyard",
       "map": "Spaceport",
       "start": 1793559600000,
@@ -4938,6 +4952,96 @@
       },
       "type": "minor",
       "icon": "launch_tower_loot.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1793592000000,
+      "end": 1793595600000,
+      "times": {
+        "europe": [
+          1793592000000,
+          1793595600000
+        ],
+        "north-america": [
+          1793617200000,
+          1793620800000
+        ],
+        "south-america": [
+          1793613600000,
+          1793617200000
+        ],
+        "asia": [
+          1793574000000,
+          1793577600000
+        ],
+        "oceania": [
+          1793559600000,
+          1793563200000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Dam Battlegrounds",
+      "start": 1793592000000,
+      "end": 1793595600000,
+      "times": {
+        "europe": [
+          1793592000000,
+          1793595600000
+        ],
+        "north-america": [
+          1793617200000,
+          1793620800000
+        ],
+        "south-america": [
+          1793613600000,
+          1793617200000
+        ],
+        "asia": [
+          1793574000000,
+          1793577600000
+        ],
+        "oceania": [
+          1793559600000,
+          1793563200000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1793592000000,
+      "end": 1793595600000,
+      "times": {
+        "europe": [
+          1793592000000,
+          1793595600000
+        ],
+        "north-america": [
+          1793617200000,
+          1793620800000
+        ],
+        "south-america": [
+          1793613600000,
+          1793617200000
+        ],
+        "asia": [
+          1793574000000,
+          1793577600000
+        ],
+        "oceania": [
+          1793559600000,
+          1793563200000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
     }
   ]
 }
