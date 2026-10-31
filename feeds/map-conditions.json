@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-31T02:02:14.734Z",
+  "generatedAt": "2026-10-31T02:32:15.537Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-01T12:00:00.000Z",
+  "horizonEnd": "2026-11-01T13:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-01T12:00:00.000Z",
-    "north-america": "2026-11-01T19:00:00.000Z",
-    "south-america": "2026-11-01T18:00:00.000Z",
-    "asia": "2026-11-01T07:00:00.000Z",
-    "oceania": "2026-11-01T03:00:00.000Z"
+    "europe": "2026-11-01T13:00:00.000Z",
+    "north-america": "2026-11-01T20:00:00.000Z",
+    "south-america": "2026-11-01T19:00:00.000Z",
+    "asia": "2026-11-01T08:00:00.000Z",
+    "oceania": "2026-11-01T04:00:00.000Z"
   },
   "regions": [
     {
@@ -3920,6 +3920,20 @@
       "icon": "arc_frigate.png"
     },
     {
+      "condition": "Redirection",
+      "map": "Pendola Pass",
+      "start": 1793502000000,
+      "end": 1793505600000,
+      "times": {
+        "europe": [
+          1793502000000,
+          1793505600000
+        ]
+      },
+      "type": "minor",
+      "icon": "redirection.png"
+    },
+    {
       "condition": "Night Raid",
       "map": "Stella Montis",
       "start": 1793502000000,
@@ -4874,6 +4888,126 @@
         "oceania": [
           1793498400000,
           1793502000000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Dam Battlegrounds",
+      "start": 1793534400000,
+      "end": 1793538000000,
+      "times": {
+        "europe": [
+          1793534400000,
+          1793538000000
+        ],
+        "north-america": [
+          1793559600000,
+          1793563200000
+        ],
+        "south-america": [
+          1793556000000,
+          1793559600000
+        ],
+        "asia": [
+          1793516400000,
+          1793520000000
+        ],
+        "oceania": [
+          1793502000000,
+          1793505600000
+        ]
+      },
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Pendola Pass",
+      "start": 1793534400000,
+      "end": 1793538000000,
+      "times": {
+        "europe": [
+          1793534400000,
+          1793538000000
+        ],
+        "north-america": [
+          1793559600000,
+          1793563200000
+        ],
+        "south-america": [
+          1793556000000,
+          1793559600000
+        ],
+        "asia": [
+          1793516400000,
+          1793520000000
+        ],
+        "oceania": [
+          1793502000000,
+          1793505600000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Uncovered Caches",
+      "map": "Spaceport",
+      "start": 1793534400000,
+      "end": 1793538000000,
+      "times": {
+        "europe": [
+          1793534400000,
+          1793538000000
+        ],
+        "north-america": [
+          1793559600000,
+          1793563200000
+        ],
+        "south-america": [
+          1793556000000,
+          1793559600000
+        ],
+        "asia": [
+          1793516400000,
+          1793520000000
+        ],
+        "oceania": [
+          1793502000000,
+          1793505600000
+        ]
+      },
+      "type": "minor",
+      "icon": "uncovered_caches.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "The Blue Gate",
+      "start": 1793534400000,
+      "end": 1793538000000,
+      "times": {
+        "europe": [
+          1793534400000,
+          1793538000000
+        ],
+        "north-america": [
+          1793559600000,
+          1793563200000
+        ],
+        "south-america": [
+          1793556000000,
+          1793559600000
+        ],
+        "asia": [
+          1793516400000,
+          1793520000000
+        ],
+        "oceania": [
+          1793502000000,
+          1793505600000
         ]
       },
       "type": "major",
