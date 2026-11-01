@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-01T12:02:15.187Z",
+  "generatedAt": "2026-11-01T12:32:16.773Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-02T22:00:00.000Z",
+  "horizonEnd": "2026-11-02T23:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-02T22:00:00.000Z",
-    "north-america": "2026-11-03T05:00:00.000Z",
-    "south-america": "2026-11-03T04:00:00.000Z",
-    "asia": "2026-11-02T17:00:00.000Z",
-    "oceania": "2026-11-02T13:00:00.000Z"
+    "europe": "2026-11-02T23:00:00.000Z",
+    "north-america": "2026-11-03T06:00:00.000Z",
+    "south-america": "2026-11-03T05:00:00.000Z",
+    "asia": "2026-11-02T18:00:00.000Z",
+    "oceania": "2026-11-02T14:00:00.000Z"
   },
   "regions": [
     {
@@ -4978,6 +4978,156 @@
         "oceania": [
           1793620800000,
           1793624400000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Hurricane",
+      "map": "Buried City",
+      "start": 1793656800000,
+      "end": 1793660400000,
+      "times": {
+        "europe": [
+          1793656800000,
+          1793660400000
+        ],
+        "north-america": [
+          1793682000000,
+          1793685600000
+        ],
+        "south-america": [
+          1793678400000,
+          1793682000000
+        ],
+        "asia": [
+          1793638800000,
+          1793642400000
+        ],
+        "oceania": [
+          1793624400000,
+          1793628000000
+        ]
+      },
+      "type": "major",
+      "icon": "hurricane.png"
+    },
+    {
+      "condition": "Uncovered Caches",
+      "map": "Dam Battlegrounds",
+      "start": 1793656800000,
+      "end": 1793660400000,
+      "times": {
+        "europe": [
+          1793656800000,
+          1793660400000
+        ],
+        "north-america": [
+          1793682000000,
+          1793685600000
+        ],
+        "south-america": [
+          1793678400000,
+          1793682000000
+        ],
+        "asia": [
+          1793638800000,
+          1793642400000
+        ],
+        "oceania": [
+          1793624400000,
+          1793628000000
+        ]
+      },
+      "type": "minor",
+      "icon": "uncovered_caches.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Pendola Pass",
+      "start": 1793656800000,
+      "end": 1793660400000,
+      "times": {
+        "europe": [
+          1793656800000,
+          1793660400000
+        ],
+        "north-america": [
+          1793682000000,
+          1793685600000
+        ],
+        "south-america": [
+          1793678400000,
+          1793682000000
+        ],
+        "asia": [
+          1793638800000,
+          1793642400000
+        ],
+        "oceania": [
+          1793624400000,
+          1793628000000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1793656800000,
+      "end": 1793660400000,
+      "times": {
+        "europe": [
+          1793656800000,
+          1793660400000
+        ],
+        "north-america": [
+          1793682000000,
+          1793685600000
+        ],
+        "south-america": [
+          1793678400000,
+          1793682000000
+        ],
+        "asia": [
+          1793638800000,
+          1793642400000
+        ],
+        "oceania": [
+          1793624400000,
+          1793628000000
+        ]
+      },
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Spaceport",
+      "start": 1793656800000,
+      "end": 1793660400000,
+      "times": {
+        "europe": [
+          1793656800000,
+          1793660400000
+        ],
+        "north-america": [
+          1793682000000,
+          1793685600000
+        ],
+        "south-america": [
+          1793678400000,
+          1793682000000
+        ],
+        "asia": [
+          1793638800000,
+          1793642400000
+        ],
+        "oceania": [
+          1793624400000,
+          1793628000000
         ]
       },
       "type": "major",
