@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T02:32:13.402Z",
+  "generatedAt": "2026-11-01T03:02:14.126Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-02T13:00:00.000Z",
@@ -115,96 +115,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Bird City",
-      "map": "Buried City",
-      "start": 1793473200000,
-      "end": 1793476800000,
-      "times": {
-        "europe": [
-          1793473200000,
-          1793476800000
-        ],
-        "north-america": [
-          1793498400000,
-          1793502000000
-        ],
-        "south-america": [
-          1793494800000,
-          1793498400000
-        ],
-        "asia": [
-          1793455200000,
-          1793458800000
-        ],
-        "oceania": [
-          1793440800000,
-          1793444400000
-        ]
-      },
-      "type": "minor",
-      "icon": "bird_city.png"
-    },
-    {
-      "condition": "Beachcombing",
-      "map": "Riven Tides",
-      "start": 1793473200000,
-      "end": 1793476800000,
-      "times": {
-        "europe": [
-          1793473200000,
-          1793476800000
-        ],
-        "north-america": [
-          1793498400000,
-          1793502000000
-        ],
-        "south-america": [
-          1793494800000,
-          1793498400000
-        ],
-        "asia": [
-          1793455200000,
-          1793458800000
-        ],
-        "oceania": [
-          1793440800000,
-          1793444400000
-        ]
-      },
-      "type": "minor",
-      "icon": "beachcombing.png"
-    },
-    {
-      "condition": "ARC Frigate",
-      "map": "Spaceport",
-      "start": 1793473200000,
-      "end": 1793476800000,
-      "times": {
-        "europe": [
-          1793473200000,
-          1793476800000
-        ],
-        "north-america": [
-          1793498400000,
-          1793502000000
-        ],
-        "south-america": [
-          1793494800000,
-          1793498400000
-        ],
-        "asia": [
-          1793455200000,
-          1793458800000
-        ],
-        "oceania": [
-          1793440800000,
-          1793444400000
-        ]
-      },
-      "type": "major",
-      "icon": "arc_frigate.png"
-    },
     {
       "condition": "ARC Frigate",
       "map": "Buried City",
