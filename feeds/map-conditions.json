@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-02T01:02:16.521Z",
+  "generatedAt": "2026-11-02T01:32:13.614Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-03T11:00:00.000Z",
+  "horizonEnd": "2026-11-03T12:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-03T11:00:00.000Z",
-    "north-america": "2026-11-03T18:00:00.000Z",
-    "south-america": "2026-11-03T17:00:00.000Z",
-    "asia": "2026-11-03T06:00:00.000Z",
-    "oceania": "2026-11-03T02:00:00.000Z"
+    "europe": "2026-11-03T12:00:00.000Z",
+    "north-america": "2026-11-03T19:00:00.000Z",
+    "south-america": "2026-11-03T18:00:00.000Z",
+    "asia": "2026-11-03T07:00:00.000Z",
+    "oceania": "2026-11-03T03:00:00.000Z"
   },
   "regions": [
     {
@@ -5000,6 +5000,126 @@
       },
       "type": "major",
       "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1793703600000,
+      "end": 1793707200000,
+      "times": {
+        "europe": [
+          1793703600000,
+          1793707200000
+        ],
+        "north-america": [
+          1793728800000,
+          1793732400000
+        ],
+        "south-america": [
+          1793725200000,
+          1793728800000
+        ],
+        "asia": [
+          1793685600000,
+          1793689200000
+        ],
+        "oceania": [
+          1793671200000,
+          1793674800000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Dam Battlegrounds",
+      "start": 1793703600000,
+      "end": 1793707200000,
+      "times": {
+        "europe": [
+          1793703600000,
+          1793707200000
+        ],
+        "north-america": [
+          1793728800000,
+          1793732400000
+        ],
+        "south-america": [
+          1793725200000,
+          1793728800000
+        ],
+        "asia": [
+          1793685600000,
+          1793689200000
+        ],
+        "oceania": [
+          1793671200000,
+          1793674800000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Spaceport",
+      "start": 1793703600000,
+      "end": 1793707200000,
+      "times": {
+        "europe": [
+          1793703600000,
+          1793707200000
+        ],
+        "north-america": [
+          1793728800000,
+          1793732400000
+        ],
+        "south-america": [
+          1793725200000,
+          1793728800000
+        ],
+        "asia": [
+          1793685600000,
+          1793689200000
+        ],
+        "oceania": [
+          1793671200000,
+          1793674800000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1793703600000,
+      "end": 1793707200000,
+      "times": {
+        "europe": [
+          1793703600000,
+          1793707200000
+        ],
+        "north-america": [
+          1793728800000,
+          1793732400000
+        ],
+        "south-america": [
+          1793725200000,
+          1793728800000
+        ],
+        "asia": [
+          1793685600000,
+          1793689200000
+        ],
+        "oceania": [
+          1793671200000,
+          1793674800000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
     }
   ]
 }
