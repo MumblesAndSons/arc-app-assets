@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T05:02:19.260Z",
+  "generatedAt": "2026-11-02T05:17:18.466Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-03T15:00:00.000Z",
@@ -72,11 +72,6 @@
       "name": "Hurricane",
       "type": "major",
       "icon": "hurricane.png"
-    },
-    {
-      "name": "Husk Graveyard",
-      "type": "minor",
-      "icon": "husk_graveyard.png"
     },
     {
       "name": "Launch Tower Loot",
