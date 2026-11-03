@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-03T18:02:27.419Z",
+  "generatedAt": "2026-11-03T18:32:20.208Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-05T04:00:00.000Z",
+  "horizonEnd": "2026-11-05T05:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-05T04:00:00.000Z",
-    "north-america": "2026-11-05T11:00:00.000Z",
-    "south-america": "2026-11-05T10:00:00.000Z",
-    "asia": "2026-11-04T23:00:00.000Z",
-    "oceania": "2026-11-04T19:00:00.000Z"
+    "europe": "2026-11-05T05:00:00.000Z",
+    "north-america": "2026-11-05T12:00:00.000Z",
+    "south-america": "2026-11-05T11:00:00.000Z",
+    "asia": "2026-11-05T00:00:00.000Z",
+    "oceania": "2026-11-04T20:00:00.000Z"
   },
   "regions": [
     {
@@ -5030,6 +5030,126 @@
       },
       "type": "major",
       "icon": "night_raid.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Buried City",
+      "start": 1793851200000,
+      "end": 1793854800000,
+      "times": {
+        "europe": [
+          1793851200000,
+          1793854800000
+        ],
+        "north-america": [
+          1793876400000,
+          1793880000000
+        ],
+        "south-america": [
+          1793872800000,
+          1793876400000
+        ],
+        "asia": [
+          1793833200000,
+          1793836800000
+        ],
+        "oceania": [
+          1793818800000,
+          1793822400000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1793851200000,
+      "end": 1793854800000,
+      "times": {
+        "europe": [
+          1793851200000,
+          1793854800000
+        ],
+        "north-america": [
+          1793876400000,
+          1793880000000
+        ],
+        "south-america": [
+          1793872800000,
+          1793876400000
+        ],
+        "asia": [
+          1793833200000,
+          1793836800000
+        ],
+        "oceania": [
+          1793818800000,
+          1793822400000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Pendola Pass",
+      "start": 1793851200000,
+      "end": 1793854800000,
+      "times": {
+        "europe": [
+          1793851200000,
+          1793854800000
+        ],
+        "north-america": [
+          1793876400000,
+          1793880000000
+        ],
+        "south-america": [
+          1793872800000,
+          1793876400000
+        ],
+        "asia": [
+          1793833200000,
+          1793836800000
+        ],
+        "oceania": [
+          1793818800000,
+          1793822400000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Uncovered Caches",
+      "map": "The Blue Gate",
+      "start": 1793851200000,
+      "end": 1793854800000,
+      "times": {
+        "europe": [
+          1793851200000,
+          1793854800000
+        ],
+        "north-america": [
+          1793876400000,
+          1793880000000
+        ],
+        "south-america": [
+          1793872800000,
+          1793876400000
+        ],
+        "asia": [
+          1793833200000,
+          1793836800000
+        ],
+        "oceania": [
+          1793818800000,
+          1793822400000
+        ]
+      },
+      "type": "minor",
+      "icon": "uncovered_caches.png"
     }
   ]
 }
