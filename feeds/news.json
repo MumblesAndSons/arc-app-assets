@@ -1,7 +1,17 @@
 {
-  "generatedAt": "2026-11-03T07:32:17.595Z",
+  "generatedAt": "2026-11-03T10:02:22.049Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
+    {
+      "id": "store-update-2-4-0",
+      "title": "Store Update 2.4.0",
+      "date": "November 3, 2026",
+      "image": "https://assets.arcraiders.com/article-cards/ebf799d2-6de3-live-update-2.4-card-600x400-300x200.png",
+      "tags": [
+        "Store Update"
+      ],
+      "summary": "Update 2.4.0 is rolling out now, bringing the Dead Eye Set along with a fix for the issue where the Raider Tool would show up as default even when a different skin was equipped. No restart is needed to get this update."
+    },
     {
       "id": "one-year-anniversary",
       "title": "One year anniversary of ARC Raiders: Thanks for being here!",
@@ -350,16 +360,6 @@
       "image": "https://assets.arcraiders.com/article-cards/1460a908-aecf-expedition-4-blog-card-300x200-300x200.png",
       "tags": [],
       "summary": "The fourth Expedition is nearly upon us, and it arrives with some notable changes. With every Expedition we run, we take away lessons and search for ways to improve things. This time, that means overhauling the reward structure."
-    },
-    {
-      "id": "store-update-1-34-0",
-      "title": "Store Update 1.34.0",
-      "date": "June 23, 2026",
-      "image": "https://assets.arcraiders.com/article-cards/b186b3df-3c8f-store-update-card-300x200-300x200.png",
-      "tags": [
-        "Store Update"
-      ],
-      "summary": "Store Update 1.34.0 is going live at this very moment!"
     }
   ]
 }
