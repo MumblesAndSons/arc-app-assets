@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-05T23:02:14.102Z",
+  "generatedAt": "2026-11-05T23:32:17.573Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-07T09:00:00.000Z",
+  "horizonEnd": "2026-11-07T10:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-07T09:00:00.000Z",
-    "north-america": "2026-11-07T16:00:00.000Z",
-    "south-america": "2026-11-07T15:00:00.000Z",
-    "asia": "2026-11-07T04:00:00.000Z",
-    "oceania": "2026-11-07T00:00:00.000Z"
+    "europe": "2026-11-07T10:00:00.000Z",
+    "north-america": "2026-11-07T17:00:00.000Z",
+    "south-america": "2026-11-07T16:00:00.000Z",
+    "asia": "2026-11-07T05:00:00.000Z",
+    "oceania": "2026-11-07T01:00:00.000Z"
   },
   "regions": [
     {
@@ -5060,6 +5060,96 @@
       },
       "type": "minor",
       "icon": "launch_tower_loot.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1794042000000,
+      "end": 1794045600000,
+      "times": {
+        "europe": [
+          1794042000000,
+          1794045600000
+        ],
+        "north-america": [
+          1794067200000,
+          1794070800000
+        ],
+        "south-america": [
+          1794063600000,
+          1794067200000
+        ],
+        "asia": [
+          1794024000000,
+          1794027600000
+        ],
+        "oceania": [
+          1794009600000,
+          1794013200000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Dam Battlegrounds",
+      "start": 1794042000000,
+      "end": 1794045600000,
+      "times": {
+        "europe": [
+          1794042000000,
+          1794045600000
+        ],
+        "north-america": [
+          1794067200000,
+          1794070800000
+        ],
+        "south-america": [
+          1794063600000,
+          1794067200000
+        ],
+        "asia": [
+          1794024000000,
+          1794027600000
+        ],
+        "oceania": [
+          1794009600000,
+          1794013200000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1794042000000,
+      "end": 1794045600000,
+      "times": {
+        "europe": [
+          1794042000000,
+          1794045600000
+        ],
+        "north-america": [
+          1794067200000,
+          1794070800000
+        ],
+        "south-america": [
+          1794063600000,
+          1794067200000
+        ],
+        "asia": [
+          1794024000000,
+          1794027600000
+        ],
+        "oceania": [
+          1794009600000,
+          1794013200000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
     }
   ]
 }
