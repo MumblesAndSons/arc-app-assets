@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T05:32:13.467Z",
+  "generatedAt": "2026-11-05T06:02:16.677Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-06T16:00:00.000Z",
@@ -115,96 +115,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Bird City",
-      "map": "Buried City",
-      "start": 1793829600000,
-      "end": 1793833200000,
-      "times": {
-        "europe": [
-          1793829600000,
-          1793833200000
-        ],
-        "north-america": [
-          1793854800000,
-          1793858400000
-        ],
-        "south-america": [
-          1793851200000,
-          1793854800000
-        ],
-        "asia": [
-          1793811600000,
-          1793815200000
-        ],
-        "oceania": [
-          1793797200000,
-          1793800800000
-        ]
-      },
-      "type": "minor",
-      "icon": "bird_city.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Dam Battlegrounds",
-      "start": 1793829600000,
-      "end": 1793833200000,
-      "times": {
-        "europe": [
-          1793829600000,
-          1793833200000
-        ],
-        "north-america": [
-          1793854800000,
-          1793858400000
-        ],
-        "south-america": [
-          1793851200000,
-          1793854800000
-        ],
-        "asia": [
-          1793811600000,
-          1793815200000
-        ],
-        "oceania": [
-          1793797200000,
-          1793800800000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "ARC Frigate",
-      "map": "The Blue Gate",
-      "start": 1793829600000,
-      "end": 1793833200000,
-      "times": {
-        "europe": [
-          1793829600000,
-          1793833200000
-        ],
-        "north-america": [
-          1793854800000,
-          1793858400000
-        ],
-        "south-america": [
-          1793851200000,
-          1793854800000
-        ],
-        "asia": [
-          1793811600000,
-          1793815200000
-        ],
-        "oceania": [
-          1793797200000,
-          1793800800000
-        ]
-      },
-      "type": "major",
-      "icon": "arc_frigate.png"
-    },
     {
       "condition": "Prospecting Probes",
       "map": "Riven Tides",
