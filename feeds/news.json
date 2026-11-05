@@ -1,7 +1,17 @@
 {
-  "generatedAt": "2026-11-05T11:47:17.526Z",
+  "generatedAt": "2026-11-05T13:02:19.166Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
+    {
+      "id": "hotfix-2-4-1",
+      "title": "Hotfix 2.4.1",
+      "date": "November 5, 2026",
+      "image": "https://assets.arcraiders.com/article-cards/45857665-f871-hotfix-card-600x400-300x200.png",
+      "tags": [
+        "Hotfix"
+      ],
+      "summary": "Raiders, a hotfix is deploying right now to fix a handful of problems. Restart your game to grab the download."
+    },
     {
       "id": "store-update-2-4-0",
       "title": "Store Update 2.4.0",
@@ -352,14 +362,6 @@
         "Store Update"
       ],
       "summary": "Two fresh colour options, Blue Frost and Camo, have arrived in the shop for the Bogwalker Set. Anyone who already owns the set will receive both variants automatically, no extra purchase needed."
-    },
-    {
-      "id": "the-fourth-expedition",
-      "title": "The Fourth Expedition",
-      "date": "June 25, 2026",
-      "image": "https://assets.arcraiders.com/article-cards/1460a908-aecf-expedition-4-blog-card-300x200-300x200.png",
-      "tags": [],
-      "summary": "The fourth Expedition is nearly upon us, and it arrives with some notable changes. With every Expedition we run, we take away lessons and search for ways to improve things. This time, that means overhauling the reward structure."
     }
   ]
 }

@@ -1,0 +1,6 @@
+{
+  "id": "hotfix-2-4-1",
+  "title": "Hotfix 2.4.1",
+  "rewriteVersion": 1,
+  "body": "# Hotfix 2.4.1\n\nRaiders, a hotfix is deploying right now to fix a handful of problems. Restart your game to grab the download.\n\n* The bug letting players reach the Seed Vault extract while it was still shut has been corrected.\n\n* The issue that could turn players invisible after leaving the Ballistic Gondola has been resolved.\n\n* Multiple cases of invisible collision inside residential buildings have been fixed.\n\n* Several crash problems affecting Xbox have been addressed.\n\nThis update also adds Ukrainian as a newly supported language. Thanks for all the reports so far, and please keep sending them in. See you Topside."
+}
