@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-05T17:02:18.287Z",
+  "generatedAt": "2026-11-05T17:32:15.460Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-07T03:00:00.000Z",
+  "horizonEnd": "2026-11-07T04:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-07T03:00:00.000Z",
-    "north-america": "2026-11-07T10:00:00.000Z",
-    "south-america": "2026-11-07T09:00:00.000Z",
-    "asia": "2026-11-06T22:00:00.000Z",
-    "oceania": "2026-11-06T18:00:00.000Z"
+    "europe": "2026-11-07T04:00:00.000Z",
+    "north-america": "2026-11-07T11:00:00.000Z",
+    "south-america": "2026-11-07T10:00:00.000Z",
+    "asia": "2026-11-06T23:00:00.000Z",
+    "oceania": "2026-11-06T19:00:00.000Z"
   },
   "regions": [
     {
@@ -5056,6 +5056,126 @@
         "oceania": [
           1793984400000,
           1793988000000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1794020400000,
+      "end": 1794024000000,
+      "times": {
+        "europe": [
+          1794020400000,
+          1794024000000
+        ],
+        "north-america": [
+          1794045600000,
+          1794049200000
+        ],
+        "south-america": [
+          1794042000000,
+          1794045600000
+        ],
+        "asia": [
+          1794002400000,
+          1794006000000
+        ],
+        "oceania": [
+          1793988000000,
+          1793991600000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Uncovered Caches",
+      "map": "Dam Battlegrounds",
+      "start": 1794020400000,
+      "end": 1794024000000,
+      "times": {
+        "europe": [
+          1794020400000,
+          1794024000000
+        ],
+        "north-america": [
+          1794045600000,
+          1794049200000
+        ],
+        "south-america": [
+          1794042000000,
+          1794045600000
+        ],
+        "asia": [
+          1794002400000,
+          1794006000000
+        ],
+        "oceania": [
+          1793988000000,
+          1793991600000
+        ]
+      },
+      "type": "minor",
+      "icon": "uncovered_caches.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Spaceport",
+      "start": 1794020400000,
+      "end": 1794024000000,
+      "times": {
+        "europe": [
+          1794020400000,
+          1794024000000
+        ],
+        "north-america": [
+          1794045600000,
+          1794049200000
+        ],
+        "south-america": [
+          1794042000000,
+          1794045600000
+        ],
+        "asia": [
+          1794002400000,
+          1794006000000
+        ],
+        "oceania": [
+          1793988000000,
+          1793991600000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1794020400000,
+      "end": 1794024000000,
+      "times": {
+        "europe": [
+          1794020400000,
+          1794024000000
+        ],
+        "north-america": [
+          1794045600000,
+          1794049200000
+        ],
+        "south-america": [
+          1794042000000,
+          1794045600000
+        ],
+        "asia": [
+          1794002400000,
+          1794006000000
+        ],
+        "oceania": [
+          1793988000000,
+          1793991600000
         ]
       },
       "type": "major",
