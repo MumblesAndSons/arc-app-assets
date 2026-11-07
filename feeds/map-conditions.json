@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-07T07:02:14.965Z",
+  "generatedAt": "2026-11-07T07:32:19.348Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-08T17:00:00.000Z",
+  "horizonEnd": "2026-11-08T18:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-08T17:00:00.000Z",
-    "north-america": "2026-11-09T00:00:00.000Z",
-    "south-america": "2026-11-08T23:00:00.000Z",
-    "asia": "2026-11-08T12:00:00.000Z",
-    "oceania": "2026-11-08T08:00:00.000Z"
+    "europe": "2026-11-08T18:00:00.000Z",
+    "north-america": "2026-11-09T01:00:00.000Z",
+    "south-america": "2026-11-09T00:00:00.000Z",
+    "asia": "2026-11-08T13:00:00.000Z",
+    "oceania": "2026-11-08T09:00:00.000Z"
   },
   "regions": [
     {
@@ -5000,6 +5000,156 @@
       },
       "type": "major",
       "icon": "night_raid.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Buried City",
+      "start": 1794157200000,
+      "end": 1794160800000,
+      "times": {
+        "europe": [
+          1794157200000,
+          1794160800000
+        ],
+        "north-america": [
+          1794182400000,
+          1794186000000
+        ],
+        "south-america": [
+          1794178800000,
+          1794182400000
+        ],
+        "asia": [
+          1794139200000,
+          1794142800000
+        ],
+        "oceania": [
+          1794124800000,
+          1794128400000
+        ]
+      },
+      "type": "minor",
+      "icon": "prospecting_probes.png"
+    },
+    {
+      "condition": "Electromagnetic Storm",
+      "map": "Dam Battlegrounds",
+      "start": 1794157200000,
+      "end": 1794160800000,
+      "times": {
+        "europe": [
+          1794157200000,
+          1794160800000
+        ],
+        "north-america": [
+          1794182400000,
+          1794186000000
+        ],
+        "south-america": [
+          1794178800000,
+          1794182400000
+        ],
+        "asia": [
+          1794139200000,
+          1794142800000
+        ],
+        "oceania": [
+          1794124800000,
+          1794128400000
+        ]
+      },
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Riven Tides",
+      "start": 1794157200000,
+      "end": 1794160800000,
+      "times": {
+        "europe": [
+          1794157200000,
+          1794160800000
+        ],
+        "north-america": [
+          1794182400000,
+          1794186000000
+        ],
+        "south-america": [
+          1794178800000,
+          1794182400000
+        ],
+        "asia": [
+          1794139200000,
+          1794142800000
+        ],
+        "oceania": [
+          1794124800000,
+          1794128400000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Spaceport",
+      "start": 1794157200000,
+      "end": 1794160800000,
+      "times": {
+        "europe": [
+          1794157200000,
+          1794160800000
+        ],
+        "north-america": [
+          1794182400000,
+          1794186000000
+        ],
+        "south-america": [
+          1794178800000,
+          1794182400000
+        ],
+        "asia": [
+          1794139200000,
+          1794142800000
+        ],
+        "oceania": [
+          1794124800000,
+          1794128400000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "The Blue Gate",
+      "start": 1794157200000,
+      "end": 1794160800000,
+      "times": {
+        "europe": [
+          1794157200000,
+          1794160800000
+        ],
+        "north-america": [
+          1794182400000,
+          1794186000000
+        ],
+        "south-america": [
+          1794178800000,
+          1794182400000
+        ],
+        "asia": [
+          1794139200000,
+          1794142800000
+        ],
+        "oceania": [
+          1794124800000,
+          1794128400000
+        ]
+      },
+      "type": "minor",
+      "icon": "harvester.png"
     }
   ]
 }
