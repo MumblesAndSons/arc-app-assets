@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T16:32:17.450Z",
+  "generatedAt": "2026-11-07T17:02:13.607Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-09T03:00:00.000Z",
@@ -115,96 +115,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Bird City",
-      "map": "Buried City",
-      "start": 1794042000000,
-      "end": 1794045600000,
-      "times": {
-        "europe": [
-          1794042000000,
-          1794045600000
-        ],
-        "north-america": [
-          1794067200000,
-          1794070800000
-        ],
-        "south-america": [
-          1794063600000,
-          1794067200000
-        ],
-        "asia": [
-          1794024000000,
-          1794027600000
-        ],
-        "oceania": [
-          1794009600000,
-          1794013200000
-        ]
-      },
-      "type": "minor",
-      "icon": "bird_city.png"
-    },
-    {
-      "condition": "ARC Frigate",
-      "map": "Dam Battlegrounds",
-      "start": 1794042000000,
-      "end": 1794045600000,
-      "times": {
-        "europe": [
-          1794042000000,
-          1794045600000
-        ],
-        "north-america": [
-          1794067200000,
-          1794070800000
-        ],
-        "south-america": [
-          1794063600000,
-          1794067200000
-        ],
-        "asia": [
-          1794024000000,
-          1794027600000
-        ],
-        "oceania": [
-          1794009600000,
-          1794013200000
-        ]
-      },
-      "type": "major",
-      "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1794042000000,
-      "end": 1794045600000,
-      "times": {
-        "europe": [
-          1794042000000,
-          1794045600000
-        ],
-        "north-america": [
-          1794067200000,
-          1794070800000
-        ],
-        "south-america": [
-          1794063600000,
-          1794067200000
-        ],
-        "asia": [
-          1794024000000,
-          1794027600000
-        ],
-        "oceania": [
-          1794009600000,
-          1794013200000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
     {
       "condition": "Matriarch",
       "map": "Dam Battlegrounds",
@@ -984,20 +894,6 @@
       },
       "type": "major",
       "icon": "hurricane.png"
-    },
-    {
-      "condition": "Redirection",
-      "map": "Pendola Pass",
-      "start": 1794067200000,
-      "end": 1794070800000,
-      "times": {
-        "europe": [
-          1794067200000,
-          1794070800000
-        ]
-      },
-      "type": "minor",
-      "icon": "redirection.png"
     },
     {
       "condition": "Night Raid",
