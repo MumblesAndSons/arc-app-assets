@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-08T06:02:13.404Z",
+  "generatedAt": "2026-11-08T06:32:12.269Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-09T16:00:00.000Z",
+  "horizonEnd": "2026-11-09T17:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-09T16:00:00.000Z",
-    "north-america": "2026-11-09T23:00:00.000Z",
-    "south-america": "2026-11-09T22:00:00.000Z",
-    "asia": "2026-11-09T11:00:00.000Z",
-    "oceania": "2026-11-09T07:00:00.000Z"
+    "europe": "2026-11-09T17:00:00.000Z",
+    "north-america": "2026-11-10T00:00:00.000Z",
+    "south-america": "2026-11-09T23:00:00.000Z",
+    "asia": "2026-11-09T12:00:00.000Z",
+    "oceania": "2026-11-09T08:00:00.000Z"
   },
   "regions": [
     {
@@ -4940,6 +4940,126 @@
       },
       "type": "major",
       "icon": "night_raid.png"
+    },
+    {
+      "condition": "Close Scrutiny",
+      "map": "Buried City",
+      "start": 1794240000000,
+      "end": 1794243600000,
+      "times": {
+        "europe": [
+          1794240000000,
+          1794243600000
+        ],
+        "north-america": [
+          1794265200000,
+          1794268800000
+        ],
+        "south-america": [
+          1794261600000,
+          1794265200000
+        ],
+        "asia": [
+          1794222000000,
+          1794225600000
+        ],
+        "oceania": [
+          1794207600000,
+          1794211200000
+        ]
+      },
+      "type": "major",
+      "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Dam Battlegrounds",
+      "start": 1794240000000,
+      "end": 1794243600000,
+      "times": {
+        "europe": [
+          1794240000000,
+          1794243600000
+        ],
+        "north-america": [
+          1794265200000,
+          1794268800000
+        ],
+        "south-america": [
+          1794261600000,
+          1794265200000
+        ],
+        "asia": [
+          1794222000000,
+          1794225600000
+        ],
+        "oceania": [
+          1794207600000,
+          1794211200000
+        ]
+      },
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Spaceport",
+      "start": 1794240000000,
+      "end": 1794243600000,
+      "times": {
+        "europe": [
+          1794240000000,
+          1794243600000
+        ],
+        "north-america": [
+          1794265200000,
+          1794268800000
+        ],
+        "south-america": [
+          1794261600000,
+          1794265200000
+        ],
+        "asia": [
+          1794222000000,
+          1794225600000
+        ],
+        "oceania": [
+          1794207600000,
+          1794211200000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "The Blue Gate",
+      "start": 1794240000000,
+      "end": 1794243600000,
+      "times": {
+        "europe": [
+          1794240000000,
+          1794243600000
+        ],
+        "north-america": [
+          1794265200000,
+          1794268800000
+        ],
+        "south-america": [
+          1794261600000,
+          1794265200000
+        ],
+        "asia": [
+          1794222000000,
+          1794225600000
+        ],
+        "oceania": [
+          1794207600000,
+          1794211200000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
     }
   ]
 }
