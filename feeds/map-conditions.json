@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-08T05:02:15.633Z",
+  "generatedAt": "2026-11-08T05:32:14.563Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-09T15:00:00.000Z",
+  "horizonEnd": "2026-11-09T16:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-09T15:00:00.000Z",
-    "north-america": "2026-11-09T22:00:00.000Z",
-    "south-america": "2026-11-09T21:00:00.000Z",
-    "asia": "2026-11-09T10:00:00.000Z",
-    "oceania": "2026-11-09T06:00:00.000Z"
+    "europe": "2026-11-09T16:00:00.000Z",
+    "north-america": "2026-11-09T23:00:00.000Z",
+    "south-america": "2026-11-09T22:00:00.000Z",
+    "asia": "2026-11-09T11:00:00.000Z",
+    "oceania": "2026-11-09T07:00:00.000Z"
   },
   "regions": [
     {
@@ -3968,6 +3968,20 @@
       "icon": "arc_frigate.png"
     },
     {
+      "condition": "Redirection",
+      "map": "Pendola Pass",
+      "start": 1794204000000,
+      "end": 1794207600000,
+      "times": {
+        "europe": [
+          1794204000000,
+          1794207600000
+        ]
+      },
+      "type": "minor",
+      "icon": "redirection.png"
+    },
+    {
       "condition": "Beachcombing",
       "map": "Riven Tides",
       "start": 1794204000000,
@@ -4956,6 +4970,96 @@
       },
       "type": "minor",
       "icon": "harvester.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Buried City",
+      "start": 1794236400000,
+      "end": 1794240000000,
+      "times": {
+        "europe": [
+          1794236400000,
+          1794240000000
+        ],
+        "north-america": [
+          1794261600000,
+          1794265200000
+        ],
+        "south-america": [
+          1794258000000,
+          1794261600000
+        ],
+        "asia": [
+          1794218400000,
+          1794222000000
+        ],
+        "oceania": [
+          1794204000000,
+          1794207600000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1794236400000,
+      "end": 1794240000000,
+      "times": {
+        "europe": [
+          1794236400000,
+          1794240000000
+        ],
+        "north-america": [
+          1794261600000,
+          1794265200000
+        ],
+        "south-america": [
+          1794258000000,
+          1794261600000
+        ],
+        "asia": [
+          1794218400000,
+          1794222000000
+        ],
+        "oceania": [
+          1794204000000,
+          1794207600000
+        ]
+      },
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1794236400000,
+      "end": 1794240000000,
+      "times": {
+        "europe": [
+          1794236400000,
+          1794240000000
+        ],
+        "north-america": [
+          1794261600000,
+          1794265200000
+        ],
+        "south-america": [
+          1794258000000,
+          1794261600000
+        ],
+        "asia": [
+          1794218400000,
+          1794222000000
+        ],
+        "oceania": [
+          1794204000000,
+          1794207600000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
     }
   ]
 }
