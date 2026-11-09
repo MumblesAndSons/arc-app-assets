@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-09T09:02:20.575Z",
+  "generatedAt": "2026-11-09T09:32:17.604Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-10T19:00:00.000Z",
+  "horizonEnd": "2026-11-10T20:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-10T19:00:00.000Z",
-    "north-america": "2026-11-11T02:00:00.000Z",
-    "south-america": "2026-11-11T01:00:00.000Z",
-    "asia": "2026-11-10T14:00:00.000Z",
-    "oceania": "2026-11-10T10:00:00.000Z"
+    "europe": "2026-11-10T20:00:00.000Z",
+    "north-america": "2026-11-11T03:00:00.000Z",
+    "south-america": "2026-11-11T02:00:00.000Z",
+    "asia": "2026-11-10T15:00:00.000Z",
+    "oceania": "2026-11-10T11:00:00.000Z"
   },
   "regions": [
     {
@@ -3896,6 +3896,20 @@
       "icon": "arc_frigate.png"
     },
     {
+      "condition": "Redirection",
+      "map": "Pendola Pass",
+      "start": 1794304800000,
+      "end": 1794308400000,
+      "times": {
+        "europe": [
+          1794304800000,
+          1794308400000
+        ]
+      },
+      "type": "minor",
+      "icon": "redirection.png"
+    },
+    {
       "condition": "Night Raid",
       "map": "Stella Montis",
       "start": 1794304800000,
@@ -4884,6 +4898,126 @@
       },
       "type": "minor",
       "icon": "prospecting_probes.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1794337200000,
+      "end": 1794340800000,
+      "times": {
+        "europe": [
+          1794337200000,
+          1794340800000
+        ],
+        "north-america": [
+          1794362400000,
+          1794366000000
+        ],
+        "south-america": [
+          1794358800000,
+          1794362400000
+        ],
+        "asia": [
+          1794319200000,
+          1794322800000
+        ],
+        "oceania": [
+          1794304800000,
+          1794308400000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Pendola Pass",
+      "start": 1794337200000,
+      "end": 1794340800000,
+      "times": {
+        "europe": [
+          1794337200000,
+          1794340800000
+        ],
+        "north-america": [
+          1794362400000,
+          1794366000000
+        ],
+        "south-america": [
+          1794358800000,
+          1794362400000
+        ],
+        "asia": [
+          1794319200000,
+          1794322800000
+        ],
+        "oceania": [
+          1794304800000,
+          1794308400000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1794337200000,
+      "end": 1794340800000,
+      "times": {
+        "europe": [
+          1794337200000,
+          1794340800000
+        ],
+        "north-america": [
+          1794362400000,
+          1794366000000
+        ],
+        "south-america": [
+          1794358800000,
+          1794362400000
+        ],
+        "asia": [
+          1794319200000,
+          1794322800000
+        ],
+        "oceania": [
+          1794304800000,
+          1794308400000
+        ]
+      },
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Spaceport",
+      "start": 1794337200000,
+      "end": 1794340800000,
+      "times": {
+        "europe": [
+          1794337200000,
+          1794340800000
+        ],
+        "north-america": [
+          1794362400000,
+          1794366000000
+        ],
+        "south-america": [
+          1794358800000,
+          1794362400000
+        ],
+        "asia": [
+          1794319200000,
+          1794322800000
+        ],
+        "oceania": [
+          1794304800000,
+          1794308400000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
     }
   ]
 }
