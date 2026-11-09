@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T09:32:17.604Z",
+  "generatedAt": "2026-11-09T10:02:18.759Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-10T20:00:00.000Z",
@@ -105,126 +105,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Lush Blooms",
-      "map": "Buried City",
-      "start": 1794189600000,
-      "end": 1794193200000,
-      "times": {
-        "europe": [
-          1794189600000,
-          1794193200000
-        ],
-        "north-america": [
-          1794214800000,
-          1794218400000
-        ],
-        "south-america": [
-          1794211200000,
-          1794214800000
-        ],
-        "asia": [
-          1794171600000,
-          1794175200000
-        ],
-        "oceania": [
-          1794157200000,
-          1794160800000
-        ]
-      },
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Dam Battlegrounds",
-      "start": 1794189600000,
-      "end": 1794193200000,
-      "times": {
-        "europe": [
-          1794189600000,
-          1794193200000
-        ],
-        "north-america": [
-          1794214800000,
-          1794218400000
-        ],
-        "south-america": [
-          1794211200000,
-          1794214800000
-        ],
-        "asia": [
-          1794171600000,
-          1794175200000
-        ],
-        "oceania": [
-          1794157200000,
-          1794160800000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "Spaceport",
-      "start": 1794189600000,
-      "end": 1794193200000,
-      "times": {
-        "europe": [
-          1794189600000,
-          1794193200000
-        ],
-        "north-america": [
-          1794214800000,
-          1794218400000
-        ],
-        "south-america": [
-          1794211200000,
-          1794214800000
-        ],
-        "asia": [
-          1794171600000,
-          1794175200000
-        ],
-        "oceania": [
-          1794157200000,
-          1794160800000
-        ]
-      },
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
-    {
-      "condition": "Prospecting Probes",
-      "map": "The Blue Gate",
-      "start": 1794189600000,
-      "end": 1794193200000,
-      "times": {
-        "europe": [
-          1794189600000,
-          1794193200000
-        ],
-        "north-america": [
-          1794214800000,
-          1794218400000
-        ],
-        "south-america": [
-          1794211200000,
-          1794214800000
-        ],
-        "asia": [
-          1794171600000,
-          1794175200000
-        ],
-        "oceania": [
-          1794157200000,
-          1794160800000
-        ]
-      },
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
     {
       "condition": "Bird City",
       "map": "Buried City",
@@ -944,20 +824,6 @@
       },
       "type": "major",
       "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Redirection",
-      "map": "Pendola Pass",
-      "start": 1794214800000,
-      "end": 1794218400000,
-      "times": {
-        "europe": [
-          1794214800000,
-          1794218400000
-        ]
-      },
-      "type": "minor",
-      "icon": "redirection.png"
     },
     {
       "condition": "Night Raid",
