@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T10:32:17.371Z",
+  "generatedAt": "2026-11-10T11:02:15.865Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-11T21:00:00.000Z",
@@ -54,6 +54,11 @@
       "icon": "close_scrutiny.png"
     },
     {
+      "name": "Cold Snap",
+      "type": "major",
+      "icon": "cold_snap.png"
+    },
+    {
       "name": "Electromagnetic Storm",
       "type": "major",
       "icon": "electromagnetic_storm.png"
@@ -72,6 +77,16 @@
       "name": "Hurricane",
       "type": "major",
       "icon": "hurricane.png"
+    },
+    {
+      "name": "Husk Graveyard",
+      "type": "minor",
+      "icon": "husk_graveyard.png"
+    },
+    {
+      "name": "Launch Tower Loot",
+      "type": "minor",
+      "icon": "launch_tower_loot.png"
     },
     {
       "name": "Locked Gate",
@@ -106,126 +121,6 @@
   ],
   "entries": [
     {
-      "condition": "Lush Blooms",
-      "map": "Buried City",
-      "start": 1794279600000,
-      "end": 1794283200000,
-      "times": {
-        "europe": [
-          1794279600000,
-          1794283200000
-        ],
-        "north-america": [
-          1794304800000,
-          1794308400000
-        ],
-        "south-america": [
-          1794301200000,
-          1794304800000
-        ],
-        "asia": [
-          1794261600000,
-          1794265200000
-        ],
-        "oceania": [
-          1794247200000,
-          1794250800000
-        ]
-      },
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Dam Battlegrounds",
-      "start": 1794279600000,
-      "end": 1794283200000,
-      "times": {
-        "europe": [
-          1794279600000,
-          1794283200000
-        ],
-        "north-america": [
-          1794304800000,
-          1794308400000
-        ],
-        "south-america": [
-          1794301200000,
-          1794304800000
-        ],
-        "asia": [
-          1794261600000,
-          1794265200000
-        ],
-        "oceania": [
-          1794247200000,
-          1794250800000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "Spaceport",
-      "start": 1794279600000,
-      "end": 1794283200000,
-      "times": {
-        "europe": [
-          1794279600000,
-          1794283200000
-        ],
-        "north-america": [
-          1794304800000,
-          1794308400000
-        ],
-        "south-america": [
-          1794301200000,
-          1794304800000
-        ],
-        "asia": [
-          1794261600000,
-          1794265200000
-        ],
-        "oceania": [
-          1794247200000,
-          1794250800000
-        ]
-      },
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
-    {
-      "condition": "Prospecting Probes",
-      "map": "The Blue Gate",
-      "start": 1794279600000,
-      "end": 1794283200000,
-      "times": {
-        "europe": [
-          1794279600000,
-          1794283200000
-        ],
-        "north-america": [
-          1794304800000,
-          1794308400000
-        ],
-        "south-america": [
-          1794301200000,
-          1794304800000
-        ],
-        "asia": [
-          1794261600000,
-          1794265200000
-        ],
-        "oceania": [
-          1794247200000,
-          1794250800000
-        ]
-      },
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
-    {
       "condition": "Bird City",
       "map": "Buried City",
       "start": 1794283200000,
@@ -284,6 +179,36 @@
       },
       "type": "major",
       "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Pendola Pass",
+      "start": 1794283200000,
+      "end": 1794286800000,
+      "times": {
+        "europe": [
+          1794283200000,
+          1794286800000
+        ],
+        "north-america": [
+          1794308400000,
+          1794312000000
+        ],
+        "south-america": [
+          1794304800000,
+          1794308400000
+        ],
+        "asia": [
+          1794265200000,
+          1794268800000
+        ],
+        "oceania": [
+          1794250800000,
+          1794254400000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
     },
     {
       "condition": "Beachcombing",
@@ -946,18 +871,34 @@
       "icon": "arc_frigate.png"
     },
     {
-      "condition": "Redirection",
-      "map": "Pendola Pass",
+      "condition": "Night Raid",
+      "map": "Riven Tides",
       "start": 1794304800000,
       "end": 1794308400000,
       "times": {
         "europe": [
           1794304800000,
           1794308400000
+        ],
+        "north-america": [
+          1794330000000,
+          1794333600000
+        ],
+        "south-america": [
+          1794326400000,
+          1794330000000
+        ],
+        "asia": [
+          1794286800000,
+          1794290400000
+        ],
+        "oceania": [
+          1794272400000,
+          1794276000000
         ]
       },
-      "type": "minor",
-      "icon": "redirection.png"
+      "type": "major",
+      "icon": "night_raid.png"
     },
     {
       "condition": "Night Raid",
@@ -1692,6 +1633,36 @@
       },
       "type": "minor",
       "icon": "beachcombing.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Riven Tides",
+      "start": 1794326400000,
+      "end": 1794330000000,
+      "times": {
+        "europe": [
+          1794326400000,
+          1794330000000
+        ],
+        "north-america": [
+          1794351600000,
+          1794355200000
+        ],
+        "south-america": [
+          1794348000000,
+          1794351600000
+        ],
+        "asia": [
+          1794308400000,
+          1794312000000
+        ],
+        "oceania": [
+          1794294000000,
+          1794297600000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
     },
     {
       "condition": "Night Raid",
@@ -2502,6 +2473,36 @@
       "icon": "arc_frigate.png"
     },
     {
+      "condition": "Night Raid",
+      "map": "Pendola Pass",
+      "start": 1794351600000,
+      "end": 1794355200000,
+      "times": {
+        "europe": [
+          1794351600000,
+          1794355200000
+        ],
+        "north-america": [
+          1794376800000,
+          1794380400000
+        ],
+        "south-america": [
+          1794373200000,
+          1794376800000
+        ],
+        "asia": [
+          1794333600000,
+          1794337200000
+        ],
+        "oceania": [
+          1794319200000,
+          1794322800000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
       "condition": "Beachcombing",
       "map": "Riven Tides",
       "start": 1794351600000,
@@ -3190,6 +3191,36 @@
       },
       "type": "major",
       "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Pendola Pass",
+      "start": 1794373200000,
+      "end": 1794376800000,
+      "times": {
+        "europe": [
+          1794373200000,
+          1794376800000
+        ],
+        "north-america": [
+          1794398400000,
+          1794402000000
+        ],
+        "south-america": [
+          1794394800000,
+          1794398400000
+        ],
+        "asia": [
+          1794355200000,
+          1794358800000
+        ],
+        "oceania": [
+          1794340800000,
+          1794344400000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
     },
     {
       "condition": "Beachcombing",
@@ -3911,6 +3942,36 @@
     },
     {
       "condition": "Night Raid",
+      "map": "Riven Tides",
+      "start": 1794394800000,
+      "end": 1794398400000,
+      "times": {
+        "europe": [
+          1794394800000,
+          1794398400000
+        ],
+        "north-america": [
+          1794420000000,
+          1794423600000
+        ],
+        "south-america": [
+          1794416400000,
+          1794420000000
+        ],
+        "asia": [
+          1794376800000,
+          1794380400000
+        ],
+        "oceania": [
+          1794362400000,
+          1794366000000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Night Raid",
       "map": "Stella Montis",
       "start": 1794394800000,
       "end": 1794398400000,
@@ -4628,6 +4689,36 @@
       },
       "type": "minor",
       "icon": "beachcombing.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Riven Tides",
+      "start": 1794416400000,
+      "end": 1794420000000,
+      "times": {
+        "europe": [
+          1794416400000,
+          1794420000000
+        ],
+        "north-america": [
+          1794441600000,
+          1794445200000
+        ],
+        "south-america": [
+          1794438000000,
+          1794441600000
+        ],
+        "asia": [
+          1794398400000,
+          1794402000000
+        ],
+        "oceania": [
+          1794384000000,
+          1794387600000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
     },
     {
       "condition": "Night Raid",
