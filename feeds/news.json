@@ -1,7 +1,17 @@
 {
-  "generatedAt": "2026-11-10T07:47:15.497Z",
+  "generatedAt": "2026-11-10T10:02:18.723Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
+    {
+      "id": "store-update-2-5-0",
+      "title": "Store Update 2.5.0",
+      "date": "November 10, 2026",
+      "image": "https://assets.arcraiders.com/article-cards/906bd3b3-b6e7-live-update-2.05-card-600x400-300x200.png",
+      "tags": [
+        "Store Update"
+      ],
+      "summary": "Update 2.5.0 is now live, bringing two fresh colour variants for the Vanguard Set: Orange and Black/White. No restart is needed to access them."
+    },
     {
       "id": "hotfix-2-4-1",
       "title": "Hotfix 2.4.1",
@@ -352,16 +362,6 @@
       "image": "https://assets.arcraiders.com/article-cards/c4904225-86cd-trials-s5-card-300x200-300x200.png",
       "tags": [],
       "summary": "Menacing machines continue to stalk the surface, and their activity keeps ramping up at a worrying pace. Across Season 4 of your weekly Trials, you've shot, burned, exploded, bludgeoned, and scavenged your way through the chaos, gathering e"
-    },
-    {
-      "id": "store-update-1-35-0",
-      "title": "Store Update 1.35.0",
-      "date": "June 30, 2026",
-      "image": "https://assets.arcraiders.com/article-cards/8d5b641b-2eb0-store-update-1.35-card-300x200-300x200.png",
-      "tags": [
-        "Store Update"
-      ],
-      "summary": "Two fresh colour options, Blue Frost and Camo, have arrived in the shop for the Bogwalker Set. Anyone who already owns the set will receive both variants automatically, no extra purchase needed."
     }
   ]
 }
