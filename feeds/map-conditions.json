@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-11T04:02:15.706Z",
+  "generatedAt": "2026-11-11T04:32:12.518Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-12T14:00:00.000Z",
+  "horizonEnd": "2026-11-12T15:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-12T14:00:00.000Z",
-    "north-america": "2026-11-12T21:00:00.000Z",
-    "south-america": "2026-11-12T20:00:00.000Z",
-    "asia": "2026-11-12T09:00:00.000Z",
-    "oceania": "2026-11-12T05:00:00.000Z"
+    "europe": "2026-11-12T15:00:00.000Z",
+    "north-america": "2026-11-12T22:00:00.000Z",
+    "south-america": "2026-11-12T21:00:00.000Z",
+    "asia": "2026-11-12T10:00:00.000Z",
+    "oceania": "2026-11-12T06:00:00.000Z"
   },
   "regions": [
     {
@@ -5003,6 +5003,126 @@
       },
       "type": "minor",
       "icon": "matriarch.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Buried City",
+      "start": 1794492000000,
+      "end": 1794495600000,
+      "times": {
+        "europe": [
+          1794492000000,
+          1794495600000
+        ],
+        "north-america": [
+          1794517200000,
+          1794520800000
+        ],
+        "south-america": [
+          1794513600000,
+          1794517200000
+        ],
+        "asia": [
+          1794474000000,
+          1794477600000
+        ],
+        "oceania": [
+          1794459600000,
+          1794463200000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Lush Blooms",
+      "map": "Dam Battlegrounds",
+      "start": 1794492000000,
+      "end": 1794495600000,
+      "times": {
+        "europe": [
+          1794492000000,
+          1794495600000
+        ],
+        "north-america": [
+          1794517200000,
+          1794520800000
+        ],
+        "south-america": [
+          1794513600000,
+          1794517200000
+        ],
+        "asia": [
+          1794474000000,
+          1794477600000
+        ],
+        "oceania": [
+          1794459600000,
+          1794463200000
+        ]
+      },
+      "type": "minor",
+      "icon": "lush_blooms.png"
+    },
+    {
+      "condition": "Prospecting Probes",
+      "map": "Spaceport",
+      "start": 1794492000000,
+      "end": 1794495600000,
+      "times": {
+        "europe": [
+          1794492000000,
+          1794495600000
+        ],
+        "north-america": [
+          1794517200000,
+          1794520800000
+        ],
+        "south-america": [
+          1794513600000,
+          1794517200000
+        ],
+        "asia": [
+          1794474000000,
+          1794477600000
+        ],
+        "oceania": [
+          1794459600000,
+          1794463200000
+        ]
+      },
+      "type": "minor",
+      "icon": "prospecting_probes.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1794492000000,
+      "end": 1794495600000,
+      "times": {
+        "europe": [
+          1794492000000,
+          1794495600000
+        ],
+        "north-america": [
+          1794517200000,
+          1794520800000
+        ],
+        "south-america": [
+          1794513600000,
+          1794517200000
+        ],
+        "asia": [
+          1794474000000,
+          1794477600000
+        ],
+        "oceania": [
+          1794459600000,
+          1794463200000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
     }
   ]
 }
