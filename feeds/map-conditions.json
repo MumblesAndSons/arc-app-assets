@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T19:32:16.783Z",
+  "generatedAt": "2026-11-11T20:02:16.748Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-13T06:00:00.000Z",
@@ -120,126 +120,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Close Scrutiny",
-      "map": "Buried City",
-      "start": 1794398400000,
-      "end": 1794402000000,
-      "times": {
-        "europe": [
-          1794398400000,
-          1794402000000
-        ],
-        "north-america": [
-          1794423600000,
-          1794427200000
-        ],
-        "south-america": [
-          1794420000000,
-          1794423600000
-        ],
-        "asia": [
-          1794380400000,
-          1794384000000
-        ],
-        "oceania": [
-          1794366000000,
-          1794369600000
-        ]
-      },
-      "type": "major",
-      "icon": "close_scrutiny.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "Dam Battlegrounds",
-      "start": 1794398400000,
-      "end": 1794402000000,
-      "times": {
-        "europe": [
-          1794398400000,
-          1794402000000
-        ],
-        "north-america": [
-          1794423600000,
-          1794427200000
-        ],
-        "south-america": [
-          1794420000000,
-          1794423600000
-        ],
-        "asia": [
-          1794380400000,
-          1794384000000
-        ],
-        "oceania": [
-          1794366000000,
-          1794369600000
-        ]
-      },
-      "type": "minor",
-      "icon": "harvester.png"
-    },
-    {
-      "condition": "ARC Frigate",
-      "map": "Spaceport",
-      "start": 1794398400000,
-      "end": 1794402000000,
-      "times": {
-        "europe": [
-          1794398400000,
-          1794402000000
-        ],
-        "north-america": [
-          1794423600000,
-          1794427200000
-        ],
-        "south-america": [
-          1794420000000,
-          1794423600000
-        ],
-        "asia": [
-          1794380400000,
-          1794384000000
-        ],
-        "oceania": [
-          1794366000000,
-          1794369600000
-        ]
-      },
-      "type": "major",
-      "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "The Blue Gate",
-      "start": 1794398400000,
-      "end": 1794402000000,
-      "times": {
-        "europe": [
-          1794398400000,
-          1794402000000
-        ],
-        "north-america": [
-          1794423600000,
-          1794427200000
-        ],
-        "south-america": [
-          1794420000000,
-          1794423600000
-        ],
-        "asia": [
-          1794380400000,
-          1794384000000
-        ],
-        "oceania": [
-          1794366000000,
-          1794369600000
-        ]
-      },
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
     {
       "condition": "ARC Frigate",
       "map": "Buried City",
@@ -1019,20 +899,6 @@
       },
       "type": "major",
       "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Redirection",
-      "map": "Pendola Pass",
-      "start": 1794423600000,
-      "end": 1794427200000,
-      "times": {
-        "europe": [
-          1794423600000,
-          1794427200000
-        ]
-      },
-      "type": "minor",
-      "icon": "redirection.png"
     },
     {
       "condition": "Lush Blooms",
