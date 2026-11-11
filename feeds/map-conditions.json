@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T16:32:24.888Z",
+  "generatedAt": "2026-11-11T17:02:18.667Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-13T03:00:00.000Z",
@@ -120,96 +120,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "ARC Frigate",
-      "map": "Spaceport",
-      "start": 1794387600000,
-      "end": 1794391200000,
-      "times": {
-        "europe": [
-          1794387600000,
-          1794391200000
-        ],
-        "north-america": [
-          1794412800000,
-          1794416400000
-        ],
-        "south-america": [
-          1794409200000,
-          1794412800000
-        ],
-        "asia": [
-          1794369600000,
-          1794373200000
-        ],
-        "oceania": [
-          1794355200000,
-          1794358800000
-        ]
-      },
-      "type": "major",
-      "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1794387600000,
-      "end": 1794391200000,
-      "times": {
-        "europe": [
-          1794387600000,
-          1794391200000
-        ],
-        "north-america": [
-          1794412800000,
-          1794416400000
-        ],
-        "south-america": [
-          1794409200000,
-          1794412800000
-        ],
-        "asia": [
-          1794369600000,
-          1794373200000
-        ],
-        "oceania": [
-          1794355200000,
-          1794358800000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Prospecting Probes",
-      "map": "The Blue Gate",
-      "start": 1794387600000,
-      "end": 1794391200000,
-      "times": {
-        "europe": [
-          1794387600000,
-          1794391200000
-        ],
-        "north-america": [
-          1794412800000,
-          1794416400000
-        ],
-        "south-america": [
-          1794409200000,
-          1794412800000
-        ],
-        "asia": [
-          1794369600000,
-          1794373200000
-        ],
-        "oceania": [
-          1794355200000,
-          1794358800000
-        ]
-      },
-      "type": "minor",
-      "icon": "prospecting_probes.png"
-    },
     {
       "condition": "Night Raid",
       "map": "Buried City",
