@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-11T05:02:14.443Z",
+  "generatedAt": "2026-11-11T05:32:16.760Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-12T15:00:00.000Z",
+  "horizonEnd": "2026-11-12T16:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-12T15:00:00.000Z",
-    "north-america": "2026-11-12T22:00:00.000Z",
-    "south-america": "2026-11-12T21:00:00.000Z",
-    "asia": "2026-11-12T10:00:00.000Z",
-    "oceania": "2026-11-12T06:00:00.000Z"
+    "europe": "2026-11-12T16:00:00.000Z",
+    "north-america": "2026-11-12T23:00:00.000Z",
+    "south-america": "2026-11-12T22:00:00.000Z",
+    "asia": "2026-11-12T11:00:00.000Z",
+    "oceania": "2026-11-12T07:00:00.000Z"
   },
   "regions": [
     {
@@ -5003,6 +5003,156 @@
       },
       "type": "major",
       "icon": "night_raid.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1794495600000,
+      "end": 1794499200000,
+      "times": {
+        "europe": [
+          1794495600000,
+          1794499200000
+        ],
+        "north-america": [
+          1794520800000,
+          1794524400000
+        ],
+        "south-america": [
+          1794517200000,
+          1794520800000
+        ],
+        "asia": [
+          1794477600000,
+          1794481200000
+        ],
+        "oceania": [
+          1794463200000,
+          1794466800000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Electromagnetic Storm",
+      "map": "Dam Battlegrounds",
+      "start": 1794495600000,
+      "end": 1794499200000,
+      "times": {
+        "europe": [
+          1794495600000,
+          1794499200000
+        ],
+        "north-america": [
+          1794520800000,
+          1794524400000
+        ],
+        "south-america": [
+          1794517200000,
+          1794520800000
+        ],
+        "asia": [
+          1794477600000,
+          1794481200000
+        ],
+        "oceania": [
+          1794463200000,
+          1794466800000
+        ]
+      },
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Pendola Pass",
+      "start": 1794495600000,
+      "end": 1794499200000,
+      "times": {
+        "europe": [
+          1794495600000,
+          1794499200000
+        ],
+        "north-america": [
+          1794520800000,
+          1794524400000
+        ],
+        "south-america": [
+          1794517200000,
+          1794520800000
+        ],
+        "asia": [
+          1794477600000,
+          1794481200000
+        ],
+        "oceania": [
+          1794463200000,
+          1794466800000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1794495600000,
+      "end": 1794499200000,
+      "times": {
+        "europe": [
+          1794495600000,
+          1794499200000
+        ],
+        "north-america": [
+          1794520800000,
+          1794524400000
+        ],
+        "south-america": [
+          1794517200000,
+          1794520800000
+        ],
+        "asia": [
+          1794477600000,
+          1794481200000
+        ],
+        "oceania": [
+          1794463200000,
+          1794466800000
+        ]
+      },
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "The Blue Gate",
+      "start": 1794495600000,
+      "end": 1794499200000,
+      "times": {
+        "europe": [
+          1794495600000,
+          1794499200000
+        ],
+        "north-america": [
+          1794520800000,
+          1794524400000
+        ],
+        "south-america": [
+          1794517200000,
+          1794520800000
+        ],
+        "asia": [
+          1794477600000,
+          1794481200000
+        ],
+        "oceania": [
+          1794463200000,
+          1794466800000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
     }
   ]
 }
