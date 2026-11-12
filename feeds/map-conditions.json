@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T08:32:14.868Z",
+  "generatedAt": "2026-11-12T09:02:14.370Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-13T19:00:00.000Z",
@@ -120,96 +120,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Lush Blooms",
-      "map": "Riven Tides",
-      "start": 1794445200000,
-      "end": 1794448800000,
-      "times": {
-        "europe": [
-          1794445200000,
-          1794448800000
-        ],
-        "north-america": [
-          1794470400000,
-          1794474000000
-        ],
-        "south-america": [
-          1794466800000,
-          1794470400000
-        ],
-        "asia": [
-          1794427200000,
-          1794430800000
-        ],
-        "oceania": [
-          1794412800000,
-          1794416400000
-        ]
-      },
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
-    {
-      "condition": "ARC Frigate",
-      "map": "Spaceport",
-      "start": 1794445200000,
-      "end": 1794448800000,
-      "times": {
-        "europe": [
-          1794445200000,
-          1794448800000
-        ],
-        "north-america": [
-          1794470400000,
-          1794474000000
-        ],
-        "south-america": [
-          1794466800000,
-          1794470400000
-        ],
-        "asia": [
-          1794427200000,
-          1794430800000
-        ],
-        "oceania": [
-          1794412800000,
-          1794416400000
-        ]
-      },
-      "type": "major",
-      "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "The Blue Gate",
-      "start": 1794445200000,
-      "end": 1794448800000,
-      "times": {
-        "europe": [
-          1794445200000,
-          1794448800000
-        ],
-        "north-america": [
-          1794470400000,
-          1794474000000
-        ],
-        "south-america": [
-          1794466800000,
-          1794470400000
-        ],
-        "asia": [
-          1794427200000,
-          1794430800000
-        ],
-        "oceania": [
-          1794412800000,
-          1794416400000
-        ]
-      },
-      "type": "minor",
-      "icon": "harvester.png"
-    },
     {
       "condition": "Prospecting Probes",
       "map": "Buried City",
