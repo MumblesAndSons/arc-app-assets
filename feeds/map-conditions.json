@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T14:32:19.855Z",
+  "generatedAt": "2026-11-12T15:02:18.243Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-14T01:00:00.000Z",
@@ -120,96 +120,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Night Raid",
-      "map": "Buried City",
-      "start": 1794466800000,
-      "end": 1794470400000,
-      "times": {
-        "europe": [
-          1794466800000,
-          1794470400000
-        ],
-        "north-america": [
-          1794492000000,
-          1794495600000
-        ],
-        "south-america": [
-          1794488400000,
-          1794492000000
-        ],
-        "asia": [
-          1794448800000,
-          1794452400000
-        ],
-        "oceania": [
-          1794434400000,
-          1794438000000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "ARC Frigate",
-      "map": "Spaceport",
-      "start": 1794466800000,
-      "end": 1794470400000,
-      "times": {
-        "europe": [
-          1794466800000,
-          1794470400000
-        ],
-        "north-america": [
-          1794492000000,
-          1794495600000
-        ],
-        "south-america": [
-          1794488400000,
-          1794492000000
-        ],
-        "asia": [
-          1794448800000,
-          1794452400000
-        ],
-        "oceania": [
-          1794434400000,
-          1794438000000
-        ]
-      },
-      "type": "major",
-      "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Lush Blooms",
-      "map": "The Blue Gate",
-      "start": 1794466800000,
-      "end": 1794470400000,
-      "times": {
-        "europe": [
-          1794466800000,
-          1794470400000
-        ],
-        "north-america": [
-          1794492000000,
-          1794495600000
-        ],
-        "south-america": [
-          1794488400000,
-          1794492000000
-        ],
-        "asia": [
-          1794448800000,
-          1794452400000
-        ],
-        "oceania": [
-          1794434400000,
-          1794438000000
-        ]
-      },
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
     {
       "condition": "Prospecting Probes",
       "map": "Dam Battlegrounds",
@@ -929,20 +839,6 @@
       },
       "type": "minor",
       "icon": "lush_blooms.png"
-    },
-    {
-      "condition": "Redirection",
-      "map": "Pendola Pass",
-      "start": 1794492000000,
-      "end": 1794495600000,
-      "times": {
-        "europe": [
-          1794492000000,
-          1794495600000
-        ]
-      },
-      "type": "minor",
-      "icon": "redirection.png"
     },
     {
       "condition": "Prospecting Probes",
