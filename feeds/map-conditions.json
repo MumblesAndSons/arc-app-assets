@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-14T02:02:13.074Z",
+  "generatedAt": "2026-11-14T02:32:14.365Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-15T12:00:00.000Z",
+  "horizonEnd": "2026-11-15T13:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-15T12:00:00.000Z",
-    "north-america": "2026-11-15T19:00:00.000Z",
-    "south-america": "2026-11-15T18:00:00.000Z",
-    "asia": "2026-11-15T07:00:00.000Z",
-    "oceania": "2026-11-15T03:00:00.000Z"
+    "europe": "2026-11-15T13:00:00.000Z",
+    "north-america": "2026-11-15T20:00:00.000Z",
+    "south-america": "2026-11-15T19:00:00.000Z",
+    "asia": "2026-11-15T08:00:00.000Z",
+    "oceania": "2026-11-15T04:00:00.000Z"
   },
   "regions": [
     {
@@ -3971,6 +3971,20 @@
       "icon": "night_raid.png"
     },
     {
+      "condition": "Redirection",
+      "map": "Pendola Pass",
+      "start": 1794711600000,
+      "end": 1794715200000,
+      "times": {
+        "europe": [
+          1794711600000,
+          1794715200000
+        ]
+      },
+      "type": "minor",
+      "icon": "redirection.png"
+    },
+    {
       "condition": "Beachcombing",
       "map": "Riven Tides",
       "start": 1794711600000,
@@ -4899,6 +4913,156 @@
       },
       "type": "major",
       "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1794744000000,
+      "end": 1794747600000,
+      "times": {
+        "europe": [
+          1794744000000,
+          1794747600000
+        ],
+        "north-america": [
+          1794769200000,
+          1794772800000
+        ],
+        "south-america": [
+          1794765600000,
+          1794769200000
+        ],
+        "asia": [
+          1794726000000,
+          1794729600000
+        ],
+        "oceania": [
+          1794711600000,
+          1794715200000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Electromagnetic Storm",
+      "map": "Dam Battlegrounds",
+      "start": 1794744000000,
+      "end": 1794747600000,
+      "times": {
+        "europe": [
+          1794744000000,
+          1794747600000
+        ],
+        "north-america": [
+          1794769200000,
+          1794772800000
+        ],
+        "south-america": [
+          1794765600000,
+          1794769200000
+        ],
+        "asia": [
+          1794726000000,
+          1794729600000
+        ],
+        "oceania": [
+          1794711600000,
+          1794715200000
+        ]
+      },
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Pendola Pass",
+      "start": 1794744000000,
+      "end": 1794747600000,
+      "times": {
+        "europe": [
+          1794744000000,
+          1794747600000
+        ],
+        "north-america": [
+          1794769200000,
+          1794772800000
+        ],
+        "south-america": [
+          1794765600000,
+          1794769200000
+        ],
+        "asia": [
+          1794726000000,
+          1794729600000
+        ],
+        "oceania": [
+          1794711600000,
+          1794715200000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Beachcombing",
+      "map": "Riven Tides",
+      "start": 1794744000000,
+      "end": 1794747600000,
+      "times": {
+        "europe": [
+          1794744000000,
+          1794747600000
+        ],
+        "north-america": [
+          1794769200000,
+          1794772800000
+        ],
+        "south-america": [
+          1794765600000,
+          1794769200000
+        ],
+        "asia": [
+          1794726000000,
+          1794729600000
+        ],
+        "oceania": [
+          1794711600000,
+          1794715200000
+        ]
+      },
+      "type": "minor",
+      "icon": "beachcombing.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Spaceport",
+      "start": 1794744000000,
+      "end": 1794747600000,
+      "times": {
+        "europe": [
+          1794744000000,
+          1794747600000
+        ],
+        "north-america": [
+          1794769200000,
+          1794772800000
+        ],
+        "south-america": [
+          1794765600000,
+          1794769200000
+        ],
+        "asia": [
+          1794726000000,
+          1794729600000
+        ],
+        "oceania": [
+          1794711600000,
+          1794715200000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
     }
   ]
 }
