@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-14T22:02:14.693Z",
+  "generatedAt": "2026-11-14T22:32:13.641Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-16T08:00:00.000Z",
+  "horizonEnd": "2026-11-16T09:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-16T08:00:00.000Z",
-    "north-america": "2026-11-16T15:00:00.000Z",
-    "south-america": "2026-11-16T14:00:00.000Z",
-    "asia": "2026-11-16T03:00:00.000Z",
-    "oceania": "2026-11-15T23:00:00.000Z"
+    "europe": "2026-11-16T09:00:00.000Z",
+    "north-america": "2026-11-16T16:00:00.000Z",
+    "south-america": "2026-11-16T15:00:00.000Z",
+    "asia": "2026-11-16T04:00:00.000Z",
+    "oceania": "2026-11-16T00:00:00.000Z"
   },
   "regions": [
     {
@@ -3971,6 +3971,20 @@
       "icon": "harvester.png"
     },
     {
+      "condition": "Redirection",
+      "map": "Pendola Pass",
+      "start": 1794783600000,
+      "end": 1794787200000,
+      "times": {
+        "europe": [
+          1794783600000,
+          1794787200000
+        ]
+      },
+      "type": "minor",
+      "icon": "redirection.png"
+    },
+    {
       "condition": "Launch Tower Loot",
       "map": "Spaceport",
       "start": 1794783600000,
@@ -4779,6 +4793,96 @@
       },
       "type": "major",
       "icon": "night_raid.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Buried City",
+      "start": 1794816000000,
+      "end": 1794819600000,
+      "times": {
+        "europe": [
+          1794816000000,
+          1794819600000
+        ],
+        "north-america": [
+          1794841200000,
+          1794844800000
+        ],
+        "south-america": [
+          1794837600000,
+          1794841200000
+        ],
+        "asia": [
+          1794798000000,
+          1794801600000
+        ],
+        "oceania": [
+          1794783600000,
+          1794787200000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Husk Graveyard",
+      "map": "Dam Battlegrounds",
+      "start": 1794816000000,
+      "end": 1794819600000,
+      "times": {
+        "europe": [
+          1794816000000,
+          1794819600000
+        ],
+        "north-america": [
+          1794841200000,
+          1794844800000
+        ],
+        "south-america": [
+          1794837600000,
+          1794841200000
+        ],
+        "asia": [
+          1794798000000,
+          1794801600000
+        ],
+        "oceania": [
+          1794783600000,
+          1794787200000
+        ]
+      },
+      "type": "minor",
+      "icon": "husk_graveyard.png"
+    },
+    {
+      "condition": "Lush Blooms",
+      "map": "Riven Tides",
+      "start": 1794816000000,
+      "end": 1794819600000,
+      "times": {
+        "europe": [
+          1794816000000,
+          1794819600000
+        ],
+        "north-america": [
+          1794841200000,
+          1794844800000
+        ],
+        "south-america": [
+          1794837600000,
+          1794841200000
+        ],
+        "asia": [
+          1794798000000,
+          1794801600000
+        ],
+        "oceania": [
+          1794783600000,
+          1794787200000
+        ]
+      },
+      "type": "minor",
+      "icon": "lush_blooms.png"
     }
   ]
 }
