@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T02:32:14.365Z",
+  "generatedAt": "2026-11-14T03:02:16.499Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-15T13:00:00.000Z",
@@ -120,96 +120,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "ARC Frigate",
-      "map": "Buried City",
-      "start": 1794596400000,
-      "end": 1794600000000,
-      "times": {
-        "europe": [
-          1794596400000,
-          1794600000000
-        ],
-        "north-america": [
-          1794621600000,
-          1794625200000
-        ],
-        "south-america": [
-          1794618000000,
-          1794621600000
-        ],
-        "asia": [
-          1794578400000,
-          1794582000000
-        ],
-        "oceania": [
-          1794564000000,
-          1794567600000
-        ]
-      },
-      "type": "major",
-      "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Beachcombing",
-      "map": "Riven Tides",
-      "start": 1794596400000,
-      "end": 1794600000000,
-      "times": {
-        "europe": [
-          1794596400000,
-          1794600000000
-        ],
-        "north-america": [
-          1794621600000,
-          1794625200000
-        ],
-        "south-america": [
-          1794618000000,
-          1794621600000
-        ],
-        "asia": [
-          1794578400000,
-          1794582000000
-        ],
-        "oceania": [
-          1794564000000,
-          1794567600000
-        ]
-      },
-      "type": "minor",
-      "icon": "beachcombing.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Riven Tides",
-      "start": 1794596400000,
-      "end": 1794600000000,
-      "times": {
-        "europe": [
-          1794596400000,
-          1794600000000
-        ],
-        "north-america": [
-          1794621600000,
-          1794625200000
-        ],
-        "south-america": [
-          1794618000000,
-          1794621600000
-        ],
-        "asia": [
-          1794578400000,
-          1794582000000
-        ],
-        "oceania": [
-          1794564000000,
-          1794567600000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
     {
       "condition": "Hurricane",
       "map": "Buried City",
@@ -989,20 +899,6 @@
       },
       "type": "major",
       "icon": "night_raid.png"
-    },
-    {
-      "condition": "Redirection",
-      "map": "Pendola Pass",
-      "start": 1794621600000,
-      "end": 1794625200000,
-      "times": {
-        "europe": [
-          1794621600000,
-          1794625200000
-        ]
-      },
-      "type": "minor",
-      "icon": "redirection.png"
     },
     {
       "condition": "Beachcombing",
