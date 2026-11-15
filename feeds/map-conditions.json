@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-15T10:02:17.752Z",
+  "generatedAt": "2026-11-15T10:32:15.179Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-16T20:00:00.000Z",
+  "horizonEnd": "2026-11-16T21:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-16T20:00:00.000Z",
-    "north-america": "2026-11-17T03:00:00.000Z",
-    "south-america": "2026-11-17T02:00:00.000Z",
-    "asia": "2026-11-16T15:00:00.000Z",
-    "oceania": "2026-11-16T11:00:00.000Z"
+    "europe": "2026-11-16T21:00:00.000Z",
+    "north-america": "2026-11-17T04:00:00.000Z",
+    "south-america": "2026-11-17T03:00:00.000Z",
+    "asia": "2026-11-16T16:00:00.000Z",
+    "oceania": "2026-11-16T12:00:00.000Z"
   },
   "regions": [
     {
@@ -3759,6 +3759,20 @@
       "icon": "harvester.png"
     },
     {
+      "condition": "Redirection",
+      "map": "Pendola Pass",
+      "start": 1794826800000,
+      "end": 1794830400000,
+      "times": {
+        "europe": [
+          1794826800000,
+          1794830400000
+        ]
+      },
+      "type": "minor",
+      "icon": "redirection.png"
+    },
+    {
       "condition": "Husk Graveyard",
       "map": "Riven Tides",
       "start": 1794826800000,
@@ -4747,6 +4761,156 @@
       },
       "type": "major",
       "icon": "locked_gate.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Buried City",
+      "start": 1794859200000,
+      "end": 1794862800000,
+      "times": {
+        "europe": [
+          1794859200000,
+          1794862800000
+        ],
+        "north-america": [
+          1794884400000,
+          1794888000000
+        ],
+        "south-america": [
+          1794880800000,
+          1794884400000
+        ],
+        "asia": [
+          1794841200000,
+          1794844800000
+        ],
+        "oceania": [
+          1794826800000,
+          1794830400000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Cold Snap",
+      "map": "Dam Battlegrounds",
+      "start": 1794859200000,
+      "end": 1794862800000,
+      "times": {
+        "europe": [
+          1794859200000,
+          1794862800000
+        ],
+        "north-america": [
+          1794884400000,
+          1794888000000
+        ],
+        "south-america": [
+          1794880800000,
+          1794884400000
+        ],
+        "asia": [
+          1794841200000,
+          1794844800000
+        ],
+        "oceania": [
+          1794826800000,
+          1794830400000
+        ]
+      },
+      "type": "major",
+      "icon": "cold_snap.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Pendola Pass",
+      "start": 1794859200000,
+      "end": 1794862800000,
+      "times": {
+        "europe": [
+          1794859200000,
+          1794862800000
+        ],
+        "north-america": [
+          1794884400000,
+          1794888000000
+        ],
+        "south-america": [
+          1794880800000,
+          1794884400000
+        ],
+        "asia": [
+          1794841200000,
+          1794844800000
+        ],
+        "oceania": [
+          1794826800000,
+          1794830400000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Husk Graveyard",
+      "map": "Riven Tides",
+      "start": 1794859200000,
+      "end": 1794862800000,
+      "times": {
+        "europe": [
+          1794859200000,
+          1794862800000
+        ],
+        "north-america": [
+          1794884400000,
+          1794888000000
+        ],
+        "south-america": [
+          1794880800000,
+          1794884400000
+        ],
+        "asia": [
+          1794841200000,
+          1794844800000
+        ],
+        "oceania": [
+          1794826800000,
+          1794830400000
+        ]
+      },
+      "type": "minor",
+      "icon": "husk_graveyard.png"
+    },
+    {
+      "condition": "Lush Blooms",
+      "map": "Spaceport",
+      "start": 1794859200000,
+      "end": 1794862800000,
+      "times": {
+        "europe": [
+          1794859200000,
+          1794862800000
+        ],
+        "north-america": [
+          1794884400000,
+          1794888000000
+        ],
+        "south-america": [
+          1794880800000,
+          1794884400000
+        ],
+        "asia": [
+          1794841200000,
+          1794844800000
+        ],
+        "oceania": [
+          1794826800000,
+          1794830400000
+        ]
+      },
+      "type": "minor",
+      "icon": "lush_blooms.png"
     }
   ]
 }
