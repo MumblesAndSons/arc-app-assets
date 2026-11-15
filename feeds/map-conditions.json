@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T03:32:12.946Z",
+  "generatedAt": "2026-11-15T04:02:14.777Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-16T14:00:00.000Z",
@@ -121,96 +121,6 @@
   ],
   "entries": [
     {
-      "condition": "ARC Frigate",
-      "map": "Buried City",
-      "start": 1794686400000,
-      "end": 1794690000000,
-      "times": {
-        "europe": [
-          1794686400000,
-          1794690000000
-        ],
-        "north-america": [
-          1794711600000,
-          1794715200000
-        ],
-        "south-america": [
-          1794708000000,
-          1794711600000
-        ],
-        "asia": [
-          1794668400000,
-          1794672000000
-        ],
-        "oceania": [
-          1794654000000,
-          1794657600000
-        ]
-      },
-      "type": "major",
-      "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Beachcombing",
-      "map": "Riven Tides",
-      "start": 1794686400000,
-      "end": 1794690000000,
-      "times": {
-        "europe": [
-          1794686400000,
-          1794690000000
-        ],
-        "north-america": [
-          1794711600000,
-          1794715200000
-        ],
-        "south-america": [
-          1794708000000,
-          1794711600000
-        ],
-        "asia": [
-          1794668400000,
-          1794672000000
-        ],
-        "oceania": [
-          1794654000000,
-          1794657600000
-        ]
-      },
-      "type": "minor",
-      "icon": "beachcombing.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Riven Tides",
-      "start": 1794686400000,
-      "end": 1794690000000,
-      "times": {
-        "europe": [
-          1794686400000,
-          1794690000000
-        ],
-        "north-america": [
-          1794711600000,
-          1794715200000
-        ],
-        "south-america": [
-          1794708000000,
-          1794711600000
-        ],
-        "asia": [
-          1794668400000,
-          1794672000000
-        ],
-        "oceania": [
-          1794654000000,
-          1794657600000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
       "condition": "Electromagnetic Storm",
       "map": "Dam Battlegrounds",
       "start": 1794690000000,
@@ -989,20 +899,6 @@
       },
       "type": "major",
       "icon": "night_raid.png"
-    },
-    {
-      "condition": "Redirection",
-      "map": "Pendola Pass",
-      "start": 1794711600000,
-      "end": 1794715200000,
-      "times": {
-        "europe": [
-          1794711600000,
-          1794715200000
-        ]
-      },
-      "type": "minor",
-      "icon": "redirection.png"
     },
     {
       "condition": "Beachcombing",
