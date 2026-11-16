@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T20:32:18.404Z",
+  "generatedAt": "2026-11-16T21:01:44.776Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-18T07:00:00.000Z",
@@ -110,96 +110,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Bird City",
-      "map": "Buried City",
-      "start": 1794834000000,
-      "end": 1794837600000,
-      "times": {
-        "europe": [
-          1794834000000,
-          1794837600000
-        ],
-        "north-america": [
-          1794859200000,
-          1794862800000
-        ],
-        "south-america": [
-          1794855600000,
-          1794859200000
-        ],
-        "asia": [
-          1794816000000,
-          1794819600000
-        ],
-        "oceania": [
-          1794801600000,
-          1794805200000
-        ]
-      },
-      "type": "minor",
-      "icon": "bird_city.png"
-    },
-    {
-      "condition": "Close Scrutiny",
-      "map": "Dam Battlegrounds",
-      "start": 1794834000000,
-      "end": 1794837600000,
-      "times": {
-        "europe": [
-          1794834000000,
-          1794837600000
-        ],
-        "north-america": [
-          1794859200000,
-          1794862800000
-        ],
-        "south-america": [
-          1794855600000,
-          1794859200000
-        ],
-        "asia": [
-          1794816000000,
-          1794819600000
-        ],
-        "oceania": [
-          1794801600000,
-          1794805200000
-        ]
-      },
-      "type": "major",
-      "icon": "close_scrutiny.png"
-    },
-    {
-      "condition": "Electromagnetic Storm",
-      "map": "The Blue Gate",
-      "start": 1794834000000,
-      "end": 1794837600000,
-      "times": {
-        "europe": [
-          1794834000000,
-          1794837600000
-        ],
-        "north-america": [
-          1794859200000,
-          1794862800000
-        ],
-        "south-america": [
-          1794855600000,
-          1794859200000
-        ],
-        "asia": [
-          1794816000000,
-          1794819600000
-        ],
-        "oceania": [
-          1794801600000,
-          1794805200000
-        ]
-      },
-      "type": "major",
-      "icon": "electromagnetic_storm.png"
-    },
     {
       "condition": "Harvester",
       "map": "Dam Battlegrounds",
