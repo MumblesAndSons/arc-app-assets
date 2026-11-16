@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-16T02:02:14.694Z",
+  "generatedAt": "2026-11-16T02:32:15.817Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-17T12:00:00.000Z",
+  "horizonEnd": "2026-11-17T13:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-17T12:00:00.000Z",
-    "north-america": "2026-11-17T19:00:00.000Z",
-    "south-america": "2026-11-17T18:00:00.000Z",
-    "asia": "2026-11-17T07:00:00.000Z",
-    "oceania": "2026-11-17T03:00:00.000Z"
+    "europe": "2026-11-17T13:00:00.000Z",
+    "north-america": "2026-11-17T20:00:00.000Z",
+    "south-america": "2026-11-17T19:00:00.000Z",
+    "asia": "2026-11-17T08:00:00.000Z",
+    "oceania": "2026-11-17T04:00:00.000Z"
   },
   "regions": [
     {
@@ -4523,6 +4523,126 @@
       },
       "type": "major",
       "icon": "cold_snap.png"
+    },
+    {
+      "condition": "Hurricane",
+      "map": "Buried City",
+      "start": 1794916800000,
+      "end": 1794920400000,
+      "times": {
+        "europe": [
+          1794916800000,
+          1794920400000
+        ],
+        "north-america": [
+          1794942000000,
+          1794945600000
+        ],
+        "south-america": [
+          1794938400000,
+          1794942000000
+        ],
+        "asia": [
+          1794898800000,
+          1794902400000
+        ],
+        "oceania": [
+          1794884400000,
+          1794888000000
+        ]
+      },
+      "type": "major",
+      "icon": "hurricane.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Dam Battlegrounds",
+      "start": 1794916800000,
+      "end": 1794920400000,
+      "times": {
+        "europe": [
+          1794916800000,
+          1794920400000
+        ],
+        "north-america": [
+          1794942000000,
+          1794945600000
+        ],
+        "south-america": [
+          1794938400000,
+          1794942000000
+        ],
+        "asia": [
+          1794898800000,
+          1794902400000
+        ],
+        "oceania": [
+          1794884400000,
+          1794888000000
+        ]
+      },
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
+      "condition": "Husk Graveyard",
+      "map": "Riven Tides",
+      "start": 1794916800000,
+      "end": 1794920400000,
+      "times": {
+        "europe": [
+          1794916800000,
+          1794920400000
+        ],
+        "north-america": [
+          1794942000000,
+          1794945600000
+        ],
+        "south-america": [
+          1794938400000,
+          1794942000000
+        ],
+        "asia": [
+          1794898800000,
+          1794902400000
+        ],
+        "oceania": [
+          1794884400000,
+          1794888000000
+        ]
+      },
+      "type": "minor",
+      "icon": "husk_graveyard.png"
+    },
+    {
+      "condition": "Locked Gate",
+      "map": "The Blue Gate",
+      "start": 1794916800000,
+      "end": 1794920400000,
+      "times": {
+        "europe": [
+          1794916800000,
+          1794920400000
+        ],
+        "north-america": [
+          1794942000000,
+          1794945600000
+        ],
+        "south-america": [
+          1794938400000,
+          1794942000000
+        ],
+        "asia": [
+          1794898800000,
+          1794902400000
+        ],
+        "oceania": [
+          1794884400000,
+          1794888000000
+        ]
+      },
+      "type": "major",
+      "icon": "locked_gate.png"
     }
   ]
 }
