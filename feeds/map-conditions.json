@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-16T12:02:15.043Z",
+  "generatedAt": "2026-11-16T12:32:17.506Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-17T22:00:00.000Z",
+  "horizonEnd": "2026-11-17T23:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-17T22:00:00.000Z",
-    "north-america": "2026-11-18T05:00:00.000Z",
-    "south-america": "2026-11-18T04:00:00.000Z",
-    "asia": "2026-11-17T17:00:00.000Z",
-    "oceania": "2026-11-17T13:00:00.000Z"
+    "europe": "2026-11-17T23:00:00.000Z",
+    "north-america": "2026-11-18T06:00:00.000Z",
+    "south-america": "2026-11-18T05:00:00.000Z",
+    "asia": "2026-11-17T18:00:00.000Z",
+    "oceania": "2026-11-17T14:00:00.000Z"
   },
   "regions": [
     {
@@ -4689,6 +4689,156 @@
         "oceania": [
           1794916800000,
           1794920400000
+        ]
+      },
+      "type": "minor",
+      "icon": "lush_blooms.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Buried City",
+      "start": 1794952800000,
+      "end": 1794956400000,
+      "times": {
+        "europe": [
+          1794952800000,
+          1794956400000
+        ],
+        "north-america": [
+          1794978000000,
+          1794981600000
+        ],
+        "south-america": [
+          1794974400000,
+          1794978000000
+        ],
+        "asia": [
+          1794934800000,
+          1794938400000
+        ],
+        "oceania": [
+          1794920400000,
+          1794924000000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Cold Snap",
+      "map": "Dam Battlegrounds",
+      "start": 1794952800000,
+      "end": 1794956400000,
+      "times": {
+        "europe": [
+          1794952800000,
+          1794956400000
+        ],
+        "north-america": [
+          1794978000000,
+          1794981600000
+        ],
+        "south-america": [
+          1794974400000,
+          1794978000000
+        ],
+        "asia": [
+          1794934800000,
+          1794938400000
+        ],
+        "oceania": [
+          1794920400000,
+          1794924000000
+        ]
+      },
+      "type": "major",
+      "icon": "cold_snap.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Pendola Pass",
+      "start": 1794952800000,
+      "end": 1794956400000,
+      "times": {
+        "europe": [
+          1794952800000,
+          1794956400000
+        ],
+        "north-america": [
+          1794978000000,
+          1794981600000
+        ],
+        "south-america": [
+          1794974400000,
+          1794978000000
+        ],
+        "asia": [
+          1794934800000,
+          1794938400000
+        ],
+        "oceania": [
+          1794920400000,
+          1794924000000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Husk Graveyard",
+      "map": "Riven Tides",
+      "start": 1794952800000,
+      "end": 1794956400000,
+      "times": {
+        "europe": [
+          1794952800000,
+          1794956400000
+        ],
+        "north-america": [
+          1794978000000,
+          1794981600000
+        ],
+        "south-america": [
+          1794974400000,
+          1794978000000
+        ],
+        "asia": [
+          1794934800000,
+          1794938400000
+        ],
+        "oceania": [
+          1794920400000,
+          1794924000000
+        ]
+      },
+      "type": "minor",
+      "icon": "husk_graveyard.png"
+    },
+    {
+      "condition": "Lush Blooms",
+      "map": "Spaceport",
+      "start": 1794952800000,
+      "end": 1794956400000,
+      "times": {
+        "europe": [
+          1794952800000,
+          1794956400000
+        ],
+        "north-america": [
+          1794978000000,
+          1794981600000
+        ],
+        "south-america": [
+          1794974400000,
+          1794978000000
+        ],
+        "asia": [
+          1794934800000,
+          1794938400000
+        ],
+        "oceania": [
+          1794920400000,
+          1794924000000
         ]
       },
       "type": "minor",
