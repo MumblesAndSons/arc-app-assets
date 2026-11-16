@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T03:32:19.287Z",
+  "generatedAt": "2026-11-16T04:02:16.819Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-17T14:00:00.000Z",
@@ -115,126 +115,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "ARC Frigate",
-      "map": "Dam Battlegrounds",
-      "start": 1794772800000,
-      "end": 1794776400000,
-      "times": {
-        "europe": [
-          1794772800000,
-          1794776400000
-        ],
-        "north-america": [
-          1794798000000,
-          1794801600000
-        ],
-        "south-america": [
-          1794794400000,
-          1794798000000
-        ],
-        "asia": [
-          1794754800000,
-          1794758400000
-        ],
-        "oceania": [
-          1794740400000,
-          1794744000000
-        ]
-      },
-      "type": "major",
-      "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "Spaceport",
-      "start": 1794772800000,
-      "end": 1794776400000,
-      "times": {
-        "europe": [
-          1794772800000,
-          1794776400000
-        ],
-        "north-america": [
-          1794798000000,
-          1794801600000
-        ],
-        "south-america": [
-          1794794400000,
-          1794798000000
-        ],
-        "asia": [
-          1794754800000,
-          1794758400000
-        ],
-        "oceania": [
-          1794740400000,
-          1794744000000
-        ]
-      },
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "The Blue Gate",
-      "start": 1794772800000,
-      "end": 1794776400000,
-      "times": {
-        "europe": [
-          1794772800000,
-          1794776400000
-        ],
-        "north-america": [
-          1794798000000,
-          1794801600000
-        ],
-        "south-america": [
-          1794794400000,
-          1794798000000
-        ],
-        "asia": [
-          1794754800000,
-          1794758400000
-        ],
-        "oceania": [
-          1794740400000,
-          1794744000000
-        ]
-      },
-      "type": "minor",
-      "icon": "harvester.png"
-    },
-    {
-      "condition": "Locked Gate",
-      "map": "The Blue Gate",
-      "start": 1794772800000,
-      "end": 1794776400000,
-      "times": {
-        "europe": [
-          1794772800000,
-          1794776400000
-        ],
-        "north-america": [
-          1794798000000,
-          1794801600000
-        ],
-        "south-america": [
-          1794794400000,
-          1794798000000
-        ],
-        "asia": [
-          1794754800000,
-          1794758400000
-        ],
-        "oceania": [
-          1794740400000,
-          1794744000000
-        ]
-      },
-      "type": "major",
-      "icon": "locked_gate.png"
-    },
     {
       "condition": "ARC Frigate",
       "map": "Buried City",
@@ -804,20 +684,6 @@
       },
       "type": "minor",
       "icon": "harvester.png"
-    },
-    {
-      "condition": "Redirection",
-      "map": "Pendola Pass",
-      "start": 1794798000000,
-      "end": 1794801600000,
-      "times": {
-        "europe": [
-          1794798000000,
-          1794801600000
-        ]
-      },
-      "type": "minor",
-      "icon": "redirection.png"
     },
     {
       "condition": "Launch Tower Loot",
