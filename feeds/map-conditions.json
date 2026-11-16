@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T08:32:14.962Z",
+  "generatedAt": "2026-11-16T09:02:16.097Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-17T19:00:00.000Z",
@@ -110,66 +110,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Bird City",
-      "map": "Buried City",
-      "start": 1794790800000,
-      "end": 1794794400000,
-      "times": {
-        "europe": [
-          1794790800000,
-          1794794400000
-        ],
-        "north-america": [
-          1794816000000,
-          1794819600000
-        ],
-        "south-america": [
-          1794812400000,
-          1794816000000
-        ],
-        "asia": [
-          1794772800000,
-          1794776400000
-        ],
-        "oceania": [
-          1794758400000,
-          1794762000000
-        ]
-      },
-      "type": "minor",
-      "icon": "bird_city.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Spaceport",
-      "start": 1794790800000,
-      "end": 1794794400000,
-      "times": {
-        "europe": [
-          1794790800000,
-          1794794400000
-        ],
-        "north-america": [
-          1794816000000,
-          1794819600000
-        ],
-        "south-america": [
-          1794812400000,
-          1794816000000
-        ],
-        "asia": [
-          1794772800000,
-          1794776400000
-        ],
-        "oceania": [
-          1794758400000,
-          1794762000000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
     {
       "condition": "Lush Blooms",
       "map": "Buried City",
