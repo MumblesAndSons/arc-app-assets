@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-16T19:02:17.145Z",
+  "generatedAt": "2026-11-16T20:06:17.973Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-18T05:00:00.000Z",
+  "horizonEnd": "2026-11-18T06:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-18T05:00:00.000Z",
-    "north-america": "2026-11-18T12:00:00.000Z",
-    "south-america": "2026-11-18T11:00:00.000Z",
-    "asia": "2026-11-18T00:00:00.000Z",
-    "oceania": "2026-11-17T20:00:00.000Z"
+    "europe": "2026-11-18T06:00:00.000Z",
+    "north-america": "2026-11-18T13:00:00.000Z",
+    "south-america": "2026-11-18T12:00:00.000Z",
+    "asia": "2026-11-18T01:00:00.000Z",
+    "oceania": "2026-11-17T21:00:00.000Z"
   },
   "regions": [
     {
@@ -111,126 +111,6 @@
   ],
   "entries": [
     {
-      "condition": "ARC Frigate",
-      "map": "Pendola Pass",
-      "start": 1794830400000,
-      "end": 1794834000000,
-      "times": {
-        "europe": [
-          1794830400000,
-          1794834000000
-        ],
-        "north-america": [
-          1794855600000,
-          1794859200000
-        ],
-        "south-america": [
-          1794852000000,
-          1794855600000
-        ],
-        "asia": [
-          1794812400000,
-          1794816000000
-        ],
-        "oceania": [
-          1794798000000,
-          1794801600000
-        ]
-      },
-      "type": "major",
-      "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Lush Blooms",
-      "map": "Spaceport",
-      "start": 1794830400000,
-      "end": 1794834000000,
-      "times": {
-        "europe": [
-          1794830400000,
-          1794834000000
-        ],
-        "north-america": [
-          1794855600000,
-          1794859200000
-        ],
-        "south-america": [
-          1794852000000,
-          1794855600000
-        ],
-        "asia": [
-          1794812400000,
-          1794816000000
-        ],
-        "oceania": [
-          1794798000000,
-          1794801600000
-        ]
-      },
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1794830400000,
-      "end": 1794834000000,
-      "times": {
-        "europe": [
-          1794830400000,
-          1794834000000
-        ],
-        "north-america": [
-          1794855600000,
-          1794859200000
-        ],
-        "south-america": [
-          1794852000000,
-          1794855600000
-        ],
-        "asia": [
-          1794812400000,
-          1794816000000
-        ],
-        "oceania": [
-          1794798000000,
-          1794801600000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "The Blue Gate",
-      "start": 1794830400000,
-      "end": 1794834000000,
-      "times": {
-        "europe": [
-          1794830400000,
-          1794834000000
-        ],
-        "north-america": [
-          1794855600000,
-          1794859200000
-        ],
-        "south-america": [
-          1794852000000,
-          1794855600000
-        ],
-        "asia": [
-          1794812400000,
-          1794816000000
-        ],
-        "oceania": [
-          1794798000000,
-          1794801600000
-        ]
-      },
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
-    {
       "condition": "Bird City",
       "map": "Buried City",
       "start": 1794834000000,
@@ -949,20 +829,6 @@
       },
       "type": "major",
       "icon": "hurricane.png"
-    },
-    {
-      "condition": "Redirection",
-      "map": "Pendola Pass",
-      "start": 1794855600000,
-      "end": 1794859200000,
-      "times": {
-        "europe": [
-          1794855600000,
-          1794859200000
-        ]
-      },
-      "type": "minor",
-      "icon": "redirection.png"
     },
     {
       "condition": "Night Raid",
@@ -3765,6 +3631,20 @@
       "icon": "close_scrutiny.png"
     },
     {
+      "condition": "Redirection",
+      "map": "Pendola Pass",
+      "start": 1794945600000,
+      "end": 1794949200000,
+      "times": {
+        "europe": [
+          1794945600000,
+          1794949200000
+        ]
+      },
+      "type": "minor",
+      "icon": "redirection.png"
+    },
+    {
       "condition": "Night Raid",
       "map": "Spaceport",
       "start": 1794945600000,
@@ -4723,6 +4603,96 @@
       },
       "type": "minor",
       "icon": "harvester.png"
+    },
+    {
+      "condition": "Launch Tower Loot",
+      "map": "Spaceport",
+      "start": 1794978000000,
+      "end": 1794981600000,
+      "times": {
+        "europe": [
+          1794978000000,
+          1794981600000
+        ],
+        "north-america": [
+          1795003200000,
+          1795006800000
+        ],
+        "south-america": [
+          1794999600000,
+          1795003200000
+        ],
+        "asia": [
+          1794960000000,
+          1794963600000
+        ],
+        "oceania": [
+          1794945600000,
+          1794949200000
+        ]
+      },
+      "type": "minor",
+      "icon": "launch_tower_loot.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1794978000000,
+      "end": 1794981600000,
+      "times": {
+        "europe": [
+          1794978000000,
+          1794981600000
+        ],
+        "north-america": [
+          1795003200000,
+          1795006800000
+        ],
+        "south-america": [
+          1794999600000,
+          1795003200000
+        ],
+        "asia": [
+          1794960000000,
+          1794963600000
+        ],
+        "oceania": [
+          1794945600000,
+          1794949200000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "The Blue Gate",
+      "start": 1794978000000,
+      "end": 1794981600000,
+      "times": {
+        "europe": [
+          1794978000000,
+          1794981600000
+        ],
+        "north-america": [
+          1795003200000,
+          1795006800000
+        ],
+        "south-america": [
+          1794999600000,
+          1795003200000
+        ],
+        "asia": [
+          1794960000000,
+          1794963600000
+        ],
+        "oceania": [
+          1794945600000,
+          1794949200000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
     }
   ]
 }
