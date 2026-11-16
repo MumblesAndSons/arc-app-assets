@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T05:02:15.995Z",
+  "generatedAt": "2026-11-16T05:17:13.131Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-17T15:00:00.000Z",
@@ -37,11 +37,6 @@
       "name": "ARC Frigate",
       "type": "major",
       "icon": "arc_frigate.png"
-    },
-    {
-      "name": "Beachcombing",
-      "type": "minor",
-      "icon": "beachcombing.png"
     },
     {
       "name": "Bird City",
