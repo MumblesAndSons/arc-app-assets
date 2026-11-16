@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T03:02:14.001Z",
+  "generatedAt": "2026-11-16T03:10:22.411Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-17T13:00:00.000Z",
@@ -107,11 +107,6 @@
       "name": "Night Raid",
       "type": "major",
       "icon": "night_raid.png"
-    },
-    {
-      "name": "Prospecting Probes",
-      "type": "minor",
-      "icon": "prospecting_probes.png"
     },
     {
       "name": "Redirection",
