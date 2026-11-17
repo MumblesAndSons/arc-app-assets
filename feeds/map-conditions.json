@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T16:32:20.249Z",
+  "generatedAt": "2026-11-17T17:02:17.098Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-19T03:00:00.000Z",
@@ -115,96 +115,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "ARC Frigate",
-      "map": "Buried City",
-      "start": 1794906000000,
-      "end": 1794909600000,
-      "times": {
-        "europe": [
-          1794906000000,
-          1794909600000
-        ],
-        "north-america": [
-          1794931200000,
-          1794934800000
-        ],
-        "south-america": [
-          1794927600000,
-          1794931200000
-        ],
-        "asia": [
-          1794888000000,
-          1794891600000
-        ],
-        "oceania": [
-          1794873600000,
-          1794877200000
-        ]
-      },
-      "type": "major",
-      "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Husk Graveyard",
-      "map": "Dam Battlegrounds",
-      "start": 1794906000000,
-      "end": 1794909600000,
-      "times": {
-        "europe": [
-          1794906000000,
-          1794909600000
-        ],
-        "north-america": [
-          1794931200000,
-          1794934800000
-        ],
-        "south-america": [
-          1794927600000,
-          1794931200000
-        ],
-        "asia": [
-          1794888000000,
-          1794891600000
-        ],
-        "oceania": [
-          1794873600000,
-          1794877200000
-        ]
-      },
-      "type": "minor",
-      "icon": "husk_graveyard.png"
-    },
-    {
-      "condition": "Lush Blooms",
-      "map": "Riven Tides",
-      "start": 1794906000000,
-      "end": 1794909600000,
-      "times": {
-        "europe": [
-          1794906000000,
-          1794909600000
-        ],
-        "north-america": [
-          1794931200000,
-          1794934800000
-        ],
-        "south-america": [
-          1794927600000,
-          1794931200000
-        ],
-        "asia": [
-          1794888000000,
-          1794891600000
-        ],
-        "oceania": [
-          1794873600000,
-          1794877200000
-        ]
-      },
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
     {
       "condition": "Electromagnetic Storm",
       "map": "Dam Battlegrounds",
@@ -954,20 +864,6 @@
       },
       "type": "major",
       "icon": "night_raid.png"
-    },
-    {
-      "condition": "Redirection",
-      "map": "Pendola Pass",
-      "start": 1794931200000,
-      "end": 1794934800000,
-      "times": {
-        "europe": [
-          1794931200000,
-          1794934800000
-        ]
-      },
-      "type": "minor",
-      "icon": "redirection.png"
     },
     {
       "condition": "Hidden Bunker",
