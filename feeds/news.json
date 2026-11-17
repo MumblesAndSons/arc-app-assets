@@ -1,7 +1,17 @@
 {
-  "generatedAt": "2026-11-17T08:32:21.674Z",
+  "generatedAt": "2026-11-17T10:02:40.102Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
+    {
+      "id": "live-update-2-6-0",
+      "title": "Live Update 2.6.0",
+      "date": "November 17, 2026",
+      "image": "https://assets.arcraiders.com/article-cards/5f543c3c-3850-live-update-2.06-card-600x400-300x200.png",
+      "tags": [
+        "Patch Notes"
+      ],
+      "summary": "Heads up, Raiders! Live Update 2.6.0 is rolling out now, bringing a wave of fixes and improvements detailed below. On top of that, a new Stencil set has arrived so you can customize your hard-won weapons."
+    },
     {
       "id": "store-update-2-5-0",
       "title": "Store Update 2.5.0",
@@ -354,14 +364,6 @@
         "Patch Notes"
       ],
       "summary": "Your tentative alliance with the Nomads keeps growing stronger. Nomads roam the streets of Speranza, offering stories, useful information, and loot to trade. With the ARC presence Topside continuing to expand, having dependable allies matte"
-    },
-    {
-      "id": "trials-season-5",
-      "title": "Trials Season 5: Prove Your Mettle",
-      "date": "July 1, 2026",
-      "image": "https://assets.arcraiders.com/article-cards/c4904225-86cd-trials-s5-card-300x200-300x200.png",
-      "tags": [],
-      "summary": "Menacing machines continue to stalk the surface, and their activity keeps ramping up at a worrying pace. Across Season 4 of your weekly Trials, you've shot, burned, exploded, bludgeoned, and scavenged your way through the chaos, gathering e"
     }
   ]
 }
