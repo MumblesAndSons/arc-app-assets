@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T01:32:15.802Z",
+  "generatedAt": "2026-11-17T02:02:15.068Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-18T12:00:00.000Z",
@@ -110,126 +110,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Lush Blooms",
-      "map": "Buried City",
-      "start": 1794852000000,
-      "end": 1794855600000,
-      "times": {
-        "europe": [
-          1794852000000,
-          1794855600000
-        ],
-        "north-america": [
-          1794877200000,
-          1794880800000
-        ],
-        "south-america": [
-          1794873600000,
-          1794877200000
-        ],
-        "asia": [
-          1794834000000,
-          1794837600000
-        ],
-        "oceania": [
-          1794819600000,
-          1794823200000
-        ]
-      },
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
-    {
-      "condition": "Husk Graveyard",
-      "map": "Dam Battlegrounds",
-      "start": 1794852000000,
-      "end": 1794855600000,
-      "times": {
-        "europe": [
-          1794852000000,
-          1794855600000
-        ],
-        "north-america": [
-          1794877200000,
-          1794880800000
-        ],
-        "south-america": [
-          1794873600000,
-          1794877200000
-        ],
-        "asia": [
-          1794834000000,
-          1794837600000
-        ],
-        "oceania": [
-          1794819600000,
-          1794823200000
-        ]
-      },
-      "type": "minor",
-      "icon": "husk_graveyard.png"
-    },
-    {
-      "condition": "ARC Frigate",
-      "map": "Spaceport",
-      "start": 1794852000000,
-      "end": 1794855600000,
-      "times": {
-        "europe": [
-          1794852000000,
-          1794855600000
-        ],
-        "north-america": [
-          1794877200000,
-          1794880800000
-        ],
-        "south-america": [
-          1794873600000,
-          1794877200000
-        ],
-        "asia": [
-          1794834000000,
-          1794837600000
-        ],
-        "oceania": [
-          1794819600000,
-          1794823200000
-        ]
-      },
-      "type": "major",
-      "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1794852000000,
-      "end": 1794855600000,
-      "times": {
-        "europe": [
-          1794852000000,
-          1794855600000
-        ],
-        "north-america": [
-          1794877200000,
-          1794880800000
-        ],
-        "south-america": [
-          1794873600000,
-          1794877200000
-        ],
-        "asia": [
-          1794834000000,
-          1794837600000
-        ],
-        "oceania": [
-          1794819600000,
-          1794823200000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
     {
       "condition": "Bird City",
       "map": "Buried City",
@@ -979,20 +859,6 @@
       },
       "type": "major",
       "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Redirection",
-      "map": "Pendola Pass",
-      "start": 1794877200000,
-      "end": 1794880800000,
-      "times": {
-        "europe": [
-          1794877200000,
-          1794880800000
-        ]
-      },
-      "type": "minor",
-      "icon": "redirection.png"
     },
     {
       "condition": "Lush Blooms",
