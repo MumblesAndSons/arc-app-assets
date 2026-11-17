@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-17T22:02:16.974Z",
+  "generatedAt": "2026-11-17T22:32:16.774Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-19T08:00:00.000Z",
+  "horizonEnd": "2026-11-19T09:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-19T08:00:00.000Z",
-    "north-america": "2026-11-19T15:00:00.000Z",
-    "south-america": "2026-11-19T14:00:00.000Z",
-    "asia": "2026-11-19T03:00:00.000Z",
-    "oceania": "2026-11-18T23:00:00.000Z"
+    "europe": "2026-11-19T09:00:00.000Z",
+    "north-america": "2026-11-19T16:00:00.000Z",
+    "south-america": "2026-11-19T15:00:00.000Z",
+    "asia": "2026-11-19T04:00:00.000Z",
+    "oceania": "2026-11-19T00:00:00.000Z"
   },
   "regions": [
     {
@@ -4668,6 +4668,66 @@
       },
       "type": "minor",
       "icon": "husk_graveyard.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Pendola Pass",
+      "start": 1795075200000,
+      "end": 1795078800000,
+      "times": {
+        "europe": [
+          1795075200000,
+          1795078800000
+        ],
+        "north-america": [
+          1795100400000,
+          1795104000000
+        ],
+        "south-america": [
+          1795096800000,
+          1795100400000
+        ],
+        "asia": [
+          1795057200000,
+          1795060800000
+        ],
+        "oceania": [
+          1795042800000,
+          1795046400000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Spaceport",
+      "start": 1795075200000,
+      "end": 1795078800000,
+      "times": {
+        "europe": [
+          1795075200000,
+          1795078800000
+        ],
+        "north-america": [
+          1795100400000,
+          1795104000000
+        ],
+        "south-america": [
+          1795096800000,
+          1795100400000
+        ],
+        "asia": [
+          1795057200000,
+          1795060800000
+        ],
+        "oceania": [
+          1795042800000,
+          1795046400000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
     }
   ]
 }
