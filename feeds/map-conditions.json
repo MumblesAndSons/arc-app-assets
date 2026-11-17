@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-17T08:02:15.282Z",
+  "generatedAt": "2026-11-17T08:32:21.182Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-18T18:00:00.000Z",
+  "horizonEnd": "2026-11-18T19:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-18T18:00:00.000Z",
-    "north-america": "2026-11-19T01:00:00.000Z",
-    "south-america": "2026-11-19T00:00:00.000Z",
-    "asia": "2026-11-18T13:00:00.000Z",
-    "oceania": "2026-11-18T09:00:00.000Z"
+    "europe": "2026-11-18T19:00:00.000Z",
+    "north-america": "2026-11-19T02:00:00.000Z",
+    "south-america": "2026-11-19T01:00:00.000Z",
+    "asia": "2026-11-18T14:00:00.000Z",
+    "oceania": "2026-11-18T10:00:00.000Z"
   },
   "regions": [
     {
@@ -3645,6 +3645,20 @@
       "icon": "bird_city.png"
     },
     {
+      "condition": "Redirection",
+      "map": "Pendola Pass",
+      "start": 1794992400000,
+      "end": 1794996000000,
+      "times": {
+        "europe": [
+          1794992400000,
+          1794996000000
+        ]
+      },
+      "type": "minor",
+      "icon": "redirection.png"
+    },
+    {
       "condition": "Harvester",
       "map": "Spaceport",
       "start": 1794992400000,
@@ -4603,6 +4617,96 @@
       },
       "type": "minor",
       "icon": "matriarch.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1795024800000,
+      "end": 1795028400000,
+      "times": {
+        "europe": [
+          1795024800000,
+          1795028400000
+        ],
+        "north-america": [
+          1795050000000,
+          1795053600000
+        ],
+        "south-america": [
+          1795046400000,
+          1795050000000
+        ],
+        "asia": [
+          1795006800000,
+          1795010400000
+        ],
+        "oceania": [
+          1794992400000,
+          1794996000000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Dam Battlegrounds",
+      "start": 1795024800000,
+      "end": 1795028400000,
+      "times": {
+        "europe": [
+          1795024800000,
+          1795028400000
+        ],
+        "north-america": [
+          1795050000000,
+          1795053600000
+        ],
+        "south-america": [
+          1795046400000,
+          1795050000000
+        ],
+        "asia": [
+          1795006800000,
+          1795010400000
+        ],
+        "oceania": [
+          1794992400000,
+          1794996000000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "The Blue Gate",
+      "start": 1795024800000,
+      "end": 1795028400000,
+      "times": {
+        "europe": [
+          1795024800000,
+          1795028400000
+        ],
+        "north-america": [
+          1795050000000,
+          1795053600000
+        ],
+        "south-america": [
+          1795046400000,
+          1795050000000
+        ],
+        "asia": [
+          1795006800000,
+          1795010400000
+        ],
+        "oceania": [
+          1794992400000,
+          1794996000000
+        ]
+      },
+      "type": "minor",
+      "icon": "harvester.png"
     }
   ]
 }
