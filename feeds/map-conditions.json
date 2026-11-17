@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T13:32:21.060Z",
+  "generatedAt": "2026-11-17T14:02:13.794Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-19T00:00:00.000Z",
@@ -115,66 +115,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Night Raid",
-      "map": "Pendola Pass",
-      "start": 1794895200000,
-      "end": 1794898800000,
-      "times": {
-        "europe": [
-          1794895200000,
-          1794898800000
-        ],
-        "north-america": [
-          1794920400000,
-          1794924000000
-        ],
-        "south-america": [
-          1794916800000,
-          1794920400000
-        ],
-        "asia": [
-          1794877200000,
-          1794880800000
-        ],
-        "oceania": [
-          1794862800000,
-          1794866400000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "Spaceport",
-      "start": 1794895200000,
-      "end": 1794898800000,
-      "times": {
-        "europe": [
-          1794895200000,
-          1794898800000
-        ],
-        "north-america": [
-          1794920400000,
-          1794924000000
-        ],
-        "south-america": [
-          1794916800000,
-          1794920400000
-        ],
-        "asia": [
-          1794877200000,
-          1794880800000
-        ],
-        "oceania": [
-          1794862800000,
-          1794866400000
-        ]
-      },
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
     {
       "condition": "Husk Graveyard",
       "map": "Buried City",
