@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T10:02:15.837Z",
+  "generatedAt": "2026-11-17T10:17:14.339Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-18T20:00:00.000Z",
@@ -107,6 +107,11 @@
       "name": "Redirection",
       "type": "minor",
       "icon": "redirection.png"
+    },
+    {
+      "name": "Uncovered Caches",
+      "type": "minor",
+      "icon": "uncovered_caches.png"
     }
   ],
   "entries": [
