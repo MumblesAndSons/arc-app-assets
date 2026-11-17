@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T17:32:14.332Z",
+  "generatedAt": "2026-11-17T18:02:12.009Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-19T04:00:00.000Z",
@@ -115,96 +115,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Electromagnetic Storm",
-      "map": "Dam Battlegrounds",
-      "start": 1794909600000,
-      "end": 1794913200000,
-      "times": {
-        "europe": [
-          1794909600000,
-          1794913200000
-        ],
-        "north-america": [
-          1794934800000,
-          1794938400000
-        ],
-        "south-america": [
-          1794931200000,
-          1794934800000
-        ],
-        "asia": [
-          1794891600000,
-          1794895200000
-        ],
-        "oceania": [
-          1794877200000,
-          1794880800000
-        ]
-      },
-      "type": "major",
-      "icon": "electromagnetic_storm.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1794909600000,
-      "end": 1794913200000,
-      "times": {
-        "europe": [
-          1794909600000,
-          1794913200000
-        ],
-        "north-america": [
-          1794934800000,
-          1794938400000
-        ],
-        "south-america": [
-          1794931200000,
-          1794934800000
-        ],
-        "asia": [
-          1794891600000,
-          1794895200000
-        ],
-        "oceania": [
-          1794877200000,
-          1794880800000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "The Blue Gate",
-      "start": 1794909600000,
-      "end": 1794913200000,
-      "times": {
-        "europe": [
-          1794909600000,
-          1794913200000
-        ],
-        "north-america": [
-          1794934800000,
-          1794938400000
-        ],
-        "south-america": [
-          1794931200000,
-          1794934800000
-        ],
-        "asia": [
-          1794891600000,
-          1794895200000
-        ],
-        "oceania": [
-          1794877200000,
-          1794880800000
-        ]
-      },
-      "type": "minor",
-      "icon": "harvester.png"
-    },
     {
       "condition": "Bird City",
       "map": "Buried City",
