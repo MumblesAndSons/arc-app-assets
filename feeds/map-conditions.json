@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-17T13:02:16.411Z",
+  "generatedAt": "2026-11-17T13:32:21.060Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-18T23:00:00.000Z",
+  "horizonEnd": "2026-11-19T00:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-18T23:00:00.000Z",
-    "north-america": "2026-11-19T06:00:00.000Z",
-    "south-america": "2026-11-19T05:00:00.000Z",
-    "asia": "2026-11-18T18:00:00.000Z",
-    "oceania": "2026-11-18T14:00:00.000Z"
+    "europe": "2026-11-19T00:00:00.000Z",
+    "north-america": "2026-11-19T07:00:00.000Z",
+    "south-america": "2026-11-19T06:00:00.000Z",
+    "asia": "2026-11-18T19:00:00.000Z",
+    "oceania": "2026-11-18T15:00:00.000Z"
   },
   "regions": [
     {
@@ -4668,6 +4668,156 @@
       },
       "type": "minor",
       "icon": "harvester.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Buried City",
+      "start": 1795042800000,
+      "end": 1795046400000,
+      "times": {
+        "europe": [
+          1795042800000,
+          1795046400000
+        ],
+        "north-america": [
+          1795068000000,
+          1795071600000
+        ],
+        "south-america": [
+          1795064400000,
+          1795068000000
+        ],
+        "asia": [
+          1795024800000,
+          1795028400000
+        ],
+        "oceania": [
+          1795010400000,
+          1795014000000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Cold Snap",
+      "map": "Dam Battlegrounds",
+      "start": 1795042800000,
+      "end": 1795046400000,
+      "times": {
+        "europe": [
+          1795042800000,
+          1795046400000
+        ],
+        "north-america": [
+          1795068000000,
+          1795071600000
+        ],
+        "south-america": [
+          1795064400000,
+          1795068000000
+        ],
+        "asia": [
+          1795024800000,
+          1795028400000
+        ],
+        "oceania": [
+          1795010400000,
+          1795014000000
+        ]
+      },
+      "type": "major",
+      "icon": "cold_snap.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Pendola Pass",
+      "start": 1795042800000,
+      "end": 1795046400000,
+      "times": {
+        "europe": [
+          1795042800000,
+          1795046400000
+        ],
+        "north-america": [
+          1795068000000,
+          1795071600000
+        ],
+        "south-america": [
+          1795064400000,
+          1795068000000
+        ],
+        "asia": [
+          1795024800000,
+          1795028400000
+        ],
+        "oceania": [
+          1795010400000,
+          1795014000000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Husk Graveyard",
+      "map": "Riven Tides",
+      "start": 1795042800000,
+      "end": 1795046400000,
+      "times": {
+        "europe": [
+          1795042800000,
+          1795046400000
+        ],
+        "north-america": [
+          1795068000000,
+          1795071600000
+        ],
+        "south-america": [
+          1795064400000,
+          1795068000000
+        ],
+        "asia": [
+          1795024800000,
+          1795028400000
+        ],
+        "oceania": [
+          1795010400000,
+          1795014000000
+        ]
+      },
+      "type": "minor",
+      "icon": "husk_graveyard.png"
+    },
+    {
+      "condition": "Lush Blooms",
+      "map": "Spaceport",
+      "start": 1795042800000,
+      "end": 1795046400000,
+      "times": {
+        "europe": [
+          1795042800000,
+          1795046400000
+        ],
+        "north-america": [
+          1795068000000,
+          1795071600000
+        ],
+        "south-america": [
+          1795064400000,
+          1795068000000
+        ],
+        "asia": [
+          1795024800000,
+          1795028400000
+        ],
+        "oceania": [
+          1795010400000,
+          1795014000000
+        ]
+      },
+      "type": "minor",
+      "icon": "lush_blooms.png"
     }
   ]
 }
