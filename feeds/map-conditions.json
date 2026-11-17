@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-17T04:02:13.185Z",
+  "generatedAt": "2026-11-17T04:32:13.775Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-18T14:00:00.000Z",
+  "horizonEnd": "2026-11-18T15:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-18T14:00:00.000Z",
-    "north-america": "2026-11-18T21:00:00.000Z",
-    "south-america": "2026-11-18T20:00:00.000Z",
-    "asia": "2026-11-18T09:00:00.000Z",
-    "oceania": "2026-11-18T05:00:00.000Z"
+    "europe": "2026-11-18T15:00:00.000Z",
+    "north-america": "2026-11-18T22:00:00.000Z",
+    "south-america": "2026-11-18T21:00:00.000Z",
+    "asia": "2026-11-18T10:00:00.000Z",
+    "oceania": "2026-11-18T06:00:00.000Z"
   },
   "regions": [
     {
@@ -3645,6 +3645,20 @@
       "icon": "harvester.png"
     },
     {
+      "condition": "Redirection",
+      "map": "Pendola Pass",
+      "start": 1794978000000,
+      "end": 1794981600000,
+      "times": {
+        "europe": [
+          1794978000000,
+          1794981600000
+        ]
+      },
+      "type": "minor",
+      "icon": "redirection.png"
+    },
+    {
       "condition": "Launch Tower Loot",
       "map": "Spaceport",
       "start": 1794978000000,
@@ -4573,6 +4587,126 @@
       },
       "type": "major",
       "icon": "hidden_bunker.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Pendola Pass",
+      "start": 1795010400000,
+      "end": 1795014000000,
+      "times": {
+        "europe": [
+          1795010400000,
+          1795014000000
+        ],
+        "north-america": [
+          1795035600000,
+          1795039200000
+        ],
+        "south-america": [
+          1795032000000,
+          1795035600000
+        ],
+        "asia": [
+          1794992400000,
+          1794996000000
+        ],
+        "oceania": [
+          1794978000000,
+          1794981600000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Lush Blooms",
+      "map": "Spaceport",
+      "start": 1795010400000,
+      "end": 1795014000000,
+      "times": {
+        "europe": [
+          1795010400000,
+          1795014000000
+        ],
+        "north-america": [
+          1795035600000,
+          1795039200000
+        ],
+        "south-america": [
+          1795032000000,
+          1795035600000
+        ],
+        "asia": [
+          1794992400000,
+          1794996000000
+        ],
+        "oceania": [
+          1794978000000,
+          1794981600000
+        ]
+      },
+      "type": "minor",
+      "icon": "lush_blooms.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1795010400000,
+      "end": 1795014000000,
+      "times": {
+        "europe": [
+          1795010400000,
+          1795014000000
+        ],
+        "north-america": [
+          1795035600000,
+          1795039200000
+        ],
+        "south-america": [
+          1795032000000,
+          1795035600000
+        ],
+        "asia": [
+          1794992400000,
+          1794996000000
+        ],
+        "oceania": [
+          1794978000000,
+          1794981600000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "The Blue Gate",
+      "start": 1795010400000,
+      "end": 1795014000000,
+      "times": {
+        "europe": [
+          1795010400000,
+          1795014000000
+        ],
+        "north-america": [
+          1795035600000,
+          1795039200000
+        ],
+        "south-america": [
+          1795032000000,
+          1795035600000
+        ],
+        "asia": [
+          1794992400000,
+          1794996000000
+        ],
+        "oceania": [
+          1794978000000,
+          1794981600000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
     }
   ]
 }
