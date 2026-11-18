@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-18T22:02:15.707Z",
+  "generatedAt": "2026-11-18T22:32:14.680Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-20T08:00:00.000Z",
+  "horizonEnd": "2026-11-20T09:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-20T08:00:00.000Z",
-    "north-america": "2026-11-20T15:00:00.000Z",
-    "south-america": "2026-11-20T14:00:00.000Z",
-    "asia": "2026-11-20T03:00:00.000Z",
-    "oceania": "2026-11-19T23:00:00.000Z"
+    "europe": "2026-11-20T09:00:00.000Z",
+    "north-america": "2026-11-20T16:00:00.000Z",
+    "south-america": "2026-11-20T15:00:00.000Z",
+    "asia": "2026-11-20T04:00:00.000Z",
+    "oceania": "2026-11-20T00:00:00.000Z"
   },
   "regions": [
     {
@@ -4608,6 +4608,126 @@
       },
       "type": "minor",
       "icon": "matriarch.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1795161600000,
+      "end": 1795165200000,
+      "times": {
+        "europe": [
+          1795161600000,
+          1795165200000
+        ],
+        "north-america": [
+          1795186800000,
+          1795190400000
+        ],
+        "south-america": [
+          1795183200000,
+          1795186800000
+        ],
+        "asia": [
+          1795143600000,
+          1795147200000
+        ],
+        "oceania": [
+          1795129200000,
+          1795132800000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Cold Snap",
+      "map": "Buried City",
+      "start": 1795161600000,
+      "end": 1795165200000,
+      "times": {
+        "europe": [
+          1795161600000,
+          1795165200000
+        ],
+        "north-america": [
+          1795186800000,
+          1795190400000
+        ],
+        "south-america": [
+          1795183200000,
+          1795186800000
+        ],
+        "asia": [
+          1795143600000,
+          1795147200000
+        ],
+        "oceania": [
+          1795129200000,
+          1795132800000
+        ]
+      },
+      "type": "major",
+      "icon": "cold_snap.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Pendola Pass",
+      "start": 1795161600000,
+      "end": 1795165200000,
+      "times": {
+        "europe": [
+          1795161600000,
+          1795165200000
+        ],
+        "north-america": [
+          1795186800000,
+          1795190400000
+        ],
+        "south-america": [
+          1795183200000,
+          1795186800000
+        ],
+        "asia": [
+          1795143600000,
+          1795147200000
+        ],
+        "oceania": [
+          1795129200000,
+          1795132800000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Husk Graveyard",
+      "map": "Riven Tides",
+      "start": 1795161600000,
+      "end": 1795165200000,
+      "times": {
+        "europe": [
+          1795161600000,
+          1795165200000
+        ],
+        "north-america": [
+          1795186800000,
+          1795190400000
+        ],
+        "south-america": [
+          1795183200000,
+          1795186800000
+        ],
+        "asia": [
+          1795143600000,
+          1795147200000
+        ],
+        "oceania": [
+          1795129200000,
+          1795132800000
+        ]
+      },
+      "type": "minor",
+      "icon": "husk_graveyard.png"
     }
   ]
 }
