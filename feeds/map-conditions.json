@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-18T06:02:18.401Z",
+  "generatedAt": "2026-11-18T06:32:21.780Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-19T16:00:00.000Z",
+  "horizonEnd": "2026-11-19T17:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-19T16:00:00.000Z",
-    "north-america": "2026-11-19T23:00:00.000Z",
-    "south-america": "2026-11-19T22:00:00.000Z",
-    "asia": "2026-11-19T11:00:00.000Z",
-    "oceania": "2026-11-19T07:00:00.000Z"
+    "europe": "2026-11-19T17:00:00.000Z",
+    "north-america": "2026-11-20T00:00:00.000Z",
+    "south-america": "2026-11-19T23:00:00.000Z",
+    "asia": "2026-11-19T12:00:00.000Z",
+    "oceania": "2026-11-19T08:00:00.000Z"
   },
   "regions": [
     {
@@ -4548,6 +4548,96 @@
       },
       "type": "minor",
       "icon": "matriarch.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1795104000000,
+      "end": 1795107600000,
+      "times": {
+        "europe": [
+          1795104000000,
+          1795107600000
+        ],
+        "north-america": [
+          1795129200000,
+          1795132800000
+        ],
+        "south-america": [
+          1795125600000,
+          1795129200000
+        ],
+        "asia": [
+          1795086000000,
+          1795089600000
+        ],
+        "oceania": [
+          1795071600000,
+          1795075200000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Hurricane",
+      "map": "Dam Battlegrounds",
+      "start": 1795104000000,
+      "end": 1795107600000,
+      "times": {
+        "europe": [
+          1795104000000,
+          1795107600000
+        ],
+        "north-america": [
+          1795129200000,
+          1795132800000
+        ],
+        "south-america": [
+          1795125600000,
+          1795129200000
+        ],
+        "asia": [
+          1795086000000,
+          1795089600000
+        ],
+        "oceania": [
+          1795071600000,
+          1795075200000
+        ]
+      },
+      "type": "major",
+      "icon": "hurricane.png"
+    },
+    {
+      "condition": "Locked Gate",
+      "map": "The Blue Gate",
+      "start": 1795104000000,
+      "end": 1795107600000,
+      "times": {
+        "europe": [
+          1795104000000,
+          1795107600000
+        ],
+        "north-america": [
+          1795129200000,
+          1795132800000
+        ],
+        "south-america": [
+          1795125600000,
+          1795129200000
+        ],
+        "asia": [
+          1795086000000,
+          1795089600000
+        ],
+        "oceania": [
+          1795071600000,
+          1795075200000
+        ]
+      },
+      "type": "major",
+      "icon": "locked_gate.png"
     }
   ]
 }
