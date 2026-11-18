@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T12:32:13.322Z",
+  "generatedAt": "2026-11-18T13:02:14.268Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-19T23:00:00.000Z",
@@ -115,96 +115,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Launch Tower Loot",
-      "map": "Spaceport",
-      "start": 1794978000000,
-      "end": 1794981600000,
-      "times": {
-        "europe": [
-          1794978000000,
-          1794981600000
-        ],
-        "north-america": [
-          1795003200000,
-          1795006800000
-        ],
-        "south-america": [
-          1794999600000,
-          1795003200000
-        ],
-        "asia": [
-          1794960000000,
-          1794963600000
-        ],
-        "oceania": [
-          1794945600000,
-          1794949200000
-        ]
-      },
-      "type": "minor",
-      "icon": "launch_tower_loot.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1794978000000,
-      "end": 1794981600000,
-      "times": {
-        "europe": [
-          1794978000000,
-          1794981600000
-        ],
-        "north-america": [
-          1795003200000,
-          1795006800000
-        ],
-        "south-america": [
-          1794999600000,
-          1795003200000
-        ],
-        "asia": [
-          1794960000000,
-          1794963600000
-        ],
-        "oceania": [
-          1794945600000,
-          1794949200000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "The Blue Gate",
-      "start": 1794978000000,
-      "end": 1794981600000,
-      "times": {
-        "europe": [
-          1794978000000,
-          1794981600000
-        ],
-        "north-america": [
-          1795003200000,
-          1795006800000
-        ],
-        "south-america": [
-          1794999600000,
-          1795003200000
-        ],
-        "asia": [
-          1794960000000,
-          1794963600000
-        ],
-        "oceania": [
-          1794945600000,
-          1794949200000
-        ]
-      },
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
     {
       "condition": "Bird City",
       "map": "Buried City",
