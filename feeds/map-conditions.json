@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T18:32:19.080Z",
+  "generatedAt": "2026-11-18T19:02:16.627Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-20T05:00:00.000Z",
@@ -115,96 +115,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Hurricane",
-      "map": "Spaceport",
-      "start": 1794999600000,
-      "end": 1795003200000,
-      "times": {
-        "europe": [
-          1794999600000,
-          1795003200000
-        ],
-        "north-america": [
-          1795024800000,
-          1795028400000
-        ],
-        "south-america": [
-          1795021200000,
-          1795024800000
-        ],
-        "asia": [
-          1794981600000,
-          1794985200000
-        ],
-        "oceania": [
-          1794967200000,
-          1794970800000
-        ]
-      },
-      "type": "major",
-      "icon": "hurricane.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1794999600000,
-      "end": 1795003200000,
-      "times": {
-        "europe": [
-          1794999600000,
-          1795003200000
-        ],
-        "north-america": [
-          1795024800000,
-          1795028400000
-        ],
-        "south-america": [
-          1795021200000,
-          1795024800000
-        ],
-        "asia": [
-          1794981600000,
-          1794985200000
-        ],
-        "oceania": [
-          1794967200000,
-          1794970800000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "The Blue Gate",
-      "start": 1794999600000,
-      "end": 1795003200000,
-      "times": {
-        "europe": [
-          1794999600000,
-          1795003200000
-        ],
-        "north-america": [
-          1795024800000,
-          1795028400000
-        ],
-        "south-america": [
-          1795021200000,
-          1795024800000
-        ],
-        "asia": [
-          1794981600000,
-          1794985200000
-        ],
-        "oceania": [
-          1794967200000,
-          1794970800000
-        ]
-      },
-      "type": "minor",
-      "icon": "harvester.png"
-    },
     {
       "condition": "Bird City",
       "map": "Buried City",
