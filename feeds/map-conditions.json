@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-18T19:02:16.627Z",
+  "generatedAt": "2026-11-18T19:32:17.567Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-20T05:00:00.000Z",
+  "horizonEnd": "2026-11-20T06:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-20T05:00:00.000Z",
-    "north-america": "2026-11-20T12:00:00.000Z",
-    "south-america": "2026-11-20T11:00:00.000Z",
-    "asia": "2026-11-20T00:00:00.000Z",
-    "oceania": "2026-11-19T20:00:00.000Z"
+    "europe": "2026-11-20T06:00:00.000Z",
+    "north-america": "2026-11-20T13:00:00.000Z",
+    "south-america": "2026-11-20T12:00:00.000Z",
+    "asia": "2026-11-20T01:00:00.000Z",
+    "oceania": "2026-11-19T21:00:00.000Z"
   },
   "regions": [
     {
@@ -4728,6 +4728,66 @@
       },
       "type": "minor",
       "icon": "matriarch.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1795150800000,
+      "end": 1795154400000,
+      "times": {
+        "europe": [
+          1795150800000,
+          1795154400000
+        ],
+        "north-america": [
+          1795176000000,
+          1795179600000
+        ],
+        "south-america": [
+          1795172400000,
+          1795176000000
+        ],
+        "asia": [
+          1795132800000,
+          1795136400000
+        ],
+        "oceania": [
+          1795118400000,
+          1795122000000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Spaceport",
+      "start": 1795150800000,
+      "end": 1795154400000,
+      "times": {
+        "europe": [
+          1795150800000,
+          1795154400000
+        ],
+        "north-america": [
+          1795176000000,
+          1795179600000
+        ],
+        "south-america": [
+          1795172400000,
+          1795176000000
+        ],
+        "asia": [
+          1795132800000,
+          1795136400000
+        ],
+        "oceania": [
+          1795118400000,
+          1795122000000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
     }
   ]
 }
