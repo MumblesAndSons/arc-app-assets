@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-19T02:02:14.453Z",
+  "generatedAt": "2026-11-19T02:32:18.366Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-20T12:00:00.000Z",
+  "horizonEnd": "2026-11-20T13:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-20T12:00:00.000Z",
-    "north-america": "2026-11-20T19:00:00.000Z",
-    "south-america": "2026-11-20T18:00:00.000Z",
-    "asia": "2026-11-20T07:00:00.000Z",
-    "oceania": "2026-11-20T03:00:00.000Z"
+    "europe": "2026-11-20T13:00:00.000Z",
+    "north-america": "2026-11-20T20:00:00.000Z",
+    "south-america": "2026-11-20T19:00:00.000Z",
+    "asia": "2026-11-20T08:00:00.000Z",
+    "oceania": "2026-11-20T04:00:00.000Z"
   },
   "regions": [
     {
@@ -4608,6 +4608,96 @@
       },
       "type": "major",
       "icon": "night_raid.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Buried City",
+      "start": 1795176000000,
+      "end": 1795179600000,
+      "times": {
+        "europe": [
+          1795176000000,
+          1795179600000
+        ],
+        "north-america": [
+          1795201200000,
+          1795204800000
+        ],
+        "south-america": [
+          1795197600000,
+          1795201200000
+        ],
+        "asia": [
+          1795158000000,
+          1795161600000
+        ],
+        "oceania": [
+          1795143600000,
+          1795147200000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Husk Graveyard",
+      "map": "Dam Battlegrounds",
+      "start": 1795176000000,
+      "end": 1795179600000,
+      "times": {
+        "europe": [
+          1795176000000,
+          1795179600000
+        ],
+        "north-america": [
+          1795201200000,
+          1795204800000
+        ],
+        "south-america": [
+          1795197600000,
+          1795201200000
+        ],
+        "asia": [
+          1795158000000,
+          1795161600000
+        ],
+        "oceania": [
+          1795143600000,
+          1795147200000
+        ]
+      },
+      "type": "minor",
+      "icon": "husk_graveyard.png"
+    },
+    {
+      "condition": "Lush Blooms",
+      "map": "Riven Tides",
+      "start": 1795176000000,
+      "end": 1795179600000,
+      "times": {
+        "europe": [
+          1795176000000,
+          1795179600000
+        ],
+        "north-america": [
+          1795201200000,
+          1795204800000
+        ],
+        "south-america": [
+          1795197600000,
+          1795201200000
+        ],
+        "asia": [
+          1795158000000,
+          1795161600000
+        ],
+        "oceania": [
+          1795143600000,
+          1795147200000
+        ]
+      },
+      "type": "minor",
+      "icon": "lush_blooms.png"
     }
   ]
 }
