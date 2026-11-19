@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-19T17:02:15.196Z",
+  "generatedAt": "2026-11-19T17:32:27.318Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-21T03:00:00.000Z",
+  "horizonEnd": "2026-11-21T04:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-21T03:00:00.000Z",
-    "north-america": "2026-11-21T10:00:00.000Z",
-    "south-america": "2026-11-21T09:00:00.000Z",
-    "asia": "2026-11-20T22:00:00.000Z",
-    "oceania": "2026-11-20T18:00:00.000Z"
+    "europe": "2026-11-21T04:00:00.000Z",
+    "north-america": "2026-11-21T11:00:00.000Z",
+    "south-america": "2026-11-21T10:00:00.000Z",
+    "asia": "2026-11-20T23:00:00.000Z",
+    "oceania": "2026-11-20T19:00:00.000Z"
   },
   "regions": [
     {
@@ -4698,6 +4698,96 @@
       },
       "type": "minor",
       "icon": "matriarch.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1795230000000,
+      "end": 1795233600000,
+      "times": {
+        "europe": [
+          1795230000000,
+          1795233600000
+        ],
+        "north-america": [
+          1795255200000,
+          1795258800000
+        ],
+        "south-america": [
+          1795251600000,
+          1795255200000
+        ],
+        "asia": [
+          1795212000000,
+          1795215600000
+        ],
+        "oceania": [
+          1795197600000,
+          1795201200000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Riven Tides",
+      "start": 1795230000000,
+      "end": 1795233600000,
+      "times": {
+        "europe": [
+          1795230000000,
+          1795233600000
+        ],
+        "north-america": [
+          1795255200000,
+          1795258800000
+        ],
+        "south-america": [
+          1795251600000,
+          1795255200000
+        ],
+        "asia": [
+          1795212000000,
+          1795215600000
+        ],
+        "oceania": [
+          1795197600000,
+          1795201200000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Cold Snap",
+      "map": "The Blue Gate",
+      "start": 1795230000000,
+      "end": 1795233600000,
+      "times": {
+        "europe": [
+          1795230000000,
+          1795233600000
+        ],
+        "north-america": [
+          1795255200000,
+          1795258800000
+        ],
+        "south-america": [
+          1795251600000,
+          1795255200000
+        ],
+        "asia": [
+          1795212000000,
+          1795215600000
+        ],
+        "oceania": [
+          1795197600000,
+          1795201200000
+        ]
+      },
+      "type": "major",
+      "icon": "cold_snap.png"
     }
   ]
 }
