@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-19T16:02:19.966Z",
+  "generatedAt": "2026-11-19T16:32:17.497Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-21T02:00:00.000Z",
+  "horizonEnd": "2026-11-21T03:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-21T02:00:00.000Z",
-    "north-america": "2026-11-21T09:00:00.000Z",
-    "south-america": "2026-11-21T08:00:00.000Z",
-    "asia": "2026-11-20T21:00:00.000Z",
-    "oceania": "2026-11-20T17:00:00.000Z"
+    "europe": "2026-11-21T03:00:00.000Z",
+    "north-america": "2026-11-21T10:00:00.000Z",
+    "south-america": "2026-11-21T09:00:00.000Z",
+    "asia": "2026-11-20T22:00:00.000Z",
+    "oceania": "2026-11-20T18:00:00.000Z"
   },
   "regions": [
     {
@@ -4728,6 +4728,96 @@
       },
       "type": "minor",
       "icon": "lush_blooms.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Spaceport",
+      "start": 1795226400000,
+      "end": 1795230000000,
+      "times": {
+        "europe": [
+          1795226400000,
+          1795230000000
+        ],
+        "north-america": [
+          1795251600000,
+          1795255200000
+        ],
+        "south-america": [
+          1795248000000,
+          1795251600000
+        ],
+        "asia": [
+          1795208400000,
+          1795212000000
+        ],
+        "oceania": [
+          1795194000000,
+          1795197600000
+        ]
+      },
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1795226400000,
+      "end": 1795230000000,
+      "times": {
+        "europe": [
+          1795226400000,
+          1795230000000
+        ],
+        "north-america": [
+          1795251600000,
+          1795255200000
+        ],
+        "south-america": [
+          1795248000000,
+          1795251600000
+        ],
+        "asia": [
+          1795208400000,
+          1795212000000
+        ],
+        "oceania": [
+          1795194000000,
+          1795197600000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "The Blue Gate",
+      "start": 1795226400000,
+      "end": 1795230000000,
+      "times": {
+        "europe": [
+          1795226400000,
+          1795230000000
+        ],
+        "north-america": [
+          1795251600000,
+          1795255200000
+        ],
+        "south-america": [
+          1795248000000,
+          1795251600000
+        ],
+        "asia": [
+          1795208400000,
+          1795212000000
+        ],
+        "oceania": [
+          1795194000000,
+          1795197600000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
     }
   ]
 }
