@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-19T18:02:15.778Z",
+  "generatedAt": "2026-11-19T18:32:17.111Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-21T04:00:00.000Z",
+  "horizonEnd": "2026-11-21T05:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-21T04:00:00.000Z",
-    "north-america": "2026-11-21T11:00:00.000Z",
-    "south-america": "2026-11-21T10:00:00.000Z",
-    "asia": "2026-11-20T23:00:00.000Z",
-    "oceania": "2026-11-20T19:00:00.000Z"
+    "europe": "2026-11-21T05:00:00.000Z",
+    "north-america": "2026-11-21T12:00:00.000Z",
+    "south-america": "2026-11-21T11:00:00.000Z",
+    "asia": "2026-11-21T00:00:00.000Z",
+    "oceania": "2026-11-20T20:00:00.000Z"
   },
   "regions": [
     {
@@ -3740,6 +3740,20 @@
       "icon": "night_raid.png"
     },
     {
+      "condition": "Redirection",
+      "map": "Pendola Pass",
+      "start": 1795201200000,
+      "end": 1795204800000,
+      "times": {
+        "europe": [
+          1795201200000,
+          1795204800000
+        ]
+      },
+      "type": "minor",
+      "icon": "redirection.png"
+    },
+    {
       "condition": "Matriarch",
       "map": "Spaceport",
       "start": 1795201200000,
@@ -4638,6 +4652,96 @@
       },
       "type": "major",
       "icon": "cold_snap.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Buried City",
+      "start": 1795233600000,
+      "end": 1795237200000,
+      "times": {
+        "europe": [
+          1795233600000,
+          1795237200000
+        ],
+        "north-america": [
+          1795258800000,
+          1795262400000
+        ],
+        "south-america": [
+          1795255200000,
+          1795258800000
+        ],
+        "asia": [
+          1795215600000,
+          1795219200000
+        ],
+        "oceania": [
+          1795201200000,
+          1795204800000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Dam Battlegrounds",
+      "start": 1795233600000,
+      "end": 1795237200000,
+      "times": {
+        "europe": [
+          1795233600000,
+          1795237200000
+        ],
+        "north-america": [
+          1795258800000,
+          1795262400000
+        ],
+        "south-america": [
+          1795255200000,
+          1795258800000
+        ],
+        "asia": [
+          1795215600000,
+          1795219200000
+        ],
+        "oceania": [
+          1795201200000,
+          1795204800000
+        ]
+      },
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
+      "condition": "Launch Tower Loot",
+      "map": "Spaceport",
+      "start": 1795233600000,
+      "end": 1795237200000,
+      "times": {
+        "europe": [
+          1795233600000,
+          1795237200000
+        ],
+        "north-america": [
+          1795258800000,
+          1795262400000
+        ],
+        "south-america": [
+          1795255200000,
+          1795258800000
+        ],
+        "asia": [
+          1795215600000,
+          1795219200000
+        ],
+        "oceania": [
+          1795201200000,
+          1795204800000
+        ]
+      },
+      "type": "minor",
+      "icon": "launch_tower_loot.png"
     }
   ]
 }
