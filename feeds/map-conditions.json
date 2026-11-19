@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-19T04:02:16.922Z",
+  "generatedAt": "2026-11-19T04:32:13.416Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-20T14:00:00.000Z",
+  "horizonEnd": "2026-11-20T15:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-20T14:00:00.000Z",
-    "north-america": "2026-11-20T21:00:00.000Z",
-    "south-america": "2026-11-20T20:00:00.000Z",
-    "asia": "2026-11-20T09:00:00.000Z",
-    "oceania": "2026-11-20T05:00:00.000Z"
+    "europe": "2026-11-20T15:00:00.000Z",
+    "north-america": "2026-11-20T22:00:00.000Z",
+    "south-america": "2026-11-20T21:00:00.000Z",
+    "asia": "2026-11-20T10:00:00.000Z",
+    "oceania": "2026-11-20T06:00:00.000Z"
   },
   "regions": [
     {
@@ -4548,6 +4548,156 @@
       },
       "type": "minor",
       "icon": "harvester.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1795183200000,
+      "end": 1795186800000,
+      "times": {
+        "europe": [
+          1795183200000,
+          1795186800000
+        ],
+        "north-america": [
+          1795208400000,
+          1795212000000
+        ],
+        "south-america": [
+          1795204800000,
+          1795208400000
+        ],
+        "asia": [
+          1795165200000,
+          1795168800000
+        ],
+        "oceania": [
+          1795150800000,
+          1795154400000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Dam Battlegrounds",
+      "start": 1795183200000,
+      "end": 1795186800000,
+      "times": {
+        "europe": [
+          1795183200000,
+          1795186800000
+        ],
+        "north-america": [
+          1795208400000,
+          1795212000000
+        ],
+        "south-america": [
+          1795204800000,
+          1795208400000
+        ],
+        "asia": [
+          1795165200000,
+          1795168800000
+        ],
+        "oceania": [
+          1795150800000,
+          1795154400000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Pendola Pass",
+      "start": 1795183200000,
+      "end": 1795186800000,
+      "times": {
+        "europe": [
+          1795183200000,
+          1795186800000
+        ],
+        "north-america": [
+          1795208400000,
+          1795212000000
+        ],
+        "south-america": [
+          1795204800000,
+          1795208400000
+        ],
+        "asia": [
+          1795165200000,
+          1795168800000
+        ],
+        "oceania": [
+          1795150800000,
+          1795154400000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Spaceport",
+      "start": 1795183200000,
+      "end": 1795186800000,
+      "times": {
+        "europe": [
+          1795183200000,
+          1795186800000
+        ],
+        "north-america": [
+          1795208400000,
+          1795212000000
+        ],
+        "south-america": [
+          1795204800000,
+          1795208400000
+        ],
+        "asia": [
+          1795165200000,
+          1795168800000
+        ],
+        "oceania": [
+          1795150800000,
+          1795154400000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Cold Snap",
+      "map": "The Blue Gate",
+      "start": 1795183200000,
+      "end": 1795186800000,
+      "times": {
+        "europe": [
+          1795183200000,
+          1795186800000
+        ],
+        "north-america": [
+          1795208400000,
+          1795212000000
+        ],
+        "south-america": [
+          1795204800000,
+          1795208400000
+        ],
+        "asia": [
+          1795165200000,
+          1795168800000
+        ],
+        "oceania": [
+          1795150800000,
+          1795154400000
+        ]
+      },
+      "type": "major",
+      "icon": "cold_snap.png"
     }
   ]
 }
