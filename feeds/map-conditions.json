@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-19T11:02:16.223Z",
+  "generatedAt": "2026-11-19T11:32:18.417Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-20T21:00:00.000Z",
+  "horizonEnd": "2026-11-20T22:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-20T21:00:00.000Z",
-    "north-america": "2026-11-21T04:00:00.000Z",
-    "south-america": "2026-11-21T03:00:00.000Z",
-    "asia": "2026-11-20T16:00:00.000Z",
-    "oceania": "2026-11-20T12:00:00.000Z"
+    "europe": "2026-11-20T22:00:00.000Z",
+    "north-america": "2026-11-21T05:00:00.000Z",
+    "south-america": "2026-11-21T04:00:00.000Z",
+    "asia": "2026-11-20T17:00:00.000Z",
+    "oceania": "2026-11-20T13:00:00.000Z"
   },
   "regions": [
     {
@@ -4578,6 +4578,126 @@
       },
       "type": "minor",
       "icon": "harvester.png"
+    },
+    {
+      "condition": "Electromagnetic Storm",
+      "map": "Dam Battlegrounds",
+      "start": 1795208400000,
+      "end": 1795212000000,
+      "times": {
+        "europe": [
+          1795208400000,
+          1795212000000
+        ],
+        "north-america": [
+          1795233600000,
+          1795237200000
+        ],
+        "south-america": [
+          1795230000000,
+          1795233600000
+        ],
+        "asia": [
+          1795190400000,
+          1795194000000
+        ],
+        "oceania": [
+          1795176000000,
+          1795179600000
+        ]
+      },
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Riven Tides",
+      "start": 1795208400000,
+      "end": 1795212000000,
+      "times": {
+        "europe": [
+          1795208400000,
+          1795212000000
+        ],
+        "north-america": [
+          1795233600000,
+          1795237200000
+        ],
+        "south-america": [
+          1795230000000,
+          1795233600000
+        ],
+        "asia": [
+          1795190400000,
+          1795194000000
+        ],
+        "oceania": [
+          1795176000000,
+          1795179600000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Close Scrutiny",
+      "map": "Spaceport",
+      "start": 1795208400000,
+      "end": 1795212000000,
+      "times": {
+        "europe": [
+          1795208400000,
+          1795212000000
+        ],
+        "north-america": [
+          1795233600000,
+          1795237200000
+        ],
+        "south-america": [
+          1795230000000,
+          1795233600000
+        ],
+        "asia": [
+          1795190400000,
+          1795194000000
+        ],
+        "oceania": [
+          1795176000000,
+          1795179600000
+        ]
+      },
+      "type": "major",
+      "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "The Blue Gate",
+      "start": 1795208400000,
+      "end": 1795212000000,
+      "times": {
+        "europe": [
+          1795208400000,
+          1795212000000
+        ],
+        "north-america": [
+          1795233600000,
+          1795237200000
+        ],
+        "south-america": [
+          1795230000000,
+          1795233600000
+        ],
+        "asia": [
+          1795190400000,
+          1795194000000
+        ],
+        "oceania": [
+          1795176000000,
+          1795179600000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
     }
   ]
 }
