@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-11-20T11:32:16.094Z",
+  "generatedAt": "2026-11-20T17:02:22.358Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
+    {
+      "id": "black-friday-sale",
+      "title": "ARC Raiders Black Friday 2026: where and when to get 50% off",
+      "date": "November 20, 2026",
+      "image": "https://assets.arcraiders.com/article-cards/60c6561c-188e-sale-blog-card-600x400-300x200.png",
+      "tags": [],
+      "summary": "# ARC Raiders Black Friday 2026: where and when to get 50% off"
+    },
     {
       "id": "live-update-2-6-0",
       "title": "Live Update 2.6.0",
@@ -354,16 +362,6 @@
         "Store Update"
       ],
       "summary": "Store Update 1.37.0 is rolling out now across all platforms, bringing two fresh colour options for the Driftcoat outfit: black/green and red. If you already own this skin, both variants will be added to your account automatically, and no re"
-    },
-    {
-      "id": "live-update-1-36-0",
-      "title": "Live Update 1.36.0",
-      "date": "July 7, 2026",
-      "image": "https://assets.arcraiders.com/article-cards/c3d5e74a-2be7-store-update-1.36-card-300x200-300x200.png",
-      "tags": [
-        "Patch Notes"
-      ],
-      "summary": "Your tentative alliance with the Nomads keeps growing stronger. Nomads roam the streets of Speranza, offering stories, useful information, and loot to trade. With the ARC presence Topside continuing to expand, having dependable allies matte"
     }
   ]
 }
