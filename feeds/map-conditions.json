@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-20T13:02:17.492Z",
+  "generatedAt": "2026-11-20T13:32:19.178Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-21T23:00:00.000Z",
+  "horizonEnd": "2026-11-22T00:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-21T23:00:00.000Z",
-    "north-america": "2026-11-22T06:00:00.000Z",
-    "south-america": "2026-11-22T05:00:00.000Z",
-    "asia": "2026-11-21T18:00:00.000Z",
-    "oceania": "2026-11-21T14:00:00.000Z"
+    "europe": "2026-11-22T00:00:00.000Z",
+    "north-america": "2026-11-22T07:00:00.000Z",
+    "south-america": "2026-11-22T06:00:00.000Z",
+    "asia": "2026-11-21T19:00:00.000Z",
+    "oceania": "2026-11-21T15:00:00.000Z"
   },
   "regions": [
     {
@@ -4682,6 +4682,66 @@
       },
       "type": "minor",
       "icon": "harvester.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Riven Tides",
+      "start": 1795302000000,
+      "end": 1795305600000,
+      "times": {
+        "europe": [
+          1795302000000,
+          1795305600000
+        ],
+        "north-america": [
+          1795327200000,
+          1795330800000
+        ],
+        "south-america": [
+          1795323600000,
+          1795327200000
+        ],
+        "asia": [
+          1795284000000,
+          1795287600000
+        ],
+        "oceania": [
+          1795269600000,
+          1795273200000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "The Blue Gate",
+      "start": 1795302000000,
+      "end": 1795305600000,
+      "times": {
+        "europe": [
+          1795302000000,
+          1795305600000
+        ],
+        "north-america": [
+          1795327200000,
+          1795330800000
+        ],
+        "south-america": [
+          1795323600000,
+          1795327200000
+        ],
+        "asia": [
+          1795284000000,
+          1795287600000
+        ],
+        "oceania": [
+          1795269600000,
+          1795273200000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
     }
   ]
 }
