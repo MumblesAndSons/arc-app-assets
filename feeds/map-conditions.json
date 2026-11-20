@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T23:32:12.503Z",
+  "generatedAt": "2026-11-20T00:02:16.897Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-21T10:00:00.000Z",
@@ -115,96 +115,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Bird City",
-      "map": "Buried City",
-      "start": 1795104000000,
-      "end": 1795107600000,
-      "times": {
-        "europe": [
-          1795104000000,
-          1795107600000
-        ],
-        "north-america": [
-          1795129200000,
-          1795132800000
-        ],
-        "south-america": [
-          1795125600000,
-          1795129200000
-        ],
-        "asia": [
-          1795086000000,
-          1795089600000
-        ],
-        "oceania": [
-          1795071600000,
-          1795075200000
-        ]
-      },
-      "type": "minor",
-      "icon": "bird_city.png"
-    },
-    {
-      "condition": "Hurricane",
-      "map": "Dam Battlegrounds",
-      "start": 1795104000000,
-      "end": 1795107600000,
-      "times": {
-        "europe": [
-          1795104000000,
-          1795107600000
-        ],
-        "north-america": [
-          1795129200000,
-          1795132800000
-        ],
-        "south-america": [
-          1795125600000,
-          1795129200000
-        ],
-        "asia": [
-          1795086000000,
-          1795089600000
-        ],
-        "oceania": [
-          1795071600000,
-          1795075200000
-        ]
-      },
-      "type": "major",
-      "icon": "hurricane.png"
-    },
-    {
-      "condition": "Locked Gate",
-      "map": "The Blue Gate",
-      "start": 1795104000000,
-      "end": 1795107600000,
-      "times": {
-        "europe": [
-          1795104000000,
-          1795107600000
-        ],
-        "north-america": [
-          1795129200000,
-          1795132800000
-        ],
-        "south-america": [
-          1795125600000,
-          1795129200000
-        ],
-        "asia": [
-          1795086000000,
-          1795089600000
-        ],
-        "oceania": [
-          1795071600000,
-          1795075200000
-        ]
-      },
-      "type": "major",
-      "icon": "locked_gate.png"
-    },
     {
       "condition": "Harvester",
       "map": "Dam Battlegrounds",
