@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-20T12:02:16.222Z",
+  "generatedAt": "2026-11-20T12:32:17.466Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-21T22:00:00.000Z",
+  "horizonEnd": "2026-11-21T23:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-21T22:00:00.000Z",
-    "north-america": "2026-11-22T05:00:00.000Z",
-    "south-america": "2026-11-22T04:00:00.000Z",
-    "asia": "2026-11-21T17:00:00.000Z",
-    "oceania": "2026-11-21T13:00:00.000Z"
+    "europe": "2026-11-21T23:00:00.000Z",
+    "north-america": "2026-11-22T06:00:00.000Z",
+    "south-america": "2026-11-22T05:00:00.000Z",
+    "asia": "2026-11-21T18:00:00.000Z",
+    "oceania": "2026-11-21T14:00:00.000Z"
   },
   "regions": [
     {
@@ -4648,6 +4648,96 @@
         "oceania": [
           1795262400000,
           1795266000000
+        ]
+      },
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1795298400000,
+      "end": 1795302000000,
+      "times": {
+        "europe": [
+          1795298400000,
+          1795302000000
+        ],
+        "north-america": [
+          1795323600000,
+          1795327200000
+        ],
+        "south-america": [
+          1795320000000,
+          1795323600000
+        ],
+        "asia": [
+          1795280400000,
+          1795284000000
+        ],
+        "oceania": [
+          1795266000000,
+          1795269600000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Dam Battlegrounds",
+      "start": 1795298400000,
+      "end": 1795302000000,
+      "times": {
+        "europe": [
+          1795298400000,
+          1795302000000
+        ],
+        "north-america": [
+          1795323600000,
+          1795327200000
+        ],
+        "south-america": [
+          1795320000000,
+          1795323600000
+        ],
+        "asia": [
+          1795280400000,
+          1795284000000
+        ],
+        "oceania": [
+          1795266000000,
+          1795269600000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "The Blue Gate",
+      "start": 1795298400000,
+      "end": 1795302000000,
+      "times": {
+        "europe": [
+          1795298400000,
+          1795302000000
+        ],
+        "north-america": [
+          1795323600000,
+          1795327200000
+        ],
+        "south-america": [
+          1795320000000,
+          1795323600000
+        ],
+        "asia": [
+          1795280400000,
+          1795284000000
+        ],
+        "oceania": [
+          1795266000000,
+          1795269600000
         ]
       },
       "type": "minor",
