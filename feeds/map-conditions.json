@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T06:32:21.217Z",
+  "generatedAt": "2026-11-20T07:02:14.599Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-21T17:00:00.000Z",
@@ -115,96 +115,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Bird City",
-      "map": "Buried City",
-      "start": 1795129200000,
-      "end": 1795132800000,
-      "times": {
-        "europe": [
-          1795129200000,
-          1795132800000
-        ],
-        "north-america": [
-          1795154400000,
-          1795158000000
-        ],
-        "south-america": [
-          1795150800000,
-          1795154400000
-        ],
-        "asia": [
-          1795111200000,
-          1795114800000
-        ],
-        "oceania": [
-          1795096800000,
-          1795100400000
-        ]
-      },
-      "type": "minor",
-      "icon": "bird_city.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Spaceport",
-      "start": 1795129200000,
-      "end": 1795132800000,
-      "times": {
-        "europe": [
-          1795129200000,
-          1795132800000
-        ],
-        "north-america": [
-          1795154400000,
-          1795158000000
-        ],
-        "south-america": [
-          1795150800000,
-          1795154400000
-        ],
-        "asia": [
-          1795111200000,
-          1795114800000
-        ],
-        "oceania": [
-          1795096800000,
-          1795100400000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "The Blue Gate",
-      "start": 1795129200000,
-      "end": 1795132800000,
-      "times": {
-        "europe": [
-          1795129200000,
-          1795132800000
-        ],
-        "north-america": [
-          1795154400000,
-          1795158000000
-        ],
-        "south-america": [
-          1795150800000,
-          1795154400000
-        ],
-        "asia": [
-          1795111200000,
-          1795114800000
-        ],
-        "oceania": [
-          1795096800000,
-          1795100400000
-        ]
-      },
-      "type": "minor",
-      "icon": "harvester.png"
-    },
     {
       "condition": "ARC Frigate",
       "map": "Buried City",
