@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-21T23:02:16.048Z",
+  "generatedAt": "2026-11-21T23:32:18.700Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-23T09:00:00.000Z",
+  "horizonEnd": "2026-11-23T10:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-23T09:00:00.000Z",
-    "north-america": "2026-11-23T16:00:00.000Z",
-    "south-america": "2026-11-23T15:00:00.000Z",
-    "asia": "2026-11-23T04:00:00.000Z",
-    "oceania": "2026-11-23T00:00:00.000Z"
+    "europe": "2026-11-23T10:00:00.000Z",
+    "north-america": "2026-11-23T17:00:00.000Z",
+    "south-america": "2026-11-23T16:00:00.000Z",
+    "asia": "2026-11-23T05:00:00.000Z",
+    "oceania": "2026-11-23T01:00:00.000Z"
   },
   "regions": [
     {
@@ -4698,6 +4698,66 @@
       },
       "type": "minor",
       "icon": "harvester.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1795424400000,
+      "end": 1795428000000,
+      "times": {
+        "europe": [
+          1795424400000,
+          1795428000000
+        ],
+        "north-america": [
+          1795449600000,
+          1795453200000
+        ],
+        "south-america": [
+          1795446000000,
+          1795449600000
+        ],
+        "asia": [
+          1795406400000,
+          1795410000000
+        ],
+        "oceania": [
+          1795392000000,
+          1795395600000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "The Blue Gate",
+      "start": 1795424400000,
+      "end": 1795428000000,
+      "times": {
+        "europe": [
+          1795424400000,
+          1795428000000
+        ],
+        "north-america": [
+          1795449600000,
+          1795453200000
+        ],
+        "south-america": [
+          1795446000000,
+          1795449600000
+        ],
+        "asia": [
+          1795406400000,
+          1795410000000
+        ],
+        "oceania": [
+          1795392000000,
+          1795395600000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
     }
   ]
 }
