@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-21T16:02:15.586Z",
+  "generatedAt": "2026-11-21T16:32:14.524Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-23T02:00:00.000Z",
+  "horizonEnd": "2026-11-23T03:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-23T02:00:00.000Z",
-    "north-america": "2026-11-23T09:00:00.000Z",
-    "south-america": "2026-11-23T08:00:00.000Z",
-    "asia": "2026-11-22T21:00:00.000Z",
-    "oceania": "2026-11-22T17:00:00.000Z"
+    "europe": "2026-11-23T03:00:00.000Z",
+    "north-america": "2026-11-23T10:00:00.000Z",
+    "south-america": "2026-11-23T09:00:00.000Z",
+    "asia": "2026-11-22T22:00:00.000Z",
+    "oceania": "2026-11-22T18:00:00.000Z"
   },
   "regions": [
     {
@@ -3710,6 +3710,20 @@
       "icon": "harvester.png"
     },
     {
+      "condition": "Redirection",
+      "map": "Pendola Pass",
+      "start": 1795366800000,
+      "end": 1795370400000,
+      "times": {
+        "europe": [
+          1795366800000,
+          1795370400000
+        ]
+      },
+      "type": "minor",
+      "icon": "redirection.png"
+    },
+    {
       "condition": "Husk Graveyard",
       "map": "Riven Tides",
       "start": 1795366800000,
@@ -4668,6 +4682,156 @@
       },
       "type": "major",
       "icon": "cold_snap.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1795399200000,
+      "end": 1795402800000,
+      "times": {
+        "europe": [
+          1795399200000,
+          1795402800000
+        ],
+        "north-america": [
+          1795424400000,
+          1795428000000
+        ],
+        "south-america": [
+          1795420800000,
+          1795424400000
+        ],
+        "asia": [
+          1795381200000,
+          1795384800000
+        ],
+        "oceania": [
+          1795366800000,
+          1795370400000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Cold Snap",
+      "map": "Buried City",
+      "start": 1795399200000,
+      "end": 1795402800000,
+      "times": {
+        "europe": [
+          1795399200000,
+          1795402800000
+        ],
+        "north-america": [
+          1795424400000,
+          1795428000000
+        ],
+        "south-america": [
+          1795420800000,
+          1795424400000
+        ],
+        "asia": [
+          1795381200000,
+          1795384800000
+        ],
+        "oceania": [
+          1795366800000,
+          1795370400000
+        ]
+      },
+      "type": "major",
+      "icon": "cold_snap.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Riven Tides",
+      "start": 1795399200000,
+      "end": 1795402800000,
+      "times": {
+        "europe": [
+          1795399200000,
+          1795402800000
+        ],
+        "north-america": [
+          1795424400000,
+          1795428000000
+        ],
+        "south-america": [
+          1795420800000,
+          1795424400000
+        ],
+        "asia": [
+          1795381200000,
+          1795384800000
+        ],
+        "oceania": [
+          1795366800000,
+          1795370400000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Launch Tower Loot",
+      "map": "Spaceport",
+      "start": 1795399200000,
+      "end": 1795402800000,
+      "times": {
+        "europe": [
+          1795399200000,
+          1795402800000
+        ],
+        "north-america": [
+          1795424400000,
+          1795428000000
+        ],
+        "south-america": [
+          1795420800000,
+          1795424400000
+        ],
+        "asia": [
+          1795381200000,
+          1795384800000
+        ],
+        "oceania": [
+          1795366800000,
+          1795370400000
+        ]
+      },
+      "type": "minor",
+      "icon": "launch_tower_loot.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "The Blue Gate",
+      "start": 1795399200000,
+      "end": 1795402800000,
+      "times": {
+        "europe": [
+          1795399200000,
+          1795402800000
+        ],
+        "north-america": [
+          1795424400000,
+          1795428000000
+        ],
+        "south-america": [
+          1795420800000,
+          1795424400000
+        ],
+        "asia": [
+          1795381200000,
+          1795384800000
+        ],
+        "oceania": [
+          1795366800000,
+          1795370400000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
     }
   ]
 }
