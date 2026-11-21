@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T08:32:15.546Z",
+  "generatedAt": "2026-11-21T09:02:21.626Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-22T19:00:00.000Z",
@@ -115,156 +115,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "ARC Frigate",
-      "map": "Buried City",
-      "start": 1795222800000,
-      "end": 1795226400000,
-      "times": {
-        "europe": [
-          1795222800000,
-          1795226400000
-        ],
-        "north-america": [
-          1795248000000,
-          1795251600000
-        ],
-        "south-america": [
-          1795244400000,
-          1795248000000
-        ],
-        "asia": [
-          1795204800000,
-          1795208400000
-        ],
-        "oceania": [
-          1795190400000,
-          1795194000000
-        ]
-      },
-      "type": "major",
-      "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Cold Snap",
-      "map": "Dam Battlegrounds",
-      "start": 1795222800000,
-      "end": 1795226400000,
-      "times": {
-        "europe": [
-          1795222800000,
-          1795226400000
-        ],
-        "north-america": [
-          1795248000000,
-          1795251600000
-        ],
-        "south-america": [
-          1795244400000,
-          1795248000000
-        ],
-        "asia": [
-          1795204800000,
-          1795208400000
-        ],
-        "oceania": [
-          1795190400000,
-          1795194000000
-        ]
-      },
-      "type": "major",
-      "icon": "cold_snap.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Pendola Pass",
-      "start": 1795222800000,
-      "end": 1795226400000,
-      "times": {
-        "europe": [
-          1795222800000,
-          1795226400000
-        ],
-        "north-america": [
-          1795248000000,
-          1795251600000
-        ],
-        "south-america": [
-          1795244400000,
-          1795248000000
-        ],
-        "asia": [
-          1795204800000,
-          1795208400000
-        ],
-        "oceania": [
-          1795190400000,
-          1795194000000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Husk Graveyard",
-      "map": "Riven Tides",
-      "start": 1795222800000,
-      "end": 1795226400000,
-      "times": {
-        "europe": [
-          1795222800000,
-          1795226400000
-        ],
-        "north-america": [
-          1795248000000,
-          1795251600000
-        ],
-        "south-america": [
-          1795244400000,
-          1795248000000
-        ],
-        "asia": [
-          1795204800000,
-          1795208400000
-        ],
-        "oceania": [
-          1795190400000,
-          1795194000000
-        ]
-      },
-      "type": "minor",
-      "icon": "husk_graveyard.png"
-    },
-    {
-      "condition": "Lush Blooms",
-      "map": "Spaceport",
-      "start": 1795222800000,
-      "end": 1795226400000,
-      "times": {
-        "europe": [
-          1795222800000,
-          1795226400000
-        ],
-        "north-america": [
-          1795248000000,
-          1795251600000
-        ],
-        "south-america": [
-          1795244400000,
-          1795248000000
-        ],
-        "asia": [
-          1795204800000,
-          1795208400000
-        ],
-        "oceania": [
-          1795190400000,
-          1795194000000
-        ]
-      },
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
     {
       "condition": "Harvester",
       "map": "Spaceport",
@@ -834,20 +684,6 @@
       },
       "type": "minor",
       "icon": "harvester.png"
-    },
-    {
-      "condition": "Redirection",
-      "map": "Pendola Pass",
-      "start": 1795248000000,
-      "end": 1795251600000,
-      "times": {
-        "europe": [
-          1795248000000,
-          1795251600000
-        ]
-      },
-      "type": "minor",
-      "icon": "redirection.png"
     },
     {
       "condition": "Launch Tower Loot",
