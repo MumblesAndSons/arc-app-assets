@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T01:32:15.782Z",
+  "generatedAt": "2026-11-22T02:02:14.878Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-23T12:00:00.000Z",
@@ -115,96 +115,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Bird City",
-      "map": "Buried City",
-      "start": 1795284000000,
-      "end": 1795287600000,
-      "times": {
-        "europe": [
-          1795284000000,
-          1795287600000
-        ],
-        "north-america": [
-          1795309200000,
-          1795312800000
-        ],
-        "south-america": [
-          1795305600000,
-          1795309200000
-        ],
-        "asia": [
-          1795266000000,
-          1795269600000
-        ],
-        "oceania": [
-          1795251600000,
-          1795255200000
-        ]
-      },
-      "type": "minor",
-      "icon": "bird_city.png"
-    },
-    {
-      "condition": "Hurricane",
-      "map": "Dam Battlegrounds",
-      "start": 1795284000000,
-      "end": 1795287600000,
-      "times": {
-        "europe": [
-          1795284000000,
-          1795287600000
-        ],
-        "north-america": [
-          1795309200000,
-          1795312800000
-        ],
-        "south-america": [
-          1795305600000,
-          1795309200000
-        ],
-        "asia": [
-          1795266000000,
-          1795269600000
-        ],
-        "oceania": [
-          1795251600000,
-          1795255200000
-        ]
-      },
-      "type": "major",
-      "icon": "hurricane.png"
-    },
-    {
-      "condition": "Locked Gate",
-      "map": "The Blue Gate",
-      "start": 1795284000000,
-      "end": 1795287600000,
-      "times": {
-        "europe": [
-          1795284000000,
-          1795287600000
-        ],
-        "north-america": [
-          1795309200000,
-          1795312800000
-        ],
-        "south-america": [
-          1795305600000,
-          1795309200000
-        ],
-        "asia": [
-          1795266000000,
-          1795269600000
-        ],
-        "oceania": [
-          1795251600000,
-          1795255200000
-        ]
-      },
-      "type": "major",
-      "icon": "locked_gate.png"
-    },
     {
       "condition": "Harvester",
       "map": "Dam Battlegrounds",
@@ -834,20 +744,6 @@
       },
       "type": "minor",
       "icon": "bird_city.png"
-    },
-    {
-      "condition": "Redirection",
-      "map": "Pendola Pass",
-      "start": 1795309200000,
-      "end": 1795312800000,
-      "times": {
-        "europe": [
-          1795309200000,
-          1795312800000
-        ]
-      },
-      "type": "minor",
-      "icon": "redirection.png"
     },
     {
       "condition": "Night Raid",
