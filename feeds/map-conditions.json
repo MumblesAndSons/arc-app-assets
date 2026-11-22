@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T13:32:17.950Z",
+  "generatedAt": "2026-11-22T14:02:17.028Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-24T00:00:00.000Z",
@@ -115,126 +115,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "ARC Frigate",
-      "map": "Buried City",
-      "start": 1795327200000,
-      "end": 1795330800000,
-      "times": {
-        "europe": [
-          1795327200000,
-          1795330800000
-        ],
-        "north-america": [
-          1795352400000,
-          1795356000000
-        ],
-        "south-america": [
-          1795348800000,
-          1795352400000
-        ],
-        "asia": [
-          1795309200000,
-          1795312800000
-        ],
-        "oceania": [
-          1795294800000,
-          1795298400000
-        ]
-      },
-      "type": "major",
-      "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Lush Blooms",
-      "map": "Riven Tides",
-      "start": 1795327200000,
-      "end": 1795330800000,
-      "times": {
-        "europe": [
-          1795327200000,
-          1795330800000
-        ],
-        "north-america": [
-          1795352400000,
-          1795356000000
-        ],
-        "south-america": [
-          1795348800000,
-          1795352400000
-        ],
-        "asia": [
-          1795309200000,
-          1795312800000
-        ],
-        "oceania": [
-          1795294800000,
-          1795298400000
-        ]
-      },
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1795327200000,
-      "end": 1795330800000,
-      "times": {
-        "europe": [
-          1795327200000,
-          1795330800000
-        ],
-        "north-america": [
-          1795352400000,
-          1795356000000
-        ],
-        "south-america": [
-          1795348800000,
-          1795352400000
-        ],
-        "asia": [
-          1795309200000,
-          1795312800000
-        ],
-        "oceania": [
-          1795294800000,
-          1795298400000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "The Blue Gate",
-      "start": 1795327200000,
-      "end": 1795330800000,
-      "times": {
-        "europe": [
-          1795327200000,
-          1795330800000
-        ],
-        "north-america": [
-          1795352400000,
-          1795356000000
-        ],
-        "south-america": [
-          1795348800000,
-          1795352400000
-        ],
-        "asia": [
-          1795309200000,
-          1795312800000
-        ],
-        "oceania": [
-          1795294800000,
-          1795298400000
-        ]
-      },
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
     {
       "condition": "Bird City",
       "map": "Buried City",
@@ -894,20 +774,6 @@
       },
       "type": "major",
       "icon": "close_scrutiny.png"
-    },
-    {
-      "condition": "Redirection",
-      "map": "Pendola Pass",
-      "start": 1795352400000,
-      "end": 1795356000000,
-      "times": {
-        "europe": [
-          1795352400000,
-          1795356000000
-        ]
-      },
-      "type": "minor",
-      "icon": "redirection.png"
     },
     {
       "condition": "Harvester",
