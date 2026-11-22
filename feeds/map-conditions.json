@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-22T06:02:18.383Z",
+  "generatedAt": "2026-11-22T06:32:16.420Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-23T16:00:00.000Z",
+  "horizonEnd": "2026-11-23T17:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-23T16:00:00.000Z",
-    "north-america": "2026-11-23T23:00:00.000Z",
-    "south-america": "2026-11-23T22:00:00.000Z",
-    "asia": "2026-11-23T11:00:00.000Z",
-    "oceania": "2026-11-23T07:00:00.000Z"
+    "europe": "2026-11-23T17:00:00.000Z",
+    "north-america": "2026-11-24T00:00:00.000Z",
+    "south-america": "2026-11-23T23:00:00.000Z",
+    "asia": "2026-11-23T12:00:00.000Z",
+    "oceania": "2026-11-23T08:00:00.000Z"
   },
   "regions": [
     {
@@ -4728,6 +4728,96 @@
       },
       "type": "major",
       "icon": "night_raid.png"
+    },
+    {
+      "condition": "Cold Snap",
+      "map": "Dam Battlegrounds",
+      "start": 1795449600000,
+      "end": 1795453200000,
+      "times": {
+        "europe": [
+          1795449600000,
+          1795453200000
+        ],
+        "north-america": [
+          1795474800000,
+          1795478400000
+        ],
+        "south-america": [
+          1795471200000,
+          1795474800000
+        ],
+        "asia": [
+          1795431600000,
+          1795435200000
+        ],
+        "oceania": [
+          1795417200000,
+          1795420800000
+        ]
+      },
+      "type": "major",
+      "icon": "cold_snap.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Spaceport",
+      "start": 1795449600000,
+      "end": 1795453200000,
+      "times": {
+        "europe": [
+          1795449600000,
+          1795453200000
+        ],
+        "north-america": [
+          1795474800000,
+          1795478400000
+        ],
+        "south-america": [
+          1795471200000,
+          1795474800000
+        ],
+        "asia": [
+          1795431600000,
+          1795435200000
+        ],
+        "oceania": [
+          1795417200000,
+          1795420800000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "The Blue Gate",
+      "start": 1795449600000,
+      "end": 1795453200000,
+      "times": {
+        "europe": [
+          1795449600000,
+          1795453200000
+        ],
+        "north-america": [
+          1795474800000,
+          1795478400000
+        ],
+        "south-america": [
+          1795471200000,
+          1795474800000
+        ],
+        "asia": [
+          1795431600000,
+          1795435200000
+        ],
+        "oceania": [
+          1795417200000,
+          1795420800000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
     }
   ]
 }
