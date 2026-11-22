@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T18:32:16.328Z",
+  "generatedAt": "2026-11-22T19:02:17.581Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-24T05:00:00.000Z",
@@ -115,96 +115,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Night Raid",
-      "map": "Pendola Pass",
-      "start": 1795345200000,
-      "end": 1795348800000,
-      "times": {
-        "europe": [
-          1795345200000,
-          1795348800000
-        ],
-        "north-america": [
-          1795370400000,
-          1795374000000
-        ],
-        "south-america": [
-          1795366800000,
-          1795370400000
-        ],
-        "asia": [
-          1795327200000,
-          1795330800000
-        ],
-        "oceania": [
-          1795312800000,
-          1795316400000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "Spaceport",
-      "start": 1795345200000,
-      "end": 1795348800000,
-      "times": {
-        "europe": [
-          1795345200000,
-          1795348800000
-        ],
-        "north-america": [
-          1795370400000,
-          1795374000000
-        ],
-        "south-america": [
-          1795366800000,
-          1795370400000
-        ],
-        "asia": [
-          1795327200000,
-          1795330800000
-        ],
-        "oceania": [
-          1795312800000,
-          1795316400000
-        ]
-      },
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
-    {
-      "condition": "Hurricane",
-      "map": "The Blue Gate",
-      "start": 1795345200000,
-      "end": 1795348800000,
-      "times": {
-        "europe": [
-          1795345200000,
-          1795348800000
-        ],
-        "north-america": [
-          1795370400000,
-          1795374000000
-        ],
-        "south-america": [
-          1795366800000,
-          1795370400000
-        ],
-        "asia": [
-          1795327200000,
-          1795330800000
-        ],
-        "oceania": [
-          1795312800000,
-          1795316400000
-        ]
-      },
-      "type": "major",
-      "icon": "hurricane.png"
-    },
     {
       "condition": "Husk Graveyard",
       "map": "Buried City",
