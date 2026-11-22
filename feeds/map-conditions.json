@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T06:32:16.420Z",
+  "generatedAt": "2026-11-22T07:02:14.772Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-23T17:00:00.000Z",
@@ -115,66 +115,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Night Raid",
-      "map": "Riven Tides",
-      "start": 1795302000000,
-      "end": 1795305600000,
-      "times": {
-        "europe": [
-          1795302000000,
-          1795305600000
-        ],
-        "north-america": [
-          1795327200000,
-          1795330800000
-        ],
-        "south-america": [
-          1795323600000,
-          1795327200000
-        ],
-        "asia": [
-          1795284000000,
-          1795287600000
-        ],
-        "oceania": [
-          1795269600000,
-          1795273200000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "The Blue Gate",
-      "start": 1795302000000,
-      "end": 1795305600000,
-      "times": {
-        "europe": [
-          1795302000000,
-          1795305600000
-        ],
-        "north-america": [
-          1795327200000,
-          1795330800000
-        ],
-        "south-america": [
-          1795323600000,
-          1795327200000
-        ],
-        "asia": [
-          1795284000000,
-          1795287600000
-        ],
-        "oceania": [
-          1795269600000,
-          1795273200000
-        ]
-      },
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
     {
       "condition": "Lush Blooms",
       "map": "Buried City",
@@ -834,20 +774,6 @@
       },
       "type": "major",
       "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Redirection",
-      "map": "Pendola Pass",
-      "start": 1795327200000,
-      "end": 1795330800000,
-      "times": {
-        "europe": [
-          1795327200000,
-          1795330800000
-        ]
-      },
-      "type": "minor",
-      "icon": "redirection.png"
     },
     {
       "condition": "Lush Blooms",
