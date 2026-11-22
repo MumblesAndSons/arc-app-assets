@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-22T11:02:14.036Z",
+  "generatedAt": "2026-11-22T11:32:13.884Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-23T21:00:00.000Z",
+  "horizonEnd": "2026-11-23T22:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-23T21:00:00.000Z",
-    "north-america": "2026-11-24T04:00:00.000Z",
-    "south-america": "2026-11-24T03:00:00.000Z",
-    "asia": "2026-11-23T16:00:00.000Z",
-    "oceania": "2026-11-23T12:00:00.000Z"
+    "europe": "2026-11-23T22:00:00.000Z",
+    "north-america": "2026-11-24T05:00:00.000Z",
+    "south-america": "2026-11-24T04:00:00.000Z",
+    "asia": "2026-11-23T17:00:00.000Z",
+    "oceania": "2026-11-23T13:00:00.000Z"
   },
   "regions": [
     {
@@ -3756,6 +3756,20 @@
       "icon": "arc_frigate.png"
     },
     {
+      "condition": "Redirection",
+      "map": "Pendola Pass",
+      "start": 1795435200000,
+      "end": 1795438800000,
+      "times": {
+        "europe": [
+          1795435200000,
+          1795438800000
+        ]
+      },
+      "type": "minor",
+      "icon": "redirection.png"
+    },
+    {
       "condition": "Night Raid",
       "map": "Stella Montis",
       "start": 1795435200000,
@@ -4774,6 +4788,126 @@
       },
       "type": "major",
       "icon": "cold_snap.png"
+    },
+    {
+      "condition": "Hurricane",
+      "map": "Buried City",
+      "start": 1795467600000,
+      "end": 1795471200000,
+      "times": {
+        "europe": [
+          1795467600000,
+          1795471200000
+        ],
+        "north-america": [
+          1795492800000,
+          1795496400000
+        ],
+        "south-america": [
+          1795489200000,
+          1795492800000
+        ],
+        "asia": [
+          1795449600000,
+          1795453200000
+        ],
+        "oceania": [
+          1795435200000,
+          1795438800000
+        ]
+      },
+      "type": "major",
+      "icon": "hurricane.png"
+    },
+    {
+      "condition": "Uncovered Caches",
+      "map": "Riven Tides",
+      "start": 1795467600000,
+      "end": 1795471200000,
+      "times": {
+        "europe": [
+          1795467600000,
+          1795471200000
+        ],
+        "north-america": [
+          1795492800000,
+          1795496400000
+        ],
+        "south-america": [
+          1795489200000,
+          1795492800000
+        ],
+        "asia": [
+          1795449600000,
+          1795453200000
+        ],
+        "oceania": [
+          1795435200000,
+          1795438800000
+        ]
+      },
+      "type": "minor",
+      "icon": "uncovered_caches.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1795467600000,
+      "end": 1795471200000,
+      "times": {
+        "europe": [
+          1795467600000,
+          1795471200000
+        ],
+        "north-america": [
+          1795492800000,
+          1795496400000
+        ],
+        "south-america": [
+          1795489200000,
+          1795492800000
+        ],
+        "asia": [
+          1795449600000,
+          1795453200000
+        ],
+        "oceania": [
+          1795435200000,
+          1795438800000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "The Blue Gate",
+      "start": 1795467600000,
+      "end": 1795471200000,
+      "times": {
+        "europe": [
+          1795467600000,
+          1795471200000
+        ],
+        "north-america": [
+          1795492800000,
+          1795496400000
+        ],
+        "south-america": [
+          1795489200000,
+          1795492800000
+        ],
+        "asia": [
+          1795449600000,
+          1795453200000
+        ],
+        "oceania": [
+          1795435200000,
+          1795438800000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
     }
   ]
 }
