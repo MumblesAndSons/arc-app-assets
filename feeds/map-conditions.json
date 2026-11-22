@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-22T10:02:13.555Z",
+  "generatedAt": "2026-11-22T10:32:16.372Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-23T20:00:00.000Z",
+  "horizonEnd": "2026-11-23T21:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-23T20:00:00.000Z",
-    "north-america": "2026-11-24T03:00:00.000Z",
-    "south-america": "2026-11-24T02:00:00.000Z",
-    "asia": "2026-11-23T15:00:00.000Z",
-    "oceania": "2026-11-23T11:00:00.000Z"
+    "europe": "2026-11-23T21:00:00.000Z",
+    "north-america": "2026-11-24T04:00:00.000Z",
+    "south-america": "2026-11-24T03:00:00.000Z",
+    "asia": "2026-11-23T16:00:00.000Z",
+    "oceania": "2026-11-23T12:00:00.000Z"
   },
   "regions": [
     {
@@ -3742,6 +3742,20 @@
       "icon": "electromagnetic_storm.png"
     },
     {
+      "condition": "Uncovered Caches",
+      "map": "Pendola Pass",
+      "start": 1795431600000,
+      "end": 1795435200000,
+      "times": {
+        "europe": [
+          1795431600000,
+          1795435200000
+        ]
+      },
+      "type": "minor",
+      "icon": "uncovered_caches.png"
+    },
+    {
       "condition": "Hurricane",
       "map": "Spaceport",
       "start": 1795431600000,
@@ -4760,6 +4774,96 @@
       },
       "type": "major",
       "icon": "hidden_bunker.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1795464000000,
+      "end": 1795467600000,
+      "times": {
+        "europe": [
+          1795464000000,
+          1795467600000
+        ],
+        "north-america": [
+          1795489200000,
+          1795492800000
+        ],
+        "south-america": [
+          1795485600000,
+          1795489200000
+        ],
+        "asia": [
+          1795446000000,
+          1795449600000
+        ],
+        "oceania": [
+          1795431600000,
+          1795435200000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Dam Battlegrounds",
+      "start": 1795464000000,
+      "end": 1795467600000,
+      "times": {
+        "europe": [
+          1795464000000,
+          1795467600000
+        ],
+        "north-america": [
+          1795489200000,
+          1795492800000
+        ],
+        "south-america": [
+          1795485600000,
+          1795489200000
+        ],
+        "asia": [
+          1795446000000,
+          1795449600000
+        ],
+        "oceania": [
+          1795431600000,
+          1795435200000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Cold Snap",
+      "map": "Spaceport",
+      "start": 1795464000000,
+      "end": 1795467600000,
+      "times": {
+        "europe": [
+          1795464000000,
+          1795467600000
+        ],
+        "north-america": [
+          1795489200000,
+          1795492800000
+        ],
+        "south-america": [
+          1795485600000,
+          1795489200000
+        ],
+        "asia": [
+          1795446000000,
+          1795449600000
+        ],
+        "oceania": [
+          1795431600000,
+          1795435200000
+        ]
+      },
+      "type": "major",
+      "icon": "cold_snap.png"
     }
   ]
 }
