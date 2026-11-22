@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-22T12:02:16.178Z",
+  "generatedAt": "2026-11-22T12:32:15.756Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-23T22:00:00.000Z",
+  "horizonEnd": "2026-11-23T23:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-23T22:00:00.000Z",
-    "north-america": "2026-11-24T05:00:00.000Z",
-    "south-america": "2026-11-24T04:00:00.000Z",
-    "asia": "2026-11-23T17:00:00.000Z",
-    "oceania": "2026-11-23T13:00:00.000Z"
+    "europe": "2026-11-23T23:00:00.000Z",
+    "north-america": "2026-11-24T06:00:00.000Z",
+    "south-america": "2026-11-24T05:00:00.000Z",
+    "asia": "2026-11-23T18:00:00.000Z",
+    "oceania": "2026-11-23T14:00:00.000Z"
   },
   "regions": [
     {
@@ -4814,6 +4814,126 @@
         "oceania": [
           1795435200000,
           1795438800000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
+      "condition": "Electromagnetic Storm",
+      "map": "Dam Battlegrounds",
+      "start": 1795471200000,
+      "end": 1795474800000,
+      "times": {
+        "europe": [
+          1795471200000,
+          1795474800000
+        ],
+        "north-america": [
+          1795496400000,
+          1795500000000
+        ],
+        "south-america": [
+          1795492800000,
+          1795496400000
+        ],
+        "asia": [
+          1795453200000,
+          1795456800000
+        ],
+        "oceania": [
+          1795438800000,
+          1795442400000
+        ]
+      },
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
+    },
+    {
+      "condition": "Uncovered Caches",
+      "map": "Riven Tides",
+      "start": 1795471200000,
+      "end": 1795474800000,
+      "times": {
+        "europe": [
+          1795471200000,
+          1795474800000
+        ],
+        "north-america": [
+          1795496400000,
+          1795500000000
+        ],
+        "south-america": [
+          1795492800000,
+          1795496400000
+        ],
+        "asia": [
+          1795453200000,
+          1795456800000
+        ],
+        "oceania": [
+          1795438800000,
+          1795442400000
+        ]
+      },
+      "type": "minor",
+      "icon": "uncovered_caches.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1795471200000,
+      "end": 1795474800000,
+      "times": {
+        "europe": [
+          1795471200000,
+          1795474800000
+        ],
+        "north-america": [
+          1795496400000,
+          1795500000000
+        ],
+        "south-america": [
+          1795492800000,
+          1795496400000
+        ],
+        "asia": [
+          1795453200000,
+          1795456800000
+        ],
+        "oceania": [
+          1795438800000,
+          1795442400000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "The Blue Gate",
+      "start": 1795471200000,
+      "end": 1795474800000,
+      "times": {
+        "europe": [
+          1795471200000,
+          1795474800000
+        ],
+        "north-america": [
+          1795496400000,
+          1795500000000
+        ],
+        "south-america": [
+          1795492800000,
+          1795496400000
+        ],
+        "asia": [
+          1795453200000,
+          1795456800000
+        ],
+        "oceania": [
+          1795438800000,
+          1795442400000
         ]
       },
       "type": "minor",
