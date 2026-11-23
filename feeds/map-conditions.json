@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T16:32:15.591Z",
+  "generatedAt": "2026-11-23T17:02:15.712Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-25T03:00:00.000Z",
@@ -110,66 +110,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1795424400000,
-      "end": 1795428000000,
-      "times": {
-        "europe": [
-          1795424400000,
-          1795428000000
-        ],
-        "north-america": [
-          1795449600000,
-          1795453200000
-        ],
-        "south-america": [
-          1795446000000,
-          1795449600000
-        ],
-        "asia": [
-          1795406400000,
-          1795410000000
-        ],
-        "oceania": [
-          1795392000000,
-          1795395600000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "The Blue Gate",
-      "start": 1795424400000,
-      "end": 1795428000000,
-      "times": {
-        "europe": [
-          1795424400000,
-          1795428000000
-        ],
-        "north-america": [
-          1795449600000,
-          1795453200000
-        ],
-        "south-america": [
-          1795446000000,
-          1795449600000
-        ],
-        "asia": [
-          1795406400000,
-          1795410000000
-        ],
-        "oceania": [
-          1795392000000,
-          1795395600000
-        ]
-      },
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
     {
       "condition": "Cold Snap",
       "map": "Buried City",
