@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-23T22:02:13.153Z",
+  "generatedAt": "2026-11-23T22:32:14.422Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-25T08:00:00.000Z",
+  "horizonEnd": "2026-11-25T09:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-25T08:00:00.000Z",
-    "north-america": "2026-11-25T15:00:00.000Z",
-    "south-america": "2026-11-25T14:00:00.000Z",
-    "asia": "2026-11-25T03:00:00.000Z",
-    "oceania": "2026-11-24T23:00:00.000Z"
+    "europe": "2026-11-25T09:00:00.000Z",
+    "north-america": "2026-11-25T16:00:00.000Z",
+    "south-america": "2026-11-25T15:00:00.000Z",
+    "asia": "2026-11-25T04:00:00.000Z",
+    "oceania": "2026-11-25T00:00:00.000Z"
   },
   "regions": [
     {
@@ -3899,6 +3899,20 @@
       "icon": "cold_snap.png"
     },
     {
+      "condition": "Redirection",
+      "map": "Pendola Pass",
+      "start": 1795561200000,
+      "end": 1795564800000,
+      "times": {
+        "europe": [
+          1795561200000,
+          1795564800000
+        ]
+      },
+      "type": "minor",
+      "icon": "redirection.png"
+    },
+    {
       "condition": "Uncovered Caches",
       "map": "Riven Tides",
       "start": 1795561200000,
@@ -4947,6 +4961,126 @@
       },
       "type": "minor",
       "icon": "matriarch.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Buried City",
+      "start": 1795593600000,
+      "end": 1795597200000,
+      "times": {
+        "europe": [
+          1795593600000,
+          1795597200000
+        ],
+        "north-america": [
+          1795618800000,
+          1795622400000
+        ],
+        "south-america": [
+          1795615200000,
+          1795618800000
+        ],
+        "asia": [
+          1795575600000,
+          1795579200000
+        ],
+        "oceania": [
+          1795561200000,
+          1795564800000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Dam Battlegrounds",
+      "start": 1795593600000,
+      "end": 1795597200000,
+      "times": {
+        "europe": [
+          1795593600000,
+          1795597200000
+        ],
+        "north-america": [
+          1795618800000,
+          1795622400000
+        ],
+        "south-america": [
+          1795615200000,
+          1795618800000
+        ],
+        "asia": [
+          1795575600000,
+          1795579200000
+        ],
+        "oceania": [
+          1795561200000,
+          1795564800000
+        ]
+      },
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
+      "condition": "Lush Blooms",
+      "map": "Riven Tides",
+      "start": 1795593600000,
+      "end": 1795597200000,
+      "times": {
+        "europe": [
+          1795593600000,
+          1795597200000
+        ],
+        "north-america": [
+          1795618800000,
+          1795622400000
+        ],
+        "south-america": [
+          1795615200000,
+          1795618800000
+        ],
+        "asia": [
+          1795575600000,
+          1795579200000
+        ],
+        "oceania": [
+          1795561200000,
+          1795564800000
+        ]
+      },
+      "type": "minor",
+      "icon": "lush_blooms.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1795593600000,
+      "end": 1795597200000,
+      "times": {
+        "europe": [
+          1795593600000,
+          1795597200000
+        ],
+        "north-america": [
+          1795618800000,
+          1795622400000
+        ],
+        "south-america": [
+          1795615200000,
+          1795618800000
+        ],
+        "asia": [
+          1795575600000,
+          1795579200000
+        ],
+        "oceania": [
+          1795561200000,
+          1795564800000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
     }
   ]
 }
