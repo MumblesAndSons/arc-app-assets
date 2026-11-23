@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T19:32:17.504Z",
+  "generatedAt": "2026-11-23T20:02:16.055Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-25T06:00:00.000Z",
@@ -110,126 +110,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "ARC Frigate",
-      "map": "Dam Battlegrounds",
-      "start": 1795435200000,
-      "end": 1795438800000,
-      "times": {
-        "europe": [
-          1795435200000,
-          1795438800000
-        ],
-        "north-america": [
-          1795460400000,
-          1795464000000
-        ],
-        "south-america": [
-          1795456800000,
-          1795460400000
-        ],
-        "asia": [
-          1795417200000,
-          1795420800000
-        ],
-        "oceania": [
-          1795402800000,
-          1795406400000
-        ]
-      },
-      "type": "major",
-      "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1795435200000,
-      "end": 1795438800000,
-      "times": {
-        "europe": [
-          1795435200000,
-          1795438800000
-        ],
-        "north-america": [
-          1795460400000,
-          1795464000000
-        ],
-        "south-america": [
-          1795456800000,
-          1795460400000
-        ],
-        "asia": [
-          1795417200000,
-          1795420800000
-        ],
-        "oceania": [
-          1795402800000,
-          1795406400000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Cold Snap",
-      "map": "The Blue Gate",
-      "start": 1795435200000,
-      "end": 1795438800000,
-      "times": {
-        "europe": [
-          1795435200000,
-          1795438800000
-        ],
-        "north-america": [
-          1795460400000,
-          1795464000000
-        ],
-        "south-america": [
-          1795456800000,
-          1795460400000
-        ],
-        "asia": [
-          1795417200000,
-          1795420800000
-        ],
-        "oceania": [
-          1795402800000,
-          1795406400000
-        ]
-      },
-      "type": "major",
-      "icon": "cold_snap.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "The Blue Gate",
-      "start": 1795435200000,
-      "end": 1795438800000,
-      "times": {
-        "europe": [
-          1795435200000,
-          1795438800000
-        ],
-        "north-america": [
-          1795460400000,
-          1795464000000
-        ],
-        "south-america": [
-          1795456800000,
-          1795460400000
-        ],
-        "asia": [
-          1795417200000,
-          1795420800000
-        ],
-        "oceania": [
-          1795402800000,
-          1795406400000
-        ]
-      },
-      "type": "minor",
-      "icon": "harvester.png"
-    },
     {
       "condition": "Hurricane",
       "map": "Buried City",
@@ -1009,20 +889,6 @@
       },
       "type": "major",
       "icon": "night_raid.png"
-    },
-    {
-      "condition": "Redirection",
-      "map": "Pendola Pass",
-      "start": 1795460400000,
-      "end": 1795464000000,
-      "times": {
-        "europe": [
-          1795460400000,
-          1795464000000
-        ]
-      },
-      "type": "minor",
-      "icon": "redirection.png"
     },
     {
       "condition": "Harvester",
