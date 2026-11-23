@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T14:32:16.166Z",
+  "generatedAt": "2026-11-23T15:02:15.049Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-25T01:00:00.000Z",
@@ -110,126 +110,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Night Raid",
-      "map": "Pendola Pass",
-      "start": 1795417200000,
-      "end": 1795420800000,
-      "times": {
-        "europe": [
-          1795417200000,
-          1795420800000
-        ],
-        "north-america": [
-          1795442400000,
-          1795446000000
-        ],
-        "south-america": [
-          1795438800000,
-          1795442400000
-        ],
-        "asia": [
-          1795399200000,
-          1795402800000
-        ],
-        "oceania": [
-          1795384800000,
-          1795388400000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Uncovered Caches",
-      "map": "Spaceport",
-      "start": 1795417200000,
-      "end": 1795420800000,
-      "times": {
-        "europe": [
-          1795417200000,
-          1795420800000
-        ],
-        "north-america": [
-          1795442400000,
-          1795446000000
-        ],
-        "south-america": [
-          1795438800000,
-          1795442400000
-        ],
-        "asia": [
-          1795399200000,
-          1795402800000
-        ],
-        "oceania": [
-          1795384800000,
-          1795388400000
-        ]
-      },
-      "type": "minor",
-      "icon": "uncovered_caches.png"
-    },
-    {
-      "condition": "Cold Snap",
-      "map": "The Blue Gate",
-      "start": 1795417200000,
-      "end": 1795420800000,
-      "times": {
-        "europe": [
-          1795417200000,
-          1795420800000
-        ],
-        "north-america": [
-          1795442400000,
-          1795446000000
-        ],
-        "south-america": [
-          1795438800000,
-          1795442400000
-        ],
-        "asia": [
-          1795399200000,
-          1795402800000
-        ],
-        "oceania": [
-          1795384800000,
-          1795388400000
-        ]
-      },
-      "type": "major",
-      "icon": "cold_snap.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "The Blue Gate",
-      "start": 1795417200000,
-      "end": 1795420800000,
-      "times": {
-        "europe": [
-          1795417200000,
-          1795420800000
-        ],
-        "north-america": [
-          1795442400000,
-          1795446000000
-        ],
-        "south-america": [
-          1795438800000,
-          1795442400000
-        ],
-        "asia": [
-          1795399200000,
-          1795402800000
-        ],
-        "oceania": [
-          1795384800000,
-          1795388400000
-        ]
-      },
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
     {
       "condition": "Bird City",
       "map": "Buried City",
@@ -949,20 +829,6 @@
       },
       "type": "minor",
       "icon": "bird_city.png"
-    },
-    {
-      "condition": "Uncovered Caches",
-      "map": "Pendola Pass",
-      "start": 1795442400000,
-      "end": 1795446000000,
-      "times": {
-        "europe": [
-          1795442400000,
-          1795446000000
-        ]
-      },
-      "type": "minor",
-      "icon": "uncovered_caches.png"
     },
     {
       "condition": "Matriarch",
