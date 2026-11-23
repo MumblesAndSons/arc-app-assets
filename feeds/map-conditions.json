@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T22:32:14.422Z",
+  "generatedAt": "2026-11-23T23:02:16.078Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-25T09:00:00.000Z",
@@ -110,126 +110,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Hurricane",
-      "map": "Dam Battlegrounds",
-      "start": 1795446000000,
-      "end": 1795449600000,
-      "times": {
-        "europe": [
-          1795446000000,
-          1795449600000
-        ],
-        "north-america": [
-          1795471200000,
-          1795474800000
-        ],
-        "south-america": [
-          1795467600000,
-          1795471200000
-        ],
-        "asia": [
-          1795428000000,
-          1795431600000
-        ],
-        "oceania": [
-          1795413600000,
-          1795417200000
-        ]
-      },
-      "type": "major",
-      "icon": "hurricane.png"
-    },
-    {
-      "condition": "Lush Blooms",
-      "map": "Riven Tides",
-      "start": 1795446000000,
-      "end": 1795449600000,
-      "times": {
-        "europe": [
-          1795446000000,
-          1795449600000
-        ],
-        "north-america": [
-          1795471200000,
-          1795474800000
-        ],
-        "south-america": [
-          1795467600000,
-          1795471200000
-        ],
-        "asia": [
-          1795428000000,
-          1795431600000
-        ],
-        "oceania": [
-          1795413600000,
-          1795417200000
-        ]
-      },
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "Spaceport",
-      "start": 1795446000000,
-      "end": 1795449600000,
-      "times": {
-        "europe": [
-          1795446000000,
-          1795449600000
-        ],
-        "north-america": [
-          1795471200000,
-          1795474800000
-        ],
-        "south-america": [
-          1795467600000,
-          1795471200000
-        ],
-        "asia": [
-          1795428000000,
-          1795431600000
-        ],
-        "oceania": [
-          1795413600000,
-          1795417200000
-        ]
-      },
-      "type": "minor",
-      "icon": "harvester.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1795446000000,
-      "end": 1795449600000,
-      "times": {
-        "europe": [
-          1795446000000,
-          1795449600000
-        ],
-        "north-america": [
-          1795471200000,
-          1795474800000
-        ],
-        "south-america": [
-          1795467600000,
-          1795471200000
-        ],
-        "asia": [
-          1795428000000,
-          1795431600000
-        ],
-        "oceania": [
-          1795413600000,
-          1795417200000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
     {
       "condition": "Cold Snap",
       "map": "Dam Battlegrounds",
@@ -949,20 +829,6 @@
       },
       "type": "major",
       "icon": "electromagnetic_storm.png"
-    },
-    {
-      "condition": "Redirection",
-      "map": "Pendola Pass",
-      "start": 1795471200000,
-      "end": 1795474800000,
-      "times": {
-        "europe": [
-          1795471200000,
-          1795474800000
-        ]
-      },
-      "type": "minor",
-      "icon": "redirection.png"
     },
     {
       "condition": "Uncovered Caches",
