@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T00:32:15.776Z",
+  "generatedAt": "2026-11-24T01:02:17.378Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-25T11:00:00.000Z",
@@ -110,96 +110,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Bird City",
-      "map": "Buried City",
-      "start": 1795453200000,
-      "end": 1795456800000,
-      "times": {
-        "europe": [
-          1795453200000,
-          1795456800000
-        ],
-        "north-america": [
-          1795478400000,
-          1795482000000
-        ],
-        "south-america": [
-          1795474800000,
-          1795478400000
-        ],
-        "asia": [
-          1795435200000,
-          1795438800000
-        ],
-        "oceania": [
-          1795420800000,
-          1795424400000
-        ]
-      },
-      "type": "minor",
-      "icon": "bird_city.png"
-    },
-    {
-      "condition": "Hurricane",
-      "map": "Spaceport",
-      "start": 1795453200000,
-      "end": 1795456800000,
-      "times": {
-        "europe": [
-          1795453200000,
-          1795456800000
-        ],
-        "north-america": [
-          1795478400000,
-          1795482000000
-        ],
-        "south-america": [
-          1795474800000,
-          1795478400000
-        ],
-        "asia": [
-          1795435200000,
-          1795438800000
-        ],
-        "oceania": [
-          1795420800000,
-          1795424400000
-        ]
-      },
-      "type": "major",
-      "icon": "hurricane.png"
-    },
-    {
-      "condition": "Locked Gate",
-      "map": "The Blue Gate",
-      "start": 1795453200000,
-      "end": 1795456800000,
-      "times": {
-        "europe": [
-          1795453200000,
-          1795456800000
-        ],
-        "north-america": [
-          1795478400000,
-          1795482000000
-        ],
-        "south-america": [
-          1795474800000,
-          1795478400000
-        ],
-        "asia": [
-          1795435200000,
-          1795438800000
-        ],
-        "oceania": [
-          1795420800000,
-          1795424400000
-        ]
-      },
-      "type": "major",
-      "icon": "locked_gate.png"
-    },
     {
       "condition": "Cold Snap",
       "map": "Buried City",
