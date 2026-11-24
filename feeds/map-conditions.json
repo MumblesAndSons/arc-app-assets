@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-24T20:02:16.826Z",
+  "generatedAt": "2026-11-24T20:32:15.697Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-26T06:00:00.000Z",
+  "horizonEnd": "2026-11-26T07:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-26T06:00:00.000Z",
-    "north-america": "2026-11-26T13:00:00.000Z",
-    "south-america": "2026-11-26T12:00:00.000Z",
-    "asia": "2026-11-26T01:00:00.000Z",
-    "oceania": "2026-11-25T21:00:00.000Z"
+    "europe": "2026-11-26T07:00:00.000Z",
+    "north-america": "2026-11-26T14:00:00.000Z",
+    "south-america": "2026-11-26T13:00:00.000Z",
+    "asia": "2026-11-26T02:00:00.000Z",
+    "oceania": "2026-11-25T22:00:00.000Z"
   },
   "regions": [
     {
@@ -3948,6 +3948,20 @@
       "icon": "night_raid.png"
     },
     {
+      "condition": "Redirection",
+      "map": "Pendola Pass",
+      "start": 1795640400000,
+      "end": 1795644000000,
+      "times": {
+        "europe": [
+          1795640400000,
+          1795644000000
+        ]
+      },
+      "type": "minor",
+      "icon": "redirection.png"
+    },
+    {
       "condition": "Harvester",
       "map": "Spaceport",
       "start": 1795640400000,
@@ -4906,6 +4920,126 @@
       },
       "type": "major",
       "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Cold Snap",
+      "map": "Buried City",
+      "start": 1795672800000,
+      "end": 1795676400000,
+      "times": {
+        "europe": [
+          1795672800000,
+          1795676400000
+        ],
+        "north-america": [
+          1795698000000,
+          1795701600000
+        ],
+        "south-america": [
+          1795694400000,
+          1795698000000
+        ],
+        "asia": [
+          1795654800000,
+          1795658400000
+        ],
+        "oceania": [
+          1795640400000,
+          1795644000000
+        ]
+      },
+      "type": "major",
+      "icon": "cold_snap.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Dam Battlegrounds",
+      "start": 1795672800000,
+      "end": 1795676400000,
+      "times": {
+        "europe": [
+          1795672800000,
+          1795676400000
+        ],
+        "north-america": [
+          1795698000000,
+          1795701600000
+        ],
+        "south-america": [
+          1795694400000,
+          1795698000000
+        ],
+        "asia": [
+          1795654800000,
+          1795658400000
+        ],
+        "oceania": [
+          1795640400000,
+          1795644000000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1795672800000,
+      "end": 1795676400000,
+      "times": {
+        "europe": [
+          1795672800000,
+          1795676400000
+        ],
+        "north-america": [
+          1795698000000,
+          1795701600000
+        ],
+        "south-america": [
+          1795694400000,
+          1795698000000
+        ],
+        "asia": [
+          1795654800000,
+          1795658400000
+        ],
+        "oceania": [
+          1795640400000,
+          1795644000000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Uncovered Caches",
+      "map": "The Blue Gate",
+      "start": 1795672800000,
+      "end": 1795676400000,
+      "times": {
+        "europe": [
+          1795672800000,
+          1795676400000
+        ],
+        "north-america": [
+          1795698000000,
+          1795701600000
+        ],
+        "south-america": [
+          1795694400000,
+          1795698000000
+        ],
+        "asia": [
+          1795654800000,
+          1795658400000
+        ],
+        "oceania": [
+          1795640400000,
+          1795644000000
+        ]
+      },
+      "type": "minor",
+      "icon": "uncovered_caches.png"
     }
   ]
 }
