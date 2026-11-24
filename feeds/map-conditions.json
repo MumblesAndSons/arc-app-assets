@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-24T06:02:13.154Z",
+  "generatedAt": "2026-11-24T06:32:19.109Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-25T16:00:00.000Z",
+  "horizonEnd": "2026-11-25T17:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-25T16:00:00.000Z",
-    "north-america": "2026-11-25T23:00:00.000Z",
-    "south-america": "2026-11-25T22:00:00.000Z",
-    "asia": "2026-11-25T11:00:00.000Z",
-    "oceania": "2026-11-25T07:00:00.000Z"
+    "europe": "2026-11-25T17:00:00.000Z",
+    "north-america": "2026-11-26T00:00:00.000Z",
+    "south-america": "2026-11-25T23:00:00.000Z",
+    "asia": "2026-11-25T12:00:00.000Z",
+    "oceania": "2026-11-25T08:00:00.000Z"
   },
   "regions": [
     {
@@ -4931,6 +4931,126 @@
       },
       "type": "major",
       "icon": "electromagnetic_storm.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Buried City",
+      "start": 1795622400000,
+      "end": 1795626000000,
+      "times": {
+        "europe": [
+          1795622400000,
+          1795626000000
+        ],
+        "north-america": [
+          1795647600000,
+          1795651200000
+        ],
+        "south-america": [
+          1795644000000,
+          1795647600000
+        ],
+        "asia": [
+          1795604400000,
+          1795608000000
+        ],
+        "oceania": [
+          1795590000000,
+          1795593600000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1795622400000,
+      "end": 1795626000000,
+      "times": {
+        "europe": [
+          1795622400000,
+          1795626000000
+        ],
+        "north-america": [
+          1795647600000,
+          1795651200000
+        ],
+        "south-america": [
+          1795644000000,
+          1795647600000
+        ],
+        "asia": [
+          1795604400000,
+          1795608000000
+        ],
+        "oceania": [
+          1795590000000,
+          1795593600000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Spaceport",
+      "start": 1795622400000,
+      "end": 1795626000000,
+      "times": {
+        "europe": [
+          1795622400000,
+          1795626000000
+        ],
+        "north-america": [
+          1795647600000,
+          1795651200000
+        ],
+        "south-america": [
+          1795644000000,
+          1795647600000
+        ],
+        "asia": [
+          1795604400000,
+          1795608000000
+        ],
+        "oceania": [
+          1795590000000,
+          1795593600000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
+    },
+    {
+      "condition": "Cold Snap",
+      "map": "The Blue Gate",
+      "start": 1795622400000,
+      "end": 1795626000000,
+      "times": {
+        "europe": [
+          1795622400000,
+          1795626000000
+        ],
+        "north-america": [
+          1795647600000,
+          1795651200000
+        ],
+        "south-america": [
+          1795644000000,
+          1795647600000
+        ],
+        "asia": [
+          1795604400000,
+          1795608000000
+        ],
+        "oceania": [
+          1795590000000,
+          1795593600000
+        ]
+      },
+      "type": "major",
+      "icon": "cold_snap.png"
     }
   ]
 }
