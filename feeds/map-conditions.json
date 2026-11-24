@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T23:32:12.971Z",
+  "generatedAt": "2026-11-24T00:02:19.926Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-25T10:00:00.000Z",
@@ -110,96 +110,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Cold Snap",
-      "map": "Dam Battlegrounds",
-      "start": 1795449600000,
-      "end": 1795453200000,
-      "times": {
-        "europe": [
-          1795449600000,
-          1795453200000
-        ],
-        "north-america": [
-          1795474800000,
-          1795478400000
-        ],
-        "south-america": [
-          1795471200000,
-          1795474800000
-        ],
-        "asia": [
-          1795431600000,
-          1795435200000
-        ],
-        "oceania": [
-          1795417200000,
-          1795420800000
-        ]
-      },
-      "type": "major",
-      "icon": "cold_snap.png"
-    },
-    {
-      "condition": "ARC Frigate",
-      "map": "Spaceport",
-      "start": 1795449600000,
-      "end": 1795453200000,
-      "times": {
-        "europe": [
-          1795449600000,
-          1795453200000
-        ],
-        "north-america": [
-          1795474800000,
-          1795478400000
-        ],
-        "south-america": [
-          1795471200000,
-          1795474800000
-        ],
-        "asia": [
-          1795431600000,
-          1795435200000
-        ],
-        "oceania": [
-          1795417200000,
-          1795420800000
-        ]
-      },
-      "type": "major",
-      "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "The Blue Gate",
-      "start": 1795449600000,
-      "end": 1795453200000,
-      "times": {
-        "europe": [
-          1795449600000,
-          1795453200000
-        ],
-        "north-america": [
-          1795474800000,
-          1795478400000
-        ],
-        "south-america": [
-          1795471200000,
-          1795474800000
-        ],
-        "asia": [
-          1795431600000,
-          1795435200000
-        ],
-        "oceania": [
-          1795417200000,
-          1795420800000
-        ]
-      },
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
     {
       "condition": "Bird City",
       "map": "Buried City",
