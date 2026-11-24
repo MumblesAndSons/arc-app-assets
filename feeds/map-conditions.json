@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-24T15:02:15.024Z",
+  "generatedAt": "2026-11-24T15:32:14.863Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-26T01:00:00.000Z",
+  "horizonEnd": "2026-11-26T02:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-26T01:00:00.000Z",
-    "north-america": "2026-11-26T08:00:00.000Z",
-    "south-america": "2026-11-26T07:00:00.000Z",
-    "asia": "2026-11-25T20:00:00.000Z",
-    "oceania": "2026-11-25T16:00:00.000Z"
+    "europe": "2026-11-26T02:00:00.000Z",
+    "north-america": "2026-11-26T09:00:00.000Z",
+    "south-america": "2026-11-26T08:00:00.000Z",
+    "asia": "2026-11-25T21:00:00.000Z",
+    "oceania": "2026-11-25T17:00:00.000Z"
   },
   "regions": [
     {
@@ -3918,6 +3918,20 @@
       "icon": "bird_city.png"
     },
     {
+      "condition": "Uncovered Caches",
+      "map": "Pendola Pass",
+      "start": 1795622400000,
+      "end": 1795626000000,
+      "times": {
+        "europe": [
+          1795622400000,
+          1795626000000
+        ]
+      },
+      "type": "minor",
+      "icon": "uncovered_caches.png"
+    },
+    {
       "condition": "Matriarch",
       "map": "Spaceport",
       "start": 1795622400000,
@@ -4876,6 +4890,126 @@
       },
       "type": "minor",
       "icon": "matriarch.png"
+    },
+    {
+      "condition": "Uncovered Caches",
+      "map": "Dam Battlegrounds",
+      "start": 1795654800000,
+      "end": 1795658400000,
+      "times": {
+        "europe": [
+          1795654800000,
+          1795658400000
+        ],
+        "north-america": [
+          1795680000000,
+          1795683600000
+        ],
+        "south-america": [
+          1795676400000,
+          1795680000000
+        ],
+        "asia": [
+          1795636800000,
+          1795640400000
+        ],
+        "oceania": [
+          1795622400000,
+          1795626000000
+        ]
+      },
+      "type": "minor",
+      "icon": "uncovered_caches.png"
+    },
+    {
+      "condition": "Lush Blooms",
+      "map": "Riven Tides",
+      "start": 1795654800000,
+      "end": 1795658400000,
+      "times": {
+        "europe": [
+          1795654800000,
+          1795658400000
+        ],
+        "north-america": [
+          1795680000000,
+          1795683600000
+        ],
+        "south-america": [
+          1795676400000,
+          1795680000000
+        ],
+        "asia": [
+          1795636800000,
+          1795640400000
+        ],
+        "oceania": [
+          1795622400000,
+          1795626000000
+        ]
+      },
+      "type": "minor",
+      "icon": "lush_blooms.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Spaceport",
+      "start": 1795654800000,
+      "end": 1795658400000,
+      "times": {
+        "europe": [
+          1795654800000,
+          1795658400000
+        ],
+        "north-america": [
+          1795680000000,
+          1795683600000
+        ],
+        "south-america": [
+          1795676400000,
+          1795680000000
+        ],
+        "asia": [
+          1795636800000,
+          1795640400000
+        ],
+        "oceania": [
+          1795622400000,
+          1795626000000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Cold Snap",
+      "map": "The Blue Gate",
+      "start": 1795654800000,
+      "end": 1795658400000,
+      "times": {
+        "europe": [
+          1795654800000,
+          1795658400000
+        ],
+        "north-america": [
+          1795680000000,
+          1795683600000
+        ],
+        "south-america": [
+          1795676400000,
+          1795680000000
+        ],
+        "asia": [
+          1795636800000,
+          1795640400000
+        ],
+        "oceania": [
+          1795622400000,
+          1795626000000
+        ]
+      },
+      "type": "major",
+      "icon": "cold_snap.png"
     }
   ]
 }
