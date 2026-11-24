@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T09:32:21.405Z",
+  "generatedAt": "2026-11-24T10:02:13.727Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-25T20:00:00.000Z",
@@ -110,96 +110,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Night Raid",
-      "map": "Riven Tides",
-      "start": 1795485600000,
-      "end": 1795489200000,
-      "times": {
-        "europe": [
-          1795485600000,
-          1795489200000
-        ],
-        "north-america": [
-          1795510800000,
-          1795514400000
-        ],
-        "south-america": [
-          1795507200000,
-          1795510800000
-        ],
-        "asia": [
-          1795467600000,
-          1795471200000
-        ],
-        "oceania": [
-          1795453200000,
-          1795456800000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "Spaceport",
-      "start": 1795485600000,
-      "end": 1795489200000,
-      "times": {
-        "europe": [
-          1795485600000,
-          1795489200000
-        ],
-        "north-america": [
-          1795510800000,
-          1795514400000
-        ],
-        "south-america": [
-          1795507200000,
-          1795510800000
-        ],
-        "asia": [
-          1795467600000,
-          1795471200000
-        ],
-        "oceania": [
-          1795453200000,
-          1795456800000
-        ]
-      },
-      "type": "minor",
-      "icon": "harvester.png"
-    },
-    {
-      "condition": "Cold Snap",
-      "map": "The Blue Gate",
-      "start": 1795485600000,
-      "end": 1795489200000,
-      "times": {
-        "europe": [
-          1795485600000,
-          1795489200000
-        ],
-        "north-america": [
-          1795510800000,
-          1795514400000
-        ],
-        "south-america": [
-          1795507200000,
-          1795510800000
-        ],
-        "asia": [
-          1795467600000,
-          1795471200000
-        ],
-        "oceania": [
-          1795453200000,
-          1795456800000
-        ]
-      },
-      "type": "major",
-      "icon": "cold_snap.png"
-    },
     {
       "condition": "Bird City",
       "map": "Buried City",

@@ -1,7 +1,17 @@
 {
-  "generatedAt": "2026-11-24T07:02:16.282Z",
+  "generatedAt": "2026-11-24T10:02:16.863Z",
   "bodyBase": "https://raw.githubusercontent.com/MumblesAndSons/arc-app-assets/main/feeds/news",
   "articles": [
+    {
+      "id": "store-update-2-7-0",
+      "title": "Store Update 2.7.0 - Flickering Flames",
+      "date": "November 24, 2026",
+      "image": "https://assets.arcraiders.com/article-cards/d9646343-6b94-live-update-2.07-card-600x400-300x200.png",
+      "tags": [
+        "Store Update"
+      ],
+      "summary": "Update 2.7.0 is rolling out right now, bringing a new Raider Project and the Nessuno Set. No restart required!"
+    },
     {
       "id": "black-friday-sale",
       "title": "ARC Raiders Black Friday 2026: where and when to get 50% off",
@@ -15,9 +25,7 @@
       "title": "Live Update 2.6.0",
       "date": "November 17, 2026",
       "image": "https://assets.arcraiders.com/article-cards/5f543c3c-3850-live-update-2.06-card-600x400-300x200.png",
-      "tags": [
-        "Patch Notes"
-      ],
+      "tags": [],
       "summary": "Heads up, Raiders! Live Update 2.6.0 is rolling out now, bringing a wave of fixes and improvements detailed below. On top of that, a new Stencil set has arrived so you can customize your hard-won weapons."
     },
     {
@@ -25,9 +33,7 @@
       "title": "Store Update 2.5.0",
       "date": "November 10, 2026",
       "image": "https://assets.arcraiders.com/article-cards/906bd3b3-b6e7-live-update-2.05-card-600x400-300x200.png",
-      "tags": [
-        "Store Update"
-      ],
+      "tags": [],
       "summary": "Update 2.5.0 is now live, bringing two fresh colour variants for the Vanguard Set: Orange and Black/White. No restart is needed to access them."
     },
     {
@@ -45,9 +51,7 @@
       "title": "Store Update 2.4.0",
       "date": "November 3, 2026",
       "image": "https://assets.arcraiders.com/article-cards/ebf799d2-6de3-live-update-2.4-card-600x400-300x200.png",
-      "tags": [
-        "Store Update"
-      ],
+      "tags": [],
       "summary": "Update 2.4.0 is rolling out now, bringing the Dead Eye Set along with a fix for the issue where the Raider Tool would show up as default even when a different skin was equipped. No restart is needed to get this update."
     },
     {
@@ -79,9 +83,7 @@
       "title": "Live Update 2.3.0",
       "date": "October 27, 2026",
       "image": "https://assets.arcraiders.com/article-cards/2409c2bd-f7b5-live-update-2.3-card-600x400-300x200.png",
-      "tags": [
-        "Patch Notes"
-      ],
+      "tags": [],
       "summary": "Update 2.3 is now rolling out, bringing the Noxious Set, a batch of fixes, and a new player project. Restart the game to download it."
     },
     {
@@ -105,9 +107,7 @@
       "title": "Store Update 2.2.0",
       "date": "October 20, 2026",
       "image": "https://assets.arcraiders.com/article-cards/2b4d09fb-96d3-live-update-2.2-card-600x400 (2)-300x200.png",
-      "tags": [
-        "Patch Notes"
-      ],
+      "tags": [],
       "summary": "Update 2.2 is now live and brings the Wreck Set along with a range of fixes. Restart your game to download it. The PvE Beta test has now concluded, and we hope many of you got a chance to try it out."
     },
     {
@@ -123,9 +123,7 @@
       "title": "Store Update 2.1.0",
       "date": "October 13, 2026",
       "image": "https://assets.arcraiders.com/article-cards/4d6f7fd1-a679-live-update-2.1-card-600x400-300x200.png",
-      "tags": [
-        "Patch Notes"
-      ],
+      "tags": [],
       "summary": "Update 2.1 is now live, and with it comes the launch of the PvE toggle Beta Test. The reveal of this long-requested feature stirred up a mix of enthusiasm and doubt, so give it a try and share your thoughts. Your feedback, combined with dat"
     },
     {
@@ -156,7 +154,7 @@
       "id": "frozen-trail-is-live",
       "title": "Frozen Trail is live! Play for free October 8-12",
       "date": "October 8, 2026",
-      "image": "https://assets.arcraiders.com/article-cards/fdd8bb8a-8323-live-update-2,0-card-600x400-300x200.png",
+      "image": "https://assets.arcraiders.com/static/articles/generic-300x200.png",
       "tags": [],
       "summary": "# Frozen Trail has arrived! Free to play October 8-12"
     },
@@ -199,9 +197,7 @@
       "title": "Store Update 1.48.0",
       "date": "September 29, 2026",
       "image": "https://assets.arcraiders.com/article-cards/c31cbcfe-e178-store-update-1.48-card-600x400-300x200.png",
-      "tags": [
-        "Store Update"
-      ],
+      "tags": [],
       "summary": "Update 1.48.0 is rolling out now, adding two new colour variants for the Misthorn Set: Blue Silver and Green Wood. If you already own the set, these variants will be applied to you automatically. There's no need to restart your game."
     },
     {
@@ -216,7 +212,7 @@
       "id": "pve-toggle-beta-test",
       "title": "We’re testing a PvE Toggle: here’s what it means for you",
       "date": "September 24, 2026",
-      "image": "https://assets.arcraiders.com/article-cards/2880927f-36f2-pve-toggle-card-600x400-300x200.png",
+      "image": "https://assets.arcraiders.com/static/articles/generic-300x200.png",
       "tags": [],
       "summary": "# We're Trialling a PvE Toggle: What It Means for You"
     },
@@ -233,10 +229,7 @@
       "title": "Store Update 1.47.0",
       "date": "September 22, 2026",
       "image": "https://assets.arcraiders.com/article-cards/c2e22458-6199-store-update-1.47-card-600x400-300x200.png",
-      "tags": [
-        "Store Update",
-        "Patch Notes"
-      ],
+      "tags": [],
       "summary": "Greetings, Raiders. Update 1.47.0 is rolling out now, adding two fresh color options for the Riposta Set, an update regarding Fair Play, and several additional fixes and improvements. You'll need to download the update, so be sure to do tha"
     },
     {
@@ -244,9 +237,7 @@
       "title": "Store Update 1.46.0",
       "date": "September 15, 2026",
       "image": "https://assets.arcraiders.com/article-cards/9207c39d-aa32-store-update-1.46-card-600x400-300x200.png",
-      "tags": [
-        "Store Update"
-      ],
+      "tags": [],
       "summary": "Store Update 1.46.0 is now live, adding two new colour variants for the Boonie Set: Black and Green Camo. If you already own the outfit, these variants unlock automatically. No restart needed!"
     },
     {
@@ -254,9 +245,7 @@
       "title": "Live Update 1.45.0",
       "date": "September 8, 2026",
       "image": "https://assets.arcraiders.com/article-cards/e3bf2866-1c70-store-update-1.45-card-300x200-300x200.png",
-      "tags": [
-        "Patch Notes"
-      ],
+      "tags": [],
       "summary": "Update 1.45.0 is now live, bringing several fixes, a new Raider Project, the launch of the fifth Expedition, the Hornet Hunter Set, and upcoming changes to Cred. Restart your game to receive the download."
     },
     {
@@ -264,9 +253,7 @@
       "title": "Store Update 1.44.0",
       "date": "September 1, 2026",
       "image": "https://assets.arcraiders.com/article-cards/77f2c443-0a22-store-update-1.44-card-300x200-300x200.png",
-      "tags": [
-        "Store Update"
-      ],
+      "tags": [],
       "summary": "Store Update 1.44.0 is now live, bringing the stunning Static Set to the store. No restart is needed to access it."
     },
     {
@@ -274,9 +261,7 @@
       "title": "Store Update 1.43.0",
       "date": "August 25, 2026",
       "image": "https://assets.arcraiders.com/article-cards/6053ff74-0fbf-store-update-1.43-card-300x200-300x200.png",
-      "tags": [
-        "Store Update"
-      ],
+      "tags": [],
       "summary": "Store Update 1.43.0 is now rolling out, bringing with it the heavy duty Roamer Set! Be sure to restart your game so you're running the latest version."
     },
     {
@@ -300,9 +285,7 @@
       "title": "Live Update 1.42.0",
       "date": "August 18, 2026",
       "image": "https://assets.arcraiders.com/article-cards/efc9be14-9630-store-update-1.42-card-300x200-300x200.png",
-      "tags": [
-        "Patch Notes"
-      ],
+      "tags": [],
       "summary": "Update 1.42.0 has gone live, bringing a set of fixes, the second part of the Phantom Targets event featuring the Anomalia Outfit, a fresh Player Project, a smarter map condition schedule, and new Twitch drops."
     },
     {
@@ -318,9 +301,7 @@
       "title": "Store Update 1.41.0",
       "date": "August 11, 2026",
       "image": "https://assets.arcraiders.com/article-cards/1990c3be-2a4d-store-update-1.41-card-300x200-300x200.png",
-      "tags": [
-        "Store Update"
-      ],
+      "tags": [],
       "summary": "Store Update 1.41.0 is rolling out now, adding two new colour variants for the Vulpine outfit: green/camo and black. Anyone who already owns the outfit gets these colour variants automatically, with no restart needed."
     },
     {
@@ -328,9 +309,7 @@
       "title": "Store Update 1.40.0",
       "date": "August 4, 2026",
       "image": "https://assets.arcraiders.com/article-cards/1ce8fcfe-faff-store-update-1.40-card-300x200-300x200.png",
-      "tags": [
-        "Store Update"
-      ],
+      "tags": [],
       "summary": "Store Update 1.40.0 is now live, bringing two new colour variants — black and yellow — for the Volare outfit, along with a brand new event called Phantom Targets."
     },
     {
@@ -338,9 +317,7 @@
       "title": "Live Update 1.39.0",
       "date": "July 28, 2026",
       "image": "https://assets.arcraiders.com/article-cards/674fd509-41fb-live-update-1.39-card-300x200 (1)-300x200.jpg",
-      "tags": [
-        "Patch Notes"
-      ],
+      "tags": [],
       "summary": "Hello Raiders! Live Update 1.39.0 is rolling out now, delivering a range of game fixes, changes and further updates to the Matchmaking System. The Seeker and Wolfpack no longer deal inconsistent damage, and trinkets that were added back in "
     },
     {
@@ -348,20 +325,8 @@
       "title": "Store Update 1.38.0",
       "date": "July 21, 2026",
       "image": "https://assets.arcraiders.com/article-cards/e2ebbcea-dff2-store-update-1.37-card-300x200 (2)-300x200.jpg",
-      "tags": [
-        "Store Update"
-      ],
+      "tags": [],
       "summary": "Store Update 1.38.0 is rolling out now across every platform. It adds two new color options for the Torpedo set, Camo and Black, and these will be added automatically for anyone who already owns the outfit. As with earlier updates, there is"
-    },
-    {
-      "id": "store-update-1-37-0",
-      "title": "Store Update 1.37.0",
-      "date": "July 14, 2026",
-      "image": "https://assets.arcraiders.com/article-cards/b877ac91-f750-store-update-1.37-card-300x200 (1)-300x200.jpg",
-      "tags": [
-        "Store Update"
-      ],
-      "summary": "Store Update 1.37.0 is rolling out now across all platforms, bringing two fresh colour options for the Driftcoat outfit: black/green and red. If you already own this skin, both variants will be added to your account automatically, and no re"
     }
   ]
 }
