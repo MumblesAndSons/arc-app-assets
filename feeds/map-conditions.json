@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T04:32:15.866Z",
+  "generatedAt": "2026-11-25T05:02:18.598Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-26T15:00:00.000Z",
@@ -115,96 +115,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Bird City",
-      "map": "Buried City",
-      "start": 1795554000000,
-      "end": 1795557600000,
-      "times": {
-        "europe": [
-          1795554000000,
-          1795557600000
-        ],
-        "north-america": [
-          1795579200000,
-          1795582800000
-        ],
-        "south-america": [
-          1795575600000,
-          1795579200000
-        ],
-        "asia": [
-          1795536000000,
-          1795539600000
-        ],
-        "oceania": [
-          1795521600000,
-          1795525200000
-        ]
-      },
-      "type": "minor",
-      "icon": "bird_city.png"
-    },
-    {
-      "condition": "ARC Frigate",
-      "map": "Dam Battlegrounds",
-      "start": 1795554000000,
-      "end": 1795557600000,
-      "times": {
-        "europe": [
-          1795554000000,
-          1795557600000
-        ],
-        "north-america": [
-          1795579200000,
-          1795582800000
-        ],
-        "south-america": [
-          1795575600000,
-          1795579200000
-        ],
-        "asia": [
-          1795536000000,
-          1795539600000
-        ],
-        "oceania": [
-          1795521600000,
-          1795525200000
-        ]
-      },
-      "type": "major",
-      "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Cold Snap",
-      "map": "Spaceport",
-      "start": 1795554000000,
-      "end": 1795557600000,
-      "times": {
-        "europe": [
-          1795554000000,
-          1795557600000
-        ],
-        "north-america": [
-          1795579200000,
-          1795582800000
-        ],
-        "south-america": [
-          1795575600000,
-          1795579200000
-        ],
-        "asia": [
-          1795536000000,
-          1795539600000
-        ],
-        "oceania": [
-          1795521600000,
-          1795525200000
-        ]
-      },
-      "type": "major",
-      "icon": "cold_snap.png"
-    },
     {
       "condition": "Bird City",
       "map": "Buried City",
