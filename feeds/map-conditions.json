@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T14:32:17.085Z",
+  "generatedAt": "2026-11-25T15:02:16.463Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-27T01:00:00.000Z",
@@ -115,126 +115,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Bird City",
-      "map": "Buried City",
-      "start": 1795590000000,
-      "end": 1795593600000,
-      "times": {
-        "europe": [
-          1795590000000,
-          1795593600000
-        ],
-        "north-america": [
-          1795615200000,
-          1795618800000
-        ],
-        "south-america": [
-          1795611600000,
-          1795615200000
-        ],
-        "asia": [
-          1795572000000,
-          1795575600000
-        ],
-        "oceania": [
-          1795557600000,
-          1795561200000
-        ]
-      },
-      "type": "minor",
-      "icon": "bird_city.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Pendola Pass",
-      "start": 1795590000000,
-      "end": 1795593600000,
-      "times": {
-        "europe": [
-          1795590000000,
-          1795593600000
-        ],
-        "north-america": [
-          1795615200000,
-          1795618800000
-        ],
-        "south-america": [
-          1795611600000,
-          1795615200000
-        ],
-        "asia": [
-          1795572000000,
-          1795575600000
-        ],
-        "oceania": [
-          1795557600000,
-          1795561200000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Cold Snap",
-      "map": "Spaceport",
-      "start": 1795590000000,
-      "end": 1795593600000,
-      "times": {
-        "europe": [
-          1795590000000,
-          1795593600000
-        ],
-        "north-america": [
-          1795615200000,
-          1795618800000
-        ],
-        "south-america": [
-          1795611600000,
-          1795615200000
-        ],
-        "asia": [
-          1795572000000,
-          1795575600000
-        ],
-        "oceania": [
-          1795557600000,
-          1795561200000
-        ]
-      },
-      "type": "major",
-      "icon": "cold_snap.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "Spaceport",
-      "start": 1795590000000,
-      "end": 1795593600000,
-      "times": {
-        "europe": [
-          1795590000000,
-          1795593600000
-        ],
-        "north-america": [
-          1795615200000,
-          1795618800000
-        ],
-        "south-america": [
-          1795611600000,
-          1795615200000
-        ],
-        "asia": [
-          1795572000000,
-          1795575600000
-        ],
-        "oceania": [
-          1795557600000,
-          1795561200000
-        ]
-      },
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
     {
       "condition": "ARC Frigate",
       "map": "Buried City",
@@ -954,20 +834,6 @@
       },
       "type": "major",
       "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Redirection",
-      "map": "Pendola Pass",
-      "start": 1795615200000,
-      "end": 1795618800000,
-      "times": {
-        "europe": [
-          1795615200000,
-          1795618800000
-        ]
-      },
-      "type": "minor",
-      "icon": "redirection.png"
     },
     {
       "condition": "Night Raid",
