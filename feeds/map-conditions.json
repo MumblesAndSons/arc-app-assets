@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-25T23:02:15.158Z",
+  "generatedAt": "2026-11-25T23:32:13.559Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-27T09:00:00.000Z",
+  "horizonEnd": "2026-11-27T10:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-27T09:00:00.000Z",
-    "north-america": "2026-11-27T16:00:00.000Z",
-    "south-america": "2026-11-27T15:00:00.000Z",
-    "asia": "2026-11-27T04:00:00.000Z",
-    "oceania": "2026-11-27T00:00:00.000Z"
+    "europe": "2026-11-27T10:00:00.000Z",
+    "north-america": "2026-11-27T17:00:00.000Z",
+    "south-america": "2026-11-27T16:00:00.000Z",
+    "asia": "2026-11-27T05:00:00.000Z",
+    "oceania": "2026-11-27T01:00:00.000Z"
   },
   "regions": [
     {
@@ -5072,6 +5072,126 @@
       },
       "type": "minor",
       "icon": "harvester.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1795770000000,
+      "end": 1795773600000,
+      "times": {
+        "europe": [
+          1795770000000,
+          1795773600000
+        ],
+        "north-america": [
+          1795795200000,
+          1795798800000
+        ],
+        "south-america": [
+          1795791600000,
+          1795795200000
+        ],
+        "asia": [
+          1795752000000,
+          1795755600000
+        ],
+        "oceania": [
+          1795737600000,
+          1795741200000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Pendola Pass",
+      "start": 1795770000000,
+      "end": 1795773600000,
+      "times": {
+        "europe": [
+          1795770000000,
+          1795773600000
+        ],
+        "north-america": [
+          1795795200000,
+          1795798800000
+        ],
+        "south-america": [
+          1795791600000,
+          1795795200000
+        ],
+        "asia": [
+          1795752000000,
+          1795755600000
+        ],
+        "oceania": [
+          1795737600000,
+          1795741200000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Cold Snap",
+      "map": "Spaceport",
+      "start": 1795770000000,
+      "end": 1795773600000,
+      "times": {
+        "europe": [
+          1795770000000,
+          1795773600000
+        ],
+        "north-america": [
+          1795795200000,
+          1795798800000
+        ],
+        "south-america": [
+          1795791600000,
+          1795795200000
+        ],
+        "asia": [
+          1795752000000,
+          1795755600000
+        ],
+        "oceania": [
+          1795737600000,
+          1795741200000
+        ]
+      },
+      "type": "major",
+      "icon": "cold_snap.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Spaceport",
+      "start": 1795770000000,
+      "end": 1795773600000,
+      "times": {
+        "europe": [
+          1795770000000,
+          1795773600000
+        ],
+        "north-america": [
+          1795795200000,
+          1795798800000
+        ],
+        "south-america": [
+          1795791600000,
+          1795795200000
+        ],
+        "asia": [
+          1795752000000,
+          1795755600000
+        ],
+        "oceania": [
+          1795737600000,
+          1795741200000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
     }
   ]
 }
