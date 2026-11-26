@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-26T23:02:15.570Z",
+  "generatedAt": "2026-11-26T23:17:16.695Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-28T09:00:00.000Z",
+  "horizonEnd": "2026-11-28T10:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-28T09:00:00.000Z",
-    "north-america": "2026-11-28T16:00:00.000Z",
-    "south-america": "2026-11-28T15:00:00.000Z",
-    "asia": "2026-11-28T04:00:00.000Z",
-    "oceania": "2026-11-28T00:00:00.000Z"
+    "europe": "2026-11-28T10:00:00.000Z",
+    "north-america": "2026-11-28T17:00:00.000Z",
+    "south-america": "2026-11-28T16:00:00.000Z",
+    "asia": "2026-11-28T05:00:00.000Z",
+    "oceania": "2026-11-28T01:00:00.000Z"
   },
   "regions": [
     {
@@ -4054,6 +4054,20 @@
       "icon": "night_raid.png"
     },
     {
+      "condition": "Redirection",
+      "map": "Pendola Pass",
+      "start": 1795824000000,
+      "end": 1795827600000,
+      "times": {
+        "europe": [
+          1795824000000,
+          1795827600000
+        ]
+      },
+      "type": "minor",
+      "icon": "redirection.png"
+    },
+    {
       "condition": "Harvester",
       "map": "Spaceport",
       "start": 1795824000000,
@@ -4982,6 +4996,126 @@
       },
       "type": "minor",
       "icon": "uncovered_caches.png"
+    },
+    {
+      "condition": "Lush Blooms",
+      "map": "Buried City",
+      "start": 1795856400000,
+      "end": 1795860000000,
+      "times": {
+        "europe": [
+          1795856400000,
+          1795860000000
+        ],
+        "north-america": [
+          1795881600000,
+          1795885200000
+        ],
+        "south-america": [
+          1795878000000,
+          1795881600000
+        ],
+        "asia": [
+          1795838400000,
+          1795842000000
+        ],
+        "oceania": [
+          1795824000000,
+          1795827600000
+        ]
+      },
+      "type": "minor",
+      "icon": "lush_blooms.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Dam Battlegrounds",
+      "start": 1795856400000,
+      "end": 1795860000000,
+      "times": {
+        "europe": [
+          1795856400000,
+          1795860000000
+        ],
+        "north-america": [
+          1795881600000,
+          1795885200000
+        ],
+        "south-america": [
+          1795878000000,
+          1795881600000
+        ],
+        "asia": [
+          1795838400000,
+          1795842000000
+        ],
+        "oceania": [
+          1795824000000,
+          1795827600000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Riven Tides",
+      "start": 1795856400000,
+      "end": 1795860000000,
+      "times": {
+        "europe": [
+          1795856400000,
+          1795860000000
+        ],
+        "north-america": [
+          1795881600000,
+          1795885200000
+        ],
+        "south-america": [
+          1795878000000,
+          1795881600000
+        ],
+        "asia": [
+          1795838400000,
+          1795842000000
+        ],
+        "oceania": [
+          1795824000000,
+          1795827600000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "The Blue Gate",
+      "start": 1795856400000,
+      "end": 1795860000000,
+      "times": {
+        "europe": [
+          1795856400000,
+          1795860000000
+        ],
+        "north-america": [
+          1795881600000,
+          1795885200000
+        ],
+        "south-america": [
+          1795878000000,
+          1795881600000
+        ],
+        "asia": [
+          1795838400000,
+          1795842000000
+        ],
+        "oceania": [
+          1795824000000,
+          1795827600000
+        ]
+      },
+      "type": "minor",
+      "icon": "harvester.png"
     }
   ]
 }
