@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T01:32:14.850Z",
+  "generatedAt": "2026-11-26T02:02:14.181Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-27T12:00:00.000Z",
@@ -115,96 +115,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Cold Snap",
-      "map": "Dam Battlegrounds",
-      "start": 1795629600000,
-      "end": 1795633200000,
-      "times": {
-        "europe": [
-          1795629600000,
-          1795633200000
-        ],
-        "north-america": [
-          1795654800000,
-          1795658400000
-        ],
-        "south-america": [
-          1795651200000,
-          1795654800000
-        ],
-        "asia": [
-          1795611600000,
-          1795615200000
-        ],
-        "oceania": [
-          1795597200000,
-          1795600800000
-        ]
-      },
-      "type": "major",
-      "icon": "cold_snap.png"
-    },
-    {
-      "condition": "ARC Frigate",
-      "map": "Spaceport",
-      "start": 1795629600000,
-      "end": 1795633200000,
-      "times": {
-        "europe": [
-          1795629600000,
-          1795633200000
-        ],
-        "north-america": [
-          1795654800000,
-          1795658400000
-        ],
-        "south-america": [
-          1795651200000,
-          1795654800000
-        ],
-        "asia": [
-          1795611600000,
-          1795615200000
-        ],
-        "oceania": [
-          1795597200000,
-          1795600800000
-        ]
-      },
-      "type": "major",
-      "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "The Blue Gate",
-      "start": 1795629600000,
-      "end": 1795633200000,
-      "times": {
-        "europe": [
-          1795629600000,
-          1795633200000
-        ],
-        "north-america": [
-          1795654800000,
-          1795658400000
-        ],
-        "south-america": [
-          1795651200000,
-          1795654800000
-        ],
-        "asia": [
-          1795611600000,
-          1795615200000
-        ],
-        "oceania": [
-          1795597200000,
-          1795600800000
-        ]
-      },
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
     {
       "condition": "Bird City",
       "map": "Buried City",
@@ -924,20 +834,6 @@
       },
       "type": "minor",
       "icon": "uncovered_caches.png"
-    },
-    {
-      "condition": "Redirection",
-      "map": "Pendola Pass",
-      "start": 1795654800000,
-      "end": 1795658400000,
-      "times": {
-        "europe": [
-          1795654800000,
-          1795658400000
-        ]
-      },
-      "type": "minor",
-      "icon": "redirection.png"
     },
     {
       "condition": "Lush Blooms",
