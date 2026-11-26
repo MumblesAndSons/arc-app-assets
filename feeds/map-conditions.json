@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-26T01:02:17.415Z",
+  "generatedAt": "2026-11-26T01:32:14.850Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-27T11:00:00.000Z",
+  "horizonEnd": "2026-11-27T12:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-27T11:00:00.000Z",
-    "north-america": "2026-11-27T18:00:00.000Z",
-    "south-america": "2026-11-27T17:00:00.000Z",
-    "asia": "2026-11-27T06:00:00.000Z",
-    "oceania": "2026-11-27T02:00:00.000Z"
+    "europe": "2026-11-27T12:00:00.000Z",
+    "north-america": "2026-11-27T19:00:00.000Z",
+    "south-america": "2026-11-27T18:00:00.000Z",
+    "asia": "2026-11-27T07:00:00.000Z",
+    "oceania": "2026-11-27T03:00:00.000Z"
   },
   "regions": [
     {
@@ -3994,6 +3994,20 @@
       "icon": "uncovered_caches.png"
     },
     {
+      "condition": "Redirection",
+      "map": "Pendola Pass",
+      "start": 1795744800000,
+      "end": 1795748400000,
+      "times": {
+        "europe": [
+          1795744800000,
+          1795748400000
+        ]
+      },
+      "type": "minor",
+      "icon": "redirection.png"
+    },
+    {
       "condition": "Lush Blooms",
       "map": "Riven Tides",
       "start": 1795744800000,
@@ -5072,6 +5086,156 @@
       },
       "type": "major",
       "icon": "night_raid.png"
+    },
+    {
+      "condition": "Electromagnetic Storm",
+      "map": "Dam Battlegrounds",
+      "start": 1795777200000,
+      "end": 1795780800000,
+      "times": {
+        "europe": [
+          1795777200000,
+          1795780800000
+        ],
+        "north-america": [
+          1795802400000,
+          1795806000000
+        ],
+        "south-america": [
+          1795798800000,
+          1795802400000
+        ],
+        "asia": [
+          1795759200000,
+          1795762800000
+        ],
+        "oceania": [
+          1795744800000,
+          1795748400000
+        ]
+      },
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Pendola Pass",
+      "start": 1795777200000,
+      "end": 1795780800000,
+      "times": {
+        "europe": [
+          1795777200000,
+          1795780800000
+        ],
+        "north-america": [
+          1795802400000,
+          1795806000000
+        ],
+        "south-america": [
+          1795798800000,
+          1795802400000
+        ],
+        "asia": [
+          1795759200000,
+          1795762800000
+        ],
+        "oceania": [
+          1795744800000,
+          1795748400000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Uncovered Caches",
+      "map": "Spaceport",
+      "start": 1795777200000,
+      "end": 1795780800000,
+      "times": {
+        "europe": [
+          1795777200000,
+          1795780800000
+        ],
+        "north-america": [
+          1795802400000,
+          1795806000000
+        ],
+        "south-america": [
+          1795798800000,
+          1795802400000
+        ],
+        "asia": [
+          1795759200000,
+          1795762800000
+        ],
+        "oceania": [
+          1795744800000,
+          1795748400000
+        ]
+      },
+      "type": "minor",
+      "icon": "uncovered_caches.png"
+    },
+    {
+      "condition": "Cold Snap",
+      "map": "The Blue Gate",
+      "start": 1795777200000,
+      "end": 1795780800000,
+      "times": {
+        "europe": [
+          1795777200000,
+          1795780800000
+        ],
+        "north-america": [
+          1795802400000,
+          1795806000000
+        ],
+        "south-america": [
+          1795798800000,
+          1795802400000
+        ],
+        "asia": [
+          1795759200000,
+          1795762800000
+        ],
+        "oceania": [
+          1795744800000,
+          1795748400000
+        ]
+      },
+      "type": "major",
+      "icon": "cold_snap.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "The Blue Gate",
+      "start": 1795777200000,
+      "end": 1795780800000,
+      "times": {
+        "europe": [
+          1795777200000,
+          1795780800000
+        ],
+        "north-america": [
+          1795802400000,
+          1795806000000
+        ],
+        "south-america": [
+          1795798800000,
+          1795802400000
+        ],
+        "asia": [
+          1795759200000,
+          1795762800000
+        ],
+        "oceania": [
+          1795744800000,
+          1795748400000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
     }
   ]
 }
