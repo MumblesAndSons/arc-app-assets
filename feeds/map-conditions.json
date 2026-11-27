@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-27T07:02:18.000Z",
+  "generatedAt": "2026-11-27T07:32:13.988Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-28T17:00:00.000Z",
+  "horizonEnd": "2026-11-28T18:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-28T17:00:00.000Z",
-    "north-america": "2026-11-29T00:00:00.000Z",
-    "south-america": "2026-11-28T23:00:00.000Z",
-    "asia": "2026-11-28T12:00:00.000Z",
-    "oceania": "2026-11-28T08:00:00.000Z"
+    "europe": "2026-11-28T18:00:00.000Z",
+    "north-america": "2026-11-29T01:00:00.000Z",
+    "south-america": "2026-11-29T00:00:00.000Z",
+    "asia": "2026-11-28T13:00:00.000Z",
+    "oceania": "2026-11-28T09:00:00.000Z"
   },
   "regions": [
     {
@@ -3948,6 +3948,20 @@
       "icon": "matriarch.png"
     },
     {
+      "condition": "Redirection",
+      "map": "Pendola Pass",
+      "start": 1795852800000,
+      "end": 1795856400000,
+      "times": {
+        "europe": [
+          1795852800000,
+          1795856400000
+        ]
+      },
+      "type": "minor",
+      "icon": "redirection.png"
+    },
+    {
       "condition": "Night Raid",
       "map": "Stella Montis",
       "start": 1795852800000,
@@ -5056,6 +5070,96 @@
       },
       "type": "minor",
       "icon": "lush_blooms.png"
+    },
+    {
+      "condition": "ARC Frigate",
+      "map": "Dam Battlegrounds",
+      "start": 1795885200000,
+      "end": 1795888800000,
+      "times": {
+        "europe": [
+          1795885200000,
+          1795888800000
+        ],
+        "north-america": [
+          1795910400000,
+          1795914000000
+        ],
+        "south-america": [
+          1795906800000,
+          1795910400000
+        ],
+        "asia": [
+          1795867200000,
+          1795870800000
+        ],
+        "oceania": [
+          1795852800000,
+          1795856400000
+        ]
+      },
+      "type": "major",
+      "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1795885200000,
+      "end": 1795888800000,
+      "times": {
+        "europe": [
+          1795885200000,
+          1795888800000
+        ],
+        "north-america": [
+          1795910400000,
+          1795914000000
+        ],
+        "south-america": [
+          1795906800000,
+          1795910400000
+        ],
+        "asia": [
+          1795867200000,
+          1795870800000
+        ],
+        "oceania": [
+          1795852800000,
+          1795856400000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Cold Snap",
+      "map": "The Blue Gate",
+      "start": 1795885200000,
+      "end": 1795888800000,
+      "times": {
+        "europe": [
+          1795885200000,
+          1795888800000
+        ],
+        "north-america": [
+          1795910400000,
+          1795914000000
+        ],
+        "south-america": [
+          1795906800000,
+          1795910400000
+        ],
+        "asia": [
+          1795867200000,
+          1795870800000
+        ],
+        "oceania": [
+          1795852800000,
+          1795856400000
+        ]
+      },
+      "type": "major",
+      "icon": "cold_snap.png"
     }
   ]
 }
