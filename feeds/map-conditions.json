@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-27T15:02:15.883Z",
+  "generatedAt": "2026-11-27T15:32:22.139Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-29T01:00:00.000Z",
+  "horizonEnd": "2026-11-29T02:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-29T01:00:00.000Z",
-    "north-america": "2026-11-29T08:00:00.000Z",
-    "south-america": "2026-11-29T07:00:00.000Z",
-    "asia": "2026-11-28T20:00:00.000Z",
-    "oceania": "2026-11-28T16:00:00.000Z"
+    "europe": "2026-11-29T02:00:00.000Z",
+    "north-america": "2026-11-29T09:00:00.000Z",
+    "south-america": "2026-11-29T08:00:00.000Z",
+    "asia": "2026-11-28T21:00:00.000Z",
+    "oceania": "2026-11-28T17:00:00.000Z"
   },
   "regions": [
     {
@@ -4068,6 +4068,20 @@
       "icon": "electromagnetic_storm.png"
     },
     {
+      "condition": "Uncovered Caches",
+      "map": "Pendola Pass",
+      "start": 1795881600000,
+      "end": 1795885200000,
+      "times": {
+        "europe": [
+          1795881600000,
+          1795885200000
+        ]
+      },
+      "type": "minor",
+      "icon": "uncovered_caches.png"
+    },
+    {
       "condition": "Hidden Bunker",
       "map": "Spaceport",
       "start": 1795881600000,
@@ -4966,6 +4980,96 @@
       },
       "type": "major",
       "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Lush Blooms",
+      "map": "Buried City",
+      "start": 1795914000000,
+      "end": 1795917600000,
+      "times": {
+        "europe": [
+          1795914000000,
+          1795917600000
+        ],
+        "north-america": [
+          1795939200000,
+          1795942800000
+        ],
+        "south-america": [
+          1795935600000,
+          1795939200000
+        ],
+        "asia": [
+          1795896000000,
+          1795899600000
+        ],
+        "oceania": [
+          1795881600000,
+          1795885200000
+        ]
+      },
+      "type": "minor",
+      "icon": "lush_blooms.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Pendola Pass",
+      "start": 1795914000000,
+      "end": 1795917600000,
+      "times": {
+        "europe": [
+          1795914000000,
+          1795917600000
+        ],
+        "north-america": [
+          1795939200000,
+          1795942800000
+        ],
+        "south-america": [
+          1795935600000,
+          1795939200000
+        ],
+        "asia": [
+          1795896000000,
+          1795899600000
+        ],
+        "oceania": [
+          1795881600000,
+          1795885200000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Spaceport",
+      "start": 1795914000000,
+      "end": 1795917600000,
+      "times": {
+        "europe": [
+          1795914000000,
+          1795917600000
+        ],
+        "north-america": [
+          1795939200000,
+          1795942800000
+        ],
+        "south-america": [
+          1795935600000,
+          1795939200000
+        ],
+        "asia": [
+          1795896000000,
+          1795899600000
+        ],
+        "oceania": [
+          1795881600000,
+          1795885200000
+        ]
+      },
+      "type": "minor",
+      "icon": "harvester.png"
     }
   ]
 }
