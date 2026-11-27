@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T03:32:15.411Z",
+  "generatedAt": "2026-11-27T04:02:13.669Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-28T14:00:00.000Z",
@@ -115,96 +115,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Bird City",
-      "map": "Buried City",
-      "start": 1795723200000,
-      "end": 1795726800000,
-      "times": {
-        "europe": [
-          1795723200000,
-          1795726800000
-        ],
-        "north-america": [
-          1795748400000,
-          1795752000000
-        ],
-        "south-america": [
-          1795744800000,
-          1795748400000
-        ],
-        "asia": [
-          1795705200000,
-          1795708800000
-        ],
-        "oceania": [
-          1795690800000,
-          1795694400000
-        ]
-      },
-      "type": "minor",
-      "icon": "bird_city.png"
-    },
-    {
-      "condition": "Electromagnetic Storm",
-      "map": "Spaceport",
-      "start": 1795723200000,
-      "end": 1795726800000,
-      "times": {
-        "europe": [
-          1795723200000,
-          1795726800000
-        ],
-        "north-america": [
-          1795748400000,
-          1795752000000
-        ],
-        "south-america": [
-          1795744800000,
-          1795748400000
-        ],
-        "asia": [
-          1795705200000,
-          1795708800000
-        ],
-        "oceania": [
-          1795690800000,
-          1795694400000
-        ]
-      },
-      "type": "major",
-      "icon": "electromagnetic_storm.png"
-    },
-    {
-      "condition": "Close Scrutiny",
-      "map": "The Blue Gate",
-      "start": 1795723200000,
-      "end": 1795726800000,
-      "times": {
-        "europe": [
-          1795723200000,
-          1795726800000
-        ],
-        "north-america": [
-          1795748400000,
-          1795752000000
-        ],
-        "south-america": [
-          1795744800000,
-          1795748400000
-        ],
-        "asia": [
-          1795705200000,
-          1795708800000
-        ],
-        "oceania": [
-          1795690800000,
-          1795694400000
-        ]
-      },
-      "type": "major",
-      "icon": "close_scrutiny.png"
-    },
     {
       "condition": "Cold Snap",
       "map": "Buried City",
