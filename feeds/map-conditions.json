@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T06:17:19.259Z",
+  "generatedAt": "2026-11-27T07:02:18.000Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-28T17:00:00.000Z",
@@ -115,96 +115,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Lush Blooms",
-      "map": "Buried City",
-      "start": 1795734000000,
-      "end": 1795737600000,
-      "times": {
-        "europe": [
-          1795734000000,
-          1795737600000
-        ],
-        "north-america": [
-          1795759200000,
-          1795762800000
-        ],
-        "south-america": [
-          1795755600000,
-          1795759200000
-        ],
-        "asia": [
-          1795716000000,
-          1795719600000
-        ],
-        "oceania": [
-          1795701600000,
-          1795705200000
-        ]
-      },
-      "type": "minor",
-      "icon": "lush_blooms.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Pendola Pass",
-      "start": 1795734000000,
-      "end": 1795737600000,
-      "times": {
-        "europe": [
-          1795734000000,
-          1795737600000
-        ],
-        "north-america": [
-          1795759200000,
-          1795762800000
-        ],
-        "south-america": [
-          1795755600000,
-          1795759200000
-        ],
-        "asia": [
-          1795716000000,
-          1795719600000
-        ],
-        "oceania": [
-          1795701600000,
-          1795705200000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Harvester",
-      "map": "Spaceport",
-      "start": 1795734000000,
-      "end": 1795737600000,
-      "times": {
-        "europe": [
-          1795734000000,
-          1795737600000
-        ],
-        "north-america": [
-          1795759200000,
-          1795762800000
-        ],
-        "south-america": [
-          1795755600000,
-          1795759200000
-        ],
-        "asia": [
-          1795716000000,
-          1795719600000
-        ],
-        "oceania": [
-          1795701600000,
-          1795705200000
-        ]
-      },
-      "type": "minor",
-      "icon": "harvester.png"
-    },
     {
       "condition": "Bird City",
       "map": "Buried City",
