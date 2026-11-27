@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-27T06:02:12.464Z",
+  "generatedAt": "2026-11-27T06:17:19.259Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-28T16:00:00.000Z",
+  "horizonEnd": "2026-11-28T17:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-28T16:00:00.000Z",
-    "north-america": "2026-11-28T23:00:00.000Z",
-    "south-america": "2026-11-28T22:00:00.000Z",
-    "asia": "2026-11-28T11:00:00.000Z",
-    "oceania": "2026-11-28T07:00:00.000Z"
+    "europe": "2026-11-28T17:00:00.000Z",
+    "north-america": "2026-11-29T00:00:00.000Z",
+    "south-america": "2026-11-28T23:00:00.000Z",
+    "asia": "2026-11-28T12:00:00.000Z",
+    "oceania": "2026-11-28T08:00:00.000Z"
   },
   "regions": [
     {
@@ -5026,6 +5026,126 @@
       },
       "type": "major",
       "icon": "arc_frigate.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1795881600000,
+      "end": 1795885200000,
+      "times": {
+        "europe": [
+          1795881600000,
+          1795885200000
+        ],
+        "north-america": [
+          1795906800000,
+          1795910400000
+        ],
+        "south-america": [
+          1795903200000,
+          1795906800000
+        ],
+        "asia": [
+          1795863600000,
+          1795867200000
+        ],
+        "oceania": [
+          1795849200000,
+          1795852800000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Electromagnetic Storm",
+      "map": "Dam Battlegrounds",
+      "start": 1795881600000,
+      "end": 1795885200000,
+      "times": {
+        "europe": [
+          1795881600000,
+          1795885200000
+        ],
+        "north-america": [
+          1795906800000,
+          1795910400000
+        ],
+        "south-america": [
+          1795903200000,
+          1795906800000
+        ],
+        "asia": [
+          1795863600000,
+          1795867200000
+        ],
+        "oceania": [
+          1795849200000,
+          1795852800000
+        ]
+      },
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
+    },
+    {
+      "condition": "Hidden Bunker",
+      "map": "Spaceport",
+      "start": 1795881600000,
+      "end": 1795885200000,
+      "times": {
+        "europe": [
+          1795881600000,
+          1795885200000
+        ],
+        "north-america": [
+          1795906800000,
+          1795910400000
+        ],
+        "south-america": [
+          1795903200000,
+          1795906800000
+        ],
+        "asia": [
+          1795863600000,
+          1795867200000
+        ],
+        "oceania": [
+          1795849200000,
+          1795852800000
+        ]
+      },
+      "type": "major",
+      "icon": "hidden_bunker.png"
+    },
+    {
+      "condition": "Lush Blooms",
+      "map": "The Blue Gate",
+      "start": 1795881600000,
+      "end": 1795885200000,
+      "times": {
+        "europe": [
+          1795881600000,
+          1795885200000
+        ],
+        "north-america": [
+          1795906800000,
+          1795910400000
+        ],
+        "south-america": [
+          1795903200000,
+          1795906800000
+        ],
+        "asia": [
+          1795863600000,
+          1795867200000
+        ],
+        "oceania": [
+          1795849200000,
+          1795852800000
+        ]
+      },
+      "type": "minor",
+      "icon": "lush_blooms.png"
     }
   ]
 }
