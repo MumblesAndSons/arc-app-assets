@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-28T03:02:15.047Z",
+  "generatedAt": "2026-11-28T03:17:15.061Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-29T13:00:00.000Z",
+  "horizonEnd": "2026-11-29T14:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-29T13:00:00.000Z",
-    "north-america": "2026-11-29T20:00:00.000Z",
-    "south-america": "2026-11-29T19:00:00.000Z",
-    "asia": "2026-11-29T08:00:00.000Z",
-    "oceania": "2026-11-29T04:00:00.000Z"
+    "europe": "2026-11-29T14:00:00.000Z",
+    "north-america": "2026-11-29T21:00:00.000Z",
+    "south-america": "2026-11-29T20:00:00.000Z",
+    "asia": "2026-11-29T09:00:00.000Z",
+    "oceania": "2026-11-29T05:00:00.000Z"
   },
   "regions": [
     {
@@ -3858,6 +3858,20 @@
       "icon": "uncovered_caches.png"
     },
     {
+      "condition": "Redirection",
+      "map": "Pendola Pass",
+      "start": 1795924800000,
+      "end": 1795928400000,
+      "times": {
+        "europe": [
+          1795924800000,
+          1795928400000
+        ]
+      },
+      "type": "minor",
+      "icon": "redirection.png"
+    },
+    {
       "condition": "Lush Blooms",
       "map": "Riven Tides",
       "start": 1795924800000,
@@ -4936,6 +4950,186 @@
       },
       "type": "major",
       "icon": "night_raid.png"
+    },
+    {
+      "condition": "Hurricane",
+      "map": "Buried City",
+      "start": 1795957200000,
+      "end": 1795960800000,
+      "times": {
+        "europe": [
+          1795957200000,
+          1795960800000
+        ],
+        "north-america": [
+          1795982400000,
+          1795986000000
+        ],
+        "south-america": [
+          1795978800000,
+          1795982400000
+        ],
+        "asia": [
+          1795939200000,
+          1795942800000
+        ],
+        "oceania": [
+          1795924800000,
+          1795928400000
+        ]
+      },
+      "type": "major",
+      "icon": "hurricane.png"
+    },
+    {
+      "condition": "Close Scrutiny",
+      "map": "Dam Battlegrounds",
+      "start": 1795957200000,
+      "end": 1795960800000,
+      "times": {
+        "europe": [
+          1795957200000,
+          1795960800000
+        ],
+        "north-america": [
+          1795982400000,
+          1795986000000
+        ],
+        "south-america": [
+          1795978800000,
+          1795982400000
+        ],
+        "asia": [
+          1795939200000,
+          1795942800000
+        ],
+        "oceania": [
+          1795924800000,
+          1795928400000
+        ]
+      },
+      "type": "major",
+      "icon": "close_scrutiny.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Pendola Pass",
+      "start": 1795957200000,
+      "end": 1795960800000,
+      "times": {
+        "europe": [
+          1795957200000,
+          1795960800000
+        ],
+        "north-america": [
+          1795982400000,
+          1795986000000
+        ],
+        "south-america": [
+          1795978800000,
+          1795982400000
+        ],
+        "asia": [
+          1795939200000,
+          1795942800000
+        ],
+        "oceania": [
+          1795924800000,
+          1795928400000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Uncovered Caches",
+      "map": "Spaceport",
+      "start": 1795957200000,
+      "end": 1795960800000,
+      "times": {
+        "europe": [
+          1795957200000,
+          1795960800000
+        ],
+        "north-america": [
+          1795982400000,
+          1795986000000
+        ],
+        "south-america": [
+          1795978800000,
+          1795982400000
+        ],
+        "asia": [
+          1795939200000,
+          1795942800000
+        ],
+        "oceania": [
+          1795924800000,
+          1795928400000
+        ]
+      },
+      "type": "minor",
+      "icon": "uncovered_caches.png"
+    },
+    {
+      "condition": "Cold Snap",
+      "map": "The Blue Gate",
+      "start": 1795957200000,
+      "end": 1795960800000,
+      "times": {
+        "europe": [
+          1795957200000,
+          1795960800000
+        ],
+        "north-america": [
+          1795982400000,
+          1795986000000
+        ],
+        "south-america": [
+          1795978800000,
+          1795982400000
+        ],
+        "asia": [
+          1795939200000,
+          1795942800000
+        ],
+        "oceania": [
+          1795924800000,
+          1795928400000
+        ]
+      },
+      "type": "major",
+      "icon": "cold_snap.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "The Blue Gate",
+      "start": 1795957200000,
+      "end": 1795960800000,
+      "times": {
+        "europe": [
+          1795957200000,
+          1795960800000
+        ],
+        "north-america": [
+          1795982400000,
+          1795986000000
+        ],
+        "south-america": [
+          1795978800000,
+          1795982400000
+        ],
+        "asia": [
+          1795939200000,
+          1795942800000
+        ],
+        "oceania": [
+          1795924800000,
+          1795928400000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
     }
   ]
 }
