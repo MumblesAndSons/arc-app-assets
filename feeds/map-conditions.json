@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-28T01:02:14.599Z",
+  "generatedAt": "2026-11-28T01:17:18.609Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-29T11:00:00.000Z",
+  "horizonEnd": "2026-11-29T12:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-29T11:00:00.000Z",
-    "north-america": "2026-11-29T18:00:00.000Z",
-    "south-america": "2026-11-29T17:00:00.000Z",
-    "asia": "2026-11-29T06:00:00.000Z",
-    "oceania": "2026-11-29T02:00:00.000Z"
+    "europe": "2026-11-29T12:00:00.000Z",
+    "north-america": "2026-11-29T19:00:00.000Z",
+    "south-america": "2026-11-29T18:00:00.000Z",
+    "asia": "2026-11-29T07:00:00.000Z",
+    "oceania": "2026-11-29T03:00:00.000Z"
   },
   "regions": [
     {
@@ -4906,6 +4906,156 @@
       },
       "type": "minor",
       "icon": "harvester.png"
+    },
+    {
+      "condition": "Bird City",
+      "map": "Buried City",
+      "start": 1795950000000,
+      "end": 1795953600000,
+      "times": {
+        "europe": [
+          1795950000000,
+          1795953600000
+        ],
+        "north-america": [
+          1795975200000,
+          1795978800000
+        ],
+        "south-america": [
+          1795971600000,
+          1795975200000
+        ],
+        "asia": [
+          1795932000000,
+          1795935600000
+        ],
+        "oceania": [
+          1795917600000,
+          1795921200000
+        ]
+      },
+      "type": "minor",
+      "icon": "bird_city.png"
+    },
+    {
+      "condition": "Hurricane",
+      "map": "Dam Battlegrounds",
+      "start": 1795950000000,
+      "end": 1795953600000,
+      "times": {
+        "europe": [
+          1795950000000,
+          1795953600000
+        ],
+        "north-america": [
+          1795975200000,
+          1795978800000
+        ],
+        "south-america": [
+          1795971600000,
+          1795975200000
+        ],
+        "asia": [
+          1795932000000,
+          1795935600000
+        ],
+        "oceania": [
+          1795917600000,
+          1795921200000
+        ]
+      },
+      "type": "major",
+      "icon": "hurricane.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Pendola Pass",
+      "start": 1795950000000,
+      "end": 1795953600000,
+      "times": {
+        "europe": [
+          1795950000000,
+          1795953600000
+        ],
+        "north-america": [
+          1795975200000,
+          1795978800000
+        ],
+        "south-america": [
+          1795971600000,
+          1795975200000
+        ],
+        "asia": [
+          1795932000000,
+          1795935600000
+        ],
+        "oceania": [
+          1795917600000,
+          1795921200000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
+    },
+    {
+      "condition": "Cold Snap",
+      "map": "Spaceport",
+      "start": 1795950000000,
+      "end": 1795953600000,
+      "times": {
+        "europe": [
+          1795950000000,
+          1795953600000
+        ],
+        "north-america": [
+          1795975200000,
+          1795978800000
+        ],
+        "south-america": [
+          1795971600000,
+          1795975200000
+        ],
+        "asia": [
+          1795932000000,
+          1795935600000
+        ],
+        "oceania": [
+          1795917600000,
+          1795921200000
+        ]
+      },
+      "type": "major",
+      "icon": "cold_snap.png"
+    },
+    {
+      "condition": "Matriarch",
+      "map": "Spaceport",
+      "start": 1795950000000,
+      "end": 1795953600000,
+      "times": {
+        "europe": [
+          1795950000000,
+          1795953600000
+        ],
+        "north-america": [
+          1795975200000,
+          1795978800000
+        ],
+        "south-america": [
+          1795971600000,
+          1795975200000
+        ],
+        "asia": [
+          1795932000000,
+          1795935600000
+        ],
+        "oceania": [
+          1795917600000,
+          1795921200000
+        ]
+      },
+      "type": "minor",
+      "icon": "matriarch.png"
     }
   ]
 }
