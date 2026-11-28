@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-28T11:02:17.306Z",
+  "generatedAt": "2026-11-28T11:17:13.385Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
-  "horizonEnd": "2026-11-29T21:00:00.000Z",
+  "horizonEnd": "2026-11-29T22:00:00.000Z",
   "horizonEnds": {
-    "europe": "2026-11-29T21:00:00.000Z",
-    "north-america": "2026-11-30T04:00:00.000Z",
-    "south-america": "2026-11-30T03:00:00.000Z",
-    "asia": "2026-11-29T16:00:00.000Z",
-    "oceania": "2026-11-29T12:00:00.000Z"
+    "europe": "2026-11-29T22:00:00.000Z",
+    "north-america": "2026-11-30T05:00:00.000Z",
+    "south-america": "2026-11-30T04:00:00.000Z",
+    "asia": "2026-11-29T17:00:00.000Z",
+    "oceania": "2026-11-29T13:00:00.000Z"
   },
   "regions": [
     {
@@ -5056,6 +5056,126 @@
       },
       "type": "major",
       "icon": "cold_snap.png"
+    },
+    {
+      "condition": "Electromagnetic Storm",
+      "map": "Dam Battlegrounds",
+      "start": 1795986000000,
+      "end": 1795989600000,
+      "times": {
+        "europe": [
+          1795986000000,
+          1795989600000
+        ],
+        "north-america": [
+          1796011200000,
+          1796014800000
+        ],
+        "south-america": [
+          1796007600000,
+          1796011200000
+        ],
+        "asia": [
+          1795968000000,
+          1795971600000
+        ],
+        "oceania": [
+          1795953600000,
+          1795957200000
+        ]
+      },
+      "type": "major",
+      "icon": "electromagnetic_storm.png"
+    },
+    {
+      "condition": "Lush Blooms",
+      "map": "Riven Tides",
+      "start": 1795986000000,
+      "end": 1795989600000,
+      "times": {
+        "europe": [
+          1795986000000,
+          1795989600000
+        ],
+        "north-america": [
+          1796011200000,
+          1796014800000
+        ],
+        "south-america": [
+          1796007600000,
+          1796011200000
+        ],
+        "asia": [
+          1795968000000,
+          1795971600000
+        ],
+        "oceania": [
+          1795953600000,
+          1795957200000
+        ]
+      },
+      "type": "minor",
+      "icon": "lush_blooms.png"
+    },
+    {
+      "condition": "Harvester",
+      "map": "Spaceport",
+      "start": 1795986000000,
+      "end": 1795989600000,
+      "times": {
+        "europe": [
+          1795986000000,
+          1795989600000
+        ],
+        "north-america": [
+          1796011200000,
+          1796014800000
+        ],
+        "south-america": [
+          1796007600000,
+          1796011200000
+        ],
+        "asia": [
+          1795968000000,
+          1795971600000
+        ],
+        "oceania": [
+          1795953600000,
+          1795957200000
+        ]
+      },
+      "type": "minor",
+      "icon": "harvester.png"
+    },
+    {
+      "condition": "Night Raid",
+      "map": "Stella Montis",
+      "start": 1795986000000,
+      "end": 1795989600000,
+      "times": {
+        "europe": [
+          1795986000000,
+          1795989600000
+        ],
+        "north-america": [
+          1796011200000,
+          1796014800000
+        ],
+        "south-america": [
+          1796007600000,
+          1796011200000
+        ],
+        "asia": [
+          1795968000000,
+          1795971600000
+        ],
+        "oceania": [
+          1795953600000,
+          1795957200000
+        ]
+      },
+      "type": "major",
+      "icon": "night_raid.png"
     }
   ]
 }
