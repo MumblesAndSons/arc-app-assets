@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-28T08:17:14.017Z",
+  "generatedAt": "2026-11-28T09:02:16.599Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-29T19:00:00.000Z",
@@ -115,96 +115,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Bird City",
-      "map": "Buried City",
-      "start": 1795827600000,
-      "end": 1795831200000,
-      "times": {
-        "europe": [
-          1795827600000,
-          1795831200000
-        ],
-        "north-america": [
-          1795852800000,
-          1795856400000
-        ],
-        "south-america": [
-          1795849200000,
-          1795852800000
-        ],
-        "asia": [
-          1795809600000,
-          1795813200000
-        ],
-        "oceania": [
-          1795795200000,
-          1795798800000
-        ]
-      },
-      "type": "minor",
-      "icon": "bird_city.png"
-    },
-    {
-      "condition": "ARC Frigate",
-      "map": "Dam Battlegrounds",
-      "start": 1795827600000,
-      "end": 1795831200000,
-      "times": {
-        "europe": [
-          1795827600000,
-          1795831200000
-        ],
-        "north-america": [
-          1795852800000,
-          1795856400000
-        ],
-        "south-america": [
-          1795849200000,
-          1795852800000
-        ],
-        "asia": [
-          1795809600000,
-          1795813200000
-        ],
-        "oceania": [
-          1795795200000,
-          1795798800000
-        ]
-      },
-      "type": "major",
-      "icon": "arc_frigate.png"
-    },
-    {
-      "condition": "Cold Snap",
-      "map": "Spaceport",
-      "start": 1795827600000,
-      "end": 1795831200000,
-      "times": {
-        "europe": [
-          1795827600000,
-          1795831200000
-        ],
-        "north-america": [
-          1795852800000,
-          1795856400000
-        ],
-        "south-america": [
-          1795849200000,
-          1795852800000
-        ],
-        "asia": [
-          1795809600000,
-          1795813200000
-        ],
-        "oceania": [
-          1795795200000,
-          1795798800000
-        ]
-      },
-      "type": "major",
-      "icon": "cold_snap.png"
-    },
     {
       "condition": "Uncovered Caches",
       "map": "Riven Tides",
@@ -954,20 +864,6 @@
       },
       "type": "minor",
       "icon": "matriarch.png"
-    },
-    {
-      "condition": "Redirection",
-      "map": "Pendola Pass",
-      "start": 1795852800000,
-      "end": 1795856400000,
-      "times": {
-        "europe": [
-          1795852800000,
-          1795856400000
-        ]
-      },
-      "type": "minor",
-      "icon": "redirection.png"
     },
     {
       "condition": "Night Raid",
