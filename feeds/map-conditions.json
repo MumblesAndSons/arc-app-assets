@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-28T09:17:17.611Z",
+  "generatedAt": "2026-11-28T10:02:17.622Z",
   "source": "https://arcraiders.com/map-conditions",
   "parsedVia": "payload",
   "horizonEnd": "2026-11-29T20:00:00.000Z",
@@ -115,96 +115,6 @@
     }
   ],
   "entries": [
-    {
-      "condition": "Uncovered Caches",
-      "map": "Riven Tides",
-      "start": 1795831200000,
-      "end": 1795834800000,
-      "times": {
-        "europe": [
-          1795831200000,
-          1795834800000
-        ],
-        "north-america": [
-          1795856400000,
-          1795860000000
-        ],
-        "south-america": [
-          1795852800000,
-          1795856400000
-        ],
-        "asia": [
-          1795813200000,
-          1795816800000
-        ],
-        "oceania": [
-          1795798800000,
-          1795802400000
-        ]
-      },
-      "type": "minor",
-      "icon": "uncovered_caches.png"
-    },
-    {
-      "condition": "Night Raid",
-      "map": "Stella Montis",
-      "start": 1795831200000,
-      "end": 1795834800000,
-      "times": {
-        "europe": [
-          1795831200000,
-          1795834800000
-        ],
-        "north-america": [
-          1795856400000,
-          1795860000000
-        ],
-        "south-america": [
-          1795852800000,
-          1795856400000
-        ],
-        "asia": [
-          1795813200000,
-          1795816800000
-        ],
-        "oceania": [
-          1795798800000,
-          1795802400000
-        ]
-      },
-      "type": "major",
-      "icon": "night_raid.png"
-    },
-    {
-      "condition": "Matriarch",
-      "map": "The Blue Gate",
-      "start": 1795831200000,
-      "end": 1795834800000,
-      "times": {
-        "europe": [
-          1795831200000,
-          1795834800000
-        ],
-        "north-america": [
-          1795856400000,
-          1795860000000
-        ],
-        "south-america": [
-          1795852800000,
-          1795856400000
-        ],
-        "asia": [
-          1795813200000,
-          1795816800000
-        ],
-        "oceania": [
-          1795798800000,
-          1795802400000
-        ]
-      },
-      "type": "minor",
-      "icon": "matriarch.png"
-    },
     {
       "condition": "Uncovered Caches",
       "map": "Dam Battlegrounds",
